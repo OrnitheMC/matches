@@ -1076,11 +1076,6 @@
       "file": "matches/client/infdev/inf-20100616#inf-20100617-1205.match"
     },
     {
-      "a": "client-inf-20100616",
-      "b": "client-inf-20100617-1531",
-      "file": "matches/client/infdev/inf-20100616#inf-20100617-1531.match"
-    },
-    {
       "a": "client-inf-20100617-1205",
       "b": "client-inf-20100617-1531",
       "file": "matches/client/infdev/inf-20100617-1205#inf-20100617-1531.match"
@@ -1101,11 +1096,6 @@
       "file": "matches/client/infdev/inf-20100624#inf-20100625-0922.match"
     },
     {
-      "a": "client-inf-20100624",
-      "b": "client-inf-20100625-1917",
-      "file": "matches/client/infdev/inf-20100624#inf-20100625-1917.match"
-    },
-    {
       "a": "client-inf-20100625-0922",
       "b": "client-inf-20100625-1917",
       "file": "matches/client/infdev/inf-20100625-0922#inf-20100625-1917.match"
@@ -1124,11 +1114,6 @@
       "a": "client-inf-20100629",
       "b": "client-inf-20100630-1340",
       "file": "matches/client/infdev/inf-20100629#inf-20100630-1340.match"
-    },
-    {
-      "a": "client-inf-20100629",
-      "b": "client-inf-20100630-1835",
-      "file": "matches/client/infdev/inf-20100629#inf-20100630-1835.match"
     },
     {
       "a": "client-inf-20100630-1340",
