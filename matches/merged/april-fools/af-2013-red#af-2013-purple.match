@@ -1,18 +1,18 @@
-Matches saved 2021-10-10, status: c:1632/1638 m:13549/13582 f:6652/6668 ma:21219/21276, input files:
+Matches saved 2023-07-30, status: c:1632/1638 m:13549/13582 f:6652/6668 ma:21219/21276, input files:
 	a:
-		5574238	Uu4UYHac+for1Jg0vNE0snOiA/IwxHwI9O9hfybPhzQ=	minecraft-merged-af-2013-red.jar
+		5614958	SHA256	QfZ4Q2rDV9eCfwcThG7tbjgwxsp/0nNXG805ZtZHgGg=	minecraft-merged-af-2013-red.jar
 	b:
-		5621078	hnPXgi/inv1GLIx8oBrBmq7KsEmTDBnIQX5NfyPXumo=	minecraft-merged-af-2013-purple.jar
+		5662054	SHA256	lUKMUswv2tF4zeiXvhZxgjNsy2lK/wRXlyPVpUZRh7c=	minecraft-merged-af-2013-purple.jar
 	cp:
-		27787	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -12756,14 +12756,10 @@ c	Laqi;	Laqm;
 	m	u()Z	u()Z
 	m	a(Laqh;)Z	a(Laql;)Z
 		ma	0	0
-	mu	a	a(Laqh;Llt;II)Z
 	m	a(Llt;Lrh;)Z	a(Llt;Lrg;)Z
 		ma	0	0
 		ma	1	1
-	mu	a	a(Llt;Lwm;I)Lwm;
-	mu	a	a(Llt;Lwm;II)Z
-	mu	a	b(Llt;Lwm;II)Z
-	m	c(Llt;Lwm;II)Lwm;	a(Llt;Lwm;I)Lwm;
+	m	a(Llt;Lwm;I)Lwm;	a(Llt;Lwm;I)Lwm;
 		ma	0	0
 		ma	1	1
 		ma	2	2
@@ -22128,12 +22124,12 @@ c	Lbgg;	Lbgl;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	q(Lapa;III)Z	r(Lapd;III)Z
+	m	q(Lapa;III)Z	q(Lapd;III)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	r(Lapa;III)Z	q(Lapd;III)Z
+	m	r(Lapa;III)Z	r(Lapd;III)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
