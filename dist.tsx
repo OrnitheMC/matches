@@ -1,9 +1,9 @@
 #!/usr/bin/env -S deno run --no-check=remote --allow-run --allow-read --allow-write
 import './mc-versions/types.d.ts'
 
-import * as path from 'https://deno.land/std@0.113.0/path/mod.ts'
-import React from 'https://esm.sh/react@17.0.2'
-import {renderToStaticMarkup} from 'https://esm.sh/react-dom@17.0.2/server'
+import * as path from 'https://deno.land/std@0.196.0/path/mod.ts'
+import React from 'https://esm.sh/react@18.2.0'
+import {renderToStaticMarkup} from 'https://esm.sh/react-dom@18.2.0/server'
 import {getEra, spawnText, byKey, multiMapAdd, getOrPut} from './utils.ts'
 
 type VersionType = 'client' | 'server' | 'merged'
