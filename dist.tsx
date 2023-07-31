@@ -259,7 +259,7 @@ async function dumpIndexHtml(data: Data) {
         </>
     }
     const template = await Deno.readTextFile(path.resolve(TEMPLATE_DIR, 'index.html'))
-    const sections: Element[] = []
+    const sections: React.ReactElement[] = []
     for (const era of Object.keys(versionsByEra).sort(compareEras)) {
         const section = <section>
             <h2>{era}</h2>
