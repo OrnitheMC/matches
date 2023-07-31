@@ -3266,6 +3266,11 @@
       "file": "matches/merged/april-fools/af-2013-blue#af-2013-purple.match"
     },
     {
+      "a": "merged-af-2013-blue",
+      "b": "merged-af-2013-red",
+      "file": "matches/merged/april-fools/af-2013-blue#af-2013-red.match"
+    },
+    {
       "a": "merged-af-2013-red",
       "b": "merged-af-2013-purple",
       "file": "matches/merged/april-fools/af-2013-red#af-2013-purple.match"
