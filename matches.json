@@ -1896,6 +1896,296 @@
       "file": "matches/merged/1.14/1.13.2#18w43a.match"
     },
     {
+      "a": "merged-1.14",
+      "b": "merged-1.14.1-pre1",
+      "file": "matches/merged/1.14/1.14#1.14.1-pre1.match"
+    },
+    {
+      "a": "merged-1.14-pre1",
+      "b": "merged-1.14-pre2",
+      "file": "matches/merged/1.14/1.14-pre1#1.14-pre2.match"
+    },
+    {
+      "a": "merged-1.14-pre2",
+      "b": "merged-1.14-pre3",
+      "file": "matches/merged/1.14/1.14-pre2#1.14-pre3.match"
+    },
+    {
+      "a": "merged-1.14-pre3",
+      "b": "merged-1.14-pre4",
+      "file": "matches/merged/1.14/1.14-pre3#1.14-pre4.match"
+    },
+    {
+      "a": "merged-1.14-pre4",
+      "b": "merged-1.14-pre5",
+      "file": "matches/merged/1.14/1.14-pre4#1.14-pre5.match"
+    },
+    {
+      "a": "merged-1.14-pre5",
+      "b": "merged-1.14",
+      "file": "matches/merged/1.14/1.14-pre5#1.14.match"
+    },
+    {
+      "a": "merged-1.14.1",
+      "b": "merged-1.14.2-pre1",
+      "file": "matches/merged/1.14/1.14.1#1.14.2-pre1.match"
+    },
+    {
+      "a": "merged-1.14.1-pre1",
+      "b": "merged-1.14.1-pre2",
+      "file": "matches/merged/1.14/1.14.1-pre1#1.14.1-pre2.match"
+    },
+    {
+      "a": "merged-1.14.1-pre2",
+      "b": "merged-1.14.1",
+      "file": "matches/merged/1.14/1.14.1-pre2#1.14.1.match"
+    },
+    {
+      "a": "merged-1.14.2",
+      "b": "merged-1.14.3-pre1",
+      "file": "matches/merged/1.14/1.14.2#1.14.3-pre1.match"
+    },
+    {
+      "a": "merged-1.14.2-pre1",
+      "b": "merged-1.14.2-pre2",
+      "file": "matches/merged/1.14/1.14.2-pre1#1.14.2-pre2.match"
+    },
+    {
+      "a": "merged-1.14.2-pre2",
+      "b": "merged-1.14.2-pre3",
+      "file": "matches/merged/1.14/1.14.2-pre2#1.14.2-pre3.match"
+    },
+    {
+      "a": "merged-1.14.2-pre3",
+      "b": "merged-1.14.2-pre4-270720",
+      "file": "matches/merged/1.14/1.14.2-pre3#1.14.2-pre4-270720.match"
+    },
+    {
+      "a": "merged-1.14.2-pre4-270720",
+      "b": "merged-1.14.2",
+      "file": "matches/merged/1.14/1.14.2-pre4-270720#1.14.2.match"
+    },
+    {
+      "a": "merged-1.14.3",
+      "b": "merged-1.14.4-pre1",
+      "file": "matches/merged/1.14/1.14.3#1.14.4-pre1.match"
+    },
+    {
+      "a": "merged-1.14.3-pre1",
+      "b": "merged-1.14.3-pre2",
+      "file": "matches/merged/1.14/1.14.3-pre1#1.14.3-pre2.match"
+    },
+    {
+      "a": "merged-1.14.3-pre2",
+      "b": "merged-1.14.3-pre3",
+      "file": "matches/merged/1.14/1.14.3-pre2#1.14.3-pre3.match"
+    },
+    {
+      "a": "merged-1.14.3-pre3",
+      "b": "merged-1.14.3-pre4",
+      "file": "matches/merged/1.14/1.14.3-pre3#1.14.3-pre4.match"
+    },
+    {
+      "a": "merged-1.14.3-pre4",
+      "b": "merged-1.14.3",
+      "file": "matches/merged/1.14/1.14.3-pre4#1.14.3.match"
+    },
+    {
+      "a": "merged-1.14.4-pre1",
+      "b": "merged-1.14.4-pre2",
+      "file": "matches/merged/1.14/1.14.4-pre1#1.14.4-pre2.match"
+    },
+    {
+      "a": "merged-1.14.4-pre2",
+      "b": "merged-1.14.4-pre3",
+      "file": "matches/merged/1.14/1.14.4-pre2#1.14.4-pre3.match"
+    },
+    {
+      "a": "merged-1.14.4-pre3",
+      "b": "merged-1.14.4-pre4",
+      "file": "matches/merged/1.14/1.14.4-pre3#1.14.4-pre4.match"
+    },
+    {
+      "a": "merged-1.14.4-pre4",
+      "b": "merged-1.14.4-pre5",
+      "file": "matches/merged/1.14/1.14.4-pre4#1.14.4-pre5.match"
+    },
+    {
+      "a": "merged-1.14.4-pre5",
+      "b": "merged-1.14.4-pre6",
+      "file": "matches/merged/1.14/1.14.4-pre5#1.14.4-pre6.match"
+    },
+    {
+      "a": "merged-1.14.4-pre6",
+      "b": "merged-1.14.4-pre7",
+      "file": "matches/merged/1.14/1.14.4-pre6#1.14.4-pre7.match"
+    },
+    {
+      "a": "merged-1.14.4-pre7",
+      "b": "merged-1.14.4",
+      "file": "matches/merged/1.14/1.14.4-pre7#1.14.4.match"
+    },
+    {
+      "a": "merged-18w43a",
+      "b": "merged-18w43b",
+      "file": "matches/merged/1.14/18w43a#18w43b.match"
+    },
+    {
+      "a": "merged-18w43b",
+      "b": "merged-18w43c",
+      "file": "matches/merged/1.14/18w43b#18w43c.match"
+    },
+    {
+      "a": "merged-18w43c",
+      "b": "merged-18w44a",
+      "file": "matches/merged/1.14/18w43c#18w44a.match"
+    },
+    {
+      "a": "merged-18w44a",
+      "b": "merged-18w45a",
+      "file": "matches/merged/1.14/18w44a#18w45a.match"
+    },
+    {
+      "a": "merged-18w45a",
+      "b": "merged-18w46a",
+      "file": "matches/merged/1.14/18w45a#18w46a.match"
+    },
+    {
+      "a": "merged-18w46a",
+      "b": "merged-18w47a",
+      "file": "matches/merged/1.14/18w46a#18w47a.match"
+    },
+    {
+      "a": "merged-18w47a",
+      "b": "merged-18w47b",
+      "file": "matches/merged/1.14/18w47a#18w47b.match"
+    },
+    {
+      "a": "merged-18w47b",
+      "b": "merged-18w48a",
+      "file": "matches/merged/1.14/18w47b#18w48a.match"
+    },
+    {
+      "a": "merged-18w48a",
+      "b": "merged-18w48b",
+      "file": "matches/merged/1.14/18w48a#18w48b.match"
+    },
+    {
+      "a": "merged-18w48b",
+      "b": "merged-18w49a",
+      "file": "matches/merged/1.14/18w48b#18w49a.match"
+    },
+    {
+      "a": "merged-18w49a",
+      "b": "merged-18w50a",
+      "file": "matches/merged/1.14/18w49a#18w50a.match"
+    },
+    {
+      "a": "merged-18w50a",
+      "b": "merged-19w02a",
+      "file": "matches/merged/1.14/18w50a#19w02a.match"
+    },
+    {
+      "a": "merged-19w02a",
+      "b": "merged-19w03a",
+      "file": "matches/merged/1.14/19w02a#19w03a.match"
+    },
+    {
+      "a": "merged-19w03a",
+      "b": "merged-19w03b",
+      "file": "matches/merged/1.14/19w03a#19w03b.match"
+    },
+    {
+      "a": "merged-19w03b",
+      "b": "merged-19w03c",
+      "file": "matches/merged/1.14/19w03b#19w03c.match"
+    },
+    {
+      "a": "merged-19w03c",
+      "b": "merged-19w04a",
+      "file": "matches/merged/1.14/19w03c#19w04a.match"
+    },
+    {
+      "a": "merged-19w04a",
+      "b": "merged-19w04b",
+      "file": "matches/merged/1.14/19w04a#19w04b.match"
+    },
+    {
+      "a": "merged-19w04b",
+      "b": "merged-19w05a",
+      "file": "matches/merged/1.14/19w04b#19w05a.match"
+    },
+    {
+      "a": "merged-19w05a",
+      "b": "merged-19w06a",
+      "file": "matches/merged/1.14/19w05a#19w06a.match"
+    },
+    {
+      "a": "merged-19w06a",
+      "b": "merged-19w07a",
+      "file": "matches/merged/1.14/19w06a#19w07a.match"
+    },
+    {
+      "a": "merged-19w07a",
+      "b": "merged-19w08a",
+      "file": "matches/merged/1.14/19w07a#19w08a.match"
+    },
+    {
+      "a": "merged-19w08a",
+      "b": "merged-19w08b",
+      "file": "matches/merged/1.14/19w08a#19w08b.match"
+    },
+    {
+      "a": "merged-19w08b",
+      "b": "merged-19w09a",
+      "file": "matches/merged/1.14/19w08b#19w09a.match"
+    },
+    {
+      "a": "merged-19w09a",
+      "b": "merged-19w11a",
+      "file": "matches/merged/1.14/19w09a#19w11a.match"
+    },
+    {
+      "a": "merged-19w11a",
+      "b": "merged-19w11b",
+      "file": "matches/merged/1.14/19w11a#19w11b.match"
+    },
+    {
+      "a": "merged-19w11b",
+      "b": "merged-19w12a",
+      "file": "matches/merged/1.14/19w11b#19w12a.match"
+    },
+    {
+      "a": "merged-19w12a",
+      "b": "merged-19w12b",
+      "file": "matches/merged/1.14/19w12a#19w12b.match"
+    },
+    {
+      "a": "merged-19w12b",
+      "b": "merged-19w13a",
+      "file": "matches/merged/1.14/19w12b#19w13a.match"
+    },
+    {
+      "a": "merged-19w13a",
+      "b": "merged-19w13b-1653",
+      "file": "matches/merged/1.14/19w13a#19w13b-1653.match"
+    },
+    {
+      "a": "merged-19w13b-1653",
+      "b": "merged-19w14a",
+      "file": "matches/merged/1.14/19w13b-1653#19w14a.match"
+    },
+    {
+      "a": "merged-19w14a",
+      "b": "merged-19w14b",
+      "file": "matches/merged/1.14/19w14a#19w14b.match"
+    },
+    {
+      "a": "merged-19w14b",
+      "b": "merged-1.14-pre1",
+      "file": "matches/merged/1.14/19w14b#1.14-pre1.match"
+    },
+    {
       "a": "merged-1.3-pre-07261249",
       "b": "merged-1.3.1",
       "file": "matches/merged/1.3/1.3-pre-07261249#1.3.1.match"
@@ -6008,6 +6298,354 @@
       "id": "merged_18w43a",
       "type": "merged",
       "version": "18w43a",
+      "era": "1.14"
+    },
+    "merged-1.14.1-pre1": {
+      "id": "merged_1_14_1_pre1",
+      "type": "merged",
+      "version": "1.14.1-pre1",
+      "era": "1.14"
+    },
+    "merged-1.14": {
+      "id": "merged_1_14",
+      "type": "merged",
+      "version": "1.14",
+      "era": "1.14"
+    },
+    "merged-1.14-pre2": {
+      "id": "merged_1_14_pre2",
+      "type": "merged",
+      "version": "1.14-pre2",
+      "era": "1.14"
+    },
+    "merged-1.14-pre1": {
+      "id": "merged_1_14_pre1",
+      "type": "merged",
+      "version": "1.14-pre1",
+      "era": "1.14"
+    },
+    "merged-1.14-pre3": {
+      "id": "merged_1_14_pre3",
+      "type": "merged",
+      "version": "1.14-pre3",
+      "era": "1.14"
+    },
+    "merged-1.14-pre4": {
+      "id": "merged_1_14_pre4",
+      "type": "merged",
+      "version": "1.14-pre4",
+      "era": "1.14"
+    },
+    "merged-1.14-pre5": {
+      "id": "merged_1_14_pre5",
+      "type": "merged",
+      "version": "1.14-pre5",
+      "era": "1.14"
+    },
+    "merged-1.14.2-pre1": {
+      "id": "merged_1_14_2_pre1",
+      "type": "merged",
+      "version": "1.14.2-pre1",
+      "era": "1.14"
+    },
+    "merged-1.14.1": {
+      "id": "merged_1_14_1",
+      "type": "merged",
+      "version": "1.14.1",
+      "era": "1.14"
+    },
+    "merged-1.14.1-pre2": {
+      "id": "merged_1_14_1_pre2",
+      "type": "merged",
+      "version": "1.14.1-pre2",
+      "era": "1.14"
+    },
+    "merged-1.14.3-pre1": {
+      "id": "merged_1_14_3_pre1",
+      "type": "merged",
+      "version": "1.14.3-pre1",
+      "era": "1.14"
+    },
+    "merged-1.14.2": {
+      "id": "merged_1_14_2",
+      "type": "merged",
+      "version": "1.14.2",
+      "era": "1.14"
+    },
+    "merged-1.14.2-pre2": {
+      "id": "merged_1_14_2_pre2",
+      "type": "merged",
+      "version": "1.14.2-pre2",
+      "era": "1.14"
+    },
+    "merged-1.14.2-pre3": {
+      "id": "merged_1_14_2_pre3",
+      "type": "merged",
+      "version": "1.14.2-pre3",
+      "era": "1.14"
+    },
+    "merged-1.14.2-pre4-270720": {
+      "id": "merged_1_14_2_pre4_270720",
+      "type": "merged",
+      "version": "1.14.2-pre4-270720",
+      "era": "1.14"
+    },
+    "merged-1.14.4-pre1": {
+      "id": "merged_1_14_4_pre1",
+      "type": "merged",
+      "version": "1.14.4-pre1",
+      "era": "1.14"
+    },
+    "merged-1.14.3": {
+      "id": "merged_1_14_3",
+      "type": "merged",
+      "version": "1.14.3",
+      "era": "1.14"
+    },
+    "merged-1.14.3-pre2": {
+      "id": "merged_1_14_3_pre2",
+      "type": "merged",
+      "version": "1.14.3-pre2",
+      "era": "1.14"
+    },
+    "merged-1.14.3-pre3": {
+      "id": "merged_1_14_3_pre3",
+      "type": "merged",
+      "version": "1.14.3-pre3",
+      "era": "1.14"
+    },
+    "merged-1.14.3-pre4": {
+      "id": "merged_1_14_3_pre4",
+      "type": "merged",
+      "version": "1.14.3-pre4",
+      "era": "1.14"
+    },
+    "merged-1.14.4-pre2": {
+      "id": "merged_1_14_4_pre2",
+      "type": "merged",
+      "version": "1.14.4-pre2",
+      "era": "1.14"
+    },
+    "merged-1.14.4-pre3": {
+      "id": "merged_1_14_4_pre3",
+      "type": "merged",
+      "version": "1.14.4-pre3",
+      "era": "1.14"
+    },
+    "merged-1.14.4-pre4": {
+      "id": "merged_1_14_4_pre4",
+      "type": "merged",
+      "version": "1.14.4-pre4",
+      "era": "1.14"
+    },
+    "merged-1.14.4-pre5": {
+      "id": "merged_1_14_4_pre5",
+      "type": "merged",
+      "version": "1.14.4-pre5",
+      "era": "1.14"
+    },
+    "merged-1.14.4-pre6": {
+      "id": "merged_1_14_4_pre6",
+      "type": "merged",
+      "version": "1.14.4-pre6",
+      "era": "1.14"
+    },
+    "merged-1.14.4-pre7": {
+      "id": "merged_1_14_4_pre7",
+      "type": "merged",
+      "version": "1.14.4-pre7",
+      "era": "1.14"
+    },
+    "merged-1.14.4": {
+      "id": "merged_1_14_4",
+      "type": "merged",
+      "version": "1.14.4",
+      "era": "1.14"
+    },
+    "merged-18w43b": {
+      "id": "merged_18w43b",
+      "type": "merged",
+      "version": "18w43b",
+      "era": "1.14"
+    },
+    "merged-18w43c": {
+      "id": "merged_18w43c",
+      "type": "merged",
+      "version": "18w43c",
+      "era": "1.14"
+    },
+    "merged-18w44a": {
+      "id": "merged_18w44a",
+      "type": "merged",
+      "version": "18w44a",
+      "era": "1.14"
+    },
+    "merged-18w45a": {
+      "id": "merged_18w45a",
+      "type": "merged",
+      "version": "18w45a",
+      "era": "1.14"
+    },
+    "merged-18w46a": {
+      "id": "merged_18w46a",
+      "type": "merged",
+      "version": "18w46a",
+      "era": "1.14"
+    },
+    "merged-18w47a": {
+      "id": "merged_18w47a",
+      "type": "merged",
+      "version": "18w47a",
+      "era": "1.14"
+    },
+    "merged-18w47b": {
+      "id": "merged_18w47b",
+      "type": "merged",
+      "version": "18w47b",
+      "era": "1.14"
+    },
+    "merged-18w48a": {
+      "id": "merged_18w48a",
+      "type": "merged",
+      "version": "18w48a",
+      "era": "1.14"
+    },
+    "merged-18w48b": {
+      "id": "merged_18w48b",
+      "type": "merged",
+      "version": "18w48b",
+      "era": "1.14"
+    },
+    "merged-18w49a": {
+      "id": "merged_18w49a",
+      "type": "merged",
+      "version": "18w49a",
+      "era": "1.14"
+    },
+    "merged-18w50a": {
+      "id": "merged_18w50a",
+      "type": "merged",
+      "version": "18w50a",
+      "era": "1.14"
+    },
+    "merged-19w02a": {
+      "id": "merged_19w02a",
+      "type": "merged",
+      "version": "19w02a",
+      "era": "1.14"
+    },
+    "merged-19w03a": {
+      "id": "merged_19w03a",
+      "type": "merged",
+      "version": "19w03a",
+      "era": "1.14"
+    },
+    "merged-19w03b": {
+      "id": "merged_19w03b",
+      "type": "merged",
+      "version": "19w03b",
+      "era": "1.14"
+    },
+    "merged-19w03c": {
+      "id": "merged_19w03c",
+      "type": "merged",
+      "version": "19w03c",
+      "era": "1.14"
+    },
+    "merged-19w04a": {
+      "id": "merged_19w04a",
+      "type": "merged",
+      "version": "19w04a",
+      "era": "1.14"
+    },
+    "merged-19w04b": {
+      "id": "merged_19w04b",
+      "type": "merged",
+      "version": "19w04b",
+      "era": "1.14"
+    },
+    "merged-19w05a": {
+      "id": "merged_19w05a",
+      "type": "merged",
+      "version": "19w05a",
+      "era": "1.14"
+    },
+    "merged-19w06a": {
+      "id": "merged_19w06a",
+      "type": "merged",
+      "version": "19w06a",
+      "era": "1.14"
+    },
+    "merged-19w07a": {
+      "id": "merged_19w07a",
+      "type": "merged",
+      "version": "19w07a",
+      "era": "1.14"
+    },
+    "merged-19w08a": {
+      "id": "merged_19w08a",
+      "type": "merged",
+      "version": "19w08a",
+      "era": "1.14"
+    },
+    "merged-19w08b": {
+      "id": "merged_19w08b",
+      "type": "merged",
+      "version": "19w08b",
+      "era": "1.14"
+    },
+    "merged-19w09a": {
+      "id": "merged_19w09a",
+      "type": "merged",
+      "version": "19w09a",
+      "era": "1.14"
+    },
+    "merged-19w11a": {
+      "id": "merged_19w11a",
+      "type": "merged",
+      "version": "19w11a",
+      "era": "1.14"
+    },
+    "merged-19w11b": {
+      "id": "merged_19w11b",
+      "type": "merged",
+      "version": "19w11b",
+      "era": "1.14"
+    },
+    "merged-19w12a": {
+      "id": "merged_19w12a",
+      "type": "merged",
+      "version": "19w12a",
+      "era": "1.14"
+    },
+    "merged-19w12b": {
+      "id": "merged_19w12b",
+      "type": "merged",
+      "version": "19w12b",
+      "era": "1.14"
+    },
+    "merged-19w13a": {
+      "id": "merged_19w13a",
+      "type": "merged",
+      "version": "19w13a",
+      "era": "1.14"
+    },
+    "merged-19w13b-1653": {
+      "id": "merged_19w13b_1653",
+      "type": "merged",
+      "version": "19w13b-1653",
+      "era": "1.14"
+    },
+    "merged-19w14a": {
+      "id": "merged_19w14a",
+      "type": "merged",
+      "version": "19w14a",
+      "era": "1.14"
+    },
+    "merged-19w14b": {
+      "id": "merged_19w14b",
+      "type": "merged",
+      "version": "19w14b",
       "era": "1.14"
     },
     "merged-1.3.1": {
