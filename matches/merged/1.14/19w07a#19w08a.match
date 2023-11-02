@@ -1,8 +1,8 @@
-Matches saved 2023-02-09, status: c:4629/4645 m:35128/35577 f:16607/16742 ma:50800/52064, input files:
+Matches saved 2023-11-02, status: c:4629/4645 m:35122/35577 f:16607/16742 ma:50800/52064, input files:
 	a:
-		18176549	SHA256	h7uJjbi1T+WPA+vfXpA025jPqZmqfq3+ycsfi/blbt4=	minecraft-merged-19w07a.jar
+		18176549	SHA256	cWeD8MdMYG+TPwNMT7NtIjYgEA0IqprYoJP3M2ZMOKU=	minecraft-merged-19w07a.jar
 	b:
-		18208856	SHA256	A5qf6yMBo4/zQnAIjd1jah7d34eOd2SvvBBBM53UoE8=	minecraft-merged-19w08a.jar
+		18208856	SHA256	D7EPtjDZ0ptlJj3U5KEoxmY38q2Fhy9Rn+PZYMPk5LQ=	minecraft-merged-19w08a.jar
 	cp:
 		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
@@ -15375,7 +15375,6 @@ c	Lapx;	Lapw;
 	f	c;;I	c;;I
 	f	d;;Lpw;	d;;Lpx;
 c	Lapy;	Lapx;
-	m	<init>(Lbdb;)V	<init>(Lahp;Lbde;)V
 	m	cd()V	cd()V
 	m	B(Lahl;)Z	C(Lahl;)Z
 		ma	0	0
@@ -80641,7 +80640,6 @@ c	Lctt;	Lcuh;
 	m	c()V	c()V
 		mv	0	0
 		mv	1	1
-	m	g()V	p()V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -81948,7 +81946,6 @@ c	Lcun;	Lcvb;
 	m	confirmResult(ZI)V	confirmResult(ZI)V
 		ma	0	0
 		ma	1	1
-	m	g()V	p()V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -82501,7 +82498,6 @@ c	Lcuv;	Lcvk;
 	m	c()V	c()V
 		mv	0	0
 		mv	1	1
-	m	g()V	p()V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -82619,7 +82615,6 @@ c	Lcux;	Lcvm;
 	m	c()V	c()V
 		mv	0	0
 		mv	1	1
-	m	g()V	p()V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -82793,7 +82788,6 @@ c	Lcuz;	Lcvo;
 		ma	1	1
 	m	getFocused()Lcsh;	getFocused()Lcsv;
 	m	c()V	c()V
-	m	g()V	p()V
 	m	a(DDI)Z	a(DDI)Z
 		ma	0	0
 		ma	1	1
