@@ -1,8 +1,8 @@
-Matches saved 2023-02-09, status: c:4454/4486 m:34180/34576 f:16205/16346 ma:49521/50445, input files:
+Matches saved 2023-11-02, status: c:4454/4486 m:34173/34576 f:16205/16346 ma:49521/50445, input files:
 	a:
-		17447996	SHA256	QWm8pizh+d7sEbFWntmXlB8MyhGzmlQ9gjfiTu3oluk=	minecraft-merged-18w50a.jar
+		17447996	SHA256	nwBRLnOM9E+m0q+LOxtHy87hWyzTg8Gz0On75fJwx/A=	minecraft-merged-18w50a.jar
 	b:
-		17514535	SHA256	+dOP66sZCVc1gqtUSRhspq547JOYGpjhe6vKZ4rC5Lg=	minecraft-merged-19w02a.jar
+		17514535	SHA256	4F48LnBZLRl7DVRVoZWsS3X2twufdCyFJd5Pz2LAw6g=	minecraft-merged-19w02a.jar
 	cp:
 		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
@@ -42130,7 +42130,6 @@ c	Lbnl;	Lboc;
 	m	a(Lfh;)V	a(Lfh;)V
 		ma	0	0
 	m	a(Lara;Larb;)Lasw;	a(ILarj;)Latf;
-	m	R_()Ljd;	g()Ljd;
 	f	a;;Lfh;	a;;Lfh;
 c	Lbnm$a;	Lboe$a;
 	m	<init>([F)V	<init>([F)V
@@ -42354,7 +42353,6 @@ c	Lbnr;	Lboj;
 	f	H;;Lcom/mojang/datafixers/types/Type;	I;;Lcom/mojang/datafixers/types/Type;
 c	Lbns;	Lbok;
 	m	<init>()V	<init>()V
-	m	R_()Ljd;	g()Ljd;
 	m	Z_()I	U_()I
 	m	c()Z	c()Z
 		mv	0	0
@@ -42427,7 +42425,6 @@ c	Lbnt;	Lbom;
 	m	Z_()I	U_()I
 	m	c()Z	c()Z
 		mv	0	0
-	m	R_()Ljd;	g()Ljd;
 	m	a(Lhs;)V	a(Lhs;)V
 		ma	0	0
 	m	b(Lhs;)Lhs;	b(Lhs;)Lhs;
@@ -42652,7 +42649,6 @@ c	Lbny;	Lbor;
 	m	a(Lawo;)I	a(Laxd;)I
 		ma	0	0
 		mv	0	0
-	m	R_()Ljd;	g()Ljd;
 	m	a(Lhs;)V	a(Lhs;)V
 		ma	0	0
 	m	b(Lhs;)Lhs;	b(Lhs;)Lhs;
@@ -42666,7 +42662,6 @@ c	Lbny;	Lbor;
 	f	b;;Lfh;	b;;Lfh;
 c	Lbnz;	Lbos;
 	m	<init>()V	<init>()V
-	m	R_()Ljd;	g()Ljd;
 c	Lbo$a;	Lbo$a;
 	m	<init>(Lqm;)V	<init>(Lqo;)V
 		ma	0	0
@@ -42812,7 +42807,6 @@ c	Lboe;	Lbox;
 	m	a(ILawo;)V	a(ILaxd;)V
 		ma	0	0
 		ma	1	1
-	m	R_()Ljd;	g()Ljd;
 	m	e()V	aa_()V
 	m	a(Ljava/util/function/Supplier;)Z	a(Ljava/util/function/Supplier;)Z
 		ma	0	0
@@ -43086,7 +43080,6 @@ c	Lbol;	Lbpd;
 	m	c_(Larb;)V	c_(Lark;)V
 		ma	0	0
 	m	a(Lara;Larb;)Lasw;	a(ILarj;)Latf;
-	m	R_()Ljd;	g()Ljd;
 	m	a(Lhs;)V	a(Lhs;)V
 		ma	0	0
 	m	b(Lhs;)Lhs;	b(Lhs;)Lhs;
