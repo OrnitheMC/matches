@@ -1,4 +1,4 @@
-Matches saved 2023-11-02, status: c:4267/4275 m:33114/33229 f:16275/16724 ma:47980/48212, input files:
+Matches saved 2023-11-02, status: c:4267/4275 m:33113/33229 f:16275/16724 ma:47978/48212, input files:
 	a:
 		16611366	SHA256	QySDgQmVFn6r2ps0llNYtY2QNybJhDksD0GsrT+xHSw=	minecraft-merged-18w43c.jar
 	b:
@@ -12476,10 +12476,6 @@ c	Lamp;	Lanf;
 		mv	0	0
 		mv	1	1
 		mv	2	2
-	m	b(ZI)V	a(Lafe;IZ)V
-		ma	0	2
-		ma	1	1
-		mv	0	0
 	m	J()V	H()V
 	m	aA()I	aA()I
 	m	c(FF)V	c(FF)V
