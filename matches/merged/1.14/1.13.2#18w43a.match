@@ -1,8 +1,8 @@
-Matches saved 2023-02-14, status: c:3911/4027 m:30333/31520 f:13354/14542 ma:43119/45608, input files:
+Matches saved 2023-11-02, status: c:3921/4027 m:30433/31520 f:13363/14542 ma:43280/45608, input files:
 	a:
-		15910613	SHA256	tb2f7pXNQTwbV/La19PMHI+dpHqRLahl+niFo1F9E3k=	minecraft-merged-1.13.2.jar
+		15910613	SHA256	HYUBqjrxFA++V8yGimoxXP6Ezf/f5vxFLrd30WDEDYc=	minecraft-merged-1.13.2.jar
 	b:
-		16571089	SHA256	uBg6FRXs6gd8d71Z9yOjvxQ6lEb2r3UrfY17bvO93GM=	minecraft-merged-18w43a.jar
+		16571089	SHA256	sjlx5btKyUzaMgwXUysntMweK4APkA5XBU0petK6RvY=	minecraft-merged-18w43a.jar
 	cp:
 		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
@@ -2084,6 +2084,13 @@ c	Lacr;	Ladk;
 	f	b;;Lorg/apache/logging/log4j/Logger;	b;;Lorg/apache/logging/log4j/Logger;
 	f	c;;Ljava/util/Map;	c;;Ljava/util/Map;
 	f	a;;Lcom/mojang/datafixers/types/templates/Hook$HookFunction;	a;;Lcom/mojang/datafixers/types/templates/Hook$HookFunction;
+cu	a	Lact;
+cu	a	Lacu$1;
+cu	a	Lacu$a;
+cu	a	Lacu;
+cu	a	Lacv;
+cu	a	Lacw;
+cu	a	Lacx;
 c	Lacz;	Ladp;
 	m	<init>(Ljava/io/File;)V	<init>(Ljava/io/File;)V
 		ma	0	0
@@ -19868,6 +19875,7 @@ c	Laru$1;	Lasr$1;
 c	Laru;	Lasr;
 	m	<init>(Lata$a;)V	<init>(Latx$a;)V
 		ma	0	0
+cu	a	Larv;
 c	Larw$1;	Lass$1;
 	m	<init>(Larw;)V	<init>(Lass;)V
 		ma	0	0
@@ -22028,6 +22036,7 @@ c	Laty;	Lauy;
 	m	<clinit>()V	<clinit>()V
 	f	e;;Ljava/util/Set;	e;;Ljava/util/Set;
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
+cu	a	Latz;
 c	Lau$a;	Lav$a;
 	m	<init>(Lpm;)V	<init>(Lqd;)V
 		ma	0	0
@@ -26204,6 +26213,7 @@ c	Layd;	Lazf;
 	f	f;;Z	f;;Z
 	f	g;;Z	g;;Z
 	f	h;;Lcom/google/gson/JsonElement;	h;;Lcom/google/gson/JsonElement;
+cu	a	Laye;
 c	Layf;	Lazg;
 	m	h()Lcck;	h()Lcdr;
 	m	a(Lbod;Ljava/util/function/Function;Ljava/lang/String;)Lcbo;	a(Lbpb;Ljava/util/function/Function;Ljava/lang/String;)Lccv;
@@ -26299,6 +26309,54 @@ c	Layi;	Lazj;
 c	Layj$1;	Lazk$1;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
+c	Layj;	Lazk;
+	m	a(Lblc;Lbyw;)Z	a(Lblz;Lcac;)Z
+		ma	0	0
+		ma	1	1
+	m	a(Lafk$b;Layc;Lel;Laev;)Z	a(Laga$b;Laze;Leq;Lafl;)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+	m	a(Laxz;Layu;IILjava/util/Random;)V	a(Lazb;Lazx;IILjava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
+		mv	7	7
+		mv	8	8
+		mv	9	9
+		mv	10	10
+		mv	11	11
+		mv	12	12
+		mv	13	13
+		mv	14	14
+		mv	15	15
+		mv	16	16
+		mv	17	17
+		mv	18	18
+	m	a(Laxz;Laev;II)Lel;	a(Lazb;Lafl;II)Leq;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		mv	0	0
+		mv	1	1
+	m	<clinit>()V	<clinit>()V
+	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
 c	Layk$a;	Lazl$a;
 	m	<init>(Layk;Lel;J)V	<init>(Lazl;Leq;J)V
 		ma	0	0
@@ -27779,6 +27837,18 @@ c	Lbcb;	Lbdf;
 		ma	3	3
 	m	b()Lasc;	b()Lbii$a;
 	f	a;;Lasc;	a;;Lbii$a;
+c	Lbcc;	Lbde;
+	m	<init>(Lbhk$a;Lbcs$c;)V	<init>(Lasz;Lbdx$c;)V
+		ma	1	1
+	m	a(Lblc;)Z	a(Lblz;)Z
+		ma	0	0
+	m	a(Laxk;)Lbji;	a(Layn;)Lbkf;
+		ma	0	0
+	m	a(Laxk;Lblc;Lel;Leq;)Lblb;	a(Layn;Lblz;Leq;Lev;)Lbly;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 c	Lbcd;	Lbdg;
 	m	<init>(Lbcs$c;)V	<init>(Lbdx$c;)V
 		ma	0	0
@@ -28073,6 +28143,24 @@ c	Lbcl;	Lbdq;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbme;	a;;Lbnb;
 	f	c;;Ljava/util/Map;	c;;Ljava/util/Map;
+c	Lbcm;	Lbdr;
+	m	<init>(Lbcs$c;)V	<init>(Lbdx$c;)V
+		ma	0	0
+	m	c(Lblc;)Lbgy;	c(Lblz;)Lbhx;
+		ma	0	0
+	m	a(Lblc;Laxy;Lel;Lblc;Z)V	a(Lblz;Laza;Leq;Lblz;Z)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	a(Lblc;Laxy;Lel;II)Z	a(Lblz;Laza;Leq;II)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		mv	0	0
 c	Lbcn;	Lbds;
 	m	<init>(Lbcs$c;)V	<init>(Lbdx$c;)V
 		ma	0	0
@@ -28926,6 +29014,7 @@ c	Lbcs;	Lbdx;
 	f	q;;Ljava/lang/ThreadLocal;	r;;Ljava/lang/ThreadLocal;
 c	Lbct;	Lbdy;
 	m	<clinit>()V	<clinit>()V
+cu	a	Lbcu;
 c	Lbcv;	Lbdz;
 	m	a(Laxk;Lel;Lblc;Z)Z	a(Layn;Leq;Lblz;Z)Z
 		ma	0	0
@@ -28942,6 +29031,7 @@ c	Lbcv;	Lbdz;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+cu	a	Lbcw;
 c	Lbcx;	Lbea;
 	m	<init>(Lbcs$c;)V	<init>(Lbdx$c;)V
 		ma	0	0
@@ -29822,6 +29912,7 @@ c	Lbdj;	Lbem;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+cu	a	Lbdk;
 c	Lbdl$1;	Lben$1;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -31877,6 +31968,16 @@ c	Lbet;	Lbfv;
 	f	r;;Ljava/util/Map;	r;;Ljava/util/Map;
 	f	s;;Lit/unimi/dsi/fastutil/objects/Object2IntMap;	s;;Lit/unimi/dsi/fastutil/objects/Object2IntMap;
 	f	t;;Lit/unimi/dsi/fastutil/objects/Object2IntMap;	t;;Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+c	Lbeu;	Lbfw;
+	m	<init>(Lbcs$c;)V	<init>(Laez;ILbdx$c;)V
+	m	a(Lblc;Laxk;Lel;)Lcew;	a(Lblz;Layn;Leq;)Lchu;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+	m	q()Lbcs$b;	Y_()Lbdx$b;
+	m	<clinit>()V	<clinit>()V
+	f	a;;Lcew;	a;;Lchu;
 c	Lbev;	Lbfx;
 	m	<init>(Lbcs;Lbcs$c;)V	<init>(Lbdx;Lbdx$c;)V
 		ma	0	0
@@ -38870,6 +38971,160 @@ c	Lblb;	Lbly;
 	f	h;;Lblb;	h;;Lbly;
 	f	i;;Lblb;	i;;Lbly;
 	f	j;;[Lblb;	j;;[Lbly;
+c	Lblc;	Lblz;
+	m	d()Lbza;	e()Lcag;
+	m	a(Laer;)Z	a(Lafh;)Z
+		ma	0	0
+	m	a(Laxk;Lel;)Z	a(Layn;Leq;)Z
+		ma	0	0
+		ma	1	1
+	m	e()I	f()I
+	m	f()Z	g()Z
+	m	c(Laxk;Lel;)Z	c(Layn;Leq;)Z
+		ma	0	0
+		ma	1	1
+	m	d(Laxk;Lel;)Lbzb;	d(Layn;Leq;)Lcah;
+		ma	0	0
+		ma	1	1
+	m	a(Lbhb;)Lblc;	a(Lbia;)Lblz;
+		ma	0	0
+	m	a(Lbfz;)Lblc;	a(Lbha;)Lblz;
+		ma	0	0
+	m	g()Z	h()Z
+	m	h()Z	i()Z
+	m	i()Lbgy;	j()Lbhx;
+	m	a(Laye;Lel;)I	a(Layl;Leq;)I
+		ma	0	0
+		ma	1	1
+	m	j()F	k()F
+	m	k()Z	l()Z
+	m	l()Z	m()Z
+	m	m()Z	n()Z
+	m	a(Laxk;Lel;Leq;)I	a(Layn;Leq;Lev;)I
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	n()Z	o()Z
+	m	a(Laxy;Lel;)I	a(Laza;Leq;)I
+		ma	0	0
+		ma	1	1
+	m	e(Laxk;Lel;)F	e(Layn;Leq;)F
+		ma	0	0
+		ma	1	1
+	m	a(Laog;Laxk;Lel;)F	a(Lapb;Layn;Leq;)F
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	b(Laxk;Lel;Leq;)I	b(Layn;Leq;Lev;)I
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	o()Lbzc;	p()Lcai;
+	m	f(Laxk;Lel;)Z	f(Layn;Leq;)Z
+		ma	0	0
+		ma	1	1
+	m	p()Z	q()Z
+	m	a(Lblc;Leq;)Z	a(Lblz;Lev;)Z
+		ma	0	0
+		ma	1	1
+	m	g(Laxk;Lel;)Lcew;	g(Layn;Leq;)Lchu;
+		ma	0	0
+		ma	1	1
+	m	h(Laxk;Lel;)Lcew;	h(Layn;Leq;)Lchu;
+		ma	0	0
+		ma	1	1
+	m	i(Laxk;Lel;)Lcew;	i(Layn;Leq;)Lchu;
+		ma	0	0
+		ma	1	1
+	m	j(Laxk;Lel;)Lcew;	j(Layn;Leq;)Lchu;
+		ma	0	0
+		ma	1	1
+	m	q()Z	r()Z
+	m	k(Laxk;Lel;)Lcee;	k(Layn;Leq;)Lchc;
+		ma	0	0
+		ma	1	1
+	m	a(Laxy;Lel;II)Z	a(Laza;Leq;II)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	a(Laxy;Lel;Lbcs;Lel;)V	a(Laza;Leq;Lbdx;Leq;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	a(Laxz;Lel;I)V	a(Lazb;Leq;I)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	b(Laxz;Lel;I)V	b(Lazb;Leq;I)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Laxy;Lel;Lblc;)V	a(Laza;Leq;Lblz;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Laxy;Lel;Lblc;Z)V	a(Laza;Leq;Lblz;Z)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	a(Laxy;Lel;Ljava/util/Random;)V	a(Laza;Leq;Ljava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	b(Laxy;Lel;Ljava/util/Random;)V	b(Laza;Leq;Ljava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Laxy;Lel;Laer;)V	a(Laza;Leq;Lafh;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Laxy;Lel;Laog;Ladk;Leq;FFF)Z	a(Laza;Leq;Lapb;Laea;Lev;FFF)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Laxy;Lel;Laog;)V	a(Laza;Leq;Lapb;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	r()Z	s()Z
+	m	c(Laxk;Lel;Leq;)Lblb;	c(Layn;Leq;Lev;)Lbly;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Leq;Lblc;Laxz;Lel;Lel;)Lblc;	a(Lev;Lblz;Lazb;Leq;Leq;)Lblz;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	a(Laxk;Lel;Lcbf;)Z	a(Layn;Leq;Lccm;)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Lark;)Z	a(Lash;)Z
+		ma	0	0
+	m	a(Layc;Lel;)Z	a(Laze;Leq;)Z
+		ma	0	0
+		ma	1	1
+	m	l(Laxk;Lel;)Z	l(Layn;Leq;)Z
+		ma	0	0
+		ma	1	1
+	m	a(Lwz;)Z	a(Lxn;)Z
+		ma	0	0
+	m	s()Lbyw;	t()Lcac;
+	m	t()Z	u()Z
+	m	a(Lel;)J	a(Leq;)J
+		ma	0	0
+cu	a	Lbld;
 c	Lble$a;	Lbma$a;
 	m	<init>(Ljava/lang/Object;)V	<init>(Ljava/lang/Object;)V
 		ma	0	0
@@ -38928,6 +39183,13 @@ c	Lble;	Lbma;
 	f	b;;Ljava/lang/Object;	b;;Ljava/lang/Object;
 	f	c;;Lcom/google/common/collect/ImmutableSortedMap;	c;;Lcom/google/common/collect/ImmutableSortedMap;
 	f	d;;Lcom/google/common/collect/ImmutableList;	d;;Lcom/google/common/collect/ImmutableList;
+c	Lblf;	Lbmb;
+	m	c(Lbmm;)Ljava/lang/Comparable;	c(Lbnj;)Ljava/lang/Comparable;
+		ma	0	0
+	m	a(Lbmm;Ljava/lang/Comparable;)Ljava/lang/Object;	a(Lbnj;Ljava/lang/Comparable;)Ljava/lang/Object;
+		ma	0	0
+		ma	1	1
+	m	b()Lcom/google/common/collect/ImmutableMap;	b()Lcom/google/common/collect/ImmutableMap;
 c	Lblh;	Lbmd;
 	m	<init>(Layc;Lel;Z)V	<init>(Laze;Leq;Z)V
 		ma	0	0
@@ -40091,6 +40353,20 @@ c	Lbnb;	Lbny;
 	f	g;;Lbna;	f;;Lbnx;
 	f	h;;Z	g;;Z
 	f	i;;Ljava/util/function/Supplier;	h;;Ljava/util/function/Supplier;
+c	Lbnc;	Lbnz;
+	m	a(IIZZ)Lbnj;	a(IILboa;Z)Lbnu;
+		ma	0	0
+		ma	1	1
+		ma	2	3
+		ma	3	2
+	m	a(IIZ)Lbmx;	b(II)Layn;
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/util/function/BooleanSupplier;)Z	b(Ljava/util/function/BooleanSupplier;)V
+		ma	0	0
+	m	e()Ljava/lang/String;	d()Ljava/lang/String;
+	m	f()Lbmy;	e()Lbnv;
+	m	close()V	close()V
 c	Lbnd$a;	Lboa$b;
 	m	values()[Lbnd$a;	values()[Lboa$b;
 	m	valueOf(Ljava/lang/String;)Lbnd$a;	valueOf(Ljava/lang/String;)Lboa$b;
@@ -41101,6 +41377,9 @@ c	Lbnv;	Lbot;
 	m	a(Lbod;Lcck;)V	a(Lbpb;Lcdr;)V
 		ma	0	0
 		ma	1	1
+	m	a(Laxy;Lbmx;)V	a(Laza;Lbnu;)V
+		ma	1	1
+		mv	4	30
 	m	a(Laxm;Lgy;)V	a(Layp;Lhl;)V
 		ma	0	0
 		ma	1	1
@@ -41204,6 +41483,11 @@ c	Lbnv;	Lbot;
 	f	d;;Lcom/mojang/datafixers/DataFixer;	d;;Lcom/mojang/datafixers/DataFixer;
 	f	e;;Lbwp;	e;;Lbxp;
 	f	f;;Z	f;;Z
+c	Lbnw;	Lbou;
+	m	a(Laxy;Lbmx;)V	a(Laza;Lbnu;)V
+		ma	0	0
+		ma	1	1
+	m	b()V	b()V
 c	Lbny$a;	Lbow$a;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -78640,6 +78924,12 @@ c	Lcrb;	Lcuu;
 		ma	0	0
 		ma	1	1
 		mv	0	0
+	m	a(IIZZ)Lbnj;	a(IILboa;Z)Lbnu;
+		ma	0	0
+		ma	1	1
+		ma	3	3
+	m	a(Ljava/util/function/BooleanSupplier;)Z	b(Ljava/util/function/BooleanSupplier;)V
+		ma	0	0
 	m	e()Ljava/lang/String;	d()Ljava/lang/String;
 	m	f()Lbmy;	e()Lbnv;
 	m	<clinit>()V	<clinit>()V
@@ -113670,6 +113960,26 @@ c	Ltb;	Ltx;
 	f	h;;Ljava/util/Set;	h;;Ljava/util/Set;
 	f	i;;Ljava/util/Set;	i;;Ljava/util/Set;
 	f	j;;Z	j;;Z
+c	Ltc;	Lty;
+	m	<init>(Ltd;Lbnw;Lbmy;Lacv;)V	<init>(Laza;Lbou;Lbnv;II)V
+	m	a(IIZZ)Lbnj;	a(IILboa;Z)Lbnu;
+		ma	0	0
+		ma	1	1
+		ma	3	3
+	m	a(IIZ)Lbmx;	b(II)Layn;
+		ma	0	0
+		ma	1	1
+	m	close()V	close()V
+		mv	0	0
+	m	a(Ljava/util/function/BooleanSupplier;)Z	b(Ljava/util/function/BooleanSupplier;)V
+		ma	0	0
+	m	e()Ljava/lang/String;	d()Ljava/lang/String;
+	m	f()Lbmy;	e()Lbnv;
+	m	<clinit>()V	<clinit>()V
+	f	a;;Lorg/apache/logging/log4j/Logger;	b;;Lorg/apache/logging/log4j/Logger;
+	f	b;;Lit/unimi/dsi/fastutil/longs/LongSet;	o;;Lit/unimi/dsi/fastutil/longs/LongSet;
+	f	c;;Lbmy;	g;;Lbnv;
+	f	d;;Lbnw;	h;;Lbou;
 c	Ltd;	Ltz;
 	m	<init>(Lnet/minecraft/server/MinecraftServer;Lccc;Lcck;Lccb;Lbod;Lxr;)V	<init>(Lnet/minecraft/server/MinecraftServer;Lcdj;Lcdr;Lcdi;Lbpb;Lyf;)V
 		ma	0	0
@@ -118321,6 +118631,20 @@ c	Lxd;	Lxr;
 	f	b;;I	b;;I
 	f	c;;J	c;;J
 	f	d;;I	d;;I
+c	Lxe;	Lxs;
+	m	<init>(Ljava/lang/Class;)V	<init>(Ljava/lang/Class;)V
+		ma	0	0
+	m	add(Ljava/lang/Object;)Z	add(Ljava/lang/Object;)Z
+		ma	0	0
+	m	remove(Ljava/lang/Object;)Z	remove(Ljava/lang/Object;)Z
+		ma	0	0
+	m	contains(Ljava/lang/Object;)Z	contains(Ljava/lang/Object;)Z
+		ma	0	0
+	m	iterator()Ljava/util/Iterator;	iterator()Ljava/util/Iterator;
+	m	size()I	size()I
+	f	b;;Ljava/util/Map;	a;;Ljava/util/Map;
+	f	d;;Ljava/lang/Class;	b;;Ljava/lang/Class;
+	f	e;;Ljava/util/List;	c;;Ljava/util/List;
 c	Lxg;	Lxu;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
