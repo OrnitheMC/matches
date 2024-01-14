@@ -1,4 +1,4 @@
-Matches saved 2023-04-24, status: c:895/899 m:6784/6787 f:3287/3288 ma:10562/10562, input files:
+Matches saved 2024-01-14, status: c:899/899 m:6787/6787 f:3288/3288 ma:10562/10562, input files:
 	a:
 		1799522	SHA256	jmPr9oab4u7xDqh39/l9l1kYP643N9PvYmNFi6gRabE=	minecraft-server-12w30e.jar
 	b:
@@ -5245,7 +5245,7 @@ c	Laho;	Lahp;
 	m	b(Ljava/lang/String;)Laho;	b(Ljava/lang/String;)Lahp;
 		ma	0	0
 	m	t()Ljava/lang/String;	t()Ljava/lang/String;
-	m	a()Ljava/lang/String;	w()Lpp;
+	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	b(Ltx;IIIII)V	b(Lty;IIIII)V
 		ma	0	0
 		ma	1	1
@@ -7965,7 +7965,7 @@ c	Lbt;	Lbu;
 	m	f()Ljava/lang/String;	f()Ljava/lang/String;
 	f	a;;I	a;;I
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
-	fu	a	c;;Ljava/lang/String;
+	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;I	d;;I
 c	Lbu;	Lbv;
 	m	<init>()V	<init>()V
@@ -10749,16 +10749,19 @@ c	Lgx;	Lgy;
 	f	d;;Ljava/text/DecimalFormat;	d;;Ljava/text/DecimalFormat;
 	f	i;;Lhb;	i;;Lhc;
 	f	j;;Lhb;	j;;Lhc;
-cu	a	Lgy;
-cu	a	Lgz;
+c	Lgy;	Lgz;
+	m	<init>()V	<init>()V
+c	Lgz;	Lha;
+	m	<init>()V	<init>()V
 c	Lh;	Li;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
 	f	b;;[I	b;;[I
 	f	c;;[I	c;;[I
 	f	d;;[I	d;;[I
-cu	a	Lha;
-cu	a	Lhb;
+c	Lha;	Lhb;
+	m	<init>()V	<init>()V
+c	Lhb;	Lhc;
 c	Lhc;	Lhd;
 	m	a()V	a()V
 	m	b()V	b()V
@@ -13970,8 +13973,8 @@ c	Lms;	Lmt;
 	f	e;;I	e;;I
 	f	f;;Z	f;;Z
 	f	a;;I	a;;I
-	f	b;;D	c;;D
-	f	c;;D	b;;D
+	f	b;;D	b;;D
+	f	c;;D	c;;D
 	f	g;;[[[I	g;;[[[I
 	f	h;;I	h;;I
 	f	i;;D	i;;D
@@ -18126,7 +18129,7 @@ c	Ltx;	Lty;
 	m	f(II)I	f(II)I
 		ma	0	0
 		ma	1	1
-	m	b(Luj;III)I	a(Luk;III)I
+	m	b(Luj;III)I	b(Luk;III)I
 		ma	0	0
 		ma	1	1
 		ma	2	2
