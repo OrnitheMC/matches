@@ -1,8 +1,8 @@
-Matches saved 2022-05-07, status: c:1336/1336 m:10659/10661 f:5556/5560 ma:17081/17083, input files:
+Matches saved 2024-01-14, status: c:1336/1336 m:10632/10661 f:5496/5560 ma:17003/17083, input files:
 	a:
-		4623344	SHA256	gTq4v4rns/hLyT2IbWRFL/Nijbl95mr1Mh/4jySq/2g=	minecraft-client-12w30b.jar
+		4584593	SHA256	MkGAVMyQTrOFI258N4y0UcGoDOW+hsbi2MulymZiAsk=	minecraft-client-12w30b.jar
 	b:
-		4623368	SHA256	Metdh+/kdKGJqU+B1LKuBoaTsLP/6jGNlXirg+q5s+Q=	minecraft-client-12w30c.jar
+		4584617	SHA256	hpQsmkjtlgpiezYf0B1yLbbLd2ggfgtYvXF7HJX4ALs=	minecraft-client-12w30c.jar
 	cp:
 		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
@@ -16694,9 +16694,6 @@ c	Lcom/jcraft/jorbis/DspState;	Lcom/jcraft/jorbis/DspState;
 	f	transform;;[[Ljava/lang/Object;	transform;;[[Ljava/lang/Object;
 	f	fullbooks;;[Lcom/jcraft/jorbis/CodeBook;	fullbooks;;[Lcom/jcraft/jorbis/CodeBook;
 	f	mode;;[Ljava/lang/Object;	mode;;[Ljava/lang/Object;
-	f	header;;[B	header;;[B
-	f	header1;;[B	header1;;[B
-	f	header2;;[B	header2;;[B
 c	Lcom/jcraft/jorbis/Floor0$EchstateFloor0;	Lcom/jcraft/jorbis/Floor0$EchstateFloor0;
 	m	<init>(Lcom/jcraft/jorbis/Floor0;)V	<init>(Lcom/jcraft/jorbis/Floor0;)V
 		ma	0	0
@@ -16743,10 +16740,6 @@ c	Lcom/jcraft/jorbis/Floor0;	Lcom/jcraft/jorbis/Floor0;
 	m	state(Ljava/lang/Object;)Ljava/lang/Object;	state(Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	0
 	m	free_info(Ljava/lang/Object;)V	free_info(Ljava/lang/Object;)V
-		ma	0	0
-	m	free_look(Ljava/lang/Object;)V	free_look(Ljava/lang/Object;)V
-		ma	0	0
-	m	free_state(Ljava/lang/Object;)V	free_state(Ljava/lang/Object;)V
 		ma	0	0
 	m	forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I	forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I
 		ma	0	0
@@ -16830,25 +16823,10 @@ c	Lcom/jcraft/jorbis/Floor1$LookFloor1;	Lcom/jcraft/jorbis/Floor1$LookFloor1;
 	f	n;;I	n;;I
 	f	quant_q;;I	quant_q;;I
 	f	vi;;Lcom/jcraft/jorbis/Floor1$InfoFloor1;	vi;;Lcom/jcraft/jorbis/Floor1$InfoFloor1;
-	f	phrasebits;;I	phrasebits;;I
-	f	postbits;;I	postbits;;I
-	f	frames;;I	frames;;I
 	f	this$0;;Lcom/jcraft/jorbis/Floor1;	this$0;;Lcom/jcraft/jorbis/Floor1;
 c	Lcom/jcraft/jorbis/Floor1$Lsfit_acc;	Lcom/jcraft/jorbis/Floor1$Lsfit_acc;
 	m	<init>(Lcom/jcraft/jorbis/Floor1;)V	<init>(Lcom/jcraft/jorbis/Floor1;)V
 		ma	0	0
-	f	x0;;J	x0;;J
-	f	x1;;J	x1;;J
-	f	xa;;J	xa;;J
-	f	ya;;J	ya;;J
-	f	x2a;;J	x2a;;J
-	f	y2a;;J	y2a;;J
-	f	xya;;J	xya;;J
-	f	n;;J	n;;J
-	f	an;;J	an;;J
-	f	un;;J	un;;J
-	f	edgey0;;J	edgey0;;J
-	f	edgey1;;J	edgey1;;J
 	f	this$0;;Lcom/jcraft/jorbis/Floor1;	this$0;;Lcom/jcraft/jorbis/Floor1;
 c	Lcom/jcraft/jorbis/Floor1;	Lcom/jcraft/jorbis/Floor1;
 	m	<init>()V	<init>()V
@@ -16863,10 +16841,6 @@ c	Lcom/jcraft/jorbis/Floor1;	Lcom/jcraft/jorbis/Floor1;
 		ma	1	1
 		ma	2	2
 	m	free_info(Ljava/lang/Object;)V	free_info(Ljava/lang/Object;)V
-		ma	0	0
-	m	free_look(Ljava/lang/Object;)V	free_look(Ljava/lang/Object;)V
-		ma	0	0
-	m	free_state(Ljava/lang/Object;)V	free_state(Ljava/lang/Object;)V
 		ma	0	0
 	m	forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I	forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I
 		ma	0	0
@@ -16912,10 +16886,6 @@ c	Lcom/jcraft/jorbis/FuncFloor;	Lcom/jcraft/jorbis/FuncFloor;
 		ma	1	1
 		ma	2	2
 	m	free_info(Ljava/lang/Object;)V	free_info(Ljava/lang/Object;)V
-		ma	0	0
-	m	free_look(Ljava/lang/Object;)V	free_look(Ljava/lang/Object;)V
-		ma	0	0
-	m	free_state(Ljava/lang/Object;)V	free_state(Ljava/lang/Object;)V
 		ma	0	0
 	m	forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I	forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I
 		ma	0	0
@@ -17025,11 +16995,8 @@ c	Lcom/jcraft/jorbis/Info;	Lcom/jcraft/jorbis/Info;
 	f	OV_EBADPACKET;;I	OV_EBADPACKET;;I
 	f	OV_ENOTAUDIO;;I	OV_ENOTAUDIO;;I
 	f	_vorbis;;[B	_vorbis;;[B
-	f	VI_TIMEB;;I	VI_TIMEB;;I
 	f	VI_FLOORB;;I	VI_FLOORB;;I
 	f	VI_RESB;;I	VI_RESB;;I
-	f	VI_MAPB;;I	VI_MAPB;;I
-	f	VI_WINDOWB;;I	VI_WINDOWB;;I
 	f	version;;I	version;;I
 	f	channels;;I	channels;;I
 	f	rate;;I	rate;;I
@@ -17082,13 +17049,10 @@ c	Lcom/jcraft/jorbis/Lookup;	Lcom/jcraft/jorbis/Lookup;
 	m	<clinit>()V	<clinit>()V
 	f	COS_LOOKUP_SZ;;I	COS_LOOKUP_SZ;;I
 	f	COS_LOOKUP;;[F	COS_LOOKUP;;[F
-	f	INVSQ_LOOKUP_SZ;;I	INVSQ_LOOKUP_SZ;;I
 	f	INVSQ_LOOKUP;;[F	INVSQ_LOOKUP;;[F
 	f	INVSQ2EXP_LOOKUP_MIN;;I	INVSQ2EXP_LOOKUP_MIN;;I
-	f	INVSQ2EXP_LOOKUP_MAX;;I	INVSQ2EXP_LOOKUP_MAX;;I
 	f	INVSQ2EXP_LOOKUP;;[F	INVSQ2EXP_LOOKUP;;[F
 	f	FROMdB_LOOKUP_SZ;;I	FROMdB_LOOKUP_SZ;;I
-	f	FROMdB2_LOOKUP_SZ;;I	FROMdB2_LOOKUP_SZ;;I
 	f	FROMdB_SHIFT;;I	FROMdB_SHIFT;;I
 	f	FROMdB2_SHIFT;;I	FROMdB2_SHIFT;;I
 	f	FROMdB2_MASK;;I	FROMdB2_MASK;;I
@@ -17215,14 +17179,6 @@ c	Lcom/jcraft/jorbis/Mdct;	Lcom/jcraft/jorbis/Mdct;
 c	Lcom/jcraft/jorbis/PsyInfo;	Lcom/jcraft/jorbis/PsyInfo;
 	m	<init>()V	<init>()V
 	m	free()V	free()V
-	f	athp;;I	athp;;I
-	f	decayp;;I	decayp;;I
-	f	smoothp;;I	smoothp;;I
-	f	noisefitp;;I	noisefitp;;I
-	f	noisefit_subblock;;I	noisefit_subblock;;I
-	f	noisefit_threshdB;;F	noisefit_threshdB;;F
-	f	ath_att;;F	ath_att;;F
-	f	tonemaskp;;I	tonemaskp;;I
 	f	toneatt_125Hz;;[F	toneatt_125Hz;;[F
 	f	toneatt_250Hz;;[F	toneatt_250Hz;;[F
 	f	toneatt_500Hz;;[F	toneatt_500Hz;;[F
@@ -17230,7 +17186,6 @@ c	Lcom/jcraft/jorbis/PsyInfo;	Lcom/jcraft/jorbis/PsyInfo;
 	f	toneatt_2000Hz;;[F	toneatt_2000Hz;;[F
 	f	toneatt_4000Hz;;[F	toneatt_4000Hz;;[F
 	f	toneatt_8000Hz;;[F	toneatt_8000Hz;;[F
-	f	peakattp;;I	peakattp;;I
 	f	peakatt_125Hz;;[F	peakatt_125Hz;;[F
 	f	peakatt_250Hz;;[F	peakatt_250Hz;;[F
 	f	peakatt_500Hz;;[F	peakatt_500Hz;;[F
@@ -17238,7 +17193,6 @@ c	Lcom/jcraft/jorbis/PsyInfo;	Lcom/jcraft/jorbis/PsyInfo;
 	f	peakatt_2000Hz;;[F	peakatt_2000Hz;;[F
 	f	peakatt_4000Hz;;[F	peakatt_4000Hz;;[F
 	f	peakatt_8000Hz;;[F	peakatt_8000Hz;;[F
-	f	noisemaskp;;I	noisemaskp;;I
 	f	noiseatt_125Hz;;[F	noiseatt_125Hz;;[F
 	f	noiseatt_250Hz;;[F	noiseatt_250Hz;;[F
 	f	noiseatt_500Hz;;[F	noiseatt_500Hz;;[F
@@ -17246,9 +17200,6 @@ c	Lcom/jcraft/jorbis/PsyInfo;	Lcom/jcraft/jorbis/PsyInfo;
 	f	noiseatt_2000Hz;;[F	noiseatt_2000Hz;;[F
 	f	noiseatt_4000Hz;;[F	noiseatt_4000Hz;;[F
 	f	noiseatt_8000Hz;;[F	noiseatt_8000Hz;;[F
-	f	max_curve_dB;;F	max_curve_dB;;F
-	f	attack_coeff;;F	attack_coeff;;F
-	f	decay_coeff;;F	decay_coeff;;F
 c	Lcom/jcraft/jorbis/PsyLook;	Lcom/jcraft/jorbis/PsyLook;
 	m	<init>()V	<init>()V
 	m	init(Lcom/jcraft/jorbis/PsyInfo;II)V	init(Lcom/jcraft/jorbis/PsyInfo;II)V
@@ -17257,9 +17208,7 @@ c	Lcom/jcraft/jorbis/PsyLook;	Lcom/jcraft/jorbis/PsyLook;
 		ma	2	2
 	f	n;;I	n;;I
 	f	vi;;Lcom/jcraft/jorbis/PsyInfo;	vi;;Lcom/jcraft/jorbis/PsyInfo;
-	f	tonecurves;;[[[F	tonecurves;;[[[F
 	f	peakatt;;[[F	peakatt;;[[F
-	f	noisecurves;;[[[F	noisecurves;;[[[F
 	f	ath;;[F	ath;;[F
 	f	octave;;[I	octave;;[I
 c	Lcom/jcraft/jorbis/Residue0$InfoResidue0;	Lcom/jcraft/jorbis/Residue0$InfoResidue0;
@@ -17289,9 +17238,6 @@ c	Lcom/jcraft/jorbis/Residue0$LookResidue0;	Lcom/jcraft/jorbis/Residue0$LookResi
 	f	partbooks;;[[I	partbooks;;[[I
 	f	partvals;;I	partvals;;I
 	f	decodemap;;[[I	decodemap;;[[I
-	f	postbits;;I	postbits;;I
-	f	phrasebits;;I	phrasebits;;I
-	f	frames;;I	frames;;I
 	f	this$0;;Lcom/jcraft/jorbis/Residue0;	this$0;;Lcom/jcraft/jorbis/Residue0;
 c	Lcom/jcraft/jorbis/Residue0;	Lcom/jcraft/jorbis/Residue0;
 	m	<init>()V	<init>()V
@@ -27106,9 +27052,7 @@ c	Lpaulscode/sound/MidiChannel;	Lpaulscode/sound/MidiChannel;
 	f	sourcename;;Ljava/lang/String;	sourcename;;Ljava/lang/String;
 	f	CHANGE_VOLUME;;I	CHANGE_VOLUME;;I
 	f	END_OF_TRACK;;I	END_OF_TRACK;;I
-	f	GET;;Z	GET;;Z
 	f	SET;;Z	SET;;Z
-	f	XXX;;Z	XXX;;Z
 	f	sequencer;;Ljavax/sound/midi/Sequencer;	sequencer;;Ljavax/sound/midi/Sequencer;
 	f	synthesizer;;Ljavax/sound/midi/Synthesizer;	synthesizer;;Ljavax/sound/midi/Synthesizer;
 	f	synthDevice;;Ljavax/sound/midi/MidiDevice;	synthDevice;;Ljavax/sound/midi/MidiDevice;
@@ -27148,9 +27092,7 @@ c	Lpaulscode/sound/SimpleThread;	Lpaulscode/sound/SimpleThread;
 		ma	0	0
 	m	access$000(Lpaulscode/sound/SimpleThread;)V	access$000(Lpaulscode/sound/SimpleThread;)V
 		ma	0	0
-	f	GET;;Z	GET;;Z
 	f	SET;;Z	SET;;Z
-	f	XXX;;Z	XXX;;Z
 	f	alive;;Z	alive;;Z
 	f	kill;;Z	kill;;Z
 c	Lpaulscode/sound/SoundBuffer;	Lpaulscode/sound/SoundBuffer;
@@ -27176,8 +27118,6 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 	m	loadSound(Ljava/net/URL;Ljava/lang/String;)V	loadSound(Ljava/net/URL;Ljava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	unloadSound(Ljava/lang/String;)V	unloadSound(Ljava/lang/String;)V
-		ma	0	0
 	m	queueSound(Ljava/lang/String;Ljava/lang/String;)V	queueSound(Ljava/lang/String;Ljava/lang/String;)V
 		ma	0	0
 		ma	1	1
@@ -27218,16 +27158,6 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	newSource(ZLjava/lang/String;Ljava/lang/String;ZFFFIF)V	newSource(ZLjava/lang/String;Ljava/lang/String;ZFFFIF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-		ma	8	8
 	m	newSource(ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;ZFFFIF)V	newSource(ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;ZFFFIF)V
 		ma	0	0
 		ma	1	1
@@ -27239,16 +27169,6 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 		ma	7	7
 		ma	8	8
 		ma	9	9
-	m	newStreamingSource(ZLjava/lang/String;Ljava/lang/String;ZFFFIF)V	newStreamingSource(ZLjava/lang/String;Ljava/lang/String;ZFFFIF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-		ma	8	8
 	m	newStreamingSource(ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;ZFFFIF)V	newStreamingSource(ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;ZFFFIF)V
 		ma	0	0
 		ma	1	1
@@ -27269,44 +27189,6 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 		ma	5	5
 		ma	6	6
 		ma	7	7
-	m	quickPlay(ZLjava/lang/String;ZFFFIF)Ljava/lang/String;	quickPlay(ZLjava/lang/String;ZFFFIF)Ljava/lang/String;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-	m	quickPlay(ZLjava/net/URL;Ljava/lang/String;ZFFFIF)Ljava/lang/String;	quickPlay(ZLjava/net/URL;Ljava/lang/String;ZFFFIF)Ljava/lang/String;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-		ma	8	8
-	m	quickStream(ZLjava/lang/String;ZFFFIF)Ljava/lang/String;	quickStream(ZLjava/lang/String;ZFFFIF)Ljava/lang/String;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-	m	quickStream(ZLjava/net/URL;Ljava/lang/String;ZFFFIF)Ljava/lang/String;	quickStream(ZLjava/net/URL;Ljava/lang/String;ZFFFIF)Ljava/lang/String;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-		ma	8	8
 	m	setPosition(Ljava/lang/String;FFF)V	setPosition(Ljava/lang/String;FFF)V
 		ma	0	0
 		ma	1	1
@@ -27322,12 +27204,6 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 		ma	1	1
 	m	getPitch(Ljava/lang/String;)F	getPitch(Ljava/lang/String;)F
 		ma	0	0
-	m	setPriority(Ljava/lang/String;Z)V	setPriority(Ljava/lang/String;Z)V
-		ma	0	0
-		ma	1	1
-	m	setLooping(Ljava/lang/String;Z)V	setLooping(Ljava/lang/String;Z)V
-		ma	0	0
-		ma	1	1
 	m	setAttenuation(Ljava/lang/String;I)V	setAttenuation(Ljava/lang/String;I)V
 		ma	0	0
 		ma	1	1
@@ -27339,22 +27215,7 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 		ma	1	1
 	m	play(Ljava/lang/String;)V	play(Ljava/lang/String;)V
 		ma	0	0
-	m	pause(Ljava/lang/String;)V	pause(Ljava/lang/String;)V
-		ma	0	0
 	m	stop(Ljava/lang/String;)V	stop(Ljava/lang/String;)V
-		ma	0	0
-	m	rewind(Ljava/lang/String;)V	rewind(Ljava/lang/String;)V
-		ma	0	0
-	m	flush(Ljava/lang/String;)V	flush(Ljava/lang/String;)V
-		ma	0	0
-	m	cull(Ljava/lang/String;)V	cull(Ljava/lang/String;)V
-		ma	0	0
-	m	activate(Ljava/lang/String;)V	activate(Ljava/lang/String;)V
-		ma	0	0
-	m	setTemporary(Ljava/lang/String;Z)V	setTemporary(Ljava/lang/String;Z)V
-		ma	0	0
-		ma	1	1
-	m	removeSource(Ljava/lang/String;)V	removeSource(Ljava/lang/String;)V
 		ma	0	0
 	m	moveListener(FFF)V	moveListener(FFF)V
 		ma	0	0
@@ -27364,10 +27225,6 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	turnListener(F)V	turnListener(F)V
-		ma	0	0
-	m	setListenerAngle(F)V	setListenerAngle(F)V
-		ma	0	0
 	m	setListenerOrientation(FFFFFF)V	setListenerOrientation(FFFFFF)V
 		ma	0	0
 		ma	1	1
@@ -27375,8 +27232,6 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	m	setMasterVolume(F)V	setMasterVolume(F)V
-		ma	0	0
 	m	getMasterVolume()F	getMasterVolume()F
 	m	getListenerData()Lpaulscode/sound/ListenerData;	getListenerData()Lpaulscode/sound/ListenerData;
 	m	switchLibrary(Ljava/lang/Class;)Z	switchLibrary(Ljava/lang/Class;)Z
@@ -27545,9 +27400,7 @@ c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
 		ma	0	0
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
-	f	GET;;Z	GET;;Z
 	f	SET;;Z	SET;;Z
-	f	XXX;;Z	XXX;;Z
 	f	logger;;Lpaulscode/sound/SoundSystemLogger;	logger;;Lpaulscode/sound/SoundSystemLogger;
 	f	soundLibrary;;Lpaulscode/sound/Library;	soundLibrary;;Lpaulscode/sound/Library;
 	f	commandQueue;;Ljava/util/List;	commandQueue;;Ljava/util/List;
@@ -27632,10 +27485,6 @@ c	Lpaulscode/sound/SoundSystemConfig;	Lpaulscode/sound/SoundSystemConfig;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	THREAD_SYNC;;Ljava/lang/Object;	THREAD_SYNC;;Ljava/lang/Object;
-	f	TYPE_NORMAL;;I	TYPE_NORMAL;;I
-	f	TYPE_STREAMING;;I	TYPE_STREAMING;;I
-	f	ATTENUATION_NONE;;I	ATTENUATION_NONE;;I
-	f	ATTENUATION_ROLLOFF;;I	ATTENUATION_ROLLOFF;;I
 	f	ATTENUATION_LINEAR;;I	ATTENUATION_LINEAR;;I
 	f	EXTENSION_MIDI;;Ljava/lang/String;	EXTENSION_MIDI;;Ljava/lang/String;
 	f	PREFIX_URL;;Ljava/lang/String;	PREFIX_URL;;Ljava/lang/String;
@@ -27817,9 +27666,7 @@ c	Lpaulscode/sound/Source;	Lpaulscode/sound/Source;
 	m	printStackTrace(Ljava/lang/Exception;)V	printStackTrace(Ljava/lang/Exception;)V
 		ma	0	0
 	f	libraryType;;Ljava/lang/Class;	libraryType;;Ljava/lang/Class;
-	f	GET;;Z	GET;;Z
 	f	SET;;Z	SET;;Z
-	f	XXX;;Z	XXX;;Z
 	f	logger;;Lpaulscode/sound/SoundSystemLogger;	logger;;Lpaulscode/sound/SoundSystemLogger;
 	f	rawDataStream;;Z	rawDataStream;;Z
 	f	rawDataFormat;;Ljavax/sound/sampled/AudioFormat;	rawDataFormat;;Ljavax/sound/sampled/AudioFormat;
@@ -27887,14 +27734,8 @@ c	Lpaulscode/sound/Vector3D;	Lpaulscode/sound/Vector3D;
 		ma	1	1
 	m	dot(Lpaulscode/sound/Vector3D;)F	dot(Lpaulscode/sound/Vector3D;)F
 		ma	0	0
-	m	add(Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;	add(Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
-		ma	0	0
-		ma	1	1
 	m	add(Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;	add(Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
 		ma	0	0
-	m	subtract(Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;	subtract(Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
-		ma	0	0
-		ma	1	1
 	m	subtract(Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;	subtract(Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
 		ma	0	0
 	m	normalize()V	normalize()V
@@ -27935,9 +27776,7 @@ c	Lpaulscode/sound/codecs/CodecJOrbis;	Lpaulscode/sound/codecs/CodecJOrbis;
 	m	printStackTrace(Ljava/lang/Exception;)V	printStackTrace(Ljava/lang/Exception;)V
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
-	f	GET;;Z	GET;;Z
 	f	SET;;Z	SET;;Z
-	f	XXX;;Z	XXX;;Z
 	f	url;;Ljava/net/URL;	url;;Ljava/net/URL;
 	f	urlConnection;;Ljava/net/URLConnection;	urlConnection;;Ljava/net/URLConnection;
 	f	inputStream;;Ljava/io/InputStream;	inputStream;;Ljava/io/InputStream;
@@ -27993,9 +27832,7 @@ c	Lpaulscode/sound/codecs/CodecWav;	Lpaulscode/sound/codecs/CodecWav;
 		ma	0	0
 	m	printStackTrace(Ljava/lang/Exception;)V	printStackTrace(Ljava/lang/Exception;)V
 		ma	0	0
-	f	GET;;Z	GET;;Z
 	f	SET;;Z	SET;;Z
-	f	XXX;;Z	XXX;;Z
 	f	endOfStream;;Z	endOfStream;;Z
 	f	initialized;;Z	initialized;;Z
 	f	myAudioInputStream;;Ljavax/sound/sampled/AudioInputStream;	myAudioInputStream;;Ljavax/sound/sampled/AudioInputStream;
@@ -28211,9 +28048,7 @@ c	Lpaulscode/sound/libraries/LibraryLWJGLOpenAL;	Lpaulscode/sound/libraries/Libr
 	m	getDescription()Ljava/lang/String;	getDescription()Ljava/lang/String;
 	m	getClassName()Ljava/lang/String;	getClassName()Ljava/lang/String;
 	m	<clinit>()V	<clinit>()V
-	f	GET;;Z	GET;;Z
 	f	SET;;Z	SET;;Z
-	f	XXX;;Z	XXX;;Z
 	f	listenerPositionAL;;Ljava/nio/FloatBuffer;	listenerPositionAL;;Ljava/nio/FloatBuffer;
 	f	listenerOrientation;;Ljava/nio/FloatBuffer;	listenerOrientation;;Ljava/nio/FloatBuffer;
 	f	listenerVelocity;;Ljava/nio/FloatBuffer;	listenerVelocity;;Ljava/nio/FloatBuffer;
@@ -30724,11 +30559,11 @@ c	Ltx;	Ltx;
 	m	e(II)Lvt;	e(II)Lvt;
 		ma	0	0
 		ma	1	1
-	m	c(IIIII)Z	a(IIIIIZ)Z
+	m	c(IIIII)Z	c(IIIII)Z
 		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
+		ma	1	2
+		ma	2	3
+		ma	3	1
 		ma	4	4
 	m	b(IIII)Z	b(IIII)Z
 		ma	0	0
