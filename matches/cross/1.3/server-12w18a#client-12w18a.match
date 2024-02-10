@@ -1,4 +1,4 @@
-Matches saved 2023-04-21, status: c:806/808 m:6115/6125 f:2883/2885 ma:9417/9427, input files:
+Matches saved 2024-02-11, status: c:806/808 m:6115/6125 f:2883/2885 ma:9417/9427, input files:
 	a:
 		1583105	SHA256	XuxqBZx2x1SOYR5asj/wBc8hNjVUUJ0iyvn22TNmHgw=	minecraft-server-12w18a.jar
 	b:
@@ -10380,7 +10380,7 @@ c	Lnet/minecraft/server/MinecraftServer;	Loe;
 	f	P;;Z	P;;Z
 	f	Q;;Z	Q;;Z
 	f	R;;Ljava/lang/String;	R;;Ljava/lang/String;
-c	Lnf;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
+c	Lnf;	Lto;
 c	Lng;	Ltp;
 	m	<init>()V	<init>()V
 	m	a(Lxj;)V	a(Laib;)V
