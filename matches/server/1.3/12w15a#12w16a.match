@@ -1,4 +1,4 @@
-Matches saved 2022-02-24, status: c:753/754 m:5736/5753 f:2806/2808 ma:9073/9097, input files:
+Matches saved 2024-02-10, status: c:754/754 m:5737/5753 f:2806/2808 ma:9074/9097, input files:
 	a:
 		1416438	SHA256	2XKbzKIet8iRrsGQxlvFVtNhLu/4B/W6JHw3839mZFA=	minecraft-server-12w15a.jar
 	b:
@@ -15158,7 +15158,14 @@ c	Lv;	Loo;
 		ma	3	3
 	m	<clinit>()V	<clinit>()V
 	f	a;;Z	a;;Z
-cu	a	Lva;
+c	Lva;	Lnd;
+	m	a(Lbd;)V	a(Laby;Ljava/lang/String;)V
+		ma	0	0
+	mu	a	a(Ljava/lang/String;Ljava/lang/String;Luz;)V
+	mu	a	a(Luz;)V
+	mu	a	a(Ljava/lang/String;Ljava/lang/String;)V
+	mu	a	a(Ljava/lang/String;I)I
+	mu	a	a([Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 c	Lvb;	Lkt;
 	m	<init>()V	<init>()V
 	m	a(Lgi;Ljava/util/Random;III)Z	a(Lrt;Ljava/util/Random;III)Z
