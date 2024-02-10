@@ -1,4 +1,4 @@
-Matches saved 2022-02-24, status: c:888/889 m:6645/6674 f:3206/3212 ma:10413/10452, input files:
+Matches saved 2024-02-10, status: c:889/889 m:6647/6674 f:3202/3212 ma:10414/10452, input files:
 	a:
 		1767095	SHA256	0grURQ50GswQ8phQRQ17mLFN9yyzeWE3DOEhFdxM8d8=	minecraft-server-12w23b.jar
 	b:
@@ -549,7 +549,7 @@ c	Laaw;	Lvm;
 	m	g()Llz;	g()Lma;
 	mu	a	a(Laaw;Llz;)V
 	mu	a	a(Laaw;)Llz;
-	f	a;;Ltx;	a;;Lpo;
+	fu	a	a;;Ltx;
 c	Laax;	Laay;
 	m	<init>(Ljava/lang/String;Ldb;)V	<init>(Ljava/lang/String;Ldb;)V
 		ma	0	0
@@ -10963,7 +10963,8 @@ c	Lmn;	Lmo;
 		ma	0	0
 	m	a(Ldv;)V	a(Ldw;)V
 		ma	0	0
-	mu	a	a(Ljs;)V
+	m	a(Ljs;)V	a(Ljt;)V
+		ma	0	0
 	m	a(Laca;)V	a(Lacb;)V
 		ma	0	0
 	m	a(Lgk;)V	a(Lgl;)V
@@ -13522,7 +13523,6 @@ c	Lpm;	Lpn;
 	f	g;;I	g;;I
 c	Lpn;	Lpo;
 	m	<init>()V	<init>()V
-	m	<init>(Lun;)V	<init>()V
 	m	n_()V	n_()V
 	m	b(II)V	b(II)V
 		ma	0	0
@@ -14528,27 +14528,22 @@ c	Lrl;	Lrn;
 	m	b()Z	b()Z
 	m	e()V	e()V
 	f	i;;I	i;;I
-c	Lrm;	Ldl;
-	m	<init>(Lrp;Ljava/net/InetAddress;I)V	<init>(Lds;Ljava/net/InetAddress;I)V
-		mau	a	0
+c	Lrm;	Lro;
+	m	<init>(Lrp;Ljava/net/InetAddress;I)V	<init>(Lnet/minecraft/server/MinecraftServer;Ljava/net/InetAddress;I)V
+		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Lvl;)V	a(Lvn;)V
-		ma	0	0
+	mu	a	a(Lvl;)V
+	m	a()V	b()V
 	m	a(Ljava/net/Socket;)V	a(Ljava/net/Socket;)V
 		ma	0	0
-	m	b(Ljava/net/InetAddress;)Z	a(Ljava/net/InetAddress;)Z
-		ma	0	0
+	mu	a	b(Ljava/net/InetAddress;)Z
 	mu	a	a(Lrm;)Ljava/net/ServerSocket;
 	mu	a	b(Lrm;)Ljava/util/HashMap;
 	mu	a	a(Ljava/net/InetAddress;)Z
 	mu	a	c(Lrm;)I
 	mu	a	a(Lrm;Lvl;)V
-	f	c;;Ljava/util/ArrayList;	b;;Ljava/util/List;
-	f	d;;Ljava/util/HashMap;	c;;Ljava/util/HashMap;
-	f	e;;Ljava/net/ServerSocket;	e;;Ljava/net/ServerSocket;
-	fu	a	f;;Ljava/lang/Thread;
-	f	g;;I	d;;I
+	f	f;;Ljava/lang/Thread;	c;;Ldl;
 c	Lrn;	Lrp;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -15328,7 +15323,14 @@ c	Lst;	Lsv;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-cu	a	Lsu;
+c	Lsu;	Ldl;
+	m	<init>(Lrm;Ljava/lang/String;Lrp;)V	<init>(Lds;Ljava/net/InetAddress;I)V
+		mau	a	0
+		mau	a	1
+		mau	a	2
+	m	run()V	run()V
+	fu	a	a;;Lrp;
+	fu	a	b;;Lrm;
 c	Lsv;	Lsw;
 	m	<init>(Lxg;Lhw;III)V	<init>(Lxi;Lhx;III)V
 		ma	0	0
@@ -19842,7 +19844,8 @@ c	Lyj;	Lyl;
 	m	c()I	c()I
 	m	a(La;)V	a(La;)V
 		ma	0	0
-	mu	a	a(Ljs;)V
+	m	a(Ljs;)V	a(Ljt;)V
+		ma	0	0
 	m	a(Lzl;)V	a(Lzn;)V
 		ma	0	0
 	m	a(Labp;)V	a(Labq;)V
