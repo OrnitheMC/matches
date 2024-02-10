@@ -1,4 +1,4 @@
-Matches saved 2023-04-20, status: c:889/899 m:6747/6781 f:3266/3287 ma:10528/10552, input files:
+Matches saved 2024-02-11, status: c:889/899 m:6747/6781 f:3266/3287 ma:10528/10552, input files:
 	a:
 		1798817	SHA256	1kijiVcuJUfWWeptqV2dotbHuaHavLiy27GJ2Bo+o98=	minecraft-server-12w30c.jar
 	b:
@@ -10681,7 +10681,7 @@ c	Lh;	Lh;
 	f	d;;[I	d;;[I
 c	Lha;	Lha;
 	m	<init>()V	<init>()V
-c	Lhb;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
+c	Lhb;	Lhb;
 c	Lhc;	Lhc;
 	m	a()V	a()V
 	m	b()V	b()V
