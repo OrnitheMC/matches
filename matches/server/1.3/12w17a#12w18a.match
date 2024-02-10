@@ -1,4 +1,4 @@
-Matches saved 2022-02-24, status: c:800/809 m:5997/6054 f:2833/2857 ma:9318/9386, input files:
+Matches saved 2024-02-16, status: c:801/809 m:5998/6054 f:2834/2857 ma:9319/9386, input files:
 	a:
 		1478275	SHA256	LRfYG6kZH4WF3eOzSaeJp4F2HW9hmYPNZkO7aJROA8M=	minecraft-server-12w17a.jar
 	b:
@@ -4001,7 +4001,7 @@ c	Lds;	Ldt;
 	m	c()Lrp;	c()Lrr;
 	m	a(Lrp;Ljava/util/List;)V	a(Lrr;Ltp;)V
 		ma	0	0
-		mau	a	1
+		ma	1	1
 	m	a(Lrp;)V	a(Lrr;)V
 		ma	0	0
 	m	a(Ltm;)V	a(Ltp;)V
@@ -4353,7 +4353,7 @@ c	Lej;	Lek;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	a()Lej;	a()Lek;
+	mu	a	a()Lej;
 	m	b()Z	b()Z
 	m	c()J	c()J
 	m	d()I	d()I
@@ -4570,7 +4570,7 @@ c	Leu;	Lev;
 	m	a(Ldn;)V	a(Ldo;Lsi;)V
 		ma	0	0
 	m	a(I)I	a()I
-	mu	a	b(I)I
+	m	b(I)I	o()I
 	mu	a	c(I)Lacu;
 	m	b(Ldn;)V	a(Ldo;)V
 		ma	0	0
@@ -8255,8 +8255,7 @@ c	Lky;	Lkz;
 		ma	0	0
 	m	a(Llf;)V	a(Llg;)V
 		ma	0	0
-	m	a(Lzr;)V	a(Lnz;)V
-		ma	0	0
+	mu	a	a(Lzr;)V
 	m	a(Lgz;)V	a(Lha;)V
 		ma	0	0
 	m	a(Laav;)V	a(Laau;)V
@@ -10149,9 +10148,9 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	m	<init>()V	<init>(Ljava/io/File;)V
 	m	u()Z	B()Z
 	m	a(Lhs;Ljava/lang/String;JLqw;)V	a(Ljava/lang/String;JLqy;)V
-		ma	1	0
-		ma	2	1
-		ma	3	2
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	b(Ljava/lang/String;I)V	b(Ljava/lang/String;I)V
 		ma	0	0
 		ma	1	1
@@ -12717,13 +12716,9 @@ c	Lsc;	Lse;
 	m	b()Lbs;	b()Lbt;
 	m	a(Lej;)V	a(Lek;)V
 		ma	0	0
-	mu	a	c()V
-	mu	a	d()Lps;
 	m	b(II)I	b(II)I
 		ma	0	0
 		ma	1	1
-	mu	a	a(ZLoa;)V
-	mu	a	A()V
 	m	a(III)I	a(III)I
 		ma	0	0
 		ma	1	1
@@ -13041,7 +13036,6 @@ c	Lsc;	Lse;
 	m	h()V	f()V
 	m	B()V	w()V
 	m	i()V	g()V
-	mu	a	C()V
 	m	j()V	h()V
 	m	k()V	i()V
 	m	a(IILwe;)V	a(IILwf;)V
@@ -13166,7 +13160,6 @@ c	Lsc;	Lse;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(DDD)Ltm;
 	m	b(Lkn;D)Ltm;	b(Lko;D)Ltp;
 		ma	0	0
 		ma	1	1
@@ -13180,7 +13173,6 @@ c	Lsc;	Lse;
 	m	m()V	k()V
 	m	a(J)V	a(J)V
 		ma	0	0
-	mu	a	b(J)V
 	m	n()J	l()J
 	m	o()J	m()J
 	m	p()Lps;	n()Lpu;
@@ -13202,8 +13194,6 @@ c	Lsc;	Lse;
 	m	r()Lacr;	p()Lacq;
 	m	s()Lrp;	q()Lrr;
 	m	t()V	r()V
-	mu	a	u()V
-	mu	a	v()Z
 	m	c(F)F	c(F)F
 		ma	0	0
 	m	d(F)F	d(F)F
@@ -13245,7 +13235,6 @@ c	Lsc;	Lse;
 		ma	1	1
 		ma	2	2
 	m	z()Z	v()Z
-	mu	a	a(Lwa;III)Lba;
 	m	b(Ljava/lang/String;III)Lna;	b(Ljava/lang/String;III)Lnb;
 		ma	0	0
 		ma	1	1
@@ -13256,8 +13245,6 @@ c	Lsc;	Lse;
 	f	a;;Z	a;;Z
 	f	b;;Ljava/util/List;	b;;Ljava/util/List;
 	f	G;;Ljava/util/List;	c;;Ljava/util/List;
-	fu	a	H;;Ljava/util/TreeSet;
-	fu	a	I;;Ljava/util/Set;
 	f	c;;Ljava/util/List;	d;;Ljava/util/List;
 	f	J;;Ljava/util/List;	H;;Ljava/util/List;
 	f	K;;Ljava/util/List;	I;;Ljava/util/List;
@@ -13274,7 +13261,6 @@ c	Lsc;	Lse;
 	f	m;;I	n;;I
 	f	n;;I	o;;I
 	f	o;;Z	p;;Z
-	fu	a	M;;J
 	f	p;;I	q;;I
 	f	q;;I	r;;I
 	f	r;;Ljava/util/Random;	s;;Ljava/util/Random;
@@ -13287,7 +13273,6 @@ c	Lsc;	Lse;
 	f	z;;Ltp;	z;;Lts;
 	f	A;;Liw;	A;;Lix;
 	f	O;;Lxe;	B;;Lxf;
-	fu	a	P;;[Lvt;
 	f	Q;;Ljava/util/ArrayList;	K;;Ljava/util/ArrayList;
 	f	R;;Z	L;;Z
 	f	B;;Z	C;;Z
@@ -15534,7 +15519,7 @@ c	Luy;	Lva;
 	f	h;;B	h;;B
 	f	i;;Laat;	i;;Laas;
 	f	j;;Ljava/util/List;	j;;Ljava/util/List;
-c	Luz;	Lot;
+c	Luz;	Lto;
 	m	<init>(ILlr;)V	<init>(ILls;)V
 		ma	0	0
 		ma	1	1
@@ -18939,7 +18924,11 @@ c	Lzw;	Lzv;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;I	d;;I
-cu	a	Lzx;
+c	Lzx;	Lzw;
+	m	<init>(Lyc;Ljava/lang/String;)V	<init>(Lyd;)V
+		ma	0	0
+	m	run()V	run()V
+	f	a;;Lyc;	a;;Lyd;
 c	Lzy;	Lzx;
 	m	<init>()V	<init>()V
 	m	a(JII[BDDD)V	a(JII[BDDD)V
