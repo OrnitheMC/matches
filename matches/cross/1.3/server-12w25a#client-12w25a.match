@@ -1,4 +1,4 @@
-Matches saved 2023-04-20, status: c:882/891 m:6662/6694 f:3224/3244 ma:10450/10473, input files:
+Matches saved 2024-02-11, status: c:881/891 m:6661/6694 f:3224/3244 ma:10450/10473, input files:
 	a:
 		1778352	SHA256	+VDl3jslCOxA8vghr4WsG/nvuNnymNgPtcM/ZRRgYqU=	minecraft-server-12w25a.jar
 	b:
@@ -13218,7 +13218,7 @@ c	Loy;	Lve;
 	f	a;;[B	a;;[B
 	f	b;;I	b;;I
 	f	c;;I	c;;I
-c	Loz;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
+c	Loz;	Lvh;
 c	Lp;	Ls;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/lang/String;Ljava/security/PublicKey;[B)V	<init>(Ljava/lang/String;Ljava/security/PublicKey;[B)V
@@ -15649,8 +15649,7 @@ c	Ltf;	Labi;
 	f	g;;I	g;;I
 	f	h;;Z	h;;Z
 	f	i;;Z	i;;Z
-c	Ltg;	Labj;
-	m	<init>()V	<init>()V
+cu	a	Ltg;
 c	Lth;	Labk;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
