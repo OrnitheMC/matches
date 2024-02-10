@@ -1,4 +1,4 @@
-Matches saved 2022-02-24, status: c:744/744 m:5700/5787 f:2794/2797 ma:9063/9236, input files:
+Matches saved 2024-02-10, status: c:744/744 m:5699/5787 f:2793/2797 ma:9062/9236, input files:
 	a:
 		1408470	SHA256	GShdfRau50D1oFhPDYCklA8nOpf1o+ryUfwcbD8pgtE=	minecraft-server-1.2.5.jar
 	b:
@@ -4154,9 +4154,9 @@ c	Lge;	Lgi;
 		ma	2	2
 		ma	3	3
 	m	k(III)V	k(III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
+		ma	0	1
+		ma	1	2
+		ma	2	0
 	m	b(IIIIII)V	b(IIIIII)V
 		ma	0	0
 		ma	1	1
@@ -4681,6 +4681,7 @@ c	Lgi;	Lgm;
 		ma	0	0
 	m	b(Lph;)V	b(Lpl;)V
 		ma	0	0
+	mu	a	a(Lge;)V
 	m	e_(I)V	e_(I)V
 		ma	0	0
 	m	x()V	x()V
@@ -9942,11 +9943,11 @@ c	Lnb;	Lnf;
 		ma	6	6
 c	Lnc;	Lng;
 	m	<init>(Lks;Lih;Lni;III)V	<init>(Lil;Lnm;III)V
+		ma	0	1
 		ma	1	0
-		ma	2	1
-		ma	3	2
-		ma	4	3
-		ma	5	4
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Lkp;)Z	a(Lkt;)Z
 		ma	0	0
 	m	a()I	a()I
@@ -14196,8 +14197,7 @@ c	Ltv;	Lui;
 		ma	2	2
 	m	b(F)F	b(F)F
 		ma	0	0
-	m	a(Lge;)V	a(Lgi;)V
-		ma	0	0
+	mu	a	a(Lge;)V
 	m	b(DDDFF)V	b(DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -16744,7 +16744,7 @@ c	Lxa;	Lxm;
 		ma	0	0
 	f	a;;Ljava/util/Set;	b;;Ljava/util/Set;
 	f	b;;Llm;	c;;Llq;
-	f	c;;Lnet/minecraft/server/MinecraftServer;	a;;Lgt;
+	fu	a	c;;Lnet/minecraft/server/MinecraftServer;
 	f	d;;I	d;;I
 	f	e;;I	e;;I
 c	Lxb;	Lxo;
