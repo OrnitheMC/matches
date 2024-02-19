@@ -1,4 +1,4 @@
-Matches saved 2024-02-19, status: c:1150/1169 m:8883/9100 f:4694/4837 ma:14654/15003, input files:
+Matches saved 2024-02-19, status: c:1149/1169 m:8868/9100 f:4687/4837 ma:14625/15003, input files:
 	a:
 		4114768	SHA256	4t59LAXi52gXqzaPynyYKbQ+sd5EduRYW655h9DyXzQ=	minecraft-client-12w17a.jar
 	b:
@@ -16898,59 +16898,7 @@ c	Ll;	Ln;
 	f	f;;D	f;;D
 	f	g;;F	g;;F
 	f	h;;I	h;;I
-c	Lla;	Lagb;
-	m	<init>(Lyu;Lvi;Lcd;)V	<init>(Laaw;Lxc;Lcp;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(II)Z	a(II)Z
-		ma	0	0
-		ma	1	1
-	m	d(II)V	d(II)V
-		ma	0	0
-		ma	1	1
-	m	c(II)Laef;	c(II)Lagj;
-		ma	0	0
-		ma	1	1
-	m	b(II)Laef;	b(II)Lagj;
-		ma	0	0
-		ma	1	1
-	m	e(II)Laef;	e(II)Lagj;
-		ma	0	0
-		ma	1	1
-	m	a(Laef;)V	a(Lagj;)V
-		ma	0	0
-	m	b(Laef;)V	b(Lagj;)V
-		ma	0	0
-	m	a(Lcd;II)V	a(Lcp;II)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(ZLtd;)Z	a(ZLut;)Z
-		ma	0	0
-		ma	1	1
-	m	a()Z	a()Z
-	m	b()Z	b()Z
-	m	c()Ljava/lang/String;	c()Ljava/lang/String;
-	m	a(Laea;III)Ljava/util/List;	a(Lage;III)Ljava/util/List;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	a(Lyu;Ljava/lang/String;III)Lru;	a(Laaq;Ljava/lang/String;III)Ltj;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	f	a;;Ljava/util/Set;	b;;Ljava/util/Set;
-	f	b;;Laef;	c;;Lagj;
-	f	c;;Lcd;	d;;Lcp;
-	f	d;;Lvi;	e;;Lxc;
-	f	e;;Lev;	f;;Lfu;
-	f	f;;Ljava/util/List;	g;;Ljava/util/List;
-	f	g;;Lyu;	h;;Laaw;
-	fu	a	h;;I
+cu	a	Lla;
 c	Llb;	Lmm;
 	m	<init>(ILjava/util/Random;Lrl;I)V	<init>(ILjava/util/Random;Lsy;I)V
 		ma	0	0
@@ -21684,6 +21632,7 @@ c	Lpj;	Lqu;
 	f	c;;I	c;;I
 	f	d;;I	d;;I
 	f	e;;I	e;;I
+cu	a	Lpk;
 c	Lpl;	Lqv;
 	m	<init>()V	<init>()V
 	m	a(IIII)V	a(IIII)V
