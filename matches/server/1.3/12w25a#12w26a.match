@@ -4298,6 +4298,7 @@ c	Lahf;	Lahj;
 	f	a;;Lhy;	a;;Lia;
 	f	f;;Lwc;	f;;Lwg;
 	f	g;;I	g;;I
+c	Lahg;	Lahk;
 c	Lai;	Lai;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0

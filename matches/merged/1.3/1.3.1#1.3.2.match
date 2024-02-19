@@ -65,6 +65,7 @@ c	Laa;	Laa;
 	m	b(Lr;I)V	b(Lr;I)V
 		ma	0	0
 		ma	1	1
+c	Laaa;	Laab;
 c	Laab;	Laac;
 c	Laac;	Laad;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V
