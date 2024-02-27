@@ -15970,7 +15970,7 @@ c	Laze;	Laze;
 		ma	5	5
 		ma	6	6
 	m	j_()V	j_()V
-c	Lazf;	Lazg;
+c	Lazf;	Lazf;
 c	Lazg;	Lazh;
 	m	<init>(Lyc;DDDDDDLazq;)V	<init>(Lyc;DDDDDDLazr;)V
 		ma	0	0

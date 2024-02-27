@@ -2711,6 +2711,7 @@ c	Laex;	Lafb;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+c	Laey;	Lafc;
 c	Laez;	Lafd;
 c	Laf;	Laf;
 	m	<init>()V	<init>()V
@@ -18862,6 +18863,7 @@ c	Lbdg;	Lbdk;
 		ma	5	5
 		ma	6	6
 	m	l_()V	l_()V
+c	Lbdh;	Lbdl;
 c	Lbdi;	Lbdm;
 	m	<init>(Lzk;DDD)V	<init>(Lzo;DDD)V
 		ma	0	0

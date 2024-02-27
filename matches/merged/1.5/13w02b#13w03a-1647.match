@@ -2268,6 +2268,7 @@ c	Laea;	Laei;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+c	Laeb;	Laej;
 c	Laec;	Laek;
 c	Laed;	Lael;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V
@@ -17223,6 +17224,7 @@ c	Lbag;	Lbcf;
 		ma	5	5
 		ma	6	6
 	m	l_()V	l_()V
+c	Lbah;	Lbcg;
 c	Lbai;	Lbch;
 	m	<init>(Lyn;DDD)V	<init>(Lyv;DDD)V
 		ma	0	0
