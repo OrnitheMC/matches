@@ -706,6 +706,7 @@ c	Labf;	Labf;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+c	Labg;	Labg;
 c	Labh;	Labh;
 c	Labi;	Labi;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V

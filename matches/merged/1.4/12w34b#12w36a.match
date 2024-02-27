@@ -428,6 +428,7 @@ c	Laar;	Laaw;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+c	Laas;	Laax;
 c	Laat;	Laay;
 c	Laau;	Laaz;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V

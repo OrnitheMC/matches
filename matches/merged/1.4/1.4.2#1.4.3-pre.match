@@ -1334,6 +1334,7 @@ c	Lacr;	Ladj;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+c	Lacs;	Ladk;
 c	Lact;	Ladl;
 c	Lacu;	Ladm;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V

@@ -1340,6 +1340,7 @@ c	Lacr;	Lacr;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+c	Lacs;	Lacs;
 c	Lact;	Lact;
 c	Lacu;	Lacu;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V

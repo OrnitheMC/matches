@@ -500,6 +500,7 @@ c	Laaw;	Laaz;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+c	Laax;	Laba;
 c	Laay;	Labb;
 c	Laaz;	Labc;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V
