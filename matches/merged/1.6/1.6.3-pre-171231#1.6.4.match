@@ -21194,6 +21194,7 @@ c	Lbdu;	Lbdu;
 		ma	5	5
 		ma	6	6
 	m	l_()V	l_()V
+c	Lbdv;	Lbdv;
 c	Lbdw;	Lbdw;
 	m	<init>(Labw;DDD)V	<init>(Labw;DDD)V
 		ma	0	0

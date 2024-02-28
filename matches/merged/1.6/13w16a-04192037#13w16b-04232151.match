@@ -4108,6 +4108,7 @@ c	Lag;	Lag;
 	m	a([Ljava/lang/String;I)Z	a([Ljava/lang/String;I)Z
 		ma	0	0
 		ma	1	1
+c	Laga;	Lagb;
 c	Lagb;	Lagc;
 c	Lagc;	Lagd;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V
@@ -19839,6 +19840,7 @@ c	Lbbp;	Lbbn;
 		ma	5	5
 		ma	6	6
 	m	k_()V	k_()V
+c	Lbbq;	Lbbo;
 c	Lbbr;	Lbbp;
 	m	<init>(Laan;DDD)V	<init>(Laao;DDD)V
 		ma	0	0
