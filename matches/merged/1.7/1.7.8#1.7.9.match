@@ -26717,6 +26717,7 @@ c	Lbmm;	Lbmm;
 		ma	5	5
 		ma	6	6
 	m	h()V	h()V
+c	Lbmn;	Lbmn;
 c	Lbmo;	Lbmo;
 	m	<init>(Laha;DDD)V	<init>(Laha;DDD)V
 		ma	0	0

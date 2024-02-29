@@ -25239,6 +25239,7 @@ c	Lbkb;	Lbka;
 		ma	5	5
 		ma	6	6
 	m	h()V	h()V
+c	Lbkc;	Lbkb;
 c	Lbkd;	Lbkc;
 	m	<init>(Lahb;DDD)V	<init>(Lahb;DDD)V
 		ma	0	0

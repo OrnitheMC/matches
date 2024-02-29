@@ -26652,6 +26652,7 @@ c	Lbmh;	Lbmi;
 		ma	5	5
 		ma	6	6
 	m	h()V	h()V
+c	Lbmi;	Lbmj;
 c	Lbmj;	Lbmk;
 	m	<init>(Lagx;DDD)V	<init>(Lagy;DDD)V
 		ma	0	0

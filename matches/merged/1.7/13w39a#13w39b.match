@@ -23360,6 +23360,7 @@ c	Lbgr;	Lbgt;
 		ma	5	5
 		ma	6	6
 	m	h()V	h()V
+c	Lbgs;	Lbgu;
 c	Lbgt;	Lbgv;
 	m	<init>(Lade;DDD)V	<init>(Ladg;DDD)V
 		ma	0	0
