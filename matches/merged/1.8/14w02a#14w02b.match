@@ -24471,6 +24471,7 @@ c	Lbmi;	Lbmi;
 		ma	5	5
 		ma	6	6
 	m	m_()V	m_()V
+c	Lbmj;	Lbmj;
 c	Lbmk;	Lbmk;
 	m	<init>(Lagv;DDD)V	<init>(Lagv;DDD)V
 		ma	0	0

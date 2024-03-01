@@ -33915,6 +33915,7 @@ c	Lcfn;	Lcfn;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+c	Lcfo;	Lcfo;
 c	Lcfp;	Lcfp;
 	m	<init>(Laqn;DDD)V	<init>(Laqn;DDD)V
 		ma	0	0

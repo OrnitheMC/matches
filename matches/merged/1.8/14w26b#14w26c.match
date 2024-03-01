@@ -31833,6 +31833,7 @@ c	Lbzm;	Lbzn;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+c	Lbzn;	Lbzo;
 c	Lbzo;	Lbzp;
 	m	<init>(Lalx;DDD)V	<init>(Laly;DDD)V
 		ma	0	0

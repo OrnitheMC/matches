@@ -25399,6 +25399,7 @@ c	Lbnx;	Lboy;
 		ma	5	5
 		ma	6	6
 	m	m_()V	l_()V
+c	Lbny;	Lboz;
 c	Lbnz;	Lbpa;
 	m	<init>(Laht;DDD)V	<init>(Lair;DDD)V
 		ma	0	0

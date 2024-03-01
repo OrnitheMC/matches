@@ -24697,6 +24697,7 @@ c	Lbne;	Lbnp;
 		ma	5	5
 		ma	6	6
 	m	m_()V	m_()V
+c	Lbnf;	Lbnq;
 c	Lbng;	Lbnr;
 	m	<init>(Lahc;DDD)V	<init>(Lahn;DDD)V
 		ma	0	0

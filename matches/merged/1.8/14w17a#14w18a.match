@@ -30132,6 +30132,7 @@ c	Lbvm;	Lbvr;
 		ma	5	5
 		ma	6	6
 	m	j()V	j()V
+c	Lbvn;	Lbvs;
 c	Lbvo;	Lbvt;
 	m	<init>(Laky;DDD)V	<init>(Laky;DDD)V
 		ma	0	0

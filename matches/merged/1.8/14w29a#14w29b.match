@@ -32860,6 +32860,7 @@ c	Lcdp;	Lcdq;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+c	Lcdq;	Lcdr;
 c	Lcdr;	Lcds;
 	m	<init>(Lapo;DDD)V	<init>(Lapo;DDD)V
 		ma	0	0
