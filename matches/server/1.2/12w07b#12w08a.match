@@ -1,4 +1,4 @@
-Matches saved 2022-02-24, status: c:729/729 m:5636/5639 f:2735/2739 ma:9052/9059, input files:
+Matches saved 2024-03-14, status: c:729/729 m:5636/5639 f:2734/2739 ma:9052/9059, input files:
 	a:
 		1332660	SHA256	563py0FlsY6sBLohk6iZISvKWAK2RNatO+Ao36nQifw=	minecraft-server-12w07b.jar
 	b:
@@ -460,7 +460,7 @@ c	Laan;	Laav;
 	f	a;;[I	a;;[I
 	f	b;;[I	b;;[I
 c	Laao;	Laaw;
-	m	<init>(Lmv;Ljava/lang/Class;FIZ)V	<init>(Lnc;Ljava/lang/Class;FIZZ)V
+	m	<init>(Lmv;Ljava/lang/Class;FIZ)V	<init>(Lnc;Ljava/lang/Class;FIZ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
@@ -10966,12 +10966,12 @@ c	Lpb;	Lpi;
 	m	<init>(Ljava/lang/String;IJLef;IIBBB)V	<init>(Ljava/lang/String;ILei;IIBBB)V
 		ma	0	0
 		ma	1	1
-		ma	3	2
+		ma	2	2
+		ma	3	4
 		ma	4	3
-		ma	5	4
+		ma	5	6
 		ma	6	5
-		ma	7	6
-		ma	8	7
+		ma	7	7
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -11733,9 +11733,9 @@ c	Lqb;	Lqi;
 	m	<init>(IBJLef;II)V	<init>(IBLei;II)V
 		ma	0	0
 		ma	1	1
-		ma	3	2
-		ma	4	3
-		ma	5	4
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Lue;)V	a(Lum;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -17490,7 +17490,7 @@ c	Lyv;	Lzd;
 	f	a;;I	a;;I
 	f	b;;I	b;;I
 	fu	a	c;;[S
-	f	d;;[B	c;;[B
+	fu	a	d;;[B
 	fu	a	e;;[B
 	f	f;;I	d;;I
 c	Lyw;	Lze;
@@ -17759,7 +17759,7 @@ c	Lzj;	Lzr;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 c	Lzk;	Lzs;
-	m	<init>(Lmv;FZ)V	<init>(Lnc;FZZ)V
+	m	<init>(Lmv;FZ)V	<init>(Lnc;FZ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
