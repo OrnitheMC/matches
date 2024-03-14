@@ -1,4 +1,4 @@
-Matches saved 2022-02-24, status: c:698/698 m:5351/5356 f:2554/2554 ma:8736/8739, input files:
+Matches saved 2024-03-14, status: c:698/698 m:5350/5356 f:2554/2554 ma:8736/8739, input files:
 	a:
 		1270623	SHA256	CuVAJ0EbInRvZN2Bc6fnxPuMxoKOwm78EH4OqQeSqPA=	minecraft-server-12w03a.jar
 	b:
@@ -4517,7 +4517,7 @@ c	Lhi;	Lhm;
 	m	<init>(Lfu;)V	<init>(Lfx;)V
 		ma	0	0
 	m	r_()Z	r()Z
-	m	z()Lmd;	q()V
+	mu	a	z()Lmd;
 	m	c()I	c()I
 	m	b()V	b()V
 	m	g_()Z	g_()Z
@@ -4551,15 +4551,20 @@ c	Lhi;	Lhm;
 		ma	1	1
 	m	b(Lho;)Z	b(Lhs;)Z
 		ma	0	0
+	mu	a	a(Z)V
 	m	a(Ljr;)Z	a(Ljw;)Z
 		ma	0	0
 	m	p()I	p()I
+	mu	a	B()Ljava/lang/String;
+	mu	a	a(Ljava/lang/String;)V
 	m	C()Z	D()Z
 	m	b(Z)V	c(Z)V
 		ma	0	0
 	m	D()Z	E()Z
 	m	c(Z)V	d(Z)V
 		ma	0	0
+	mu	a	E()Z
+	mu	a	d(Z)V
 	m	a(Lbm;)Lbm;	a(Lbm;)Lbm;
 		ma	0	0
 	m	e(Z)V	e(Z)V
