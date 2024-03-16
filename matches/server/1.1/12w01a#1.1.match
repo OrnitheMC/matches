@@ -1,4 +1,4 @@
-Matches saved 2022-02-23, status: c:676/678 m:5179/5198 f:2477/2484 ma:8570/8585, input files:
+Matches saved 2024-03-16, status: c:676/678 m:5183/5198 f:2478/2484 ma:8574/8585, input files:
 	a:
 		1228748	SHA256	p1WIU/CkaS9aTdaO+PtyKFNzgOtg9qUmCG2+fjdLwaE=	minecraft-server-12w01a.jar
 	b:
@@ -454,7 +454,8 @@ c	Lbg;	Lbh;
 	m	b()V	b()V
 	m	h()Llw;	h()Llx;
 	m	c()Ljava/util/ArrayList;	c()I
-	mu	a	a(Lkc;)V
+	m	a(Lkc;)V	a(I)V
+		ma	0	0
 	m	d()V	d()V
 	m	e()V	e()V
 	m	f()Z	f()Z
@@ -569,7 +570,8 @@ c	Lbm;	Lbn;
 	m	e()V	e()V
 	m	b()V	b()V
 	m	c()Ljava/util/ArrayList;	c()I
-	mu	a	a(Lkc;)V
+	m	a(Lkc;)V	a(I)V
+		ma	0	0
 	m	d()V	d()V
 	m	f()Z	f()Z
 	m	g()Z	g()Z
@@ -8606,7 +8608,8 @@ c	Lmc;	Lmd;
 	m	e()V	e()V
 	m	h()Lcb;	h()Lcc;
 	m	c()Ljava/util/ArrayList;	c()I
-	mu	a	a(Lkc;)V
+	m	a(Lkc;)V	a(I)V
+		ma	0	0
 	m	b()V	b()V
 	m	d()V	d()V
 	m	f()Z	f()Z
@@ -15610,9 +15613,10 @@ c	Lwx;	Lxd;
 	m	e()V	e()V
 	m	d()V	d()V
 	m	b()V	b()V
-	mu	a	a(Lkc;)V
+	m	a(Lkc;)V	a(I)V
+		ma	0	0
 	m	c()Ljava/util/ArrayList;	c()I
-	fu	a	a;;Ljava/util/ArrayList;
+	f	a;;Ljava/util/ArrayList;	a;;I
 c	Lwy;	Lxe;
 	m	<init>(IIILlr;Z)V	<init>(IIILls;Z)V
 		ma	0	0
