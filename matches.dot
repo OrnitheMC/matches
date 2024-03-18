@@ -167,22 +167,43 @@ digraph {
   }
   subgraph cluster_beta {
     label="beta";
-    client_b1_0[label="Client b1.0",href="https://skyrising.github.io/mc-versions/version/b1.0.json"];
-    server_b1_0[label="Server b1.0",href="https://skyrising.github.io/mc-versions/version/b1.0.json"];
-    client_b1_0_01[label="Client b1.0_01",href="https://skyrising.github.io/mc-versions/version/b1.0_01.json"];
-    server_b1_0_01[label="Server b1.0_01",href="https://skyrising.github.io/mc-versions/version/b1.0_01.json"];
+    {
+      rank=same;
+      client_b1_0[label="Client b1.0",href="https://skyrising.github.io/mc-versions/version/b1.0.json"];
+      server_b1_0[label="Server b1.0",href="https://skyrising.github.io/mc-versions/version/b1.0.json"];
+    }
+    {
+      rank=same;
+      client_b1_0_01[label="Client b1.0_01",href="https://skyrising.github.io/mc-versions/version/b1.0_01.json"];
+      server_b1_0_01[label="Server b1.0_01",href="https://skyrising.github.io/mc-versions/version/b1.0_01.json"];
+    }
     client_b1_0_2[label="Client b1.0.2",href="https://skyrising.github.io/mc-versions/version/b1.0.2.json"];
-    client_b1_1_1245[label="Client b1.1-1245",href="https://skyrising.github.io/mc-versions/version/b1.1-1245.json"];
-    server_b1_1_1245[label="Server b1.1-1245",href="https://skyrising.github.io/mc-versions/version/b1.1-1245.json"];
+    {
+      rank=same;
+      client_b1_1_1245[label="Client b1.1-1245",href="https://skyrising.github.io/mc-versions/version/b1.1-1245.json"];
+      server_b1_1_1245[label="Server b1.1-1245",href="https://skyrising.github.io/mc-versions/version/b1.1-1245.json"];
+    }
     client_b1_1_1255[label="Client b1.1-1255",href="https://skyrising.github.io/mc-versions/version/b1.1-1255.json"];
-    client_b1_1_01[label="Client b1.1_01",href="https://skyrising.github.io/mc-versions/version/b1.1_01.json"];
-    server_b1_1_01[label="Server b1.1_01",href="https://skyrising.github.io/mc-versions/version/b1.1_01.json"];
-    client_b1_1_02[label="Client b1.1_02",href="https://skyrising.github.io/mc-versions/version/b1.1_02.json"];
-    server_b1_1_02[label="Server b1.1_02",href="https://skyrising.github.io/mc-versions/version/b1.1_02.json"];
-    client_b1_2[label="Client b1.2",href="https://skyrising.github.io/mc-versions/version/b1.2.json"];
-    server_b1_2[label="Server b1.2",href="https://skyrising.github.io/mc-versions/version/b1.2.json"];
-    client_b1_2_01[label="Client b1.2_01",href="https://skyrising.github.io/mc-versions/version/b1.2_01.json"];
-    server_b1_2_01[label="Server b1.2_01",href="https://skyrising.github.io/mc-versions/version/b1.2_01.json"];
+    {
+      rank=same;
+      client_b1_1_01[label="Client b1.1_01",href="https://skyrising.github.io/mc-versions/version/b1.1_01.json"];
+      server_b1_1_01[label="Server b1.1_01",href="https://skyrising.github.io/mc-versions/version/b1.1_01.json"];
+    }
+    {
+      rank=same;
+      client_b1_1_02[label="Client b1.1_02",href="https://skyrising.github.io/mc-versions/version/b1.1_02.json"];
+      server_b1_1_02[label="Server b1.1_02",href="https://skyrising.github.io/mc-versions/version/b1.1_02.json"];
+    }
+    {
+      rank=same;
+      client_b1_2[label="Client b1.2",href="https://skyrising.github.io/mc-versions/version/b1.2.json"];
+      server_b1_2[label="Server b1.2",href="https://skyrising.github.io/mc-versions/version/b1.2.json"];
+    }
+    {
+      rank=same;
+      client_b1_2_01[label="Client b1.2_01",href="https://skyrising.github.io/mc-versions/version/b1.2_01.json"];
+      server_b1_2_01[label="Server b1.2_01",href="https://skyrising.github.io/mc-versions/version/b1.2_01.json"];
+    }
     client_b1_2_02_launcher[label="Client b1.2_02-launcher",href="https://skyrising.github.io/mc-versions/version/b1.2_02-launcher.json"];
     client_b1_2_02[label="Client b1.2_02",href="https://skyrising.github.io/mc-versions/version/b1.2_02.json"];
     server_b1_3_1647[label="Server b1.3-1647",href="https://skyrising.github.io/mc-versions/version/b1.3-1647.json"];
@@ -190,164 +211,365 @@ digraph {
     server_b1_3_1731[label="Server b1.3-1731",href="https://skyrising.github.io/mc-versions/version/b1.3-1731.json"];
     client_b1_3_1750[label="Client b1.3-1750",href="https://skyrising.github.io/mc-versions/version/b1.3-1750.json"];
     client_b1_3_01[label="Client b1.3_01",href="https://skyrising.github.io/mc-versions/version/b1.3_01.json"];
-    client_b1_4_1507[label="Client b1.4-1507",href="https://skyrising.github.io/mc-versions/version/b1.4-1507.json"];
-    server_b1_4_1507[label="Server b1.4-1507",href="https://skyrising.github.io/mc-versions/version/b1.4-1507.json"];
+    {
+      rank=same;
+      client_b1_4_1507[label="Client b1.4-1507",href="https://skyrising.github.io/mc-versions/version/b1.4-1507.json"];
+      server_b1_4_1507[label="Server b1.4-1507",href="https://skyrising.github.io/mc-versions/version/b1.4-1507.json"];
+    }
     client_b1_4_1634[label="Client b1.4-1634",href="https://skyrising.github.io/mc-versions/version/b1.4-1634.json"];
-    client_b1_4_01[label="Client b1.4_01",href="https://skyrising.github.io/mc-versions/version/b1.4_01.json"];
-    server_b1_4_01[label="Server b1.4_01",href="https://skyrising.github.io/mc-versions/version/b1.4_01.json"];
-    client_b1_5[label="Client b1.5",href="https://skyrising.github.io/mc-versions/version/b1.5.json"];
-    server_b1_5[label="Server b1.5",href="https://skyrising.github.io/mc-versions/version/b1.5.json"];
-    client_b1_5_01[label="Client b1.5_01",href="https://skyrising.github.io/mc-versions/version/b1.5_01.json"];
-    server_b1_5_01[label="Server b1.5_01",href="https://skyrising.github.io/mc-versions/version/b1.5_01.json"];
+    {
+      rank=same;
+      client_b1_4_01[label="Client b1.4_01",href="https://skyrising.github.io/mc-versions/version/b1.4_01.json"];
+      server_b1_4_01[label="Server b1.4_01",href="https://skyrising.github.io/mc-versions/version/b1.4_01.json"];
+    }
+    {
+      rank=same;
+      client_b1_5[label="Client b1.5",href="https://skyrising.github.io/mc-versions/version/b1.5.json"];
+      server_b1_5[label="Server b1.5",href="https://skyrising.github.io/mc-versions/version/b1.5.json"];
+    }
+    {
+      rank=same;
+      client_b1_5_01[label="Client b1.5_01",href="https://skyrising.github.io/mc-versions/version/b1.5_01.json"];
+      server_b1_5_01[label="Server b1.5_01",href="https://skyrising.github.io/mc-versions/version/b1.5_01.json"];
+    }
     server_b1_5_02[label="Server b1.5_02",href="https://skyrising.github.io/mc-versions/version/b1.5_02.json"];
     server_b1_6_pre_trailer[label="Server b1.6-pre-trailer",href="https://skyrising.github.io/mc-versions/version/b1.6-pre-trailer.json"];
-    client_b1_6_tb3[label="Client b1.6-tb3",href="https://skyrising.github.io/mc-versions/version/b1.6-tb3.json"];
-    server_b1_6_tb3[label="Server b1.6-tb3",href="https://skyrising.github.io/mc-versions/version/b1.6-tb3.json"];
-    client_b1_6[label="Client b1.6",href="https://skyrising.github.io/mc-versions/version/b1.6.json"];
-    server_b1_6[label="Server b1.6",href="https://skyrising.github.io/mc-versions/version/b1.6.json"];
-    client_b1_6_1[label="Client b1.6.1",href="https://skyrising.github.io/mc-versions/version/b1.6.1.json"];
-    server_b1_6_1[label="Server b1.6.1",href="https://skyrising.github.io/mc-versions/version/b1.6.1.json"];
-    client_b1_6_2[label="Client b1.6.2",href="https://skyrising.github.io/mc-versions/version/b1.6.2.json"];
-    server_b1_6_2[label="Server b1.6.2",href="https://skyrising.github.io/mc-versions/version/b1.6.2.json"];
-    client_b1_6_3[label="Client b1.6.3",href="https://skyrising.github.io/mc-versions/version/b1.6.3.json"];
-    server_b1_6_3[label="Server b1.6.3",href="https://skyrising.github.io/mc-versions/version/b1.6.3.json"];
-    client_b1_6_4[label="Client b1.6.4",href="https://skyrising.github.io/mc-versions/version/b1.6.4.json"];
-    server_b1_6_4[label="Server b1.6.4",href="https://skyrising.github.io/mc-versions/version/b1.6.4.json"];
-    client_b1_6_5[label="Client b1.6.5",href="https://skyrising.github.io/mc-versions/version/b1.6.5.json"];
-    server_b1_6_5[label="Server b1.6.5",href="https://skyrising.github.io/mc-versions/version/b1.6.5.json"];
-    client_b1_6_6[label="Client b1.6.6",href="https://skyrising.github.io/mc-versions/version/b1.6.6.json"];
-    server_b1_6_6[label="Server b1.6.6",href="https://skyrising.github.io/mc-versions/version/b1.6.6.json"];
-    client_b1_7[label="Client b1.7",href="https://skyrising.github.io/mc-versions/version/b1.7.json"];
-    server_b1_7[label="Server b1.7",href="https://skyrising.github.io/mc-versions/version/b1.7.json"];
-    client_b1_7_01[label="Client b1.7_01",href="https://skyrising.github.io/mc-versions/version/b1.7_01.json"];
-    server_b1_7_01[label="Server b1.7_01",href="https://skyrising.github.io/mc-versions/version/b1.7_01.json"];
-    client_b1_7_2[label="Client b1.7.2",href="https://skyrising.github.io/mc-versions/version/b1.7.2.json"];
-    server_b1_7_2[label="Server b1.7.2",href="https://skyrising.github.io/mc-versions/version/b1.7.2.json"];
-    client_b1_7_3[label="Client b1.7.3",href="https://skyrising.github.io/mc-versions/version/b1.7.3.json"];
-    server_b1_7_3[label="Server b1.7.3",href="https://skyrising.github.io/mc-versions/version/b1.7.3.json"];
+    {
+      rank=same;
+      client_b1_6_tb3[label="Client b1.6-tb3",href="https://skyrising.github.io/mc-versions/version/b1.6-tb3.json"];
+      server_b1_6_tb3[label="Server b1.6-tb3",href="https://skyrising.github.io/mc-versions/version/b1.6-tb3.json"];
+    }
+    {
+      rank=same;
+      client_b1_6[label="Client b1.6",href="https://skyrising.github.io/mc-versions/version/b1.6.json"];
+      server_b1_6[label="Server b1.6",href="https://skyrising.github.io/mc-versions/version/b1.6.json"];
+    }
+    {
+      rank=same;
+      client_b1_6_1[label="Client b1.6.1",href="https://skyrising.github.io/mc-versions/version/b1.6.1.json"];
+      server_b1_6_1[label="Server b1.6.1",href="https://skyrising.github.io/mc-versions/version/b1.6.1.json"];
+    }
+    {
+      rank=same;
+      client_b1_6_2[label="Client b1.6.2",href="https://skyrising.github.io/mc-versions/version/b1.6.2.json"];
+      server_b1_6_2[label="Server b1.6.2",href="https://skyrising.github.io/mc-versions/version/b1.6.2.json"];
+    }
+    {
+      rank=same;
+      client_b1_6_3[label="Client b1.6.3",href="https://skyrising.github.io/mc-versions/version/b1.6.3.json"];
+      server_b1_6_3[label="Server b1.6.3",href="https://skyrising.github.io/mc-versions/version/b1.6.3.json"];
+    }
+    {
+      rank=same;
+      client_b1_6_4[label="Client b1.6.4",href="https://skyrising.github.io/mc-versions/version/b1.6.4.json"];
+      server_b1_6_4[label="Server b1.6.4",href="https://skyrising.github.io/mc-versions/version/b1.6.4.json"];
+    }
+    {
+      rank=same;
+      client_b1_6_5[label="Client b1.6.5",href="https://skyrising.github.io/mc-versions/version/b1.6.5.json"];
+      server_b1_6_5[label="Server b1.6.5",href="https://skyrising.github.io/mc-versions/version/b1.6.5.json"];
+    }
+    {
+      rank=same;
+      client_b1_6_6[label="Client b1.6.6",href="https://skyrising.github.io/mc-versions/version/b1.6.6.json"];
+      server_b1_6_6[label="Server b1.6.6",href="https://skyrising.github.io/mc-versions/version/b1.6.6.json"];
+    }
+    {
+      rank=same;
+      client_b1_7[label="Client b1.7",href="https://skyrising.github.io/mc-versions/version/b1.7.json"];
+      server_b1_7[label="Server b1.7",href="https://skyrising.github.io/mc-versions/version/b1.7.json"];
+    }
+    {
+      rank=same;
+      client_b1_7_01[label="Client b1.7_01",href="https://skyrising.github.io/mc-versions/version/b1.7_01.json"];
+      server_b1_7_01[label="Server b1.7_01",href="https://skyrising.github.io/mc-versions/version/b1.7_01.json"];
+    }
+    {
+      rank=same;
+      client_b1_7_2[label="Client b1.7.2",href="https://skyrising.github.io/mc-versions/version/b1.7.2.json"];
+      server_b1_7_2[label="Server b1.7.2",href="https://skyrising.github.io/mc-versions/version/b1.7.2.json"];
+    }
+    {
+      rank=same;
+      client_b1_7_3[label="Client b1.7.3",href="https://skyrising.github.io/mc-versions/version/b1.7.3.json"];
+      server_b1_7_3[label="Server b1.7.3",href="https://skyrising.github.io/mc-versions/version/b1.7.3.json"];
+    }
     client_b1_8_pre1_201109081459[label="Client b1.8-pre1-201109081459",href="https://skyrising.github.io/mc-versions/version/b1.8-pre1-201109081459.json"];
-    client_b1_8_pre1_201109091357[label="Client b1.8-pre1-201109091357",href="https://skyrising.github.io/mc-versions/version/b1.8-pre1-201109091357.json"];
-    server_b1_8_pre1_201109091357[label="Server b1.8-pre1-201109091357",href="https://skyrising.github.io/mc-versions/version/b1.8-pre1-201109091357.json"];
-    client_b1_8_pre2[label="Client b1.8-pre2",href="https://skyrising.github.io/mc-versions/version/b1.8-pre2.json"];
-    server_b1_8_pre2[label="Server b1.8-pre2",href="https://skyrising.github.io/mc-versions/version/b1.8-pre2.json"];
-    client_b1_8[label="Client b1.8",href="https://skyrising.github.io/mc-versions/version/b1.8.json"];
-    server_b1_8[label="Server b1.8",href="https://skyrising.github.io/mc-versions/version/b1.8.json"];
-    client_b1_8_1[label="Client b1.8.1",href="https://skyrising.github.io/mc-versions/version/b1.8.1.json"];
-    server_b1_8_1[label="Server b1.8.1",href="https://skyrising.github.io/mc-versions/version/b1.8.1.json"];
-    client_b1_9_pre1[label="Client b1.9-pre1",href="https://skyrising.github.io/mc-versions/version/b1.9-pre1.json"];
-    server_b1_9_pre1[label="Server b1.9-pre1",href="https://skyrising.github.io/mc-versions/version/b1.9-pre1.json"];
-    client_b1_9_pre2[label="Client b1.9-pre2",href="https://skyrising.github.io/mc-versions/version/b1.9-pre2.json"];
-    server_b1_9_pre2[label="Server b1.9-pre2",href="https://skyrising.github.io/mc-versions/version/b1.9-pre2.json"];
-    client_b1_9_pre3_201110061350[label="Client b1.9-pre3-201110061350",href="https://skyrising.github.io/mc-versions/version/b1.9-pre3-201110061350.json"];
-    server_b1_9_pre3_201110061350[label="Server b1.9-pre3-201110061350",href="https://skyrising.github.io/mc-versions/version/b1.9-pre3-201110061350.json"];
+    {
+      rank=same;
+      client_b1_8_pre1_201109091357[label="Client b1.8-pre1-201109091357",href="https://skyrising.github.io/mc-versions/version/b1.8-pre1-201109091357.json"];
+      server_b1_8_pre1_201109091357[label="Server b1.8-pre1-201109091357",href="https://skyrising.github.io/mc-versions/version/b1.8-pre1-201109091357.json"];
+    }
+    {
+      rank=same;
+      client_b1_8_pre2[label="Client b1.8-pre2",href="https://skyrising.github.io/mc-versions/version/b1.8-pre2.json"];
+      server_b1_8_pre2[label="Server b1.8-pre2",href="https://skyrising.github.io/mc-versions/version/b1.8-pre2.json"];
+    }
+    {
+      rank=same;
+      client_b1_8[label="Client b1.8",href="https://skyrising.github.io/mc-versions/version/b1.8.json"];
+      server_b1_8[label="Server b1.8",href="https://skyrising.github.io/mc-versions/version/b1.8.json"];
+    }
+    {
+      rank=same;
+      client_b1_8_1[label="Client b1.8.1",href="https://skyrising.github.io/mc-versions/version/b1.8.1.json"];
+      server_b1_8_1[label="Server b1.8.1",href="https://skyrising.github.io/mc-versions/version/b1.8.1.json"];
+    }
+    {
+      rank=same;
+      client_b1_9_pre1[label="Client b1.9-pre1",href="https://skyrising.github.io/mc-versions/version/b1.9-pre1.json"];
+      server_b1_9_pre1[label="Server b1.9-pre1",href="https://skyrising.github.io/mc-versions/version/b1.9-pre1.json"];
+    }
+    {
+      rank=same;
+      client_b1_9_pre2[label="Client b1.9-pre2",href="https://skyrising.github.io/mc-versions/version/b1.9-pre2.json"];
+      server_b1_9_pre2[label="Server b1.9-pre2",href="https://skyrising.github.io/mc-versions/version/b1.9-pre2.json"];
+    }
+    {
+      rank=same;
+      client_b1_9_pre3_201110061350[label="Client b1.9-pre3-201110061350",href="https://skyrising.github.io/mc-versions/version/b1.9-pre3-201110061350.json"];
+      server_b1_9_pre3_201110061350[label="Server b1.9-pre3-201110061350",href="https://skyrising.github.io/mc-versions/version/b1.9-pre3-201110061350.json"];
+    }
     client_b1_9_pre3_201110061402[label="Client b1.9-pre3-201110061402",href="https://skyrising.github.io/mc-versions/version/b1.9-pre3-201110061402.json"];
     server_b1_9_pre4_201110131425[label="Server b1.9-pre4-201110131425",href="https://skyrising.github.io/mc-versions/version/b1.9-pre4-201110131425.json"];
-    client_b1_9_pre4_201110131434[label="Client b1.9-pre4-201110131434",href="https://skyrising.github.io/mc-versions/version/b1.9-pre4-201110131434.json"];
-    server_b1_9_pre4_201110131434[label="Server b1.9-pre4-201110131434",href="https://skyrising.github.io/mc-versions/version/b1.9-pre4-201110131434.json"];
+    {
+      rank=same;
+      client_b1_9_pre4_201110131434[label="Client b1.9-pre4-201110131434",href="https://skyrising.github.io/mc-versions/version/b1.9-pre4-201110131434.json"];
+      server_b1_9_pre4_201110131434[label="Server b1.9-pre4-201110131434",href="https://skyrising.github.io/mc-versions/version/b1.9-pre4-201110131434.json"];
+    }
     server_b1_9_pre4_201110131440[label="Server b1.9-pre4-201110131440",href="https://skyrising.github.io/mc-versions/version/b1.9-pre4-201110131440.json"];
-    client_b1_9_pre5[label="Client b1.9-pre5",href="https://skyrising.github.io/mc-versions/version/b1.9-pre5.json"];
-    server_b1_9_pre5[label="Server b1.9-pre5",href="https://skyrising.github.io/mc-versions/version/b1.9-pre5.json"];
-    client_b1_9_pre6[label="Client b1.9-pre6",href="https://skyrising.github.io/mc-versions/version/b1.9-pre6.json"];
-    server_b1_9_pre6[label="Server b1.9-pre6",href="https://skyrising.github.io/mc-versions/version/b1.9-pre6.json"];
+    {
+      rank=same;
+      client_b1_9_pre5[label="Client b1.9-pre5",href="https://skyrising.github.io/mc-versions/version/b1.9-pre5.json"];
+      server_b1_9_pre5[label="Server b1.9-pre5",href="https://skyrising.github.io/mc-versions/version/b1.9-pre5.json"];
+    }
+    {
+      rank=same;
+      client_b1_9_pre6[label="Client b1.9-pre6",href="https://skyrising.github.io/mc-versions/version/b1.9-pre6.json"];
+      server_b1_9_pre6[label="Server b1.9-pre6",href="https://skyrising.github.io/mc-versions/version/b1.9-pre6.json"];
+    }
   }
   subgraph cluster_1_0 {
     label="1.0";
     client_1_0_0_rc1[label="Client 1.0.0-rc1",href="https://skyrising.github.io/mc-versions/version/1.0.0-rc1.json"];
     client_1_0_0_rc2_1[label="Client 1.0.0-rc2-1",href="https://skyrising.github.io/mc-versions/version/1.0.0-rc2-1.json"];
     client_1_0_0_rc2_2[label="Client 1.0.0-rc2-2",href="https://skyrising.github.io/mc-versions/version/1.0.0-rc2-2.json"];
-    client_1_0_0_rc2_3[label="Client 1.0.0-rc2-3",href="https://skyrising.github.io/mc-versions/version/1.0.0-rc2-3.json"];
-    server_1_0_0_rc2_3[label="Server 1.0.0-rc2-3",href="https://skyrising.github.io/mc-versions/version/1.0.0-rc2-3.json"];
-    client_1_0_0[label="Client 1.0.0",href="https://skyrising.github.io/mc-versions/version/1.0.0.json"];
-    server_1_0_0[label="Server 1.0.0",href="https://skyrising.github.io/mc-versions/version/1.0.0.json"];
+    {
+      rank=same;
+      client_1_0_0_rc2_3[label="Client 1.0.0-rc2-3",href="https://skyrising.github.io/mc-versions/version/1.0.0-rc2-3.json"];
+      server_1_0_0_rc2_3[label="Server 1.0.0-rc2-3",href="https://skyrising.github.io/mc-versions/version/1.0.0-rc2-3.json"];
+    }
+    {
+      rank=same;
+      client_1_0_0[label="Client 1.0.0",href="https://skyrising.github.io/mc-versions/version/1.0.0.json"];
+      server_1_0_0[label="Server 1.0.0",href="https://skyrising.github.io/mc-versions/version/1.0.0.json"];
+    }
     server_1_0_1[label="Server 1.0.1",href="https://skyrising.github.io/mc-versions/version/1.0.1.json"];
   }
   subgraph cluster_1_1 {
     label="1.1";
-    client_11w47a[label="Client 11w47a",href="https://skyrising.github.io/mc-versions/version/11w47a.json"];
-    server_11w47a[label="Server 11w47a",href="https://skyrising.github.io/mc-versions/version/11w47a.json"];
-    client_11w48a[label="Client 11w48a",href="https://skyrising.github.io/mc-versions/version/11w48a.json"];
-    server_11w48a[label="Server 11w48a",href="https://skyrising.github.io/mc-versions/version/11w48a.json"];
-    client_11w49a[label="Client 11w49a",href="https://skyrising.github.io/mc-versions/version/11w49a.json"];
-    server_11w49a[label="Server 11w49a",href="https://skyrising.github.io/mc-versions/version/11w49a.json"];
-    client_11w50a[label="Client 11w50a",href="https://skyrising.github.io/mc-versions/version/11w50a.json"];
-    server_11w50a[label="Server 11w50a",href="https://skyrising.github.io/mc-versions/version/11w50a.json"];
-    client_12w01a[label="Client 12w01a",href="https://skyrising.github.io/mc-versions/version/12w01a.json"];
-    server_12w01a[label="Server 12w01a",href="https://skyrising.github.io/mc-versions/version/12w01a.json"];
-    client_1_1[label="Client 1.1",href="https://skyrising.github.io/mc-versions/version/1.1.json"];
-    server_1_1[label="Server 1.1",href="https://skyrising.github.io/mc-versions/version/1.1.json"];
+    {
+      rank=same;
+      client_11w47a[label="Client 11w47a",href="https://skyrising.github.io/mc-versions/version/11w47a.json"];
+      server_11w47a[label="Server 11w47a",href="https://skyrising.github.io/mc-versions/version/11w47a.json"];
+    }
+    {
+      rank=same;
+      client_11w48a[label="Client 11w48a",href="https://skyrising.github.io/mc-versions/version/11w48a.json"];
+      server_11w48a[label="Server 11w48a",href="https://skyrising.github.io/mc-versions/version/11w48a.json"];
+    }
+    {
+      rank=same;
+      client_11w49a[label="Client 11w49a",href="https://skyrising.github.io/mc-versions/version/11w49a.json"];
+      server_11w49a[label="Server 11w49a",href="https://skyrising.github.io/mc-versions/version/11w49a.json"];
+    }
+    {
+      rank=same;
+      client_11w50a[label="Client 11w50a",href="https://skyrising.github.io/mc-versions/version/11w50a.json"];
+      server_11w50a[label="Server 11w50a",href="https://skyrising.github.io/mc-versions/version/11w50a.json"];
+    }
+    {
+      rank=same;
+      client_12w01a[label="Client 12w01a",href="https://skyrising.github.io/mc-versions/version/12w01a.json"];
+      server_12w01a[label="Server 12w01a",href="https://skyrising.github.io/mc-versions/version/12w01a.json"];
+    }
+    {
+      rank=same;
+      client_1_1[label="Client 1.1",href="https://skyrising.github.io/mc-versions/version/1.1.json"];
+      server_1_1[label="Server 1.1",href="https://skyrising.github.io/mc-versions/version/1.1.json"];
+    }
   }
   subgraph cluster_1_2 {
     label="1.2";
-    client_12w03a[label="Client 12w03a",href="https://skyrising.github.io/mc-versions/version/12w03a.json"];
-    server_12w03a[label="Server 12w03a",href="https://skyrising.github.io/mc-versions/version/12w03a.json"];
-    client_12w04a[label="Client 12w04a",href="https://skyrising.github.io/mc-versions/version/12w04a.json"];
-    server_12w04a[label="Server 12w04a",href="https://skyrising.github.io/mc-versions/version/12w04a.json"];
+    {
+      rank=same;
+      client_12w03a[label="Client 12w03a",href="https://skyrising.github.io/mc-versions/version/12w03a.json"];
+      server_12w03a[label="Server 12w03a",href="https://skyrising.github.io/mc-versions/version/12w03a.json"];
+    }
+    {
+      rank=same;
+      client_12w04a[label="Client 12w04a",href="https://skyrising.github.io/mc-versions/version/12w04a.json"];
+      server_12w04a[label="Server 12w04a",href="https://skyrising.github.io/mc-versions/version/12w04a.json"];
+    }
     client_12w05a_1354[label="Client 12w05a-1354",href="https://skyrising.github.io/mc-versions/version/12w05a-1354.json"];
-    client_12w05a_1442[label="Client 12w05a-1442",href="https://skyrising.github.io/mc-versions/version/12w05a-1442.json"];
-    server_12w05a_1442[label="Server 12w05a-1442",href="https://skyrising.github.io/mc-versions/version/12w05a-1442.json"];
-    client_12w05b[label="Client 12w05b",href="https://skyrising.github.io/mc-versions/version/12w05b.json"];
-    server_12w05b[label="Server 12w05b",href="https://skyrising.github.io/mc-versions/version/12w05b.json"];
-    client_12w06a[label="Client 12w06a",href="https://skyrising.github.io/mc-versions/version/12w06a.json"];
-    server_12w06a[label="Server 12w06a",href="https://skyrising.github.io/mc-versions/version/12w06a.json"];
-    client_12w07a[label="Client 12w07a",href="https://skyrising.github.io/mc-versions/version/12w07a.json"];
-    server_12w07a[label="Server 12w07a",href="https://skyrising.github.io/mc-versions/version/12w07a.json"];
-    client_12w07b[label="Client 12w07b",href="https://skyrising.github.io/mc-versions/version/12w07b.json"];
-    server_12w07b[label="Server 12w07b",href="https://skyrising.github.io/mc-versions/version/12w07b.json"];
-    client_12w08a[label="Client 12w08a",href="https://skyrising.github.io/mc-versions/version/12w08a.json"];
-    server_12w08a[label="Server 12w08a",href="https://skyrising.github.io/mc-versions/version/12w08a.json"];
-    client_1_2[label="Client 1.2",href="https://skyrising.github.io/mc-versions/version/1.2.json"];
-    server_1_2[label="Server 1.2",href="https://skyrising.github.io/mc-versions/version/1.2.json"];
-    client_1_2_1[label="Client 1.2.1",href="https://skyrising.github.io/mc-versions/version/1.2.1.json"];
-    server_1_2_1[label="Server 1.2.1",href="https://skyrising.github.io/mc-versions/version/1.2.1.json"];
-    client_1_2_2[label="Client 1.2.2",href="https://skyrising.github.io/mc-versions/version/1.2.2.json"];
-    server_1_2_2[label="Server 1.2.2",href="https://skyrising.github.io/mc-versions/version/1.2.2.json"];
-    client_1_2_3[label="Client 1.2.3",href="https://skyrising.github.io/mc-versions/version/1.2.3.json"];
-    server_1_2_3[label="Server 1.2.3",href="https://skyrising.github.io/mc-versions/version/1.2.3.json"];
-    client_1_2_4[label="Client 1.2.4",href="https://skyrising.github.io/mc-versions/version/1.2.4.json"];
-    server_1_2_4[label="Server 1.2.4",href="https://skyrising.github.io/mc-versions/version/1.2.4.json"];
-    client_1_2_5[label="Client 1.2.5",href="https://skyrising.github.io/mc-versions/version/1.2.5.json"];
-    server_1_2_5[label="Server 1.2.5",href="https://skyrising.github.io/mc-versions/version/1.2.5.json"];
+    {
+      rank=same;
+      client_12w05a_1442[label="Client 12w05a-1442",href="https://skyrising.github.io/mc-versions/version/12w05a-1442.json"];
+      server_12w05a_1442[label="Server 12w05a-1442",href="https://skyrising.github.io/mc-versions/version/12w05a-1442.json"];
+    }
+    {
+      rank=same;
+      client_12w05b[label="Client 12w05b",href="https://skyrising.github.io/mc-versions/version/12w05b.json"];
+      server_12w05b[label="Server 12w05b",href="https://skyrising.github.io/mc-versions/version/12w05b.json"];
+    }
+    {
+      rank=same;
+      client_12w06a[label="Client 12w06a",href="https://skyrising.github.io/mc-versions/version/12w06a.json"];
+      server_12w06a[label="Server 12w06a",href="https://skyrising.github.io/mc-versions/version/12w06a.json"];
+    }
+    {
+      rank=same;
+      client_12w07a[label="Client 12w07a",href="https://skyrising.github.io/mc-versions/version/12w07a.json"];
+      server_12w07a[label="Server 12w07a",href="https://skyrising.github.io/mc-versions/version/12w07a.json"];
+    }
+    {
+      rank=same;
+      client_12w07b[label="Client 12w07b",href="https://skyrising.github.io/mc-versions/version/12w07b.json"];
+      server_12w07b[label="Server 12w07b",href="https://skyrising.github.io/mc-versions/version/12w07b.json"];
+    }
+    {
+      rank=same;
+      client_12w08a[label="Client 12w08a",href="https://skyrising.github.io/mc-versions/version/12w08a.json"];
+      server_12w08a[label="Server 12w08a",href="https://skyrising.github.io/mc-versions/version/12w08a.json"];
+    }
+    {
+      rank=same;
+      client_1_2[label="Client 1.2",href="https://skyrising.github.io/mc-versions/version/1.2.json"];
+      server_1_2[label="Server 1.2",href="https://skyrising.github.io/mc-versions/version/1.2.json"];
+    }
+    {
+      rank=same;
+      client_1_2_1[label="Client 1.2.1",href="https://skyrising.github.io/mc-versions/version/1.2.1.json"];
+      server_1_2_1[label="Server 1.2.1",href="https://skyrising.github.io/mc-versions/version/1.2.1.json"];
+    }
+    {
+      rank=same;
+      client_1_2_2[label="Client 1.2.2",href="https://skyrising.github.io/mc-versions/version/1.2.2.json"];
+      server_1_2_2[label="Server 1.2.2",href="https://skyrising.github.io/mc-versions/version/1.2.2.json"];
+    }
+    {
+      rank=same;
+      client_1_2_3[label="Client 1.2.3",href="https://skyrising.github.io/mc-versions/version/1.2.3.json"];
+      server_1_2_3[label="Server 1.2.3",href="https://skyrising.github.io/mc-versions/version/1.2.3.json"];
+    }
+    {
+      rank=same;
+      client_1_2_4[label="Client 1.2.4",href="https://skyrising.github.io/mc-versions/version/1.2.4.json"];
+      server_1_2_4[label="Server 1.2.4",href="https://skyrising.github.io/mc-versions/version/1.2.4.json"];
+    }
+    {
+      rank=same;
+      client_1_2_5[label="Client 1.2.5",href="https://skyrising.github.io/mc-versions/version/1.2.5.json"];
+      server_1_2_5[label="Server 1.2.5",href="https://skyrising.github.io/mc-versions/version/1.2.5.json"];
+    }
   }
   subgraph cluster_1_3 {
     label="1.3";
-    client_12w15a[label="Client 12w15a",href="https://skyrising.github.io/mc-versions/version/12w15a.json"];
-    server_12w15a[label="Server 12w15a",href="https://skyrising.github.io/mc-versions/version/12w15a.json"];
-    client_12w16a[label="Client 12w16a",href="https://skyrising.github.io/mc-versions/version/12w16a.json"];
-    server_12w16a[label="Server 12w16a",href="https://skyrising.github.io/mc-versions/version/12w16a.json"];
-    client_12w17a[label="Client 12w17a",href="https://skyrising.github.io/mc-versions/version/12w17a.json"];
-    server_12w17a[label="Server 12w17a",href="https://skyrising.github.io/mc-versions/version/12w17a.json"];
-    client_12w18a[label="Client 12w18a",href="https://skyrising.github.io/mc-versions/version/12w18a.json"];
-    server_12w18a[label="Server 12w18a",href="https://skyrising.github.io/mc-versions/version/12w18a.json"];
-    client_12w19a[label="Client 12w19a",href="https://skyrising.github.io/mc-versions/version/12w19a.json"];
-    server_12w19a[label="Server 12w19a",href="https://skyrising.github.io/mc-versions/version/12w19a.json"];
-    client_12w21a[label="Client 12w21a",href="https://skyrising.github.io/mc-versions/version/12w21a.json"];
-    server_12w21a[label="Server 12w21a",href="https://skyrising.github.io/mc-versions/version/12w21a.json"];
-    client_12w21b[label="Client 12w21b",href="https://skyrising.github.io/mc-versions/version/12w21b.json"];
-    server_12w21b[label="Server 12w21b",href="https://skyrising.github.io/mc-versions/version/12w21b.json"];
-    client_12w22a[label="Client 12w22a",href="https://skyrising.github.io/mc-versions/version/12w22a.json"];
-    server_12w22a[label="Server 12w22a",href="https://skyrising.github.io/mc-versions/version/12w22a.json"];
-    client_12w23a[label="Client 12w23a",href="https://skyrising.github.io/mc-versions/version/12w23a.json"];
-    server_12w23a[label="Server 12w23a",href="https://skyrising.github.io/mc-versions/version/12w23a.json"];
-    client_12w23b[label="Client 12w23b",href="https://skyrising.github.io/mc-versions/version/12w23b.json"];
-    server_12w23b[label="Server 12w23b",href="https://skyrising.github.io/mc-versions/version/12w23b.json"];
-    client_12w24a[label="Client 12w24a",href="https://skyrising.github.io/mc-versions/version/12w24a.json"];
-    server_12w24a[label="Server 12w24a",href="https://skyrising.github.io/mc-versions/version/12w24a.json"];
-    client_12w25a[label="Client 12w25a",href="https://skyrising.github.io/mc-versions/version/12w25a.json"];
-    server_12w25a[label="Server 12w25a",href="https://skyrising.github.io/mc-versions/version/12w25a.json"];
-    client_12w26a[label="Client 12w26a",href="https://skyrising.github.io/mc-versions/version/12w26a.json"];
-    server_12w26a[label="Server 12w26a",href="https://skyrising.github.io/mc-versions/version/12w26a.json"];
-    client_12w27a[label="Client 12w27a",href="https://skyrising.github.io/mc-versions/version/12w27a.json"];
-    server_12w27a[label="Server 12w27a",href="https://skyrising.github.io/mc-versions/version/12w27a.json"];
-    client_12w30a[label="Client 12w30a",href="https://skyrising.github.io/mc-versions/version/12w30a.json"];
-    server_12w30a[label="Server 12w30a",href="https://skyrising.github.io/mc-versions/version/12w30a.json"];
-    client_12w30b[label="Client 12w30b",href="https://skyrising.github.io/mc-versions/version/12w30b.json"];
-    server_12w30b[label="Server 12w30b",href="https://skyrising.github.io/mc-versions/version/12w30b.json"];
-    client_12w30c[label="Client 12w30c",href="https://skyrising.github.io/mc-versions/version/12w30c.json"];
-    server_12w30c[label="Server 12w30c",href="https://skyrising.github.io/mc-versions/version/12w30c.json"];
-    client_12w30d[label="Client 12w30d",href="https://skyrising.github.io/mc-versions/version/12w30d.json"];
-    server_12w30d[label="Server 12w30d",href="https://skyrising.github.io/mc-versions/version/12w30d.json"];
-    client_12w30e[label="Client 12w30e",href="https://skyrising.github.io/mc-versions/version/12w30e.json"];
-    server_12w30e[label="Server 12w30e",href="https://skyrising.github.io/mc-versions/version/12w30e.json"];
+    {
+      rank=same;
+      client_12w15a[label="Client 12w15a",href="https://skyrising.github.io/mc-versions/version/12w15a.json"];
+      server_12w15a[label="Server 12w15a",href="https://skyrising.github.io/mc-versions/version/12w15a.json"];
+    }
+    {
+      rank=same;
+      client_12w16a[label="Client 12w16a",href="https://skyrising.github.io/mc-versions/version/12w16a.json"];
+      server_12w16a[label="Server 12w16a",href="https://skyrising.github.io/mc-versions/version/12w16a.json"];
+    }
+    {
+      rank=same;
+      client_12w17a[label="Client 12w17a",href="https://skyrising.github.io/mc-versions/version/12w17a.json"];
+      server_12w17a[label="Server 12w17a",href="https://skyrising.github.io/mc-versions/version/12w17a.json"];
+    }
+    {
+      rank=same;
+      client_12w18a[label="Client 12w18a",href="https://skyrising.github.io/mc-versions/version/12w18a.json"];
+      server_12w18a[label="Server 12w18a",href="https://skyrising.github.io/mc-versions/version/12w18a.json"];
+    }
+    {
+      rank=same;
+      client_12w19a[label="Client 12w19a",href="https://skyrising.github.io/mc-versions/version/12w19a.json"];
+      server_12w19a[label="Server 12w19a",href="https://skyrising.github.io/mc-versions/version/12w19a.json"];
+    }
+    {
+      rank=same;
+      client_12w21a[label="Client 12w21a",href="https://skyrising.github.io/mc-versions/version/12w21a.json"];
+      server_12w21a[label="Server 12w21a",href="https://skyrising.github.io/mc-versions/version/12w21a.json"];
+    }
+    {
+      rank=same;
+      client_12w21b[label="Client 12w21b",href="https://skyrising.github.io/mc-versions/version/12w21b.json"];
+      server_12w21b[label="Server 12w21b",href="https://skyrising.github.io/mc-versions/version/12w21b.json"];
+    }
+    {
+      rank=same;
+      client_12w22a[label="Client 12w22a",href="https://skyrising.github.io/mc-versions/version/12w22a.json"];
+      server_12w22a[label="Server 12w22a",href="https://skyrising.github.io/mc-versions/version/12w22a.json"];
+    }
+    {
+      rank=same;
+      client_12w23a[label="Client 12w23a",href="https://skyrising.github.io/mc-versions/version/12w23a.json"];
+      server_12w23a[label="Server 12w23a",href="https://skyrising.github.io/mc-versions/version/12w23a.json"];
+    }
+    {
+      rank=same;
+      client_12w23b[label="Client 12w23b",href="https://skyrising.github.io/mc-versions/version/12w23b.json"];
+      server_12w23b[label="Server 12w23b",href="https://skyrising.github.io/mc-versions/version/12w23b.json"];
+    }
+    {
+      rank=same;
+      client_12w24a[label="Client 12w24a",href="https://skyrising.github.io/mc-versions/version/12w24a.json"];
+      server_12w24a[label="Server 12w24a",href="https://skyrising.github.io/mc-versions/version/12w24a.json"];
+    }
+    {
+      rank=same;
+      client_12w25a[label="Client 12w25a",href="https://skyrising.github.io/mc-versions/version/12w25a.json"];
+      server_12w25a[label="Server 12w25a",href="https://skyrising.github.io/mc-versions/version/12w25a.json"];
+    }
+    {
+      rank=same;
+      client_12w26a[label="Client 12w26a",href="https://skyrising.github.io/mc-versions/version/12w26a.json"];
+      server_12w26a[label="Server 12w26a",href="https://skyrising.github.io/mc-versions/version/12w26a.json"];
+    }
+    {
+      rank=same;
+      client_12w27a[label="Client 12w27a",href="https://skyrising.github.io/mc-versions/version/12w27a.json"];
+      server_12w27a[label="Server 12w27a",href="https://skyrising.github.io/mc-versions/version/12w27a.json"];
+    }
+    {
+      rank=same;
+      client_12w30a[label="Client 12w30a",href="https://skyrising.github.io/mc-versions/version/12w30a.json"];
+      server_12w30a[label="Server 12w30a",href="https://skyrising.github.io/mc-versions/version/12w30a.json"];
+    }
+    {
+      rank=same;
+      client_12w30b[label="Client 12w30b",href="https://skyrising.github.io/mc-versions/version/12w30b.json"];
+      server_12w30b[label="Server 12w30b",href="https://skyrising.github.io/mc-versions/version/12w30b.json"];
+    }
+    {
+      rank=same;
+      client_12w30c[label="Client 12w30c",href="https://skyrising.github.io/mc-versions/version/12w30c.json"];
+      server_12w30c[label="Server 12w30c",href="https://skyrising.github.io/mc-versions/version/12w30c.json"];
+    }
+    {
+      rank=same;
+      client_12w30d[label="Client 12w30d",href="https://skyrising.github.io/mc-versions/version/12w30d.json"];
+      server_12w30d[label="Server 12w30d",href="https://skyrising.github.io/mc-versions/version/12w30d.json"];
+    }
+    {
+      rank=same;
+      client_12w30e[label="Client 12w30e",href="https://skyrising.github.io/mc-versions/version/12w30e.json"];
+      server_12w30e[label="Server 12w30e",href="https://skyrising.github.io/mc-versions/version/12w30e.json"];
+    }
     merged_1_3_pre_07261249[label="1.3-pre-07261249",href="https://skyrising.github.io/mc-versions/version/1.3-pre-07261249.json"];
     merged_1_3_1[label="1.3.1",href="https://skyrising.github.io/mc-versions/version/1.3.1.json"];
     merged_1_3_2[label="1.3.2",href="https://skyrising.github.io/mc-versions/version/1.3.2.json"];
