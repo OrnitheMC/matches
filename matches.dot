@@ -1303,7 +1303,7 @@ digraph {
   client_rd_132211_launcher -> client_rd_132328_launcher[label="94.43%",href="client/pre-classic/rd-132211-launcher%23rd-132328-launcher.match"];
   client_rd_132328_launcher -> client_rd_160052_launcher[label="97.22%",href="client/pre-classic/rd-132328-launcher%23rd-160052-launcher.match"];
   client_rd_160052_launcher -> client_rd_161348_launcher[label="99.84%",href="client/pre-classic/rd-160052-launcher%23rd-161348-launcher.match"];
-  server_1_0_0 -> client_1_0_0[label="91.25%",color="#8888ff",href="cross/1.0/server-1.0.0%23client-1.0.0.match"];
+  server_1_0_0 -> client_1_0_0[label="90.85%",color="#8888ff",href="cross/1.0/server-1.0.0%23client-1.0.0.match"];
   server_1_1 -> client_1_1[label="91.39%",color="#8888ff",href="cross/1.1/server-1.1%23client-1.1.match"];
   server_11w47a -> client_11w47a[label="91.12%",color="#8888ff",href="cross/1.1/server-11w47a%23client-11w47a.match"];
   server_11w48a -> client_11w48a[label="91.15%",color="#8888ff",href="cross/1.1/server-11w48a%23client-11w48a.match"];
