@@ -1,8 +1,8 @@
-Matches saved 2022-02-11, status: c:658/658 m:4927/4927 f:2400/2400 ma:8276/8276, input files:
+Matches saved 2024-03-23, status: c:658/658 m:4927/4927 f:2400/2400 ma:8276/8276, input files:
 	a:
-		731318	5ObOHKOF3OcrRS0YvHZF7pUAgdnSWfYA+MA+iTjQTd4=	minecraft-server-b1.9-pre4-201110131434.jar
+		731318	SHA256	5ObOHKOF3OcrRS0YvHZF7pUAgdnSWfYA+MA+iTjQTd4=	minecraft-server-b1.9-pre4-201110131434.jar
 	b:
-		731348	eoehNkVc4MlYe1v3Ns22ZgwifwtJ276kJBIxv3yev6Q=	minecraft-server-b1.9-pre4-201110131440.jar
+		731348	SHA256	eoehNkVc4MlYe1v3Ns22ZgwifwtJ276kJBIxv3yev6Q=	minecraft-server-b1.9-pre4-201110131440.jar
 	cp:
 	cp a:
 	cp b:
