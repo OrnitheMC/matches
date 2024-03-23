@@ -1,4 +1,4 @@
-Matches saved 2022-02-23, status: c:599/599 m:4445/4452 f:2216/2221 ma:7663/7668, input files:
+Matches saved 2024-03-23, status: c:598/599 m:4444/4452 f:2216/2221 ma:7664/7668, input files:
 	a:
 		673938	SHA256	/9G+rJVX/Jl8KtmHFgVABvcxbtddTryq8e1RLYITPJ0=	minecraft-server-b1.9-pre2.jar
 	b:
@@ -5779,7 +5779,7 @@ c	Lim;	Liy;
 	m	a()V	a()V
 	m	c()Z	c()Z
 	m	a(Lps;Ljava/util/List;Ljava/util/Random;IIIII)Lgg;	a(Ljava/lang/Class;Ljava/util/List;Ljava/util/Random;IIIII)Lgn;
-		mau	a	0
+		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
@@ -7605,10 +7605,7 @@ c	Lko;	Llc;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	b()Lhl;	b()Lhu;
 	f	a;;J	a;;J
-c	Lkp;	Lcc;
-	m	<init>()V	<init>()V
-	fu	a	a;;I
-	fu	a	b;;I
+cu	a	Lkp;
 c	Lkq;	Lld;
 	m	<init>()V	<init>()V
 	m	<init>(I)V	<init>(I)V
