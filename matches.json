@@ -1411,6 +1411,26 @@
       "file": "matches/cross/beta/server-b1.3-1731#client-b1.3_01.match"
     },
     {
+      "a": "server-b1.8",
+      "b": "client-b1.8",
+      "file": "matches/cross/beta/server-b1.8#client-b1.8.match"
+    },
+    {
+      "a": "server-b1.8-pre1-201109091357",
+      "b": "client-b1.8-pre1-201109091357",
+      "file": "matches/cross/beta/server-b1.8-pre1-201109091357#client-b1.8-pre1-201109091357.match"
+    },
+    {
+      "a": "server-b1.8-pre2",
+      "b": "client-b1.8-pre2",
+      "file": "matches/cross/beta/server-b1.8-pre2#client-b1.8-pre2.match"
+    },
+    {
+      "a": "server-b1.8.1",
+      "b": "client-b1.8.1",
+      "file": "matches/cross/beta/server-b1.8.1#client-b1.8.1.match"
+    },
+    {
       "a": "server-b1.9-pre1",
       "b": "client-b1.9-pre1",
       "file": "matches/cross/beta/server-b1.9-pre1#client-b1.9-pre1.match"
@@ -5863,6 +5883,30 @@
       "version": "b1.3-1731",
       "era": "beta"
     },
+    "server-b1.8": {
+      "id": "server_b1_8",
+      "type": "server",
+      "version": "b1.8",
+      "era": "beta"
+    },
+    "server-b1.8-pre1-201109091357": {
+      "id": "server_b1_8_pre1_201109091357",
+      "type": "server",
+      "version": "b1.8-pre1-201109091357",
+      "era": "beta"
+    },
+    "server-b1.8-pre2": {
+      "id": "server_b1_8_pre2",
+      "type": "server",
+      "version": "b1.8-pre2",
+      "era": "beta"
+    },
+    "server-b1.8.1": {
+      "id": "server_b1_8_1",
+      "type": "server",
+      "version": "b1.8.1",
+      "era": "beta"
+    },
     "server-b1.9-pre1": {
       "id": "server_b1_9_pre1",
       "type": "server",
@@ -8789,30 +8833,6 @@
       "id": "server_b1_7_2",
       "type": "server",
       "version": "b1.7.2",
-      "era": "beta"
-    },
-    "server-b1.8-pre1-201109091357": {
-      "id": "server_b1_8_pre1_201109091357",
-      "type": "server",
-      "version": "b1.8-pre1-201109091357",
-      "era": "beta"
-    },
-    "server-b1.8.1": {
-      "id": "server_b1_8_1",
-      "type": "server",
-      "version": "b1.8.1",
-      "era": "beta"
-    },
-    "server-b1.8": {
-      "id": "server_b1_8",
-      "type": "server",
-      "version": "b1.8",
-      "era": "beta"
-    },
-    "server-b1.8-pre2": {
-      "id": "server_b1_8_pre2",
-      "type": "server",
-      "version": "b1.8-pre2",
       "era": "beta"
     },
     "server-b1.9-pre4-201110131425": {
