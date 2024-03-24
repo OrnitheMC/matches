@@ -7855,7 +7855,7 @@ c	Lnb;	Labf;
 	f	c;;I	c;;I
 	f	d;;I	d;;I
 	f	e;;I	e;;I
-c	Lnc;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
+cu	a	Lnc;
 c	Lnd;	Labg;
 	m	<init>(IZI)V	<init>(IZI)V
 		ma	0	0

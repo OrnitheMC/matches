@@ -37,7 +37,7 @@ c	Laa;	Laa;
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
 		ma	0	0
 	m	a()I	a()I
-c	Lab;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
+cu	a	Lab;
 c	Lac;	Ly;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0

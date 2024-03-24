@@ -766,7 +766,7 @@ c	Lai;	Lab;
 	f	c;;Ljava/util/List;	c;;Ljava/util/List;
 	f	d;;Ljava/util/List;	d;;Ljava/util/List;
 	f	e;;Ljava/util/List;	e;;Ljava/util/List;
-c	Laj;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
+cu	a	Laj;
 c	Lak;	Lae;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V

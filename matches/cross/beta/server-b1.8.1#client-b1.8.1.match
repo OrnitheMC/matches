@@ -31,7 +31,7 @@ c	La;	La;
 	f	a;;I	a;;I
 	f	b;;I	b;;I
 	f	c;;I	c;;I
-c	Laa;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
+cu	a	Laa;
 c	Lab;	Lx;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
