@@ -1,8 +1,8 @@
-Matches saved 2022-02-11, status: c:432/432 m:3272/3272 f:1712/1712 ma:5223/5224, input files:
+Matches saved 2024-03-25, status: c:432/432 m:3272/3272 f:1712/1712 ma:5223/5224, input files:
 	a:
-		485882	jyuAsdwIH4FhrhjeBI0FoTYaXV2SM/MEaqKNgIrzMkk=	minecraft-server-b1.6-pre-trailer.jar
+		485882	SHA256	jyuAsdwIH4FhrhjeBI0FoTYaXV2SM/MEaqKNgIrzMkk=	minecraft-server-b1.6-pre-trailer.jar
 	b:
-		489816	6fABhvlwC4HRiQe0MeENB3OZ+Sjnp17cxDwUCK011ro=	minecraft-server-b1.6-tb3.jar
+		489816	SHA256	6fABhvlwC4HRiQe0MeENB3OZ+Sjnp17cxDwUCK011ro=	minecraft-server-b1.6-tb3.jar
 	cp:
 	cp a:
 	cp b:
@@ -2347,7 +2347,6 @@ c	Ldp;	Ldr;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-		mau	a	4
 	m	a(Ldg;IIIIF)V	a(Ldh;IIIIF)V
 		ma	0	0
 		ma	1	1
@@ -7706,7 +7705,7 @@ c	Llj;	Lln;
 	f	b;;B	b;;B
 c	Llk;	Llo;
 	m	<init>()V	<init>()V
-	m	<init>(Lli;I)V	<init>(Llm;I)V
+	m	<init>(Lli;I)V	<init>(Llm;II)V
 		ma	0	0
 		ma	1	1
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
