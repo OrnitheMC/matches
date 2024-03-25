@@ -1411,6 +1411,46 @@
       "file": "matches/cross/beta/server-b1.3-1731#client-b1.3_01.match"
     },
     {
+      "a": "server-b1.6",
+      "b": "client-b1.6",
+      "file": "matches/cross/beta/server-b1.6#client-b1.6.match"
+    },
+    {
+      "a": "server-b1.6-tb3",
+      "b": "client-b1.6-tb3",
+      "file": "matches/cross/beta/server-b1.6-tb3#client-b1.6-tb3.match"
+    },
+    {
+      "a": "server-b1.6.1",
+      "b": "client-b1.6.1",
+      "file": "matches/cross/beta/server-b1.6.1#client-b1.6.1.match"
+    },
+    {
+      "a": "server-b1.6.2",
+      "b": "client-b1.6.2",
+      "file": "matches/cross/beta/server-b1.6.2#client-b1.6.2.match"
+    },
+    {
+      "a": "server-b1.6.3",
+      "b": "client-b1.6.3",
+      "file": "matches/cross/beta/server-b1.6.3#client-b1.6.3.match"
+    },
+    {
+      "a": "server-b1.6.4",
+      "b": "client-b1.6.4",
+      "file": "matches/cross/beta/server-b1.6.4#client-b1.6.4.match"
+    },
+    {
+      "a": "server-b1.6.5",
+      "b": "client-b1.6.5",
+      "file": "matches/cross/beta/server-b1.6.5#client-b1.6.5.match"
+    },
+    {
+      "a": "server-b1.6.6",
+      "b": "client-b1.6.6",
+      "file": "matches/cross/beta/server-b1.6.6#client-b1.6.6.match"
+    },
+    {
       "a": "server-b1.7",
       "b": "client-b1.7",
       "file": "matches/cross/beta/server-b1.7#client-b1.7.match"
@@ -5903,6 +5943,54 @@
       "version": "b1.3-1731",
       "era": "beta"
     },
+    "server-b1.6": {
+      "id": "server_b1_6",
+      "type": "server",
+      "version": "b1.6",
+      "era": "beta"
+    },
+    "server-b1.6-tb3": {
+      "id": "server_b1_6_tb3",
+      "type": "server",
+      "version": "b1.6-tb3",
+      "era": "beta"
+    },
+    "server-b1.6.1": {
+      "id": "server_b1_6_1",
+      "type": "server",
+      "version": "b1.6.1",
+      "era": "beta"
+    },
+    "server-b1.6.2": {
+      "id": "server_b1_6_2",
+      "type": "server",
+      "version": "b1.6.2",
+      "era": "beta"
+    },
+    "server-b1.6.3": {
+      "id": "server_b1_6_3",
+      "type": "server",
+      "version": "b1.6.3",
+      "era": "beta"
+    },
+    "server-b1.6.4": {
+      "id": "server_b1_6_4",
+      "type": "server",
+      "version": "b1.6.4",
+      "era": "beta"
+    },
+    "server-b1.6.5": {
+      "id": "server_b1_6_5",
+      "type": "server",
+      "version": "b1.6.5",
+      "era": "beta"
+    },
+    "server-b1.6.6": {
+      "id": "server_b1_6_6",
+      "type": "server",
+      "version": "b1.6.6",
+      "era": "beta"
+    },
     "server-b1.7": {
       "id": "server_b1_7",
       "type": "server",
@@ -8805,54 +8893,6 @@
       "id": "server_b1_6_pre_trailer",
       "type": "server",
       "version": "b1.6-pre-trailer",
-      "era": "beta"
-    },
-    "server-b1.6.1": {
-      "id": "server_b1_6_1",
-      "type": "server",
-      "version": "b1.6.1",
-      "era": "beta"
-    },
-    "server-b1.6": {
-      "id": "server_b1_6",
-      "type": "server",
-      "version": "b1.6",
-      "era": "beta"
-    },
-    "server-b1.6-tb3": {
-      "id": "server_b1_6_tb3",
-      "type": "server",
-      "version": "b1.6-tb3",
-      "era": "beta"
-    },
-    "server-b1.6.2": {
-      "id": "server_b1_6_2",
-      "type": "server",
-      "version": "b1.6.2",
-      "era": "beta"
-    },
-    "server-b1.6.3": {
-      "id": "server_b1_6_3",
-      "type": "server",
-      "version": "b1.6.3",
-      "era": "beta"
-    },
-    "server-b1.6.4": {
-      "id": "server_b1_6_4",
-      "type": "server",
-      "version": "b1.6.4",
-      "era": "beta"
-    },
-    "server-b1.6.5": {
-      "id": "server_b1_6_5",
-      "type": "server",
-      "version": "b1.6.5",
-      "era": "beta"
-    },
-    "server-b1.6.6": {
-      "id": "server_b1_6_6",
-      "type": "server",
-      "version": "b1.6.6",
       "era": "beta"
     },
     "server-b1.9-pre4-201110131425": {
