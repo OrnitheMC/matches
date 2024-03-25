@@ -1,4 +1,4 @@
-Matches saved 2022-02-23, status: c:437/444 m:3372/3417 f:1709/1751 ma:5426/5549, input files:
+Matches saved 2024-03-25, status: c:439/444 m:3380/3417 f:1711/1751 ma:5444/5549, input files:
 	a:
 		503100	SHA256	AzoSfkolpgsDjxU2nIkwWj1TdSJCoc/xGulklU55uk0=	minecraft-server-b1.7.3.jar
 	b:
@@ -218,7 +218,7 @@ c	Lap;	Laz;
 c	Laq;	Lbb;
 	m	<init>(Ljava/lang/Class;I)V	<init>(Ljava/lang/Class;III)V
 		ma	0	0
-		ma	1	2
+		mau	a	1
 	f	a;;Ljava/lang/Class;	a;;Ljava/lang/Class;
 	fu	a	b;;I
 c	Lar;	Lbc;
@@ -716,7 +716,14 @@ c	Lbn;	Lcb;
 		ma	0	0
 	m	j()I	k()I
 	m	p()Z	p()Z
-cu	a	Lbo;
+c	Lbo;	Lcc;
+	m	<init>(I)V	<init>(I)V
+		ma	0	0
+	m	b()Z	i_()Z
+	m	b(Lfy;Ldj;Lem;)Lgt;	c(Lhn;Leh;Lfq;)Lin;
+		ma	0	0
+		ma	1	1
+		ma	2	2
 c	Lbp;	Lcd;
 	m	<init>()V	<init>()V
 	m	a(Ldj;II)Loa;	a(Leh;II)Lrv;
@@ -1208,7 +1215,7 @@ c	Lct;	Ldq;
 		ma	0	0
 	m	<init>(JLjava/lang/String;)V	<init>(Lfw;Ljava/lang/String;)V
 		mau	a	0
-		ma	1	1
+		mau	a	1
 	m	<init>(Lct;)V	<init>(Ldq;)V
 		ma	0	0
 	m	a()Liq;	a()Lkv;
@@ -1884,8 +1891,15 @@ c	Ldj;	Leh;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	f()Z
-	mu	a	a(Lco;IIIIII)V
+	m	f()Z	v()Z
+	m	a(Lco;IIIIII)V	a(Ldk;IIIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
 	mu	a	a(Lco;IIIIIIZ)V
 	m	g()V	f()V
 	m	a(ZZ)V	a(ZZ)V
@@ -2252,7 +2266,7 @@ c	Ldp;	Len;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-		mau	a	4
+		ma	4	4
 	m	a(Llq;Z)V	a(Lon;Z)V
 		ma	0	0
 		ma	1	1
@@ -2705,7 +2719,7 @@ c	Leg;	Lfk;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-		mau	a	4
+		ma	4	4
 		ma	5	5
 c	Leh;	Lfl;
 	m	<init>(Ldj;)V	<init>(Leh;)V
@@ -3987,7 +4001,7 @@ c	Lfy;	Lhn;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	<init>(Liq;)V	<init>()V
+	mu	a	<init>(Liq;)V
 	m	a(I)Lfy;	a(I)Lhn;
 		ma	0	0
 	m	a()Lej;	a()Lfn;
@@ -4655,7 +4669,7 @@ c	Lgs;	Lil;
 	f	s;;Ljava/util/List;	v;;Ljava/util/List;
 	f	t;;Ljava/util/List;	w;;Ljava/util/List;
 	f	u;;Ljava/util/List;	x;;Ljava/util/List;
-	fu	a	v;;Z
+	f	v;;Z	D;;Z
 	f	w;;Z	E;;Z
 	fu	a	x;;[Lgs;
 c	Lgt;	Lin;
@@ -4844,7 +4858,7 @@ c	Lha;	Liw;
 	f	d;;Lnet/minecraft/server/MinecraftServer;	d;;Lnet/minecraft/server/MinecraftServer;
 	f	e;;Ldl;	e;;Lek;
 	f	f;;I	f;;I
-	fu	a	g;;I
+	f	g;;I	l;;J
 	f	h;;I	g;;I
 	f	i;;Z	h;;Z
 	f	j;;D	m;;D
@@ -5152,8 +5166,8 @@ c	Lhi;	Ljf;
 	m	b()V	b()V
 	m	c()V	c()V
 	m	c(II)V	d(II)V
-		ma	0	0
-		ma	1	1
+		ma	0	1
+		ma	1	0
 	m	f(III)V	f(III)V
 		ma	0	0
 		ma	1	1
@@ -8520,15 +8534,15 @@ c	Lmp;	Lps;
 		ma	1	1
 	m	a([DDDDIIIDDD)[D	a([DIIIIIIDDD)[D
 		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
+		ma	1	7
+		ma	2	8
+		ma	3	9
 		ma	4	4
 		ma	5	5
 		ma	6	6
-		ma	7	7
-		ma	8	8
-		ma	9	9
+		ma	7	3
+		ma	8	2
+		ma	9	1
 	m	a([DIIIIDDD)[D	a([DIIIIDDD)[D
 		ma	0	0
 		ma	1	1
@@ -10426,7 +10440,30 @@ c	Lpg;	Lti;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;J	d;;J
-cu	a	Lph;
+c	Lph;	Ltj;
+	m	<init>()V	<init>()V
+	m	<init>(Ldj;)V	<init>(Leh;)V
+		ma	0	0
+	m	a(Lqa;)Lgs;	a(Lud;)Lil;
+		ma	0	0
+	m	a(II)Lgs;	a(II)Lil;
+		ma	0	0
+		ma	1	1
+	mu	a	a(IIII)[Lgs;
+	mu	a	a([DIIII)[D
+	m	a([Lgs;IIII)[Lgs;	a([Lil;IIII)[Lil;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	fu	a	e;;Lmq;
+	fu	a	f;;Lmq;
+	fu	a	g;;Lmq;
+	fu	a	a;;[D
+	fu	a	b;;[D
+	fu	a	c;;[D
+	fu	a	d;;[Lgs;
 c	Lpi;	Ltl;
 	m	<init>(Ldj;)V	<init>(Leh;)V
 		ma	0	0
@@ -10508,7 +10545,7 @@ c	Lpk;	Ltn;
 	f	c;;Lmp;	c;;Lps;
 	f	p;;Ldj;	p;;Leh;
 	f	q;;[D	r;;[D
-	f	r;;[D	s;;[D
+	fu	a	r;;[D
 	fu	a	s;;[D
 	fu	a	t;;[D
 	f	u;;Ldy;	t;;Lex;
@@ -10808,7 +10845,7 @@ c	Lpx;	Lua;
 		ma	2	2
 	m	k()I	k()I
 	m	l()Z	m()Z
-	fu	a	a;;I
+	f	a;;I	bt;;I
 	f	bk;;Z	bv;;Z
 c	Lpy;	Lub;
 	m	<init>(Lem;Lhp;Lhp;III)V	<init>(Lfq;Ljn;Ljn;III)V
@@ -10837,9 +10874,7 @@ c	Lqa;	Lud;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
-	m	a(II)I	a(II)J
-		ma	0	0
-		ma	1	1
+	mu	a	a(II)I
 	m	hashCode()I	hashCode()I
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
