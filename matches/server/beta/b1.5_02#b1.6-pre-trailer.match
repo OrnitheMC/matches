@@ -1,4 +1,4 @@
-Matches saved 2024-03-27, status: c:413/413 m:3107/3122 f:1613/1618 ma:4953/5002, input files:
+Matches saved 2024-03-27, status: c:413/413 m:3105/3122 f:1613/1618 ma:4943/5002, input files:
 	a:
 		458602	SHA256	HseOPpda66M/S7iLJfnqSCnvaZ4rOm7a7npjmw5oi6s=	minecraft-server-b1.5_02.jar
 	b:
@@ -3879,6 +3879,7 @@ c	Lfr;	Lgc;
 		ma	2	2
 		ma	3	3
 	m	a()Z	a()Z
+	mu	a	a(Lnx;IIII)Z
 	f	a;;Z	a;;Z
 c	Lfs;	Lgd;
 	m	<init>(II)V	<init>(II)V
@@ -3929,6 +3930,7 @@ c	Lfs;	Lgd;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	mu	a	a(Lnx;IIII)Z
 c	Lft;	Lge;
 	m	<init>()V	<init>()V
 	m	a()I	a()I
@@ -5275,6 +5277,7 @@ c	Lht;	Lid;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lnx;IIII)Z
 	m	b(Lda;III)V	b(Ldg;III)V
 		ma	0	0
 		ma	1	1
@@ -5315,6 +5318,7 @@ c	Lhw;	Lig;
 		ma	2	2
 		ma	3	3
 	m	a()Z	a()Z
+	mu	a	a(Lnx;IIII)Z
 	f	b;;Z	b;;Z
 c	Lhx;	Lih;
 	m	<init>()V	<init>()V
@@ -6641,12 +6645,7 @@ c	Ljz;	Lkn;
 	m	a(IZ)Z	a(IZ)Z
 		ma	0	0
 		ma	1	1
-	m	a(Lnx;IIII)Z	b(Lop;IIII)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	mu	a	a(Lnx;IIII)Z
 	m	d(Lda;III)Lcp;	d(Ldg;III)Lcw;
 		ma	0	0
 		ma	1	1
@@ -7291,6 +7290,7 @@ c	Lkv;	Llm;
 		ma	2	2
 		ma	3	3
 	m	a()Z	a()Z
+	mu	a	a(Lnx;IIII)Z
 	m	a(Lda;IIILcp;Ljava/util/ArrayList;)V	a(Ldg;IIILcw;Ljava/util/ArrayList;)V
 		ma	0	0
 		ma	1	1
@@ -8000,12 +8000,7 @@ c	Lly;	Lmq;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	m	a(Lnx;IIII)Z	b(Lop;IIII)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	mu	a	a(Lnx;IIII)Z
 	m	a(II)I	a(II)I
 		ma	0	0
 		ma	1	1
@@ -8972,6 +8967,7 @@ c	Lne;	Lnw;
 	m	a(II)I	a(II)I
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lnx;IIII)Z
 	m	a(I)I	a(I)I
 		ma	0	0
 	m	c(Lda;IIII)Z	c(Ldg;IIII)Z
@@ -9889,6 +9885,7 @@ c	Lor;	Lpk;
 		ma	0	0
 	m	b(I)I	b(I)I
 		ma	0	0
+	mu	a	a(Lnx;IIII)Z
 	m	<clinit>()V	<clinit>()V
 	f	a;;[Ljava/lang/String;	a;;[Ljava/lang/String;
 	f	b;;Z	b;;Z
@@ -10054,6 +10051,7 @@ c	Ly;	Lz;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	mu	a	a(Lnx;IIII)Z
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
 	m	a(Lda;IIILkr;)V	a(Ldg;IIILli;)V
