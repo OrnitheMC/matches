@@ -1,4 +1,4 @@
-Matches saved 2024-03-27, status: c:711/711 m:5485/5521 f:3119/3183 ma:8890/8980, input files:
+Matches saved 2024-03-27, status: c:711/711 m:5484/5521 f:3114/3183 ma:8889/8980, input files:
 	a:
 		1378044	SHA256	CI6WEJZ5iJxiz4qRxJm8RMopIlKHLCQv/vytlb4Hdhg=	minecraft-client-b1.5_01.jar
 	b:
@@ -7762,23 +7762,21 @@ c	Lka;	Lks;
 	f	p;;D	p;;D
 	f	q;;D	q;;D
 	f	r;;D	r;;D
-c	Lkb;	Lkt;
-	m	d(II)V	d(II)V
+c	Lkb;	Log;
+	m	<init>(Let;Laz;Lcf;)V	<init>(Lfb;Lbe;Lcj;)V
 		ma	0	0
 		ma	1	1
-	m	e(II)Z	e(II)Z
-		ma	0	0
-		ma	1	1
+		ma	2	2
 	m	a(II)Z	a(II)Z
-		ma	0	0
-		ma	1	1
+		ma	0	1
+		ma	1	0
 	m	c(II)Lkq;	c(II)Lli;
 		ma	0	0
 		ma	1	1
 	m	b(II)Lkq;	b(II)Lli;
 		ma	0	0
 		ma	1	1
-	m	f(II)Lkq;	f(II)Lli;
+	m	f(II)Lkq;	d(II)Lli;
 		ma	0	0
 		ma	1	1
 	m	a(Lkq;)V	a(Lli;)V
@@ -7795,16 +7793,16 @@ c	Lkb;	Lkt;
 	m	a()Z	a()Z
 	m	b()Z	b()Z
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
-	f	c;;Lkq;	c;;Lli;
-	f	d;;Lcf;	d;;Lcj;
-	f	e;;Laz;	e;;Lbe;
-	f	f;;[Lkq;	f;;[Lli;
+	f	c;;Lkq;	b;;Lli;
+	f	d;;Lcf;	c;;Lcj;
+	f	e;;Laz;	d;;Lbe;
+	f	f;;[Lkq;	f;;Ljava/util/List;
 	f	g;;Let;	g;;Lfb;
-	f	a;;I	a;;I
-	f	b;;I	b;;I
-	f	h;;Lkq;	h;;Lli;
-	f	i;;I	i;;I
-	f	j;;I	j;;I
+	fu	a	a;;I
+	fu	a	b;;I
+	fu	a	h;;Lkq;
+	fu	a	i;;I
+	fu	a	j;;I
 c	Lkc;	Lku;
 	m	<init>(Lgy;)V	<init>(Lhi;)V
 		ma	0	0
