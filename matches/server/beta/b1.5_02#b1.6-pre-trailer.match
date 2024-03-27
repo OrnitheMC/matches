@@ -1679,7 +1679,7 @@ c	Lda;	Ldg;
 		ma	0	0
 	m	b(F)F	b(F)F
 		ma	0	0
-	m	e(II)I	f(II)I
+	m	e(II)I	e(II)I
 		ma	0	0
 		ma	1	1
 	m	c(IIIII)V	c(IIIII)V
