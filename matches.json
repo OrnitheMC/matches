@@ -1411,6 +1411,16 @@
       "file": "matches/cross/beta/server-b1.3-1731#client-b1.3_01.match"
     },
     {
+      "a": "server-b1.5",
+      "b": "client-b1.5",
+      "file": "matches/cross/beta/server-b1.5#client-b1.5.match"
+    },
+    {
+      "a": "server-b1.5_01",
+      "b": "client-b1.5_01",
+      "file": "matches/cross/beta/server-b1.5_01#client-b1.5_01.match"
+    },
+    {
       "a": "server-b1.6",
       "b": "client-b1.6",
       "file": "matches/cross/beta/server-b1.6#client-b1.6.match"
@@ -5943,6 +5953,18 @@
       "version": "b1.3-1731",
       "era": "beta"
     },
+    "server-b1.5": {
+      "id": "server_b1_5",
+      "type": "server",
+      "version": "b1.5",
+      "era": "beta"
+    },
+    "server-b1.5_01": {
+      "id": "server_b1_5_01",
+      "type": "server",
+      "version": "b1.5_01",
+      "era": "beta"
+    },
     "server-b1.6": {
       "id": "server_b1_6",
       "type": "server",
@@ -8869,18 +8891,6 @@
       "id": "server_b1_4_01",
       "type": "server",
       "version": "b1.4_01",
-      "era": "beta"
-    },
-    "server-b1.5": {
-      "id": "server_b1_5",
-      "type": "server",
-      "version": "b1.5",
-      "era": "beta"
-    },
-    "server-b1.5_01": {
-      "id": "server_b1_5_01",
-      "type": "server",
-      "version": "b1.5_01",
       "era": "beta"
     },
     "server-b1.5_02": {
