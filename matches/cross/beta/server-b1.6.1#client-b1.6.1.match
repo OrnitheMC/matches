@@ -9571,7 +9571,6 @@ c	Ls;	Lag;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-c	Lt;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
 c	Lu;	Lae;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V

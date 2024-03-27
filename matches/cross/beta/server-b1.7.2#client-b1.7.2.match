@@ -14,7 +14,7 @@ Matches saved 2024-03-25, status: c:404/444 m:2996/3411 f:1555/1751 ma:4947/5538
 		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
 		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
 		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjpgl_util-2.9.1-nightly-20130708-debug3.jar
 	non-obf cls a	paulscode|jcraft
 	non-obf cls b	paulscode|jcraft
 	non-obf mem a	paulscode|jcraft
@@ -9944,7 +9944,6 @@ c	Lt;	Lah;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-c	Lu;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
 c	Lv;	Laf;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
