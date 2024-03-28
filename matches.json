@@ -1411,6 +1411,31 @@
       "file": "matches/cross/beta/client-b1.2_02#server-b1.3-1647.match"
     },
     {
+      "a": "server-b1.0",
+      "b": "client-b1.0",
+      "file": "matches/cross/beta/server-b1.0#client-b1.0.match"
+    },
+    {
+      "a": "server-b1.0_01",
+      "b": "client-b1.0_01",
+      "file": "matches/cross/beta/server-b1.0_01#client-b1.0_01.match"
+    },
+    {
+      "a": "server-b1.1-1245",
+      "b": "client-b1.1-1245",
+      "file": "matches/cross/beta/server-b1.1-1245#client-b1.1-1245.match"
+    },
+    {
+      "a": "server-b1.1_01",
+      "b": "client-b1.1_01",
+      "file": "matches/cross/beta/server-b1.1_01#client-b1.1_01.match"
+    },
+    {
+      "a": "server-b1.1_02",
+      "b": "client-b1.1_02",
+      "file": "matches/cross/beta/server-b1.1_02#client-b1.1_02.match"
+    },
+    {
       "a": "server-b1.2",
       "b": "client-b1.2",
       "file": "matches/cross/beta/server-b1.2#client-b1.2.match"
@@ -5977,6 +6002,36 @@
       "version": "b1.3-1647",
       "era": "beta"
     },
+    "server-b1.0": {
+      "id": "server_b1_0",
+      "type": "server",
+      "version": "b1.0",
+      "era": "beta"
+    },
+    "server-b1.0_01": {
+      "id": "server_b1_0_01",
+      "type": "server",
+      "version": "b1.0_01",
+      "era": "beta"
+    },
+    "server-b1.1-1245": {
+      "id": "server_b1_1_1245",
+      "type": "server",
+      "version": "b1.1-1245",
+      "era": "beta"
+    },
+    "server-b1.1_01": {
+      "id": "server_b1_1_01",
+      "type": "server",
+      "version": "b1.1_01",
+      "era": "beta"
+    },
+    "server-b1.1_02": {
+      "id": "server_b1_1_02",
+      "type": "server",
+      "version": "b1.1_02",
+      "era": "beta"
+    },
     "server-b1.2": {
       "id": "server_b1_2",
       "type": "server",
@@ -8892,36 +8947,6 @@
       "type": "server",
       "version": "server-a0.2.8",
       "era": "alpha"
-    },
-    "server-b1.0_01": {
-      "id": "server_b1_0_01",
-      "type": "server",
-      "version": "b1.0_01",
-      "era": "beta"
-    },
-    "server-b1.0": {
-      "id": "server_b1_0",
-      "type": "server",
-      "version": "b1.0",
-      "era": "beta"
-    },
-    "server-b1.1-1245": {
-      "id": "server_b1_1_1245",
-      "type": "server",
-      "version": "b1.1-1245",
-      "era": "beta"
-    },
-    "server-b1.1_01": {
-      "id": "server_b1_1_01",
-      "type": "server",
-      "version": "b1.1_01",
-      "era": "beta"
-    },
-    "server-b1.1_02": {
-      "id": "server_b1_1_02",
-      "type": "server",
-      "version": "b1.1_02",
-      "era": "beta"
     },
     "server-b1.5_02": {
       "id": "server_b1_5_02",
