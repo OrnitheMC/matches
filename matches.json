@@ -586,6 +586,11 @@
       "file": "matches/client/beta/b1.2_02#b1.3-1750.match"
     },
     {
+      "a": "client-b1.2_02",
+      "b": "client-b1.4-1507",
+      "file": "matches/client/beta/b1.2_02#b1.4-1507.match"
+    },
+    {
       "a": "client-b1.2_02-launcher",
       "b": "client-b1.2_02",
       "file": "matches/client/beta/b1.2_02-launcher#b1.2_02.match"
@@ -1404,6 +1409,16 @@
       "a": "client-b1.2_02",
       "b": "server-b1.3-1647",
       "file": "matches/cross/beta/client-b1.2_02#server-b1.3-1647.match"
+    },
+    {
+      "a": "server-b1.2",
+      "b": "client-b1.2",
+      "file": "matches/cross/beta/server-b1.2#client-b1.2.match"
+    },
+    {
+      "a": "server-b1.2_01",
+      "b": "client-b1.2_01",
+      "file": "matches/cross/beta/server-b1.2_01#client-b1.2_01.match"
     },
     {
       "a": "server-b1.3-1731",
@@ -4161,6 +4176,11 @@
       "file": "matches/server/beta/b1.2_01#b1.3-1731.match"
     },
     {
+      "a": "server-b1.2_01",
+      "b": "server-b1.4-1507",
+      "file": "matches/server/beta/b1.2_01#b1.4-1507.match"
+    },
+    {
       "a": "server-b1.3-1647",
       "b": "server-b1.3-1731",
       "file": "matches/server/beta/b1.3-1647#b1.3-1731.match"
@@ -5003,16 +5023,16 @@
       "version": "b1.3-1750",
       "era": "beta"
     },
-    "client-b1.3_01": {
-      "id": "client_b1_3_01",
-      "type": "client",
-      "version": "b1.3_01",
-      "era": "beta"
-    },
     "client-b1.4-1507": {
       "id": "client_b1_4_1507",
       "type": "client",
       "version": "b1.4-1507",
+      "era": "beta"
+    },
+    "client-b1.3_01": {
+      "id": "client_b1_3_01",
+      "type": "client",
+      "version": "b1.3_01",
       "era": "beta"
     },
     "client-b1.4-1634": {
@@ -5955,6 +5975,18 @@
       "id": "server_b1_3_1647",
       "type": "server",
       "version": "b1.3-1647",
+      "era": "beta"
+    },
+    "server-b1.2": {
+      "id": "server_b1_2",
+      "type": "server",
+      "version": "b1.2",
+      "era": "beta"
+    },
+    "server-b1.2_01": {
+      "id": "server_b1_2_01",
+      "type": "server",
+      "version": "b1.2_01",
       "era": "beta"
     },
     "server-b1.3-1731": {
@@ -8889,18 +8921,6 @@
       "id": "server_b1_1_02",
       "type": "server",
       "version": "b1.1_02",
-      "era": "beta"
-    },
-    "server-b1.2": {
-      "id": "server_b1_2",
-      "type": "server",
-      "version": "b1.2",
-      "era": "beta"
-    },
-    "server-b1.2_01": {
-      "id": "server_b1_2_01",
-      "type": "server",
-      "version": "b1.2_01",
       "era": "beta"
     },
     "server-b1.5_02": {

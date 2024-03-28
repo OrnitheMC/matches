@@ -1188,14 +1188,15 @@ digraph {
   client_b1_1_1255 -> client_b1_1_01[label="100%",href="client/beta/b1.1-1255%23b1.1_01.match"];
   client_b1_1_01 -> client_b1_1_02[label="100%",href="client/beta/b1.1_01%23b1.1_02.match"];
   client_b1_1_02 -> client_b1_2[label="99.82%",href="client/beta/b1.1_02%23b1.2.match"];
-  client_b1_2 -> client_b1_2_01[label="99.99%",href="client/beta/b1.2%23b1.2_01.match"];
+  client_b1_2 -> client_b1_2_01[label="99.23%",href="client/beta/b1.2%23b1.2_01.match"];
   client_b1_2_01 -> client_b1_2_02_launcher[label="100%",href="client/beta/b1.2_01%23b1.2_02-launcher.match"];
-  client_b1_2_01 -> client_b1_2_02[label="100%",href="client/beta/b1.2_01%23b1.2_02.match"];
+  client_b1_2_01 -> client_b1_2_02[label="99.26%",href="client/beta/b1.2_01%23b1.2_02.match"];
   client_b1_2_02 -> client_b1_3_1713[label="99.32%",href="client/beta/b1.2_02%23b1.3-1713.match"];
-  client_b1_2_02 -> client_b1_3_1750[label="99.32%",href="client/beta/b1.2_02%23b1.3-1750.match"];
+  client_b1_2_02 -> client_b1_3_1750[label="98.49%",href="client/beta/b1.2_02%23b1.3-1750.match"];
+  client_b1_2_02 -> client_b1_4_1507[label="98.32%",href="client/beta/b1.2_02%23b1.4-1507.match"];
   client_b1_2_02_launcher -> client_b1_2_02[label="100%",href="client/beta/b1.2_02-launcher%23b1.2_02.match"];
   client_b1_3_1713 -> client_b1_3_1750[label="100%",href="client/beta/b1.3-1713%23b1.3-1750.match"];
-  client_b1_3_1750 -> client_b1_3_01[label="99.91%",href="client/beta/b1.3-1750%23b1.3_01.match"];
+  client_b1_3_1750 -> client_b1_3_01[label="99.22%",href="client/beta/b1.3-1750%23b1.3_01.match"];
   client_b1_3_01 -> client_b1_4_1507[label="99.84%",href="client/beta/b1.3_01%23b1.4-1507.match"];
   client_b1_3_01 -> client_b1_4_1634[label="99.84%",href="client/beta/b1.3_01%23b1.4-1634.match"];
   client_b1_4_1507 -> client_b1_4_1634[label="99.33%",href="client/beta/b1.4-1507%23b1.4-1634.match"];
@@ -1357,6 +1358,8 @@ digraph {
   merged_14w03b -> server_14w04a[label="63.77%",color="#8800ff",href="cross/1.8/merged-14w03b%23server-14w04a.match"];
   server_14w04a -> merged_14w04b_1554[label="42.93%",color="#0088ff",href="cross/1.8/server-14w04a%23merged-14w04b-1554.match"];
   client_b1_2_02 -> server_b1_3_1647[label="51.19%",color="#888800",href="cross/beta/client-b1.2_02%23server-b1.3-1647.match"];
+  server_b1_2 -> client_b1_2[label="88.36%",color="#8888ff",href="cross/beta/server-b1.2%23client-b1.2.match"];
+  server_b1_2_01 -> client_b1_2_01[label="88.49%",color="#8888ff",href="cross/beta/server-b1.2_01%23client-b1.2_01.match"];
   server_b1_3_1731 -> client_b1_3_01[label="88.54%",color="#8888ff",href="cross/beta/server-b1.3-1731%23client-b1.3_01.match"];
   server_b1_4_1507 -> client_b1_4_1507[label="88.84%",color="#8888ff",href="cross/beta/server-b1.4-1507%23client-b1.4-1507.match"];
   server_b1_4_01 -> client_b1_4_01[label="88.92%",color="#8888ff",href="cross/beta/server-b1.4_01%23client-b1.4_01.match"];
@@ -1907,7 +1910,8 @@ digraph {
   server_b1_1_02 -> server_b1_2[label="99.68%",color="#0000aa",href="server/beta/b1.1_02%23b1.2.match"];
   server_b1_2 -> server_b1_2_01[label="100%",color="#0000aa",href="server/beta/b1.2%23b1.2_01.match"];
   server_b1_2_01 -> server_b1_3_1647[label="99.32%",color="#0000aa",href="server/beta/b1.2_01%23b1.3-1647.match"];
-  server_b1_2_01 -> server_b1_3_1731[label="99.32%",color="#0000aa",href="server/beta/b1.2_01%23b1.3-1731.match"];
+  server_b1_2_01 -> server_b1_3_1731[label="99.39%",color="#0000aa",href="server/beta/b1.2_01%23b1.3-1731.match"];
+  server_b1_2_01 -> server_b1_4_1507[label="99.34%",color="#0000aa",href="server/beta/b1.2_01%23b1.4-1507.match"];
   server_b1_3_1647 -> server_b1_3_1731[label="100%",color="#0000aa",href="server/beta/b1.3-1647%23b1.3-1731.match"];
   server_b1_3_1731 -> server_b1_4_1507[label="99.94%",color="#0000aa",href="server/beta/b1.3-1731%23b1.4-1507.match"];
   server_b1_4_1507 -> server_b1_4_01[label="99.97%",color="#0000aa",href="server/beta/b1.4-1507%23b1.4_01.match"];
