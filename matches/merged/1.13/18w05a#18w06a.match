@@ -1,4 +1,4 @@
-Matches saved 2023-01-12, status: c:3505/3568 m:26454/27036 f:12443/12945 ma:36421/37724, input files:
+Matches saved 2024-04-01, status: c:3505/3568 m:26460/27036 f:12443/12945 ma:36422/37724, input files:
 	a:
 		10680771	SHA256	NBnd1UDacpPvF1vV86TlODzmvoTD6tAok98BsBzYKMQ=	minecraft-merged-18w05a.jar
 	b:
@@ -21693,11 +21693,15 @@ c	Lasm;	Latr;
 	f	f;;Z	f;;Z
 	f	g;;Z	g;;Z
 	f	h;;Ljava/lang/String;	h;;Ljava/lang/String;
-c	Lasn;	Lats;
-	m	b(Lea;I)I	c(Lec;I)I
+c	Lasn;	Latq;
+	mu	a	b(Lea;I)I
+	mu	a	q(Lea;)Lbcl;
+	m	b(Lea;)Lasw;	d(Lec;)Laud;
+		ma	0	0
+	m	a(Lea;Leg;)I	a(Lec;Lei;)I
 		ma	0	0
 		ma	1	1
-	mu	a	q(Lea;)Lbcl;
+	mu	a	am()I
 c	Laso;	Latt;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
@@ -21990,8 +21994,8 @@ c	Lass;	Laty;
 	m	b(Lea;I)I	c(Lec;I)I
 		ma	0	0
 		ma	1	1
-		mv	0	0
-		mv	1	1
+		mvu	a	0
+		mvu	a	1
 	mu	a	q(Lea;)Lbcl;
 	m	b(Lea;)Lasw;	d(Lec;)Laud;
 		ma	0	0
