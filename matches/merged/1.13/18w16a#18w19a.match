@@ -53367,8 +53367,51 @@ c	Lbun;	Lbzg;
 		ma	2	2
 		ma	3	3
 		mv	0	0
-cu	a	Lbuo;
-cu	a	Lbup;
+c	Lbuo;	Lbzd;
+	m	a()Lbup;	c()Lbzc;
+	m	b()F	f()F
+	m	f()I	g()I
+	m	a(Lauj;Lef;)Z	a(Layr;Lef;)Z
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+	m	a(Lauv;Lef;)V	a(Lazd;Lef;)V
+		ma	0	0
+		ma	1	1
+c	Lbup;	Lbzc;
+	mu	a	a(IZZ)Lbuo;
+	m	a()Lauk;	a()Lays;
+	m	b()Laqa;	b()Lauh;
+	m	a(Lauv;Lef;Lbuo;Ljava/util/Random;)V	a(Lazd;Lef;Lbzd;Ljava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	a(Lauv;Lef;Lbuo;)V	a(Lazd;Lef;Lbzd;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	b(Lauv;Lef;Lbuo;Ljava/util/Random;)V	b(Lazd;Lef;Lbzd;Ljava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	e()Lfg;	g()Lfg;
+	m	a(Lbuo;)Lbhu;	b(Lbzd;)Lbmb;
+		ma	0	0
+	m	a(Lbup;Lel;)Z	a(Lbzc;Lel;)Z
+		ma	0	0
+		ma	1	1
+	mu	a	c()Loh;
+	m	a(Lava;Lef;Lbuo;)Lbzs;	a(Lazh;Lef;Lbzd;)Lcei;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Lava;)I	a(Lazh;)I
+		ma	0	0
 c	Lbuq;	Lbzf;
 	mu	a	a(Lbup;)Lbup;
 	m	<clinit>()V	<clinit>()V
