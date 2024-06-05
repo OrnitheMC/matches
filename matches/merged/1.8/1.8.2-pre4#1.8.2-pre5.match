@@ -1,6 +1,6 @@
-Matches saved 2023-02-14, status: c:2534/2534 m:19896/19925 f:8848/8863 ma:26129/26178, input files:
+Matches saved 2024-06-05, status: c:2534/2534 m:19896/19925 f:8848/8863 ma:26129/26178, input files:
 	a:
-		7855272	SHA256	8mlH5lcYbLYR20bXfxg7NczsuVhV4bgoEf9cSeo96J4=	minecraft-merged-1.8.2-pre4.jar
+		7850075	SHA256	S36SlWUdigk97WWSHHyK+v/gucYiqCTXsZoTUHTo6EA=	minecraft-merged-1.8.2-pre4.jar
 	b:
 		9384881	SHA256	Z5AWE+Qxy6mxDuvH2Ar5quHhjieswCw2FPK4Ze7Qc6w=	minecraft-merged-1.8.2-pre5.jar
 	cp:
@@ -66836,11 +66836,6 @@ c	Lorg/lwjgl/opengl/XRandR$Screen;	Lorg/lwjgl/opengl/XRandR$Screen;
 		ma	0	0
 		ma	1	1
 	m	<init>(Ljava/lang/String;IIIILorg/lwjgl/opengl/XRandR$1;)V	<init>(Ljava/lang/String;IIIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
 	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
 	f	width;;I	width;;I
 	f	height;;I	height;;I
