@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:3328/3330 m:25351/25447 f:11808/11851 ma:34245/34453, input files:
+Matches saved 2024-06-05, status: c:3327/3330 m:25349/25447 f:11808/11851 ma:34245/34453, input files:
 	a:
 		10084178	SHA256	3pd82sJSme3XrthRjZHZ2EA3hQ5SxvCpp9aDerBvvV0=	minecraft-merged-1.12-pre2.jar
 	b:
@@ -62436,7 +62436,6 @@ c	Lko;	Lkp;
 	f	g;;F	g;;F
 c	Lkp;	Lkq;
 	m	<init>()V	<init>()V
-	m	<init>(Lhh;)V	<init>()V
 	m	a(Lgy;)V	a(Lgy;)V
 		ma	0	0
 	m	b(Lgy;)V	b(Lgy;)V
@@ -64194,8 +64193,7 @@ c	Lne$16$1;	Lng$16$1;
 	m	b()F	b()F
 	f	b;;Laik;	b;;Lain;
 	f	c;;Lne$16;	c;;Lng$16;
-c	Lne$16;	Laed;
-	m	<init>()V	<init>()V
+cu	a	Lne$16;
 c	Lne$17$1;	Lng$17$1;
 	m	<init>(Lne$17;Laik;)V	<init>(Lng$17;Lain;)V
 		ma	0	0
