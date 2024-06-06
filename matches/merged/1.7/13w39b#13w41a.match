@@ -1,4 +1,4 @@
-Matches saved 2023-02-13, status: c:1689/1705 m:14059/14418 f:6468/6598 ma:21560/22045, input files:
+Matches saved 2024-06-01, status: c:1689/1705 m:14011/14418 f:6468/6598 ma:21510/22045, input files:
 	a:
 		5098747	SHA256	j1OXlxCMzhSMIGryEK5L5P6UioBkNQp/RAtg+weF7yc=	minecraft-merged-13w39b.jar
 	b:
@@ -22647,7 +22647,7 @@ c	Lbfx;	Lbie;
 		ma	0	0
 	m	a(Lfz;)V	a(Lgi;)V
 		ma	0	0
-	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
+	m	a(Ljava/lang/String;[Ljava/lang/Object;)V	a(Ley;)V
 	mu	a	b(Lgw;)V
 	m	c(Lgw;)V	a(Lfi;)V
 		ma	0	0
@@ -22720,7 +22720,6 @@ c	Lbfx;	Lbie;
 		ma	0	0
 	m	a(Lhe;)V	a(Lhg;)V
 		ma	0	0
-	mu	a	a()Z
 	m	a(Lhb;)V	a(Lhe;)V
 		ma	0	0
 	m	a(Lgg;)V	a(Lgn;)V
@@ -23140,7 +23139,7 @@ c	Lbgl;	Lbis;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
-	f	d;;Ljava/lang/String;	i;;Ljava/lang/String;
+	f	d;;Ljava/lang/String;	d;;Ljava/lang/String;
 	f	e;;J	e;;J
 	f	f;;I	f;;I
 	f	g;;Ljava/lang/String;	g;;Ljava/lang/String;
@@ -28500,7 +28499,7 @@ c	Lbmv;	Lbpi;
 		ma	0	0
 	m	b()I	b()I
 c	Lbmw;	Lbpj;
-	m	a()I	a()I
+	mu	a	a()I
 	m	a(I)V	a(I)V
 		ma	0	0
 	m	a(ILjava/awt/image/BufferedImage;)I	a(ILjava/awt/image/BufferedImage;)I
@@ -31494,7 +31493,6 @@ c	Lfm;	Lih;
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		ma	0	0
 	m	a(Lgx;)V	a(Leq;)V
-		ma	0	0
 	mu	a	a()I
 	f	a;;I	a;;Lii;
 c	Lfn;	Lij;
@@ -31511,7 +31509,6 @@ c	Lfn;	Lij;
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
 	m	a(Lgx;)V	a(Leq;)V
-		ma	0	0
 	mu	a	a()I
 	m	d()Ljava/lang/String;	c()Ljava/lang/String;
 	m	e()I	d()I
@@ -32150,139 +32147,15 @@ c	Lgw;	Lfi;
 	fu	a	p;;J
 	fu	a	q;;J
 	fu	a	r;;Z
-c	Lgx;	Lfj;
-	mu	a	a()Z
-	m	a(Lgh;)V	a(Lgo;)V
-		ma	0	0
+c	Lgx;	Leq;
 	mu	a	a(Lgw;)V
-	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
-	m	a(Lfz;)V	a(Lgi;)V
-		ma	0	0
-	m	a(Lgn;)V	a(Lgu;)V
-		ma	0	0
-	m	a(Lgs;)V	a(Lgz;)V
-		ma	0	0
-	m	a(Lfl;)V	a(Lfz;)V
-		ma	0	0
-	m	a(Lfi;)V	a(Lfw;)V
-		ma	0	0
-	m	a(Lfb;)V	a(Lfp;)V
-		ma	0	0
-	m	a(Lgo;)V	a(Lgv;)V
-		ma	0	0
-	m	a(Lhz;)V	a(Lhy;)V
-		ma	0	0
-	m	a(Lhi;)V	a(Lhj;)V
-		ma	0	0
-	m	a(Lhd;)V	a(Lhf;)V
-		ma	0	0
-	m	a(Lhy;)V	a(Lhx;)V
-		ma	0	0
-	m	a(Lfk;)V	a(Lfy;)V
-		ma	0	0
-	m	a(Lew;)V	a(Lfk;)V
-		ma	0	0
-	m	a(Lfc;)V	a(Lfq;)V
+	m	a(Ljava/lang/String;[Ljava/lang/Object;)V	a(Ley;)V
 		ma	0	0
 	mu	a	a(Lfo;)V
 	mu	a	a(Lhh;)V
 	mu	a	a(Lhw;)V
-	m	a(Lez;)V	a(Lfn;)V
-		ma	0	0
-	m	a(Lhv;)V	a(Lhv;)V
-		ma	0	0
-	m	a(Lhu;)V	a(Lhu;)V
-		ma	0	0
-	m	a(Lhn;)V	a(Lhn;)V
-		ma	0	0
-	m	a(Lhl;)V	a(Lhl;)V
-		ma	0	0
-	m	a(Lhm;)V	a(Lhm;)V
-		ma	0	0
-	m	a(Lgb;)V	a(Lgk;)V
-		ma	0	0
-	m	a(Lhq;)V	a(Lhq;)V
-		ma	0	0
-	m	a(Lhf;)V	a(Lhh;)V
-		ma	0	0
-	m	a(Lgc;)V	a(Lgl;)V
-		ma	0	0
-	m	a(Lfu;)V	a(Lgd;)V
-		ma	0	0
-	m	a(Lft;)V	a(Lgc;)V
-		ma	0	0
-	m	a(Lfx;)V	a(Lgg;)V
-		ma	0	0
-	m	a(Lfv;)V	a(Lge;)V
-		ma	0	0
-	m	a(Lhx;)V	a(Lhw;)V
-		ma	0	0
-	m	a(Lfw;)V	a(Lgf;)V
-		ma	0	0
-	m	a(Lho;)V	a(Lho;)V
-		ma	0	0
-	m	a(Lfq;)V	a(Lgb;)V
-		ma	0	0
-	m	a(Lfa;)V	a(Lfo;)V
-		ma	0	0
-	m	a(Lfh;)V	a(Lfv;)V
-		ma	0	0
-	m	a(Lfd;)V	a(Lfr;)V
-		ma	0	0
-	m	a(Lga;)V	a(Lgj;)V
-		ma	0	0
-	m	a(Lgd;)V	a(Lgm;)V
-		ma	0	0
-	m	a(Ley;)V	a(Lfm;)V
-		ma	0	0
-	m	a(Lfp;)V	a(Lga;)V
-		ma	0	0
-	m	a(Lgk;)V	a(Lgr;)V
-		ma	0	0
 	mu	a	a(Lge;)V
-	m	a(Lic;)V	a(Lib;)V
-		ma	0	0
-	m	a(Lhe;)V	a(Lhg;)V
-		ma	0	0
-	m	a(Lhb;)V	a(Lhe;)V
-		ma	0	0
-	m	a(Lgg;)V	a(Lgn;)V
-		mau	a	0
-	m	a(Lhp;)V	a(Lhp;)V
-		ma	0	0
-	m	a(Lex;)V	a(Lfl;)V
-		ma	0	0
-	m	a(Lfy;)V	a(Lgh;)V
-		ma	0	0
-	m	a(Lhg;)V	a(Lhi;)V
-		ma	0	0
-	m	a(Lfg;)V	a(Lfu;)V
-		ma	0	0
-	m	a(Lgy;)V	a(Lhd;)V
-		ma	0	0
-	m	a(Lfj;)V	a(Lfx;)V
-		ma	0	0
-	m	a(Lgm;)V	a(Lgt;)V
-		ma	0	0
-	m	a(Lfe;)V	a(Lfs;)V
-		ma	0	0
-	m	a(Lgj;)V	a(Lgq;)V
-		ma	0	0
 	mu	a	b()Z
-	m	a(Lhr;)V	a(Lhr;)V
-		ma	0	0
-	m	a(Lht;)V	a(Lht;)V
-		ma	0	0
-	m	a(Lhk;)V	a(Lhk;)V
-		ma	0	0
-	m	a(Lhs;)V	a(Lhs;)V
-		ma	0	0
-	m	a(Lgl;)V	a(Lgs;)V
-		ma	0	0
-	m	a(Lia;)V	a(Lhz;)V
-		ma	0	0
-	m	a(Lff;)V	a(Lft;)V
-		ma	0	0
 	mu	a	c()Z
 c	Lgy;	Lhd;
 	m	<init>()V	<init>()V
@@ -34373,11 +34246,10 @@ c	Lkt;	Lmx;
 	m	a(Lfm;)V	a(Ljm;)V
 		ma	0	0
 	m	e()V	c()V
-	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
+	m	a(Ljava/lang/String;[Ljava/lang/Object;)V	a(Ley;)V
 	mu	a	a(Lge;)V
 	mu	a	a(Lgw;)V
 	m	f()Ljava/lang/String;	d()Ljava/lang/String;
-	mu	a	a()Z
 	mu	a	c()Z
 	m	a(Lkt;Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;	a(Lmx;Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
 		ma	0	0
@@ -34422,6 +34294,8 @@ c	Lkv;	Lms;
 		ma	0	0
 	m	a(Lhc;)V	a(Liz;)V
 		ma	0	0
+	m	a(Lgs;)V	a(Lis;)V
+		ma	0	0
 	m	a(DDDFF)V	a(DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -34432,11 +34306,18 @@ c	Lkv;	Lms;
 		ma	0	0
 	m	a(Lid;)V	a(Ljd;)V
 		ma	0	0
-	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
+	m	a(Ljava/lang/String;[Ljava/lang/Object;)V	a(Ley;)V
+		ma	0	0
 	mu	a	a(Lgw;)V
 	m	b(Lgw;)V	a(Lfi;)V
 		ma	0	0
+	m	a(Lhi;)V	a(Lja;)V
+		ma	0	0
+	m	a(Lfk;)V	a(Lig;)V
+		ma	0	0
 	m	d(Ljava/lang/String;)V	d(Ljava/lang/String;)V
+		ma	0	0
+	m	a(Lfc;)V	a(Lid;)V
 		ma	0	0
 	m	a(Lha;)V	a(Liy;)V
 		ma	0	0
@@ -34444,14 +34325,27 @@ c	Lkv;	Lms;
 	m	a(Lgf;)V	a(Lip;)V
 		ma	0	0
 	mu	a	b()Z
+	m	a(Lft;)V	a(Lin;)V
+		ma	0	0
 	m	a(Lfs;)V	a(Lim;)V
 		ma	0	0
 	m	a(Lfr;)V	a(Lil;)V
 		ma	0	0
 	m	a(Lhj;)V	a(Ljb;)V
 		ma	0	0
-	mu	a	a()Z
+	m	a(Lfq;)V	a(Lik;)V
+		ma	0	0
+	m	a(Lhx;)V	a(Ljc;)V
+		ma	0	0
+	m	a(Lgg;)V	a(Lir;)V
+		ma	0	0
+	m	a(Lgy;)V	a(Liw;)V
+		ma	0	0
+	m	a(Lfj;)V	a(Lie;)V
+		ma	0	0
 	m	a(Lfn;)V	a(Lij;)V
+		ma	0	0
+	m	a(Lfy;)V	a(Lio;)V
 		ma	0	0
 	mu	a	c()Z
 	m	<clinit>()V	<clinit>()V
