@@ -1,4 +1,4 @@
-Matches saved 2024-03-14, status: c:1063/1075 m:8290/8400 f:4428/4527 ma:14103/14346, input files:
+Matches saved 2024-05-29, status: c:1063/1075 m:8290/8400 f:4426/4527 ma:14103/14346, input files:
 	a:
 		3934973	SHA256	QlkEtYgCIQ51DriiKswRk5JzkYVjVw+47ryJmDdohlU=	minecraft-client-12w06a.jar
 	b:
@@ -24410,8 +24410,8 @@ c	Lwc;	Lsq;
 	m	a(Lnv;)V	a(Lnv;)V
 		ma	0	0
 	m	a()I	a()I
-	f	a;;I	a;;I
-	f	b;;I	b;;I
+	fu	a	a;;I
+	fu	a	b;;I
 	fu	a	c;;I
 	fu	a	d;;I
 	fu	a	e;;I
