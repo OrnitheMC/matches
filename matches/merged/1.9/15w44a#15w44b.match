@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:2883/2884 m:22033/22056 f:10424/10430 ma:29690/29759, input files:
+Matches saved 2024-06-05, status: c:2883/2884 m:22038/22056 f:10424/10430 ma:29706/29759, input files:
 	a:
 		9210069	SHA256	28VtDRbmDz8sz48at4cdpC0QZVXRWPhoVHw5Uxi02Kk=	minecraft-merged-15w44a.jar
 	b:
@@ -3193,18 +3193,43 @@ c	Ladx;	Ladx;
 		ma	0	0
 	m	a(I)I	a(I)I
 		ma	0	0
-c	Lady;	Lafb;
-	m	h(Ladl;)Ljava/util/List;	a(Ldn;Ljava/util/List;)V
-		mau	a	0
-	m	a(Laez;)I	a(Laez;)I
-		ma	0	0
-	m	a(Ljava/util/Collection;)I	a(Ljava/util/Collection;)I
-		ma	0	0
-	m	i(Ladl;)Laez;	c(Ldn;)Laez;
-		mau	a	0
-	m	a(Ladl;Laez;)Ladl;	a(Ladl;Laez;)Ladl;
+c	Lady;	Lady;
+	m	<init>()V	<init>()V
+	m	a(Ladl;Lahn;Lrx;)Ladl;	a(Ladl;Laho;Lrx;)Ladl;
 		ma	0	0
 		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+	m	e(Ladl;)I	e(Ladl;)I
+		ma	0	0
+	m	f(Ladl;)Laev;	f(Ladl;)Laev;
+		ma	0	0
+	m	a(Ladl;Lahn;Lzo;Lqk;)Lqn;	a(Ladl;Laho;Lzo;Lqk;)Lqn;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	a(Ladl;I)I	a(Ladl;I)I
+		ma	0	0
+		ma	1	1
+	m	a(Ladl;)Ljava/lang/String;	a(Ladl;)Ljava/lang/String;
+		ma	0	0
+	m	a(Ladl;Lzo;Ljava/util/List;Z)V	a(Ladl;Lzo;Ljava/util/List;Z)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	i_(Ladl;)Z	i_(Ladl;)Z
+		ma	0	0
+	m	a(Ladj;Lack;Ljava/util/List;)V	a(Ladj;Lack;Ljava/util/List;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
 c	Ladz;	Ladz;
 	m	values()[Ladz;	values()[Ladz;
 	m	valueOf(Ljava/lang/String;)Ladz;	valueOf(Ljava/lang/String;)Ladz;
