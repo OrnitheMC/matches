@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:2984/2984 m:22674/22684 f:10780/10784 ma:30616/30638, input files:
+Matches saved 2024-06-05, status: c:2983/2984 m:22671/22684 f:10779/10784 ma:30613/30638, input files:
 	a:
 		8873431	SHA256	eG0ArbuM7xJTXe3wBYhkof29reGFNxbilZ4bWIzJigc=	minecraft-merged-16w20a.jar
 	b:
@@ -18105,14 +18105,7 @@ c	Lars$1;	Laru$1;
 	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
 		ma	0	0
 	f	a;;Lcom/google/common/base/Predicate;	a;;Lcom/google/common/base/Predicate;
-c	Lars$2;	Lary;
-	m	<init>(Larp;)V	<init>(Laxw;)V
-		ma	0	0
-	m	a(Lars;)Z	a(Larr;)Z
-		ma	0	0
-	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
-		ma	0	0
-	f	a;;Larp;	a;;Laxw;
+cu	a	Lars$2;
 c	Lars;	Laru;
 	m	<init>(Laia;Lcl;Z)V	<init>(Laic;Lcl;Z)V
 		ma	0	0
