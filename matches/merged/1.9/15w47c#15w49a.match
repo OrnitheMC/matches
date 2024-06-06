@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:2898/2898 m:22120/22146 f:10463/10471 ma:29781/29864, input files:
+Matches saved 2024-06-05, status: c:2898/2898 m:22111/22146 f:10460/10471 ma:29781/29864, input files:
 	a:
 		9233417	SHA256	tPEFCaOYLvcK9mXDVUXmCn6yjadSSOlNcM4ecnXMheU=	minecraft-merged-15w47c.jar
 	b:
@@ -31211,22 +31211,10 @@ c	Lbgn;	Lbgn;
 	f	f;;Leu;	f;;Leu;
 	f	a;;Lbbz;	a;;Lbbz;
 	f	b;;Lbgm;	b;;Lbgm;
-c	Lbgo;	Lbgq;
-	m	<init>(Lbgm;)V	<init>(Lbgm;Lbvu;)V
+c	Lbgo;	Lbgo;
+	m	<init>(Lbgm;)V	<init>(Lbgm;)V
 		ma	0	0
-	m	a()I	a()I
-	m	b()Ljava/lang/String;	b()Ljava/lang/String;
-	m	f()Z	f()Z
-	m	g()Z	g()Z
-	m	h()Z	h()Z
-	m	i()Z	i()Z
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
-	m	d()V	d()V
-	m	e()Z	e()Z
-	m	<clinit>()V	<clinit>()V
-	f	c;;Lorg/apache/logging/log4j/Logger;	c;;Lorg/apache/logging/log4j/Logger;
-	f	d;;Lbvs;	d;;Lbvu;
-	f	e;;Lkk;	e;;Lkk;
 c	Lbgp;	Lbgp;
 	m	<init>(Lbgm;Lbvu$a;)V	<init>(Lbgm;Lbvw$a;)V
 		ma	0	0
