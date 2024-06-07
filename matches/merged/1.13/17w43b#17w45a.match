@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:3474/3529 m:25463/26347 f:11921/12156 ma:35054/36410, input files:
+Matches saved 2024-06-07, status: c:3474/3529 m:25463/26347 f:11921/12156 ma:35054/36410, input files:
 	a:
 		10289392	SHA256	NL/aWZc44S0winxPG6OdCskWAtdXlKniWPalV1Oexa8=	minecraft-merged-17w43b.jar
 	b:
@@ -67527,10 +67527,10 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 		ma	0	0
 	m	ae()Z	W()Z
 	m	af()Z	X()Z
-	m	g(Z)V	h(Z)V
+	m	g(Z)V	g(Z)V
 		ma	0	0
 	m	ag()Z	Y()Z
-	m	h(Z)V	g(Z)V
+	m	h(Z)V	h(Z)V
 		ma	0	0
 	m	ah()Z	Z()Z
 	m	i(Z)V	i(Z)V
@@ -67636,8 +67636,8 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	f	z;;Z	y;;Z
 	f	A;;Z	z;;Z
 	f	B;;Z	A;;Z
-	f	C;;Z	C;;Z
-	f	D;;Z	B;;Z
+	f	C;;Z	B;;Z
+	f	D;;Z	C;;Z
 	f	E;;Z	D;;Z
 	f	F;;Ljava/lang/String;	E;;Ljava/lang/String;
 	f	G;;I	F;;I
