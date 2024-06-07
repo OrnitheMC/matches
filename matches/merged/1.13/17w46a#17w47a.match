@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:3402/3579 m:25320/26969 f:11727/12353 ma:34193/37421, input files:
+Matches saved 2024-06-07, status: c:3403/3579 m:25327/26969 f:11726/12353 ma:34228/37421, input files:
 	a:
 		10450226	SHA256	j3G+5Fbelvv8Q+TWX8UnylSTB0NR1I6Ye+ENIsu5sVc=	minecraft-merged-17w46a.jar
 	b:
@@ -8939,7 +8939,6 @@ c	Lajo;	Lajz;
 c	Lajq;	Lakb;
 	m	<init>(Lart;)V	<init>(Lasg;)V
 		ma	0	0
-	mu	a	a(Lalm;)Ljava/lang/String;
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(Lalm;Lapr;Ljava/util/List;Lamy;)V	a(Lalx;Laqb;Ljava/util/List;Land;)V
 		ma	0	0
@@ -9090,7 +9089,6 @@ c	Lajy;	Lakh;
 		ma	2	2
 		ma	3	3
 	mu	a	a(Lapr;Ldq;Ldx;Laha;Lalm;)Z
-	mu	a	a(Lalm;)Ljava/lang/String;
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	b()Lakm;	d()Lakw;
 	m	a(Lakm;Lef;)V	a(Lakw;Lei;)V
@@ -9458,7 +9456,7 @@ c	Lakp;	Lakz;
 		ma	6	4
 		mau	a	7
 	m	a()I	a()I
-	m	b()I	f()I
+	mu	a	b()I
 	m	c()Ljava/lang/String;	b()Ljava/lang/String;
 	mu	a	d()Ljava/lang/String;
 	m	e()I	c()I
@@ -9498,7 +9496,6 @@ c	Lakp;	Lakz;
 	f	A;;[Lakp;	z;;[Lakz;
 c	Lakq;	Lala;
 	m	<init>()V	<init>(Lakz;)V
-	mu	a	a(Lalm;)Ljava/lang/String;
 	mu	a	a(Lalm;Lapr;Ldq;)Z
 	mu	a	a(Lapr;Ldq;I)V
 	m	a(Lalm;Laha;Lym;Lwy;)Z	a(Lalx;Lahl;Lyx;Lxj;)Z
@@ -9763,7 +9760,6 @@ c	Lald;	Laln;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Lalm;)Ljava/lang/String;
 	f	b;;Z	b;;Z
 c	Lale$1;	Lalo$1;
 	m	<init>(Lale;)V	<init>(Lalo;)V
@@ -10016,10 +10012,10 @@ c	Lalk;	Lalv;
 	m	J_()Z	K_()Z
 	m	L_()Z	L_()Z
 	mu	a	c(Ljava/lang/String;)Lalk;
-	m	j(Lalm;)Ljava/lang/String;	i(Lalx;)Ljava/lang/String;
-		ma	0	0
+	m	j(Lalm;)Ljava/lang/String;	n()Ljava/lang/String;
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
-	mu	a	a(Lalm;)Ljava/lang/String;
+	m	a(Lalm;)Ljava/lang/String;	i(Lalx;)Ljava/lang/String;
+		ma	0	0
 	m	b(Lalk;)Lalk;	b(Lalv;)Lalv;
 		ma	0	0
 	m	p()Z	p()Z
@@ -10907,7 +10903,6 @@ c	Lamn;	Lamu;
 c	Lamo;	Lami;
 	m	<init>()V	<init>(Lasg;Lasg;)V
 	mu	a	a(I)I
-	mu	a	a(Lalm;)Ljava/lang/String;
 	m	b(Lalm;)Ljava/lang/String;	j(Lalx;)Ljava/lang/String;
 		ma	0	0
 	m	a(Lfc;)Z	a(Lfg;)Z
@@ -14620,6 +14615,7 @@ c	Lark;	Larw;
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -14633,8 +14629,21 @@ c	Lark;	Larw;
 c	Larl$1;	Last$1;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
-c	Larl$a;	Lavg;
-	m	<init>()V	<init>()V
+c	Larl$a;	Lary;
+	m	b(Lazq;Lapv;Ldq;)Lbjy;	b(Lbak;Laqf;Lds;)Lblj;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
+		ma	0	0
+		ma	1	1
+	m	a(Lazq;Lauv;)Lazq;	a(Lbak;Lavh;)Lbak;
+		ma	0	0
+		ma	1	1
+	m	a(I)Lazq;	a(Laki;)Lbak;
+		ma	0	0
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 c	Larl$b;	Laxz;
 	m	<init>()V	<init>(Lakz;)V
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
@@ -14650,6 +14659,7 @@ c	Larl$b;	Laxz;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 		mvu	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	fu	a	d;;Lbjy;
@@ -14712,6 +14722,8 @@ c	Larn;	Lasa;
 	m	<init>(Lbfw;)V	<init>(Lbgq;)V
 		ma	0	0
 	m	<init>(Lbfw;Lbfx;)V	<init>(Lbgq;Lbgr;)V
+		ma	0	0
+		ma	1	1
 	m	a(Lazq;)Lawh;	d(Lbak;)Lawl;
 		ma	0	0
 	m	b(Lapr;Ldq;Lazq;)V	a(Lbak;Laqb;Lds;Lbak;)V
@@ -14733,6 +14745,8 @@ c	Larn;	Lasa;
 		ma	4	4
 c	Laro;	Lasb;
 	m	<init>(Lbfw;Lbfx;)V	<init>(Lbgq;Lbgr;)V
+		ma	0	0
+		ma	1	1
 	m	b(Lazq;Lapv;Ldq;)Lbjy;	b(Lbak;Laqf;Lds;)Lblj;
 		ma	0	0
 		ma	1	1
@@ -14902,6 +14916,7 @@ c	Larp;	Lasc;
 	m	a(Lapr;Ldq;)Z	a(Lbak;Laqb;Lds;)Z
 		ma	0	1
 		ma	1	2
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	m	a(Lazq;Lapr;Ldq;Lart;Ldq;)V	a(Lbak;Laqb;Lds;Lasg;Lds;)V
 		ma	0	0
 		ma	1	1
@@ -15057,6 +15072,8 @@ c	Larr;	Lase;
 		ma	0	0
 		ma	1	3
 		ma	2	5
+		mvu	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
 		ma	1	1
@@ -15131,7 +15148,8 @@ c	Lart;	Lasg;
 		ma	0	0
 	m	n(Lazq;)Z	n(Lbak;)Z
 		ma	0	0
-	mu	a	o(Lazq;)I
+	m	o(Lazq;)I	o(Lbak;)I
+		ma	0	0
 	m	p(Lazq;)Z	p(Lbak;)Z
 		ma	0	0
 	m	q(Lazq;)Lbfw;	q(Lbak;)Lbgq;
@@ -15142,8 +15160,7 @@ c	Lart;	Lasg;
 		ma	2	2
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
-	m	e(Lazq;)I	o(Lbak;)I
-		ma	0	0
+	mu	a	e(Lazq;)I
 	m	d(Lazq;Lapv;Ldq;)Lazq;	a(Lbak;Ldz;Lbak;Laqb;Lds;Lds;)Lbak;
 		ma	0	0
 		ma	1	3
@@ -15155,6 +15172,8 @@ c	Lart;	Lasg;
 		ma	0	0
 		ma	1	1
 	m	<init>(Lbfw;Lbfx;)V	<init>(Lbgq;Lbgr;)V
+		ma	0	0
+		ma	1	1
 	m	<init>(Lbfw;)V	<init>(Lbgq;)V
 		ma	0	0
 	m	a(Laww;)Lart;	a(Laxc;)Lasg;
@@ -15521,7 +15540,7 @@ c	Laru;	Lash;
 	f	y;;Lart;	ag;;Lasg;
 	f	z;;Lart;	ah;;Lasg;
 	f	A;;Lart;	ai;;Lasg;
-	f	B;;Lart;	aj;;Lasg;
+	f	B;;Lart;	al;;Lasg;
 	fu	a	C;;Lart;
 	f	D;;Lart;	aC;;Lasg;
 	f	E;;Lart;	aD;;Lasg;
@@ -15814,6 +15833,7 @@ c	Lary;	Lasl;
 		ma	0	1
 		ma	1	2
 		ma	2	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	v(Lazq;)Z	v(Lbak;)Z
 		ma	0	0
 	m	c(Lazq;Lapr;Ldq;)I	c(Lbak;Laqb;Lds;)I
@@ -15821,6 +15841,7 @@ c	Lary;	Lasl;
 		ma	1	1
 		ma	2	2
 	m	f()Lapj;	c()Lapt;
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -15836,6 +15857,8 @@ c	Larz;	Lasm;
 	m	<init>(Lbfw;)V	<init>(Lbgq;)V
 		ma	0	0
 	m	<init>(Lbfw;Lbfx;)V	<init>(Lbgq;Lbgr;)V
+		ma	0	0
+		ma	1	1
 	m	a(Lapr;Ldq;)Z	a(Lbak;Laqb;Lds;)Z
 		ma	0	1
 		ma	1	2
@@ -15958,6 +15981,7 @@ c	Lasa;	Lasn;
 		ma	0	1
 		ma	1	2
 		mau	a	2
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -16005,6 +16029,7 @@ c	Lasb;	Laso;
 		ma	2	0
 		ma	3	3
 	m	f()Lapj;	c()Lapt;
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -16048,6 +16073,7 @@ c	Lasc;	Lasp;
 		ma	0	0
 		mau	a	1
 		ma	2	3
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	c(Lazq;Lapr;Ldq;)I	c(Lbak;Laqb;Lds;)I
 		ma	0	0
@@ -16107,12 +16133,14 @@ c	Lase;	Lass;
 	m	h(Lapr;Ldq;)V	g(Laqb;Lds;)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	v(Lazq;)Z	v(Lbak;)Z
 		ma	0	0
 	m	c(Lazq;Lapr;Ldq;)I	c(Lbak;Laqb;Lds;)I
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	b(Lapv;Ldq;)Z	a(Lbak;Laqf;Lds;)Z
 		ma	0	1
@@ -16143,6 +16171,7 @@ c	Lasf;	Last;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
 	m	a(Lapr;Ldq;Lazq;Lym;Lalm;)V	a(Laqb;Lds;Lbak;Lyx;Lalx;)V
 		ma	0	0
@@ -16195,6 +16224,7 @@ c	Lasf;	Last;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 		mvu	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -16255,6 +16285,7 @@ c	Lasg;	Lasu;
 	m	u(Lazq;)Lalm;	u(Lbak;)Lalx;
 		ma	0	0
 	m	f()Lapj;	c()Lapt;
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapr;Ldq;Ljava/util/Random;I)V	a(Laqb;Lds;Ljava/util/Random;I)V
 		ma	0	0
@@ -16288,6 +16319,7 @@ c	Lash;	Lasv;
 		mvu	a	4
 		mvu	a	5
 	mu	a	a(Lazq;Lapr;Ldq;Lbjy;Ljava/util/List;Lyd;Z)V
+	mu	a	e(Lazq;)I
 	m	b(Lapr;Ldq;Lazq;Ljava/util/Random;)V	b(Lbak;Laqb;Lds;Ljava/util/Random;)V
 		ma	0	1
 		ma	1	2
@@ -16375,6 +16407,7 @@ c	Lasj;	Lasx;
 	m	f()Lapj;	c()Lapt;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -16440,6 +16473,7 @@ c	Lasl;	Lasz;
 		ma	0	0
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -16482,6 +16516,7 @@ c	Lasm$a;	Lata$a;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;[Lasm$a;	d;;[Lata$a;
 c	Lasm;	Lata;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	x(Lazq;)I	i(Lbak;)I
 		ma	0	0
 	mu	a	y(Lazq;)Lazq;
@@ -16530,6 +16565,7 @@ c	Lasm;	Lata;
 		ma	1	2
 		ma	2	0
 		ma	3	3
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	m	a(Lazq;Lapr;Ldq;II)Z	a(Lbak;Laqb;Lds;II)Z
 		ma	0	0
 		ma	1	1
@@ -16538,18 +16574,25 @@ c	Lasm;	Lata;
 		ma	4	4
 	m	a(Lapr;I)Layg;	a_(Laqb;)Layq;
 		ma	0	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
 	m	<clinit>()V	<clinit>()V
 	f	b;;Lbae;	a;;Lbay;
-c	Lasn;	Laxf;
+c	Lasn;	Latb;
 	m	<init>()V	<init>(Lakz;)V
+	m	a(Lapr;Ldq;Lazq;Lazq;)V	a(Laqb;Lds;Lbak;Lbak;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	mu	a	e(Lapr;Ldq;Lazq;)Z
-	m	c(Lapr;Ldq;Lazq;)V	b(Lbak;Laqb;Lds;Lbak;)V
-		ma	0	1
-		ma	1	2
-		ma	2	0
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	mu	a	d(Lazq;)I
+	m	a(I)Lazq;	a(Laki;)Lbak;
+		ma	0	0
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	fu	a	a;;Lbae;
 c	Laso$a;	Latc$a;
 	m	<init>(Lapr;Ldq;)V	<init>(Laqb;Lds;)V
@@ -16639,6 +16682,7 @@ c	Lasp;	Latd;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	f	c;;Lbaf;	b;;Lbaz;
@@ -16667,6 +16711,7 @@ c	Lasq;	Latf;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	c(Lazq;)Z	a(Lbak;)Z
 		ma	0	0
 	m	b(Lazq;)Z	b(Lbak;)Z
@@ -16677,6 +16722,7 @@ c	Lasq;	Latf;
 		ma	0	0
 	m	a(Lapr;I)Layg;	a_(Laqb;)Layq;
 		ma	0	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -16779,6 +16825,7 @@ c	Lass;	Lath;
 		ma	3	3
 	m	a(Ldq;)Lbjy;	a(Lds;)Lbkq;
 		ma	0	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -16910,6 +16957,7 @@ c	Lasw;	Latk;
 	m	<init>()V	<init>()V
 	m	a(Lapr;)I	a(Laqb;)I
 		ma	0	0
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	mu	a	e(Lapr;Ldq;Lazq;)V
 	m	a(Lapr;Ldq;Lazq;Laha;Lwy;Ldx;FFF)Z	a(Lbak;Laqb;Lds;Lahl;Lxj;Ldz;FFF)Z
 		ma	0	1
@@ -16962,6 +17010,7 @@ c	Lasw;	Latk;
 		ma	0	0
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -17069,6 +17118,7 @@ c	Lasx;	Latl;
 		ma	1	1
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	mu	a	b(I)I
 	mu	a	d(Lapv;Ldq;)Z
 	mu	a	f(Lapv;Ldq;)Ldx;
@@ -17112,6 +17162,7 @@ c	Lasz;	Latn;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	m	a(Lapr;Ldq;Lazq;Laha;Lwy;Ldx;FFF)Z	a(Lbak;Laqb;Lds;Lahl;Lxj;Ldz;FFF)Z
 		ma	0	1
 		ma	1	2
@@ -17356,6 +17407,7 @@ c	Latf;	Latt;
 		ma	2	2
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -17406,6 +17458,7 @@ c	Latg;	Latu;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 		mvu	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	h(Lazq;)Lbfz;	h(Lbak;)Lbgt;
 		ma	0	0
@@ -17460,6 +17513,7 @@ c	Lath;	Latv;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 		mvu	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -17532,7 +17586,7 @@ c	Latk;	Latz;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	b(Lapr;Ldq;)V	b(Laqb;Lds;)V
+	m	b(Lapr;Ldq;)V	a(Laqb;Lds;)V
 		ma	0	0
 		ma	1	1
 	m	c(Lapr;Ldq;)Z	c(Laqb;Lds;)Z
@@ -17541,6 +17595,7 @@ c	Latk;	Latz;
 	m	d(Lapr;Ldq;)Z	d(Laqb;Lds;)Z
 		ma	0	0
 		ma	1	1
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	m	a(Lazq;Ljava/util/Random;I)Lalk;	a(Lbak;Laqb;Lds;I)Lalv;
 		ma	0	0
@@ -17548,6 +17603,7 @@ c	Latk;	Latz;
 		ma	2	3
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -17564,6 +17620,8 @@ c	Latl$1;	Laua$1;
 	f	b;;[I	b;;[I
 c	Latl;	Laua;
 	m	<init>(Lbfw;Lbfx;)V	<init>(Lbgq;Lbgr;)V
+		ma	0	0
+		ma	1	1
 	mu	a	a(Lazq;Lapr;Ldq;Lbjy;Ljava/util/List;Lyd;Z)V
 	mu	a	x(Lazq;)I
 	m	b(Lazq;)Z	b(Lbak;)Z
@@ -17590,6 +17648,7 @@ c	Latl;	Laua;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+	mu	a	e(Lazq;)I
 	m	d(Lazq;Lapv;Ldq;)Lazq;	a(Lbak;Ldz;Lbak;Laqb;Lds;Lds;)Lbak;
 		ma	0	0
 		ma	1	3
@@ -17617,6 +17676,7 @@ c	Latm;	Laub;
 		ma	0	0
 		ma	1	3
 		ma	2	4
+		mvu	a	0
 	m	a(Lazq;Lapv;Ldq;)Lbjy;	f(Lbak;Laqf;Lds;)Lblj;
 		ma	0	0
 		ma	1	1
@@ -17648,6 +17708,7 @@ c	Latm;	Laub;
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -17735,6 +17796,7 @@ c	Latn;	Lauc;
 	m	f()Lapj;	c()Lapt;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -17794,10 +17856,18 @@ c	Latp;	Laue;
 		mau	a	1
 		ma	2	3
 	mu	a	c(Lapr;Ldq;)Layq;
+	mu	a	b()Lazr;
+	mu	a	e(Lazq;)I
 	m	d(Lazq;Lapv;Ldq;)Lazq;	a(Lbak;Ldz;Lbak;Laqb;Lds;Lds;)Lbak;
 		ma	0	0
 		ma	1	3
 		ma	2	4
+		mvu	a	0
+		mvu	a	1
+		mvu	a	2
+		mvu	a	3
+		mvu	a	4
+		mvu	a	5
 	m	f()Lapj;	c()Lapt;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -17810,6 +17880,7 @@ c	Latp;	Laue;
 	f	c;;Lbjy;	a;;Lblj;
 c	Latq;	Lauf;
 	m	<init>()V	<init>()V
+	mu	a	e(Lazq;)I
 	m	b(Lapr;Ldq;Lazq;Ljava/util/Random;)V	b(Lbak;Laqb;Lds;Ljava/util/Random;)V
 		ma	0	1
 		ma	1	2
@@ -17829,6 +17900,9 @@ cu	a	Lats;
 cu	a	Latt;
 cu	a	Latu$1;
 c	Latu;	Laug;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
+	mu	a	c(Lapr;Ldq;Lazq;)V
+	mu	a	e(Lapr;Ldq;Lazq;)V
 	m	a(Lazq;Lapr;Ldq;Ljava/util/Random;)V	c(Lbak;Laqb;Lds;Ljava/util/Random;)V
 		ma	0	0
 		ma	1	1
@@ -17844,6 +17918,7 @@ c	Latu;	Laug;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+	mu	a	a(ZLapr;Ldq;)V
 	m	a(Lapr;I)Layg;	a_(Laqb;)Layq;
 		ma	0	0
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
@@ -17868,8 +17943,7 @@ c	Latu;	Laug;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 		mvu	a	0
-	m	e(Lazq;)I	o(Lbak;)I
-		ma	0	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -17896,6 +17970,7 @@ c	Latw;	Lauj;
 		ma	0	0
 	m	b()Lazr;	b()Lbal;
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
+	mu	a	e(Lazq;)I
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 	m	h(Lazq;)Lbfz;	h(Lbak;)Lbgt;
@@ -17916,24 +17991,41 @@ c	Latx;	Lauk;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-c	Laty;	Laxa;
-	m	d(Lazq;Lapv;Ldq;)Lazq;	a(Lbak;Ldz;Lbak;Laqb;Lds;Lds;)Lbak;
+c	Laty;	Laul;
+	m	<init>()V	<init>()V
+	mu	a	d(Lazq;Lapv;Ldq;)Lazq;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
+	m	a(Lapr;Ldq;Lazq;Z)Z	a(Laqb;Lds;Lbak;Z)Z
 		ma	0	0
-		ma	1	3
-		ma	2	4
-	m	a(Lazq;Ljava/util/Random;I)Lalk;	a(Lbak;Laqb;Lds;I)Lalv;
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	a(Lapr;Ljava/util/Random;Ldq;Lazq;)Z	a(Laqb;Ljava/util/Random;Lds;Lbak;)Z
 		ma	0	0
-		mau	a	1
-		ma	2	3
-	m	b()Lazr;	b()Lbal;
-	m	<clinit>()V	<clinit>()V
-	f	a;;Lbac;	a;;Lbaw;
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	b(Lapr;Ljava/util/Random;Ldq;Lazq;)V	b(Laqb;Ljava/util/Random;Lds;Lbak;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		mv	0	0
+		mv	1	2
+		mv	2	3
+		mv	3	4
+		mv	4	1
+		mv	7	5
+	m	f()Lapj;	c()Lapt;
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 c	Latz$1;	Laur$2;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
 c	Latz;	Laum;
 	m	<init>()V	<init>()V
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	mu	a	b(Lapr;Ldq;)V
 	m	b(Lazq;Lapv;Ldq;)Lbjy;	b(Lbak;Laqf;Lds;)Lblj;
 		ma	0	0
@@ -18000,6 +18092,8 @@ c	Lauc$a;	Laww$a;
 	f	d;;[Lauc$a;	e;;[Laww$a;
 c	Lauc;	Laww;
 	m	<init>(Lbfw;Lbfx;)V	<init>(Lbgq;Lbgr;)V
+		ma	0	0
+		ma	1	1
 	m	n()Z	l()Z
 	m	b(Lazq;Lapv;Ldq;)Lbjy;	b(Lbak;Laqf;Lds;)Lblj;
 		ma	0	0
@@ -18124,6 +18218,7 @@ c	Laui;	Laur;
 	m	f()Lapj;	c()Lapt;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -18148,6 +18243,8 @@ c	Lauj;	Laus;
 	m	<init>(Lbfw;)V	<init>(Lbgq;)V
 		ma	0	0
 	m	<init>(Lbfw;Lbfx;)V	<init>(Lbgq;Lbgr;)V
+		ma	0	0
+		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	D;;Lbad;	N;;Lbax;
 c	Lauk$1;	Lauw$1;
@@ -18169,6 +18266,7 @@ c	Lauk;	Laut;
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -18252,6 +18350,7 @@ c	Laum;	Lauy;
 		ma	2	2
 	m	a(Lazq;)Lawh;	d(Lbak;)Lawl;
 		ma	0	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbac;	a;;Lbaw;
@@ -18278,6 +18377,7 @@ c	Laun;	Lauz;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 		mvu	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -18391,6 +18491,7 @@ c	Lauq;	Lavc;
 		ma	3	3
 	m	g(Lazq;)Z	g(Lbak;)Z
 		ma	0	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -18481,6 +18582,7 @@ c	Laur;	Lavd;
 	m	b(Lapr;Ldq;)V	a(Laqb;Lds;)V
 		ma	0	0
 		ma	1	1
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lbfw;)Latb;	a(Lbgq;)Latp;
 		ma	0	0
@@ -18533,7 +18635,14 @@ c	Laut;	Lavf;
 	m	a(Lazq;Lyd;)Z	a(Lbak;Lyo;)Z
 		ma	0	0
 		ma	1	1
-cu	a	Lauu;
+c	Lauu;	Lavg;
+	m	<init>()V	<init>()V
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
+	m	a(Ljava/util/Random;)I	a(Lbak;Ljava/util/Random;)I
+		ma	0	1
+	m	a(ILjava/util/Random;)I	a(Lbak;ILaqb;Lds;Ljava/util/Random;)I
+		ma	0	1
+		ma	1	4
 c	Lauv$1;	Lavh$1;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -18604,6 +18713,8 @@ c	Lauy;	Lauv;
 		ma	2	0
 		ma	3	3
 		ma	4	4
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	m	<clinit>()V	<clinit>()V
 	fu	a	a;;Lbae;
 c	Lauz;	Lavj;
@@ -18701,11 +18812,15 @@ c	Lav;	Lav;
 	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
 c	Lava;	Lavk;
 	m	<init>()V	<init>()V
+	mu	a	d(Lazq;Lapv;Ldq;)Lazq;
 	m	a(Lazq;Lapr;Ldq;Ljava/util/Random;)V	c(Lbak;Laqb;Lds;Ljava/util/Random;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 c	Lavb;	Lavl;
 	m	<init>()V	<init>()V
 	m	c(Lazq;Lapv;Ldq;)Lbfx;	d(Lbak;Laqf;Lds;)Lbgr;
@@ -18740,6 +18855,7 @@ c	Lavc;	Lavm;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbaf;	a;;Lbaz;
@@ -18839,6 +18955,7 @@ c	Lavj;	Lavq;
 		ma	1	2
 		ma	2	0
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
+	mu	a	e(Lazq;)I
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 	m	<clinit>()V	<clinit>()V
@@ -18958,6 +19075,7 @@ c	Lavq;	Lavx;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -18993,6 +19111,8 @@ c	Lavr;	Lavy;
 	f	a;;[Lbjy;	a;;[Lblj;
 c	Lavs;	Lavz;
 	m	<init>(Lbfw;Lbfx;)V	<init>(Lbgq;Lbgr;)V
+		ma	0	0
+		ma	1	1
 	m	g(Lazq;)Z	g(Lbak;)Z
 		ma	0	0
 	m	b(Lazq;Lapv;Ldq;Ldx;)I	a(Lbak;Laqf;Lds;Ldz;)I
@@ -19033,6 +19153,7 @@ c	Lavt;	Lawa;
 	m	g()Lbag;	d()Lbba;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -19075,6 +19196,7 @@ c	Lavu;	Lawb;
 	m	e(Lapr;Ldq;)I	d(Laqb;Lds;)I
 		ma	0	0
 		ma	1	1
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	f	d;;Lbac;	y;;Lbaw;
@@ -19102,6 +19224,7 @@ c	Lavw;	Lasr;
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	e()Lazu;	d()Lbao;
 	m	g()Lazu;	e()Lbao;
@@ -19133,6 +19256,7 @@ c	Lavz;	Lawd;
 		ma	2	2
 		ma	3	3
 	m	g()Lbag;	d()Lbba;
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -19311,6 +19435,10 @@ c	Lawd;	Lawg;
 		ma	0	1
 		ma	1	2
 		ma	2	0
+		mvu	a	0
+		mvu	a	1
+		mvu	a	2
+		mvu	a	3
 	m	b(Lapr;Ldq;Lazq;)V	a(Lbak;Laqb;Lds;Lbak;)V
 		ma	0	1
 		ma	1	2
@@ -19325,6 +19453,7 @@ c	Lawd;	Lawg;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	c(Lazq;Lapv;Ldq;Ldx;)I	b(Lbak;Laqf;Lds;Ldz;)I
 		ma	0	0
 		ma	1	1
@@ -19359,6 +19488,7 @@ c	Lawd;	Lawg;
 	m	f()Lapj;	c()Lapt;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -19396,6 +19526,7 @@ c	Lawe;	Lawh;
 		ma	1	2
 		ma	2	0
 		ma	3	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	fu	a	a;;Z
 c	Lawf$a;	Lawi$a;
 	m	<init>(Ldq;J)V	<init>(Lds;J)V
@@ -19414,6 +19545,7 @@ c	Lawf;	Lawi;
 		ma	0	1
 		ma	1	2
 		ma	2	3
+		mvu	a	0
 	m	b(Lapr;Ldq;Lazq;)V	a(Lbak;Laqb;Lds;Lbak;)V
 		ma	0	1
 		ma	1	2
@@ -19448,6 +19580,7 @@ c	Lawf;	Lawi;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	g(Lazq;)Z	g(Lbak;)Z
 		ma	0	0
 	m	a(Lazq;Lapr;Ldq;Ljava/util/Random;)V	c(Lbak;Laqb;Lds;Ljava/util/Random;)V
@@ -19474,11 +19607,13 @@ c	Lawg;	Lawk;
 		ma	1	2
 	mu	a	e(Lapr;Ldq;Lazq;)Z
 	mu	a	b(Lapr;Ldq;)Z
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	b(Lazq;)Z	b(Lbak;)Z
 		ma	0	0
 	m	c(Lazq;)Z	a(Lbak;)Z
 		ma	0	0
 	m	f()Lapj;	c()Lapt;
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -19520,6 +19655,7 @@ c	Lawi;	Lawm;
 		ma	0	0
 	mu	a	y(Lazq;)Lazq;
 	mu	a	z(Lazq;)Lazq;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	b(Lapv;Ldq;Lazq;)Z	b(Laqf;Lds;Lbak;)Z
 		ma	0	0
 		ma	1	1
@@ -19533,6 +19669,7 @@ c	Lawi;	Lawm;
 		ma	3	3
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbac;	a;;Lbaw;
@@ -19552,6 +19689,7 @@ c	Lawj;	Lawn;
 		mau	a	0
 		mvu	a	0
 		mvu	a	1
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
 	m	<clinit>()V	<clinit>()V
@@ -19586,6 +19724,8 @@ cu	a	Lawl$a;
 c	Lawl;	Lawp;
 	m	<init>()V	<init>(Lbgq;Lbgr;I)V
 	mu	a	d(Lazq;)I
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	m	y(Lazq;)I	x(Lbak;)I
 		ma	0	0
 	fu	a	a;;Lbae;
@@ -19624,6 +19764,7 @@ c	Lawn;	Lawq;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	fu	a	a;;Lbae;
@@ -19676,6 +19817,7 @@ c	Lawp;	Lawt;
 		ma	8	8
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
 	m	b()Lazr;	b()Lbal;
+	mu	a	e(Lazq;)I
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 		mvu	a	0
@@ -19762,6 +19904,7 @@ c	Lawq;	Lawu;
 	m	d()Z	a()Z
 	m	a(Lapr;I)Layg;	a_(Laqb;)Layq;
 		ma	0	0
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	a(Lapr;Ldq;Lazq;Laha;Lwy;Ldx;FFF)Z	a(Lbak;Laqb;Lds;Lahl;Lxj;Ldz;FFF)Z
 		ma	0	1
 		ma	1	2
@@ -19784,6 +19927,7 @@ cu	a	Lawr$2;
 c	Lawr;	Layi;
 	m	<init>()V	<init>()V
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	b(Lapr;Ldq;Lalm;)Z	b(Laqb;Lds;Lalx;)Z
 		ma	0	0
 		ma	1	1
@@ -19795,6 +19939,8 @@ c	Lawr;	Layi;
 		mvu	a	3
 		mvu	a	6
 		mvu	a	14
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	m	e()Lazu;	e()Lbao;
 	m	g()Lazu;	d()Lbao;
 	fu	a	c;;Lbjy;
@@ -19879,6 +20025,7 @@ c	Lawu;	Lawz;
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbaf;	a;;Lbaz;
@@ -19951,12 +20098,16 @@ c	Lawx;	Laxd;
 	m	b(Lapr;Ldq;)Z	b(Laqb;Lds;)Z
 		ma	0	0
 		ma	1	1
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 cu	a	Lawy;
 cu	a	Lawz$1;
 c	Lawz;	Laxg;
 	m	<init>()V	<init>(Lakz;)V
 	mu	a	d(Lazq;)I
 	m	f()Lapj;	c()Lapt;
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	m	c(Lapr;Ldq;Lazq;)V	b(Lbak;Laqb;Lds;Lbak;)V
 		ma	0	1
 		ma	1	2
@@ -20150,6 +20301,7 @@ c	Laxb;	Laxh;
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	d(Lazq;Lapv;Ldq;)Lazq;	a(Lbak;Ldz;Lbak;Laqb;Lds;Lds;)Lbak;
 		ma	0	0
 		ma	1	3
@@ -20200,6 +20352,7 @@ c	Laxc;	Laxi;
 	m	<init>()V	<init>()V
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -20240,6 +20393,7 @@ c	Laxe;	Laxk;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	d(Lazq;Lapv;Ldq;)Lazq;
 	m	x(Lazq;)Z	i(Lbak;)Z
 		ma	0	0
 	m	b(Lapr;Ldq;Lazq;Ljava/util/Random;)V	b(Lbak;Laqb;Lds;Ljava/util/Random;)V
@@ -20277,6 +20431,7 @@ c	Laxe;	Laxk;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbaf;	a;;Lbaz;
@@ -20322,6 +20477,7 @@ c	Laxj;	Laxo;
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lazq;Lapr;Ldq;Lart;Ldq;)V	a(Lbak;Laqb;Lds;Lasg;Lds;)V
 		ma	0	0
@@ -20400,6 +20556,8 @@ c	Laxl;	Laxr;
 		ma	2	2
 		ma	3	3
 		mvu	a	0
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	m	u()Lart$a;	u()Lasg$a;
 	m	<clinit>()V	<clinit>()V
 	f	c;;Lbjy;	a;;Lblj;
@@ -20417,9 +20575,13 @@ c	Laxm;	Late;
 		ma	2	2
 	m	x(Lazq;)I	i(Lbak;)I
 		ma	0	0
+	mu	a	d(Lazq;Lapv;Ldq;)Lazq;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	mu	a	b(Lapv;Lazq;Ldq;Ldx;)Z
 	mu	a	e(Lart;)Z
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	m	<clinit>()V	<clinit>()V
 	f	b;;Lbac;	a;;Lbaw;
 	f	c;;Lbac;	b;;Lbaw;
@@ -20464,6 +20626,8 @@ c	Laxn;	Laxs;
 		ma	3	3
 	m	a(Lapm;)Z	a(Lapw;)Z
 		ma	0	0
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 cu	a	Laxo$1;
 c	Laxo$2;	Lms$13;
 	m	<clinit>()V	<clinit>()V
@@ -20485,6 +20649,7 @@ c	Laxo;	Laxt;
 		mvu	a	0
 	mu	a	a(Lapr;Ldq;Ldx;)Z
 	mu	a	a(Lapr;Ldq;Ldx;FFFILym;)Lazq;
+	mu	a	c(Lapr;Ldq;Lazq;)V
 	mu	a	e(Lapr;Ldq;Lazq;)Z
 	mu	a	f(Lapr;Ldq;Lazq;)Z
 	m	a(Lazq;Lapr;Ldq;Ljava/util/Random;)V	c(Lbak;Laqb;Lds;Ljava/util/Random;)V
@@ -20493,6 +20658,8 @@ c	Laxo;	Laxt;
 		ma	2	2
 		ma	3	3
 	m	f()Lapj;	c()Lapt;
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
 		ma	1	1
@@ -20558,6 +20725,7 @@ c	Laxp;	Laxu;
 	m	f()Lapj;	c()Lapt;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -20593,6 +20761,7 @@ c	Laxq;	Laxw;
 	m	c(Lazq;)Z	a(Lbak;)Z
 		ma	0	0
 	m	f()Lapj;	c()Lapt;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	c(Lapr;Ldq;Lazq;)V	b(Lbak;Laqb;Lds;Lbak;)V
 		ma	0	1
 		ma	1	2
@@ -20633,6 +20802,7 @@ c	Laxq;	Laxw;
 		ma	3	1
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -20728,6 +20898,7 @@ c	Laxr;	Laxx;
 	m	f()Lapj;	c()Lapt;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -20764,6 +20935,7 @@ c	Laxs;	Laxy;
 		ma	0	0
 		ma	1	3
 		ma	2	4
+		mvu	a	0
 	m	b(Lazq;)Z	b(Lbak;)Z
 		ma	0	0
 	m	c(Lazq;)Z	a(Lbak;)Z
@@ -20820,6 +20992,7 @@ c	Laxs;	Laxy;
 	m	f()Lapj;	c()Lapt;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
@@ -20877,10 +21050,16 @@ c	Laxt;	Laya;
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	d(Lazq;Lapv;Ldq;)Lazq;	a(Lbak;Ldz;Lbak;Laqb;Lds;Lds;)Lbak;
 		ma	0	0
 		ma	1	3
 		ma	2	4
+		mvu	a	0
+		mvu	a	1
+		mvu	a	2
+		mvu	a	3
+		mvu	a	4
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -20906,6 +21085,7 @@ c	Laxu;	Layb;
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
 		mvu	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -20934,6 +21114,7 @@ c	Laxv;	Laye;
 	m	x(Lazq;)Z	i(Lbak;)Z
 		ma	0	0
 	mu	a	f(Lapr;Ldq;Lazq;)Z
+	mu	a	e(Lazq;)I
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbjy;	a;;Lblj;
 c	Laxw;	Layf;
@@ -20989,6 +21170,7 @@ c	Laxx;	Layg;
 		ma	1	1
 	m	a(Lapr;)I	a(Laqb;)I
 		ma	0	0
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
 	f	d;;Lbaf;	y;;Lbaz;
@@ -21057,6 +21239,8 @@ c	Laya;	Layl;
 	mu	a	b(Lapr;Ldq;)Z
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	mu	a	d(Lazq;)I
+	mu	a	e(Lazq;)I
+	mu	a	b()Lazr;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
 		ma	1	1
@@ -21406,6 +21590,7 @@ c	Layh;	Layr;
 cu	a	Layi$1;
 c	Layi;	Lays;
 	m	<init>()V	<init>()V
+	m	<init>(Lasf$a;)V	<init>()V
 	m	E_()I	E_()I
 	m	F_()Z	F_()Z
 	m	C_()Ljava/lang/String;	C_()Ljava/lang/String;
@@ -22275,6 +22460,7 @@ c	Lazg;	Lbab;
 		ma	3	3
 	m	a(I)Lazq;	a(Laki;)Lbak;
 		mau	a	0
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -22356,6 +22542,7 @@ c	Lazh;	Lbac;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	e(Lazq;)I
 	m	a(Lazq;Lawk;)Lazq;	a(Lbak;Lawo;)Lbak;
 		ma	0	0
 		ma	1	1
@@ -22455,6 +22642,7 @@ c	Lazi;	Lbaa;
 	m	a(Lazq;Lauv;)Lazq;	a(Lbak;Lavh;)Lbak;
 		ma	0	0
 		ma	1	1
+	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
 		ma	0	0
@@ -33651,7 +33839,6 @@ c	Lbln$4;	Lbms$4;
 		ma	2	2
 		ma	3	3
 c	Lbln$5;	Lbms$6;
-	m	<init>(Lbln;)V	<init>()V
 	m	a(Lazq;Lapv;Ldq;I)I	a(Lbak;Laqf;Lds;I)I
 		ma	0	0
 		ma	1	1
@@ -57257,8 +57444,6 @@ c	Lcom/mojang/brigadier/CommandDispatcher;	Lcom/mojang/brigadier/CommandDispatch
 	m	lambda$getSmartUsage$2(Ljava/lang/Object;Lcom/mojang/brigadier/tree/CommandNode;)Z	lambda$getSmartUsage$2(Ljava/lang/Object;Lcom/mojang/brigadier/tree/CommandNode;)Z
 		ma	0	0
 		ma	1	1
-	m	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;
-		ma	0	0
 	m	lambda$parseNodes$1(Lcom/mojang/brigadier/CommandDispatcher$PartialParse;Lcom/mojang/brigadier/CommandDispatcher$PartialParse;)I	lambda$parseNodes$1(Lcom/mojang/brigadier/CommandDispatcher$PartialParse;Lcom/mojang/brigadier/CommandDispatcher$PartialParse;)I
 		ma	0	0
 		ma	1	1
@@ -57266,6 +57451,8 @@ c	Lcom/mojang/brigadier/CommandDispatcher;	Lcom/mojang/brigadier/CommandDispatch
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	ERROR_UNKNOWN_COMMAND;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_UNKNOWN_COMMAND;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	ERROR_UNKNOWN_ARGUMENT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_UNKNOWN_ARGUMENT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
@@ -57516,9 +57703,6 @@ c	Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;	Lcom/mojang/brigadier/bu
 		ma	0	0
 	m	getThis()Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
 	m	getLiteral()Ljava/lang/String;	getLiteral()Ljava/lang/String;
-	m	requires(Ljava/util/function/Predicate;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	requires(Ljava/util/function/Predicate;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
-	m	redirect(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	redirect(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
-	m	executes(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	executes(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
 	m	build()Lcom/mojang/brigadier/tree/LiteralCommandNode;	build()Lcom/mojang/brigadier/tree/LiteralCommandNode;
 	m	build()Lcom/mojang/brigadier/tree/CommandNode;	build()Lcom/mojang/brigadier/tree/CommandNode;
 	m	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;
@@ -57535,9 +57719,6 @@ c	Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;	Lcom/mojang/brigadier/b
 	m	getThis()Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
 	m	getType()Lcom/mojang/brigadier/arguments/ArgumentType;	getType()Lcom/mojang/brigadier/arguments/ArgumentType;
 	m	getName()Ljava/lang/String;	getName()Ljava/lang/String;
-	m	requires(Ljava/util/function/Predicate;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	requires(Ljava/util/function/Predicate;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
-	m	redirect(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	redirect(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
-	m	executes(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	executes(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
 	m	build()Lcom/mojang/brigadier/tree/ArgumentCommandNode;	build()Lcom/mojang/brigadier/tree/ArgumentCommandNode;
 	m	build()Lcom/mojang/brigadier/tree/CommandNode;	build()Lcom/mojang/brigadier/tree/CommandNode;
 	m	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;
@@ -57574,34 +57755,33 @@ c	Lcom/mojang/brigadier/context/CommandContext;	Lcom/mojang/brigadier/context/Co
 	f	range;;Lcom/mojang/brigadier/context/StringRange;	range;;Lcom/mojang/brigadier/context/StringRange;
 	f	child;;Lcom/mojang/brigadier/context/CommandContext;	child;;Lcom/mojang/brigadier/context/CommandContext;
 c	Lcom/mojang/brigadier/context/CommandContextBuilder;	Lcom/mojang/brigadier/context/CommandContextBuilder;
-	m	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;
-		ma	0	0
-		ma	1	1
-	m	getRange()Lcom/mojang/brigadier/context/StringRange;	getRange()Lcom/mojang/brigadier/context/StringRange;
-	m	getChild()Lcom/mojang/brigadier/context/CommandContextBuilder;	getChild()Lcom/mojang/brigadier/context/CommandContextBuilder;
-	m	build(Ljava/lang/String;)Lcom/mojang/brigadier/context/CommandContext;	build(Ljava/lang/String;)Lcom/mojang/brigadier/context/CommandContext;
-		ma	0	0
-	m	getNodes()Ljava/util/Map;	getNodes()Ljava/util/Map;
-	m	copy()Lcom/mojang/brigadier/context/CommandContextBuilder;	copy()Lcom/mojang/brigadier/context/CommandContextBuilder;
-	m	withSource(Ljava/lang/Object;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withSource(Ljava/lang/Object;)Lcom/mojang/brigadier/context/CommandContextBuilder;
-		ma	0	0
-	m	getCommand()Lcom/mojang/brigadier/Command;	getCommand()Lcom/mojang/brigadier/Command;
-	m	<init>(Lcom/mojang/brigadier/CommandDispatcher;Ljava/lang/Object;I)V	<init>(Lcom/mojang/brigadier/CommandDispatcher;Ljava/lang/Object;I)V
-	m	getSource()Ljava/lang/Object;	getSource()Ljava/lang/Object;
-	m	withCommand(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withCommand(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/context/CommandContextBuilder;
-		ma	0	0
-	m	withChild(Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withChild(Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/context/CommandContextBuilder;
-		ma	0	0
-	m	getLastChild()Lcom/mojang/brigadier/context/CommandContextBuilder;	getLastChild()Lcom/mojang/brigadier/context/CommandContextBuilder;
 	m	<init>(Lcom/mojang/brigadier/CommandDispatcher;Ljava/lang/Object;I)V	<init>(Lcom/mojang/brigadier/CommandDispatcher;Ljava/lang/Object;I)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	withSource(Ljava/lang/Object;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withSource(Ljava/lang/Object;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+	m	getSource()Ljava/lang/Object;	getSource()Ljava/lang/Object;
 	m	withArgument(Ljava/lang/String;Lcom/mojang/brigadier/context/ParsedArgument;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withArgument(Ljava/lang/String;Lcom/mojang/brigadier/context/ParsedArgument;)Lcom/mojang/brigadier/context/CommandContextBuilder;
 		ma	0	0
 		ma	1	1
 	m	getArguments()Ljava/util/Map;	getArguments()Ljava/util/Map;
+	m	withCommand(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withCommand(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+	m	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+		ma	1	1
+	m	copy()Lcom/mojang/brigadier/context/CommandContextBuilder;	copy()Lcom/mojang/brigadier/context/CommandContextBuilder;
+	m	withChild(Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withChild(Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+	m	getChild()Lcom/mojang/brigadier/context/CommandContextBuilder;	getChild()Lcom/mojang/brigadier/context/CommandContextBuilder;
+	m	getLastChild()Lcom/mojang/brigadier/context/CommandContextBuilder;	getLastChild()Lcom/mojang/brigadier/context/CommandContextBuilder;
+	m	getCommand()Lcom/mojang/brigadier/Command;	getCommand()Lcom/mojang/brigadier/Command;
+	m	getNodes()Ljava/util/Map;	getNodes()Ljava/util/Map;
+	m	build(Ljava/lang/String;)Lcom/mojang/brigadier/context/CommandContext;	build(Ljava/lang/String;)Lcom/mojang/brigadier/context/CommandContext;
+		ma	0	0
 	m	getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;	getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;
+	m	getRange()Lcom/mojang/brigadier/context/StringRange;	getRange()Lcom/mojang/brigadier/context/StringRange;
 	f	arguments;;Ljava/util/Map;	arguments;;Ljava/util/Map;
 	f	nodes;;Ljava/util/Map;	nodes;;Ljava/util/Map;
 	f	dispatcher;;Lcom/mojang/brigadier/CommandDispatcher;	dispatcher;;Lcom/mojang/brigadier/CommandDispatcher;
@@ -57803,8 +57983,6 @@ c	Lcom/mojang/brigadier/tree/RootCommandNode;	Lcom/mojang/brigadier/tree/RootCom
 	m	<init>()V	<init>()V
 	m	getName()Ljava/lang/String;	getName()Ljava/lang/String;
 	m	getUsageText()Ljava/lang/String;	getUsageText()Ljava/lang/String;
-	m	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V
-	m	getChildren()Ljava/util/Collection;	getChildren()Ljava/util/Collection;
 	m	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V
 		ma	0	0
 		ma	1	1
