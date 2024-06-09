@@ -1,4 +1,4 @@
-Matches saved 2023-02-13, status: c:1767/1770 m:14847/14864 f:6666/6682 ma:22621/22652, input files:
+Matches saved 2024-06-09, status: c:1765/1770 m:14841/14864 f:6662/6682 ma:22617/22652, input files:
 	a:
 		5246130	SHA256	NzdcsODgUF6S+F1fsL6ncboe3AkGZLVrzc4ioYs/KGM=	minecraft-merged-13w41a.jar
 	b:
@@ -24344,22 +24344,8 @@ c	Lbie;	Lbic;
 	f	j;;Lbbr;	j;;Lbbp;
 	f	k;;Z	k;;Z
 	f	l;;Ljava/util/Random;	l;;Ljava/util/Random;
-c	Lbif;	Lbpb;
-	m	<init>(Lbie;Lfy;)V	<init>(Lbpa;Lbpe;)V
-		ma	0	0
-		ma	1	1
-	m	a()Ljava/lang/String;	a()Ljava/lang/String;
-	m	call()Ljava/lang/Object;	call()Ljava/lang/Object;
-	f	a;;Lfy;	a;;Lbpe;
-	f	b;;Lbie;	b;;Lbpa;
-c	Lbig;	Lbpd;
-	m	<init>(Lbie;Ley;)V	<init>(Lbpa;Lbpe;)V
-		ma	0	0
-		ma	1	1
-	m	a()Ljava/lang/String;	a()Ljava/lang/String;
-	m	call()Ljava/lang/Object;	call()Ljava/lang/Object;
-	f	a;;Ley;	a;;Lbpe;
-	f	b;;Lbie;	b;;Lbpa;
+cu	a	Lbif;
+cu	a	Lbig;
 c	Lbih;	Lbid;
 	m	<init>(Lbie;Ljava/lang/String;)V	<init>(Lbic;Ljava/lang/String;)V
 		ma	0	0
