@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:3510/3568 m:26519/27036 f:12420/12945 ma:35704/37724, input files:
+Matches saved 2024-06-09, status: c:3510/3568 m:26519/27036 f:12420/12945 ma:35705/37724, input files:
 	a:
 		10680771	SHA256	NBnd1UDacpPvF1vV86TlODzmvoTD6tAok98BsBzYKMQ=	minecraft-merged-18w05a.jar
 	b:
@@ -15760,6 +15760,7 @@ c	Lasj;	Latm;
 		ma	0	0
 	m	q(Lea;)Lbcl;	b(Lec;)Lbfj;
 		ma	0	0
+		mvu	a	0
 	m	E()Z	D()Z
 	m	a(Lbms;Lbms;)Lbmp;	a(Lbvk;Lbvk;)Lbvh;
 		ma	0	0
@@ -15966,6 +15967,7 @@ c	Lasj;	Latm;
 	m	J()Ljava/lang/String;	I()Ljava/lang/String;
 	m	t(Lea;)Lbas;	f(Lec;)Lbdq;
 		ma	0	0
+		mvu	a	0
 	m	a(Lea;)Lbas;	a(Lec;)Lbdq;
 		ma	0	0
 	m	a(Lea;Lbas;)V	a(Lec;Lbdq;)V
@@ -16363,12 +16365,15 @@ c	Lasm;	Latr;
 	f	f;;Z	f;;Z
 	f	g;;Z	g;;Z
 	f	h;;Ljava/lang/String;	h;;Ljava/lang/String;
-c	Lasn;	Latb;
-	m	t(Lea;)Lbas;	f(Lec;)Lbdq;
+c	Lasn;	Latq;
+	mu	a	t(Lea;)Lbas;
+	mu	a	q(Lea;)Lbcl;
+	m	b(Lea;)Lasw;	d(Lec;)Laud;
 		ma	0	0
-	m	q(Lea;)Lbcl;	b(Lec;)Lbfj;
+	m	a(Lea;Leg;)I	a(Lec;Lei;)I
 		ma	0	0
-	m	am()I	C()I
+		ma	1	1
+	mu	a	am()I
 c	Laso;	Latt;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
@@ -16489,6 +16494,9 @@ c	Lass;	Laty;
 		ma	1	1
 	m	q(Lea;)Lbcl;	b(Lec;)Lbfj;
 		ma	0	0
+		mvu	a	0
+		mvu	a	1
+		mvu	a	2
 	m	b(Lea;)Lasw;	d(Lec;)Laud;
 		ma	0	0
 	m	a(Lasp;Lea;)I	b(Latv;Lec;)I
@@ -30193,6 +30201,7 @@ c	Lbhk$a;	Lblx$a;
 		ma	3	3
 c	Lbhk;	Lblx;
 	m	<init>()V	<init>()V
+	m	<init>(Ljava/util/Map;)V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	mu	a	a(Lasj;Lea;Z)Lea;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
@@ -53589,7 +53598,7 @@ c	Lcek;	Lcne;
 	f	k;;Z	o;;Z
 	f	l;;Z	p;;Z
 	f	m;;Z	q;;Z
-	f	n;;Z	t;;Z
+	f	n;;Z	v;;Z
 c	Lcel;	Lcnf;
 	m	<init>(Lbof;)V	<init>(Lbwx;)V
 		ma	0	0
