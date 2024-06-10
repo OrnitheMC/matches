@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:4238/4325 m:31163/31922 f:14379/14449 ma:44670/45816, input files:
+Matches saved 2024-06-10, status: c:4235/4325 m:31162/31922 f:14379/14449 ma:44670/45816, input files:
 	a:
 		12144386	SHA256	w77VEmrr0rn56RIuFl9kvzc8Mdpu6xp3kXuIS/Ed8dQ=	minecraft-merged-18w19a.jar
 	b:
@@ -83284,12 +83284,11 @@ c	Lnet/minecraft/util/datafix/optics/Forget;	Labt;
 		ma	0	0
 	m	run(Ljava/lang/Object;)Ljava/lang/Object;	run(Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	0
-c	Lnet/minecraft/util/datafix/optics/ForgetE$Instance$Mu;	Labv$a$a;
-	m	<init>()V	<init>()V
+cu	a	Lnet/minecraft/util/datafix/optics/ForgetE$Instance$Mu;
 cu	a	Lnet/minecraft/util/datafix/optics/ForgetE$Instance;
 cu	a	Lnet/minecraft/util/datafix/optics/ForgetE$Mu;
 cu	a	Lnet/minecraft/util/datafix/optics/ForgetE;
-c	Lnet/minecraft/util/datafix/optics/ForgetOpt$Instance$Mu;	Lacm$a$a;
+c	Lnet/minecraft/util/datafix/optics/ForgetOpt$Instance$Mu;	Labv$a$a;
 	m	<init>()V	<init>()V
 c	Lnet/minecraft/util/datafix/optics/ForgetOpt$Instance;	Labv$a;
 	m	<init>()V	<init>()V
@@ -83766,7 +83765,7 @@ c	Lnet/minecraft/util/datafix/optics/profunctors/GetterP;	Lacz;
 		ma	0	0
 	m	lambda$null$0(Ljava/lang/Object;)Ljava/lang/Void;	b(Ljava/lang/Object;)Ljava/lang/Void;
 		ma	0	0
-c	Lnet/minecraft/util/datafix/optics/profunctors/Mapping$Mu;	Lada$a;
+cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Mapping$Mu;
 cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Mapping;
 cu	a	Lnet/minecraft/util/datafix/optics/profunctors/MonoidProfunctor$Mu;
 cu	a	Lnet/minecraft/util/datafix/optics/profunctors/MonoidProfunctor;
@@ -83799,7 +83798,7 @@ cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ProfunctorFunctorWrapper$Mu;
 cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ProfunctorFunctorWrapper;
 cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ReCartesian$Mu;
 cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ReCartesian;
-c	Lnet/minecraft/util/datafix/optics/profunctors/ReCocartesian$Mu;	Ladg$a;
+cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ReCocartesian$Mu;
 cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ReCocartesian;
 c	Lnet/minecraft/util/datafix/optics/profunctors/TraversalP$1;	Ladh$1;
 	m	<init>(Lnet/minecraft/util/datafix/optics/profunctors/TraversalP;Labn;)V	<init>(Ladh;Labp;)V
