@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:3996/4024 m:29500/29824 f:14046/14085 ma:42186/42617, input files:
+Matches saved 2024-06-10, status: c:3996/4024 m:29500/29824 f:14046/14085 ma:42186/42617, input files:
 	a:
 		11771741	SHA256	r0aqyN/+UAUnQ7/av3XVrwvPMjVkQdNMW/650XtSq+I=	minecraft-merged-18w16a.jar
 	b:
@@ -32117,7 +32117,7 @@ c	Lbji;	Lbns;
 	f	a;;Lbjl;	a;;Lbnw;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
-	f	d;;I	e;;I
+	f	d;;I	d;;I
 	f	e;;Lbjn;	f;;Lbny;
 	f	f;;Lbjd;	g;;Lbnn;
 	f	g;;Lbjd;	h;;Lbnn;
@@ -60718,8 +60718,6 @@ c	Lcom/mojang/brigadier/CommandDispatcher;	Lcom/mojang/brigadier/CommandDispatch
 	m	lambda$getSmartUsage$2(Ljava/lang/Object;Lcom/mojang/brigadier/tree/CommandNode;)Z	lambda$getSmartUsage$2(Ljava/lang/Object;Lcom/mojang/brigadier/tree/CommandNode;)Z
 		ma	0	0
 		ma	1	1
-	m	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;
-		ma	0	0
 	m	lambda$parseNodes$1(Lcom/mojang/brigadier/CommandDispatcher$PartialParse;Lcom/mojang/brigadier/CommandDispatcher$PartialParse;)I	lambda$parseNodes$1(Lcom/mojang/brigadier/CommandDispatcher$PartialParse;Lcom/mojang/brigadier/CommandDispatcher$PartialParse;)I
 		ma	0	0
 		ma	1	1
@@ -60727,6 +60725,8 @@ c	Lcom/mojang/brigadier/CommandDispatcher;	Lcom/mojang/brigadier/CommandDispatch
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	ERROR_UNKNOWN_COMMAND;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_UNKNOWN_COMMAND;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	ERROR_UNKNOWN_ARGUMENT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_UNKNOWN_ARGUMENT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
@@ -61104,7 +61104,6 @@ c	Lcom/mojang/brigadier/context/CommandContextBuilder;	Lcom/mojang/brigadier/con
 	m	withCommand(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withCommand(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/context/CommandContextBuilder;
 		ma	0	0
 	m	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;
-	m	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;
 	m	copy()Lcom/mojang/brigadier/context/CommandContextBuilder;	copy()Lcom/mojang/brigadier/context/CommandContextBuilder;
 	m	withChild(Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withChild(Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/context/CommandContextBuilder;
 		ma	0	0
@@ -61329,8 +61328,6 @@ c	Lcom/mojang/brigadier/tree/ArgumentCommandNode;	Lcom/mojang/brigadier/tree/Arg
 	m	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ma	0	0
 		ma	1	1
-	m	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V
-		ma	0	0
 	m	createBuilder()Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;	createBuilder()Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
 	m	isValidInput(Ljava/lang/String;)Z	isValidInput(Ljava/lang/String;)Z
 		ma	0	0
@@ -61423,8 +61420,6 @@ c	Lcom/mojang/brigadier/tree/LiteralCommandNode;	Lcom/mojang/brigadier/tree/Lite
 		ma	0	0
 	m	getUsageText()Ljava/lang/String;	getUsageText()Ljava/lang/String;
 	m	hashCode()I	hashCode()I
-	m	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V
-		ma	0	0
 	m	createBuilder()Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;	createBuilder()Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
 	m	getSortedKey()Ljava/lang/String;	getSortedKey()Ljava/lang/String;
 	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
@@ -61436,9 +61431,6 @@ c	Lcom/mojang/brigadier/tree/RootCommandNode;	Lcom/mojang/brigadier/tree/RootCom
 	m	<init>()V	<init>()V
 	m	getName()Ljava/lang/String;	getName()Ljava/lang/String;
 	m	getUsageText()Ljava/lang/String;	getUsageText()Ljava/lang/String;
-	m	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V
-		ma	0	0
-	m	getChildren()Ljava/util/Collection;	getChildren()Ljava/util/Collection;
 	m	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V
 		ma	0	0
 		ma	1	1
