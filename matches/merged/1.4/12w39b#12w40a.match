@@ -1,4 +1,4 @@
-Matches saved 2023-02-12, status: c:1412/1412 m:11563/11599 f:5856/5861 ma:18386/18549, input files:
+Matches saved 2024-07-21, status: c:1412/1412 m:11562/11599 f:5856/5861 ma:18383/18549, input files:
 	a:
 		4819360	SHA256	WlBBRD4td55cxvxHp3xYAzxRbaUxIwhjbZIKTygo+6M=	minecraft-merged-12w39b.jar
 	b:
@@ -36139,10 +36139,7 @@ c	Lxo;	Lyr;
 	mu	a	m()V
 	m	n()V	n()V
 	m	o()V	o()V
-	m	h(III)V	g(III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
+	mu	a	h(III)V
 	mu	a	i(III)Z
 	f	a;;Z	a;;Z
 	f	r;;[Lxp;	r;;[Lys;
