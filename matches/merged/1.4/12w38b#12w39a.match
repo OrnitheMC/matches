@@ -1,4 +1,4 @@
-Matches saved 2023-02-12, status: c:1416/1416 m:11564/11579 f:5858/5860 ma:18416/18461, input files:
+Matches saved 2024-07-21, status: c:1416/1416 m:11563/11579 f:5858/5860 ma:18413/18461, input files:
 	a:
 		4818879	SHA256	YVQMRRjFUpKXOVXTo5IXutc4K8HTp2VBl2DI6FZRuWw=	minecraft-merged-12w38b.jar
 	b:
@@ -35360,12 +35360,12 @@ c	Lwh;	Lwh;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Lwe;III)I	b(Lwe;III)I
+	mu	a	a(Lwe;III)I
+	m	b(Lwe;III)I	b(Lwe;III)I
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	b(Lwe;III)I
 	m	N()I	N()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -36011,10 +36011,7 @@ c	Lxo;	Lxo;
 	m	b()V	b()V
 	mu	a	e(II)V
 	mu	a	q()V
-	m	g(III)V	h(III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
+	mu	a	g(III)V
 	mu	a	d(IIII)V
 	m	h(III)V	g(III)V
 		ma	0	0
