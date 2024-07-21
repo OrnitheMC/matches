@@ -1,4 +1,4 @@
-Matches saved 2024-02-27, status: c:1508/1514 m:12272/12365 f:6100/6152 ma:19553/19788, input files:
+Matches saved 2024-07-21, status: c:1507/1514 m:12271/12365 f:6100/6152 ma:19553/19788, input files:
 	a:
 		5088547	SHA256	LA+5pi2KaHEvySrhnB3KF+XEtAdNXsfUWYlxlel5csI=	minecraft-merged-13w01b.jar
 	b:
@@ -19873,16 +19873,7 @@ c	Lbdt;	Lbeq;
 	f	a;;D	i;;D
 	f	b;;D	j;;D
 	f	c;;Lbdt;	h;;Lbeq;
-c	Lbdu;	Lbeo;
-	mu	a	<init>(I)V
-	m	a()V	d()Lbem;
-	mu	a	a(Lbbo;)V
-	fu	a	d;;[B
-	fu	a	e;;I
-	fu	a	f;;Z
-	fu	a	g;;I
-	fu	a	h;;I
-	fu	a	i;;I
+cu	a	Lbdu;
 cu	a	Lbdv;
 cu	a	Lbdw;
 cu	a	Lbdx;
