@@ -1844,7 +1844,7 @@ digraph {
   merged_1_9_2 -> merged_af_2016[label="99.99%",href="merged/april-fools/1.9.2%23af-2016.match"];
   merged_af_2013_blue -> merged_af_2013_purple[label="100%",href="merged/april-fools/af-2013-blue%23af-2013-purple.match"];
   merged_af_2013_blue -> merged_af_2013_red[label="99.02%",href="merged/april-fools/af-2013-blue%23af-2013-red.match"];
-  merged_af_2013_red -> merged_af_2013_purple[label="99.7%",href="merged/april-fools/af-2013-red%23af-2013-purple.match"];
+  merged_af_2013_red -> merged_af_2013_purple[label="99.69%",href="merged/april-fools/af-2013-red%23af-2013-purple.match"];
   server_1_0_0 -> server_1_0_1[label="100%",color="#0000aa",href="server/1.0/1.0.0%231.0.1.match"];
   server_1_0_0_rc2_3 -> server_1_0_0[label="100%",color="#0000aa",href="server/1.0/1.0.0-rc2-3%231.0.0.match"];
   server_b1_9_pre6 -> server_1_0_0_rc2_3[label="100%",color="#0000aa",href="server/1.0/b1.9-pre6%231.0.0-rc2-3.match"];
