@@ -22314,16 +22314,16 @@ c	Lbgg;	Lbgl;
 	f	u;;I	u;;I
 	f	v;;Z	v;;Z
 	f	w;;F	D;;F
-	f	x;;F	w;;F
-	f	y;;F	x;;F
+	f	x;;F	E;;F
+	f	y;;F	F;;F
 	f	z;;F	G;;F
 	f	A;;F	H;;F
 	f	B;;F	I;;F
 	f	C;;F	J;;F
 	f	D;;F	K;;F
-	f	E;;F	z;;F
+	f	E;;F	L;;F
 	f	F;;F	M;;F
-	f	G;;F	C;;F
+	f	G;;F	N;;F
 	f	H;;F	O;;F
 	f	I;;F	P;;F
 	f	J;;F	Q;;F
@@ -22369,26 +22369,6 @@ c	Lbgg;	Lbgl;
 	f	ax;;F	aJ;;F
 	f	ay;;F	aK;;F
 	f	az;;F	aL;;F
-	fu	b	y;;F
-	fu	b	A;;F
-	fu	b	B;;F
-	fu	b	E;;F
-	fu	b	F;;F
-	fu	b	L;;F
-	fu	b	N;;F
-	fu	b	av;;I
-	fu	b	aM;;Z
-	fu	b	aN;;Z
-	fu	b	aO;;Z
-	fu	b	aP;;Z
-	fu	b	aQ;;Z
-	fu	b	aR;;Z
-	fu	b	aS;;Z
-	fu	b	aT;;Z
-	fu	b	aU;;Z
-	fu	b	aV;;Z
-	fu	b	aW;;Z
-	fu	b	aX;;Z
 c	Lbgi;	Lbgn;
 	m	a(Laqx;)Z	a(Larb;)Z
 		ma	0	0
