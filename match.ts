@@ -1,6 +1,6 @@
 #!/usr/bin/env -S deno run --allow-net --allow-env --allow-read --allow-write --allow-run
 
-import './mc-versions/types.d.ts'
+import './mc-versions/src/types.d.ts'
 import * as path from 'https://deno.land/std@0.159.0/path/mod.ts'
 import {spawn, getEra, getVersionDetails, exists} from './utils.ts'
 
@@ -186,7 +186,7 @@ async function refresh(manifest: MainManifest) {
 }
 
 async function getVersionInfo(manifest: MainManifest, id: string) {
-    const info = manifest.versions.find(v => v.omniId === id)
+    const info = manifest.versions.find(v => v.id === id)
     if (!info) {
         console.error(`${id} not found`)
         return

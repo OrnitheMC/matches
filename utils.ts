@@ -1,4 +1,4 @@
-import './mc-versions/types.d.ts'
+import './mc-versions/src/types.d.ts'
 
 import * as path from 'https://deno.land/std@0.113.0/path/mod.ts'
 
