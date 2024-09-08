@@ -1,4 +1,4 @@
-Matches saved 2022-04-19, status: c:32/33 m:155/162 f:200/206 ma:314/332, input files:
+Matches saved 2024-09-08, status: c:32/33 m:155/162 f:200/206 ma:314/332, input files:
 	a:
 		46554	SHA256	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03.jar
 	b:
@@ -384,7 +384,7 @@ c	Lcom/mojang/minecraft/a;	Lcom/mojang/minecraft/Timer;
 	f	c;;I	ticks;;I
 	f	d;;F	a;;F
 	f	e;;F	timeScale;;F
-	f	f;;F	fps;;F
+	f	f;;F	passedTime;;F
 c	Lcom/mojang/minecraft/b/a;	Lcom/mojang/minecraft/renderer/Textures;
 	m	<init>()V	<init>()V
 	m	a(Ljava/lang/String;I)I	loadTexture(Ljava/lang/String;I)I
@@ -434,7 +434,7 @@ c	Lcom/mojang/minecraft/b/b;	Lcom/mojang/minecraft/renderer/Tesselator;
 	f	a;;Lcom/mojang/minecraft/b/b;	instance;;Lcom/mojang/minecraft/renderer/Tesselator;
 c	Lcom/mojang/minecraft/b/c;	Lcom/mojang/minecraft/renderer/Frustum;
 	m	<init>()V	<init>()V
-	m	a()Lcom/mojang/minecraft/b/c;	calculateFrustum()V
+	m	a()Lcom/mojang/minecraft/b/c;	getFrustum()Lcom/mojang/minecraft/renderer/Frustum;
 	m	a([[FI)V	normalizePlane([[FI)V
 		ma	0	0
 		ma	1	1
@@ -570,7 +570,7 @@ c	Lcom/mojang/minecraft/d/b;	Lcom/mojang/minecraft/character/Cube;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a()V	compile()V
+	m	a()V	render()V
 	f	d;;[Lcom/mojang/minecraft/d/e;	vertices;;[Lcom/mojang/minecraft/character/Vertex;
 	f	e;;[Lcom/mojang/minecraft/d/d;	polygons;;[Lcom/mojang/minecraft/character/Polygon;
 	f	f;;I	xTexOffs;;I
