@@ -1,4 +1,4 @@
-Matches saved 2022-04-19, status: c:29/37 m:122/208 f:176/231 ma:232/358, input files:
+Matches saved 2024-09-08, status: c:30/37 m:125/208 f:178/231 ma:238/358, input files:
 	a:
 		67430	SHA256	LKE7Q+o+/AOIxcHUYThU9kEvl9TAL0sYcp9kjkbwLR8=	minecraft-client-c0.0.11a-launcher.jar
 	b:
@@ -33,13 +33,6 @@ c	Lcom/mojang/minecraft/Entity;	Lcom/mojang/minecraft/f;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-		mvu	a	0
-		mvu	a	1
-		mvu	a	2
-		mvu	a	3
-		mvu	a	4
-		mvu	a	5
-		mvu	a	6
 	m	moveRelative(FFF)V	c(FFF)V
 		ma	0	0
 		ma	1	1
@@ -72,7 +65,6 @@ c	Lcom/mojang/minecraft/HitResult;	Lcom/mojang/minecraft/e;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	fu	a	type;;I
 	f	x;;I	a;;I
 	f	y;;I	b;;I
 	f	z;;I	c;;I
@@ -86,8 +78,6 @@ c	Lcom/mojang/minecraft/Minecraft;	Lcom/mojang/minecraft/c;
 	mu	a	init()V
 	m	checkGlError(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
-		mvu	a	0
-		mvu	a	1
 	m	destroy()V	a()V
 	m	run()V	run()V
 	mu	a	stop()V
@@ -103,13 +93,6 @@ c	Lcom/mojang/minecraft/Minecraft;	Lcom/mojang/minecraft/c;
 	mu	a	pick(F)V
 	m	render(F)V	b(F)V
 		ma	0	0
-		mvu	a	0
-		mvu	a	1
-		mvu	a	2
-		mvu	a	3
-		mvu	a	4
-		mvu	a	5
-		mvu	a	6
 	mu	a	drawGui(F)V
 	m	setupFog(I)V	a(I)V
 		ma	0	0
@@ -157,7 +140,6 @@ c	Lcom/mojang/minecraft/MinecraftApplet$1;	Lcom/mojang/minecraft/b;
 c	Lcom/mojang/minecraft/MinecraftApplet;	Lcom/mojang/minecraft/MinecraftApplet;
 	m	<init>()V	<init>()V
 	m	init()V	init()V
-	mu	a	startGameThread()V
 	m	start()V	start()V
 	m	stop()V	stop()V
 	m	destroy()V	destroy()V
@@ -172,7 +154,6 @@ c	Lcom/mojang/minecraft/Player;	Lcom/mojang/minecraft/d;
 c	Lcom/mojang/minecraft/Timer;	Lcom/mojang/minecraft/a;
 	m	<init>(F)V	<init>(F)V
 		ma	0	0
-	mu	a	advanceTime()V
 	fu	a	NS_PER_SECOND;;J
 	fu	a	MAX_NS_PER_UPDATE;;J
 	fu	a	MAX_TICKS_PER_UPDATE;;I
@@ -181,13 +162,11 @@ c	Lcom/mojang/minecraft/Timer;	Lcom/mojang/minecraft/a;
 	f	ticks;;I	c;;I
 	f	a;;F	d;;F
 	f	timeScale;;F	e;;F
-	f	fps;;F	f;;F
-	fu	a	passedTime;;F
+	f	passedTime;;F	f;;F
 c	Lcom/mojang/minecraft/character/Cube;	Lcom/mojang/minecraft/d/b;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
-	mu	a	setTexOffs(II)V
 	m	addBox(FFFIII)V	a(FFFIII)V
 		ma	0	0
 		ma	1	1
@@ -199,8 +178,7 @@ c	Lcom/mojang/minecraft/character/Cube;	Lcom/mojang/minecraft/d/b;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	render()V
-	mu	a	compile()V
+	m	render()V	a()V
 	f	vertices;;[Lcom/mojang/minecraft/character/Vertex;	d;;[Lcom/mojang/minecraft/d/e;
 	f	polygons;;[Lcom/mojang/minecraft/character/Polygon;	e;;[Lcom/mojang/minecraft/d/d;
 	f	xTexOffs;;I	f;;I
@@ -222,16 +200,12 @@ c	Lcom/mojang/minecraft/character/Polygon;	Lcom/mojang/minecraft/d/d;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	render()V
 	f	vertices;;[Lcom/mojang/minecraft/character/Vertex;	a;;[Lcom/mojang/minecraft/d/e;
-	fu	a	vertexCount;;I
 c	Lcom/mojang/minecraft/character/Vec3;	Lcom/mojang/minecraft/d/f;
 	m	<init>(FFF)V	<init>(FFF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	interpolateTo(Lcom/mojang/minecraft/character/Vec3;F)Lcom/mojang/minecraft/character/Vec3;
-	mu	a	set(FFF)V
 	f	x;;F	a;;F
 	f	y;;F	b;;F
 	f	z;;F	c;;F
@@ -341,13 +315,18 @@ c	Lcom/mojang/minecraft/level/Chunk;	Lcom/mojang/minecraft/a/c;
 	f	updates;;I	c;;I
 	f	totalTime;;J	q;;J
 	f	totalUpdates;;I	r;;I
-cu	a	Lcom/mojang/minecraft/level/DirtyChunkSorter;
+c	Lcom/mojang/minecraft/level/DirtyChunkSorter;	Lcom/mojang/minecraft/a/b;
+	m	<init>(Lcom/mojang/minecraft/Player;Lcom/mojang/minecraft/renderer/Frustum;)V	<init>(Lcom/mojang/minecraft/d;)V
+		ma	0	0
+	m	compare(Ljava/lang/Object;Ljava/lang/Object;)I	compare(Ljava/lang/Object;Ljava/lang/Object;)I
+		ma	0	0
+		ma	1	1
+	f	player;;Lcom/mojang/minecraft/Player;	a;;Lcom/mojang/minecraft/d;
 c	Lcom/mojang/minecraft/level/Level;	Lcom/mojang/minecraft/a/g;
 	m	<init>(III)V	<init>(Lcom/mojang/minecraft/c;III)V
-		mau	a	0
-		mau	a	1
-		mau	a	2
-		mvu	a	0
+		ma	0	1
+		ma	1	2
+		ma	2	3
 	m	load()Z	c()Z
 	m	save()V	b()V
 	m	calcLightDepths(IIII)V	c(IIII)V
@@ -388,7 +367,6 @@ c	Lcom/mojang/minecraft/level/LevelGen;	Lcom/mojang/minecraft/a/d;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	generateMap()[B
 	f	width;;I	a;;I
 	f	height;;I	b;;I
 	f	depth;;I	c;;I
@@ -398,35 +376,16 @@ c	Lcom/mojang/minecraft/level/LevelRenderer;	Lcom/mojang/minecraft/a/f;
 	m	<init>(Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/renderer/Textures;)V	<init>(Lcom/mojang/minecraft/a/g;Lcom/mojang/minecraft/b/a;)V
 		ma	0	0
 		ma	1	1
-		mvu	a	0
-		mvu	a	1
-		mvu	a	2
-		mvu	a	3
-		mvu	a	4
-		mvu	a	5
-		mvu	a	6
-		mvu	a	7
-		mvu	a	8
 	mu	a	getAllDirtyChunks()Ljava/util/List;
 	m	render(Lcom/mojang/minecraft/Player;I)V	a(Lcom/mojang/minecraft/d;I)V
 		ma	0	0
 		ma	1	1
-		mvu	a	0
-		mvu	a	1
-		mvu	a	2
 	mu	a	updateDirtyChunks(Lcom/mojang/minecraft/Player;)V
 	mu	a	pick(Lcom/mojang/minecraft/Player;Lcom/mojang/minecraft/renderer/Frustum;)V
 	m	renderHit(Lcom/mojang/minecraft/HitResult;II)V	a(Lcom/mojang/minecraft/d;Lcom/mojang/minecraft/e;II)V
 		ma	0	1
 		ma	1	2
 		ma	2	3
-		mvu	a	0
-		mvu	a	1
-		mvu	a	2
-		mvu	a	3
-		mvu	a	4
-		mvu	a	5
-		mvu	a	6
 	m	setDirty(IIIIII)V	a(IIIIII)V
 		ma	0	0
 		ma	1	1
@@ -451,35 +410,6 @@ c	Lcom/mojang/minecraft/level/NoiseMap;	Lcom/mojang/minecraft/a/a;
 	m	read(II)[I	a(II)[I
 		ma	0	0
 		ma	1	1
-		mvu	a	0
-		mvu	a	1
-		mvu	a	2
-		mvu	a	3
-		mvu	a	4
-		mvu	a	5
-		mvu	a	6
-		mvu	a	7
-		mvu	a	8
-		mvu	a	9
-		mvu	a	10
-		mvu	a	11
-		mvu	a	12
-		mvu	a	13
-		mvu	a	14
-		mvu	a	15
-		mvu	a	16
-		mvu	a	17
-		mvu	a	18
-		mvu	a	19
-		mvu	a	20
-		mvu	a	21
-		mvu	a	22
-		mvu	a	23
-		mvu	a	24
-		mvu	a	25
-		mvu	a	26
-		mvu	a	27
-		mvu	a	28
 	f	random;;Ljava/util/Random;	a;;Ljava/util/Random;
 	fu	a	seed;;I
 	f	levels;;I	b;;I
@@ -598,7 +528,6 @@ c	Lcom/mojang/minecraft/particle/Particle;	Lcom/mojang/minecraft/c/b;
 		ma	6	6
 		ma	7	7
 	m	tick()V	a()V
-	mu	a	render(Lcom/mojang/minecraft/renderer/Tesselator;FFFFFF)V
 	f	xd;;F	u;;F
 	f	yd;;F	v;;F
 	f	zd;;F	w;;F
@@ -612,13 +541,10 @@ c	Lcom/mojang/minecraft/particle/ParticleEngine;	Lcom/mojang/minecraft/c/a;
 	m	<init>(Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/renderer/Textures;)V	<init>(Lcom/mojang/minecraft/a/g;Lcom/mojang/minecraft/b/a;)V
 		ma	0	0
 		ma	1	1
-	mu	a	add(Lcom/mojang/minecraft/particle/Particle;)V
-	mu	a	tick()V
 	m	render(Lcom/mojang/minecraft/Player;FI)V	a(Lcom/mojang/minecraft/d;FI)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	fu	a	level;;Lcom/mojang/minecraft/level/Level;
 	f	particles;;Ljava/util/List;	a;;Ljava/util/List;
 	f	textures;;Lcom/mojang/minecraft/renderer/Textures;	b;;Lcom/mojang/minecraft/b/a;
 c	Lcom/mojang/minecraft/phys/AABB;	Lcom/mojang/minecraft/f/a;
@@ -629,18 +555,13 @@ c	Lcom/mojang/minecraft/phys/AABB;	Lcom/mojang/minecraft/f/a;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	expand(FFF)Lcom/mojang/minecraft/phys/AABB;
-	mu	a	grow(FFF)Lcom/mojang/minecraft/phys/AABB;
-	mu	a	clipXCollide(Lcom/mojang/minecraft/phys/AABB;F)F
-	mu	a	clipYCollide(Lcom/mojang/minecraft/phys/AABB;F)F
-	mu	a	clipZCollide(Lcom/mojang/minecraft/phys/AABB;F)F
 	m	intersects(Lcom/mojang/minecraft/phys/AABB;)Z	a(Lcom/mojang/minecraft/f/a;)Z
 		ma	0	0
 	m	move(FFF)V	a(FFF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	fu	a	epsilon;;F
+	f	epsilon;;F	g;;F
 	f	x0;;F	a;;F
 	f	y0;;F	b;;F
 	f	z0;;F	c;;F
@@ -650,29 +571,13 @@ c	Lcom/mojang/minecraft/phys/AABB;	Lcom/mojang/minecraft/f/a;
 c	Lcom/mojang/minecraft/renderer/Frustum;	Lcom/mojang/minecraft/b/c;
 	m	<clinit>()V	<clinit>()V
 	m	<init>()V	<init>()V
-	mu	a	getFrustum()Lcom/mojang/minecraft/renderer/Frustum;
+	m	getFrustum()Lcom/mojang/minecraft/renderer/Frustum;	a()Lcom/mojang/minecraft/b/c;
 	m	normalizePlane([[FI)V	a([[FI)V
 		ma	0	0
 		ma	1	1
-		mvu	a	0
-	m	calculateFrustum()V	a()Lcom/mojang/minecraft/b/c;
-	mu	a	pointInFrustum(FFF)Z
-	mu	a	sphereInFrustum(FFFF)Z
-	mu	a	cubeFullyInFrustum(FFFFFF)Z
-	mu	a	cubeInFrustum(FFFFFF)Z
 	m	isVisible(Lcom/mojang/minecraft/phys/AABB;)Z	a(Lcom/mojang/minecraft/f/a;)Z
 		ma	0	0
 	f	m_Frustum;;[[F	a;;[[F
-	fu	a	RIGHT;;I
-	fu	a	LEFT;;I
-	fu	a	BOTTOM;;I
-	fu	a	TOP;;I
-	fu	a	BACK;;I
-	fu	a	FRONT;;I
-	fu	a	A;;I
-	fu	a	B;;I
-	fu	a	C;;I
-	fu	a	D;;I
 	f	frustum;;Lcom/mojang/minecraft/renderer/Frustum;	b;;Lcom/mojang/minecraft/b/c;
 	f	_proj;;Ljava/nio/FloatBuffer;	c;;Ljava/nio/FloatBuffer;
 	f	_modl;;Ljava/nio/FloatBuffer;	d;;Ljava/nio/FloatBuffer;
@@ -704,8 +609,6 @@ c	Lcom/mojang/minecraft/renderer/Tesselator;	Lcom/mojang/minecraft/b/b;
 	m	color(I)V	a(I)V
 		ma	0	0
 	m	noColor()V	c()V
-	fu	a	MAX_MEMORY_USE;;I
-	fu	a	MAX_FLOATS;;I
 	f	buffer;;Ljava/nio/FloatBuffer;	b;;Ljava/nio/FloatBuffer;
 	f	array;;[F	c;;[F
 	f	vertices;;I	d;;I
