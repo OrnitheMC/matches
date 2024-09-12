@@ -1,5 +1,5 @@
 #!/usr/bin/env -S deno run --no-check=remote --allow-run --allow-read --allow-write
-import './mc-versions/types.d.ts'
+import './mc-versions/src/types.d.ts'
 
 import * as path from 'https://deno.land/std@0.196.0/path/mod.ts'
 import React from 'https://esm.sh/react@18.2.0'
@@ -160,7 +160,7 @@ async function dumpGraph(data: Data) {
                 lines.push('      rank=same;')
                 spacer = '  '
             }
-            lines.push(`    ${spacer}${id}[label="${typePrefix}${version}",href="https://skyrising.github.io/mc-versions/version/${version}.json"];`)
+            lines.push(`    ${spacer}${id}[label="${typePrefix}${version}",href="https://ornithemc.net/mc-versions/version/${version}.json"];`)
             if (checkEra(era) && type === 'server' && versions['client' + '-' + version]) {
                 lines.push('    }')
                 spacer = ''
