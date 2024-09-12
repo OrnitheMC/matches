@@ -776,9 +776,24 @@
       "file": "matches/client/classic/c0.0.12a_03#c0.0.13a-launcher.match"
     },
     {
+      "a": "client-c0.0.12a_03",
+      "b": "client-c0.0.13a_03",
+      "file": "matches/client/classic/c0.0.12a_03#c0.0.13a_03.match"
+    },
+    {
       "a": "client-c0.0.13a-launcher",
       "b": "client-c0.0.13a_03-launcher",
       "file": "matches/client/classic/c0.0.13a-launcher#c0.0.13a_03-launcher.match"
+    },
+    {
+      "a": "client-c0.0.13a-launcher",
+      "b": "client-c0.0.13a_03",
+      "file": "matches/client/classic/c0.0.13a-launcher#c0.0.13a_03.match"
+    },
+    {
+      "a": "client-c0.0.13a_03",
+      "b": "client-c0.0.13a_03-launcher",
+      "file": "matches/client/classic/c0.0.13a_03#c0.0.13a_03-launcher.match"
     },
     {
       "a": "client-c0.0.13a_03-launcher",
@@ -5238,6 +5253,12 @@
       "id": "client_c0_0_13a_launcher",
       "type": "client",
       "version": "c0.0.13a-launcher",
+      "era": "classic"
+    },
+    "client-c0.0.13a_03": {
+      "id": "client_c0_0_13a_03",
+      "type": "client",
+      "version": "c0.0.13a_03",
       "era": "classic"
     },
     "client-c0.0.13a_03-launcher": {
