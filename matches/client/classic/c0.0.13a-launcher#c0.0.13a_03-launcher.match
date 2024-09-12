@@ -1,4 +1,4 @@
-Matches saved 2022-02-17, status: c:40/53 m:197/308 f:225/302 ma:405/568, input files:
+Matches saved 2024-09-11, status: c:41/53 m:199/308 f:228/302 ma:406/568, input files:
 	a:
 		97935	SHA256	s7WoiDTCNRyUiVDG1gyCLQ0dYPiMWtrUeU+K1v5bOjM=	minecraft-client-c0.0.13a-launcher.jar
 	b:
@@ -77,8 +77,8 @@ c	Lcom/mojang/minecraft/HitResult;	Lcom/mojang/minecraft/f;
 	m	distanceTo(Lcom/mojang/minecraft/Player;I)F	a(Lcom/mojang/minecraft/e;I)F
 		ma	0	0
 		ma	1	1
-	f	type;;I	a;;I
-	f	x;;I	b;;I
+	f	x;;I	a;;I
+	f	y;;I	b;;I
 	f	z;;I	c;;I
 	f	f;;I	d;;I
 c	Lcom/mojang/minecraft/Minecraft;	Lcom/mojang/minecraft/c;
@@ -98,8 +98,8 @@ c	Lcom/mojang/minecraft/Minecraft;	Lcom/mojang/minecraft/c;
 	mu	a	stop()V
 	m	grabMouse()V	b()V
 	m	releaseMouse()V	e()V
-	m	handleMouseClick()V	f()V
-	mu	a	tick()V
+	mu	a	handleMouseClick()V
+	m	tick()V	f()V
 	mu	a	isFree(Lcom/mojang/minecraft/phys/AABB;)Z
 	m	moveCameraToPlayer(F)V	a(F)V
 		ma	0	0
@@ -135,7 +135,7 @@ c	Lcom/mojang/minecraft/Minecraft;	Lcom/mojang/minecraft/c;
 	f	player;;Lcom/mojang/minecraft/Player;	r;;Lcom/mojang/minecraft/e;
 	f	paintTexture;;I	s;;I
 	f	particleEngine;;Lcom/mojang/minecraft/particle/ParticleEngine;	t;;Lcom/mojang/minecraft/d/a;
-	fu	a	user;;Lcom/mojang/minecraft/User;
+	f	user;;Lcom/mojang/minecraft/User;	d;;Lcom/mojang/minecraft/d;
 	f	entities;;Ljava/util/ArrayList;	u;;Ljava/util/ArrayList;
 	f	parent;;Ljava/awt/Canvas;	v;;Ljava/awt/Canvas;
 	f	appletMode;;Z	f;;Z
@@ -176,11 +176,6 @@ c	Lcom/mojang/minecraft/Player;	Lcom/mojang/minecraft/e;
 	m	<init>(Lcom/mojang/minecraft/level/Level;)V	<init>(Lcom/mojang/minecraft/a/f;)V
 		ma	0	0
 	m	tick()V	a()V
-	fu	a	KEY_UP;;I
-	fu	a	KEY_DOWN;;I
-	fu	a	KEY_LEFT;;I
-	fu	a	KEY_RIGHT;;I
-	fu	a	KEY_JUMP;;I
 	f	keys;;[Z	a;;[Z
 c	Lcom/mojang/minecraft/Timer;	Lcom/mojang/minecraft/a;
 	m	<init>(F)V	<init>(F)V
@@ -190,8 +185,11 @@ c	Lcom/mojang/minecraft/Timer;	Lcom/mojang/minecraft/a;
 	f	ticks;;I	c;;I
 	f	a;;F	d;;F
 	f	timeScale;;F	e;;F
-	f	fps;;F	f;;F
-cu	a	Lcom/mojang/minecraft/User;
+	f	passedTime;;F	f;;F
+c	Lcom/mojang/minecraft/User;	Lcom/mojang/minecraft/d;
+	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;Ljava/lang/String;)V
+		ma	0	0
+	f	name;;Ljava/lang/String;	a;;Ljava/lang/String;
 c	Lcom/mojang/minecraft/character/Cube;	Lcom/mojang/minecraft/e/b;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -368,7 +366,7 @@ c	Lcom/mojang/minecraft/gui/Screen;	Lcom/mojang/minecraft/c/d;
 		ma	0	0
 		ma	1	1
 	mu	a	mouseClicked(III)V
-	mu	a	tick()V
+	m	tick()V	c()V
 	f	minecraft;;Lcom/mojang/minecraft/Minecraft;	a;;Lcom/mojang/minecraft/c;
 	f	width;;I	b;;I
 	f	height;;I	c;;I
@@ -406,20 +404,20 @@ c	Lcom/mojang/minecraft/level/Chunk;	Lcom/mojang/minecraft/a/c;
 	f	dirty;;Z	o;;Z
 	f	lists;;I	p;;I
 	fu	a	dirtiedTime;;J
-	f	visible;;Z	c;;Z
+	f	visible;;Z	b;;Z
 	f	t;;Lcom/mojang/minecraft/renderer/Tesselator;	q;;Lcom/mojang/minecraft/b/b;
 	f	updates;;I	d;;I
 	fu	a	totalTime;;J
 	f	totalUpdates;;I	r;;I
 cu	a	Lcom/mojang/minecraft/level/Coord;
-c	Lcom/mojang/minecraft/level/DirtyChunkSorter;	Lcom/mojang/minecraft/a/d;
+c	Lcom/mojang/minecraft/level/DirtyChunkSorter;	Lcom/mojang/minecraft/a/b;
 	m	<init>(Lcom/mojang/minecraft/Player;)V	<init>(Lcom/mojang/minecraft/e;)V
 		ma	0	0
 	m	compare(Ljava/lang/Object;Ljava/lang/Object;)I	compare(Ljava/lang/Object;Ljava/lang/Object;)I
 		ma	0	0
 		ma	1	1
 	f	player;;Lcom/mojang/minecraft/Player;	a;;Lcom/mojang/minecraft/e;
-c	Lcom/mojang/minecraft/level/DistanceSorter;	Lcom/mojang/minecraft/a/b;
+c	Lcom/mojang/minecraft/level/DistanceSorter;	Lcom/mojang/minecraft/a/d;
 	m	<init>(Lcom/mojang/minecraft/Player;)V	<init>(Lcom/mojang/minecraft/e;)V
 		ma	0	0
 	m	compare(Ljava/lang/Object;Ljava/lang/Object;)I	compare(Ljava/lang/Object;Ljava/lang/Object;)I
@@ -478,8 +476,6 @@ c	Lcom/mojang/minecraft/level/Level;	Lcom/mojang/minecraft/a/f;
 	f	creator;;Ljava/lang/String;	i;;Ljava/lang/String;
 	f	createTime;;J	j;;J
 	f	unprocessed;;I	k;;I
-	fu	a	multiplier;;I
-	fu	a	addend;;I
 c	Lcom/mojang/minecraft/level/LevelIO;	Lcom/mojang/minecraft/a/a;
 	m	<init>(Lcom/mojang/minecraft/level/LevelLoaderListener;)V	<init>(Lcom/mojang/minecraft/c;)V
 		ma	0	0
@@ -492,10 +488,7 @@ c	Lcom/mojang/minecraft/level/LevelIO;	Lcom/mojang/minecraft/a/a;
 	m	save(Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V	a(Lcom/mojang/minecraft/a/f;Ljava/io/OutputStream;)V
 		ma	0	0
 		ma	1	1
-	fu	a	MAGIC_NUMBER;;I
-	fu	a	CURRENT_VERSION;;I
-	fu	a	levelLoaderListener;;Lcom/mojang/minecraft/level/LevelLoaderListener;
-	fu	a	error;;Ljava/lang/String;
+	f	levelLoaderListener;;Lcom/mojang/minecraft/level/LevelLoaderListener;	a;;Lcom/mojang/minecraft/c;
 cu	a	Lcom/mojang/minecraft/level/LevelListener;
 cu	a	Lcom/mojang/minecraft/level/LevelLoaderListener;
 c	Lcom/mojang/minecraft/level/LevelRenderer;	Lcom/mojang/minecraft/a/e;
@@ -877,16 +870,6 @@ c	Lcom/mojang/minecraft/renderer/Frustum;	Lcom/mojang/minecraft/b/c;
 	m	isVisible(Lcom/mojang/minecraft/phys/AABB;)Z	a(Lcom/mojang/minecraft/f/a;)Z
 		ma	0	0
 	f	m_Frustum;;[[F	a;;[[F
-	fu	a	RIGHT;;I
-	fu	a	LEFT;;I
-	fu	a	BOTTOM;;I
-	fu	a	TOP;;I
-	fu	a	BACK;;I
-	fu	a	FRONT;;I
-	fu	a	A;;I
-	fu	a	B;;I
-	fu	a	C;;I
-	fu	a	D;;I
 	f	frustum;;Lcom/mojang/minecraft/renderer/Frustum;	b;;Lcom/mojang/minecraft/b/c;
 	f	_proj;;Ljava/nio/FloatBuffer;	c;;Ljava/nio/FloatBuffer;
 	f	_modl;;Ljava/nio/FloatBuffer;	d;;Ljava/nio/FloatBuffer;
