@@ -330,7 +330,7 @@ c	Lcom/mojang/minecraft/a/c;	Lcom/mojang/minecraft/a/f;
 		ma	3	3
 		ma	4	4
 	mu	a	b(I)V
-	mu	a	a()V
+	m	a()V	b()V
 	mu	a	a(I)I
 	mu	a	b()V
 	mu	a	c()Z
