@@ -796,14 +796,29 @@
       "file": "matches/client/classic/c0.0.13a_03#c0.0.13a_03-launcher.match"
     },
     {
+      "a": "client-c0.0.13a_03",
+      "b": "client-c0.0.14a_08",
+      "file": "matches/client/classic/c0.0.13a_03#c0.0.14a_08.match"
+    },
+    {
       "a": "client-c0.0.13a_03-launcher",
       "b": "client-c0.0.14a_08",
       "file": "matches/client/classic/c0.0.13a_03-launcher#c0.0.14a_08.match"
     },
     {
       "a": "client-c0.0.14a_08",
+      "b": "client-c0.0.15a",
+      "file": "matches/client/classic/c0.0.14a_08#c0.0.15a.match"
+    },
+    {
+      "a": "client-c0.0.14a_08",
       "b": "client-c0.0.16a_02",
       "file": "matches/client/classic/c0.0.14a_08#c0.0.16a_02.match"
+    },
+    {
+      "a": "client-c0.0.15a",
+      "b": "client-c0.0.16a_02",
+      "file": "matches/client/classic/c0.0.15a#c0.0.16a_02.match"
     },
     {
       "a": "client-c0.0.16a_02",
@@ -817,13 +832,13 @@
     },
     {
       "a": "client-c0.0.18a_02",
-      "b": "client-c0.0.19a_06-0137",
-      "file": "matches/client/classic/c0.0.18a_02#c0.0.19a_06-0137.match"
+      "b": "client-c0.0.19a_06",
+      "file": "matches/client/classic/c0.0.18a_02#c0.0.19a_06.match"
     },
     {
-      "a": "client-c0.0.19a_06-0137",
+      "a": "client-c0.0.19a_06",
       "b": "client-c0.0.20a_01",
-      "file": "matches/client/classic/c0.0.19a_06-0137#c0.0.20a_01.match"
+      "file": "matches/client/classic/c0.0.19a_06#c0.0.20a_01.match"
     },
     {
       "a": "client-c0.0.20a_01",
@@ -5273,6 +5288,12 @@
       "version": "c0.0.14a_08",
       "era": "classic"
     },
+    "client-c0.0.15a": {
+      "id": "client_c0_0_15a",
+      "type": "client",
+      "version": "c0.0.15a",
+      "era": "classic"
+    },
     "client-c0.0.16a_02": {
       "id": "client_c0_0_16a_02",
       "type": "client",
@@ -5291,10 +5312,10 @@
       "version": "c0.0.18a_02",
       "era": "classic"
     },
-    "client-c0.0.19a_06-0137": {
-      "id": "client_c0_0_19a_06_0137",
+    "client-c0.0.19a_06": {
+      "id": "client_c0_0_19a_06",
       "type": "client",
-      "version": "c0.0.19a_06-0137",
+      "version": "c0.0.19a_06",
       "era": "classic"
     },
     "client-c0.0.20a_01": {
