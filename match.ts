@@ -2,6 +2,7 @@
 
 import './mc-versions/src/types.d.ts'
 import * as path from 'https://deno.land/std@0.159.0/path/mod.ts'
+import {Uint8ArrayWriter, ZipReader} from 'https://deno.land/x/zipjs@v2.7.52/index.js'
 import {spawn, getEra, getVersionDetails, exists} from './utils.ts'
 
 type VersionManifest = BaseVersionManifest & {
@@ -200,13 +201,21 @@ async function getMainJar(id: string, type: string) {
     const files: Record<string, string> = {}
     for (const key in details.downloads) {
         const download = details.downloads[key]
-        if (!download.url.endsWith('.jar')) continue
-        if (key !== 'client' && key !== 'server') {
-            throw Error(`Unexpected jar download '${key}'`)
+        if (download.url.endsWith('.jar')) {
+            if (key !== 'client' && key !== 'server') {
+                throw Error(`Unexpected jar download '${key}'`)
+            }
+            const file = path.resolve(dir, key + '.jar')
+            files[key] = file
+            await downloadFile(download.url, file)
+        } else if (download.url.endsWith('.zip')) {
+            if (key !== 'server_zip') {
+                throw Error(`Unexpected server zip download '${key}'`)
+            }
+            const jarFile = path.resolve(dir, 'server.jar')
+            files.server = jarFile
+            await downloadAndExtractFile(download.url, jarFile, path.resolve(dir, key + '.zip'))
         }
-        const file = path.resolve(dir, key + '.jar')
-        files[key] = file
-        await downloadFile(download.url, file)
     }
     if (!files.client && !files.server) throw Error('Expected at least one jar for ' + id)
     const name = 'minecraft-' + type
@@ -231,6 +240,22 @@ async function downloadFile(url: URL|string, file: string) {
     const res = await fetch(url)
     const fd = await Deno.open(file, {write: true, createNew: true})
     await res.body?.pipeTo(fd.writable)
+}
+
+async function downloadAndExtractFile(url: URL|string, jarFile: string, zipFile: string) {
+    if (await exists(jarFile)) return
+    await downloadFile(url, zipFile)
+    console.log(`Deflating ${zipFile}`)
+    const zip = await Deno.open(zipFile)
+    const jar = await Deno.open(jarFile, {write: true, createNew: true})
+    const zipReader = new ZipReader(zip)
+    for (const entry of (await zipReader.getEntries())) {
+        if (!entry.filename.endsWith('.jar')) continue
+        await jar.write(await (entry.getData!(new Uint8ArrayWriter())))
+        console.log(`Extracted ${jarFile}`)
+        break
+    }
+    await zipReader.close()
 }
 
 async function getLibraries(version: VersionManifest) {
