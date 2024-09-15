@@ -210,7 +210,7 @@ async function getMainJar(id: string, type: string) {
             await downloadFile(download.url, file)
         } else if (download.url.endsWith('.zip')) {
             if (key !== 'server_zip') {
-                throw Error(`Unexpected server zip download '${key}'`)
+                continue
             }
             const jarFile = path.resolve(dir, 'server.jar')
             files.server = jarFile
