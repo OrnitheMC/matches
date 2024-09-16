@@ -1571,6 +1571,36 @@
       "file": "matches/cross/alpha/server-server-a0.2.4#client-a1.2.2.match"
     },
     {
+      "a": "server-server-a0.2.5-0923",
+      "b": "client-a1.2.3",
+      "file": "matches/cross/alpha/server-server-a0.2.5-0923#client-a1.2.3.match"
+    },
+    {
+      "a": "server-server-a0.2.5-0923",
+      "b": "client-a1.2.3_01-0956",
+      "file": "matches/cross/alpha/server-server-a0.2.5-0923#client-a1.2.3_01-0956.match"
+    },
+    {
+      "a": "server-server-a0.2.5-0923",
+      "b": "client-a1.2.3_01",
+      "file": "matches/cross/alpha/server-server-a0.2.5-0923#client-a1.2.3_01.match"
+    },
+    {
+      "a": "server-server-a0.2.5-1004",
+      "b": "client-a1.2.3",
+      "file": "matches/cross/alpha/server-server-a0.2.5-1004#client-a1.2.3.match"
+    },
+    {
+      "a": "server-server-a0.2.5-1004",
+      "b": "client-a1.2.3_01-0956",
+      "file": "matches/cross/alpha/server-server-a0.2.5-1004#client-a1.2.3_01-0956.match"
+    },
+    {
+      "a": "server-server-a0.2.5-1004",
+      "b": "client-a1.2.3_01",
+      "file": "matches/cross/alpha/server-server-a0.2.5-1004#client-a1.2.3_01.match"
+    },
+    {
       "a": "client-b1.2_02",
       "b": "server-b1.3-1647",
       "file": "matches/cross/beta/client-b1.2_02#server-b1.3-1647.match"
@@ -6317,6 +6347,24 @@
       "version": "server-a0.2.4",
       "era": "alpha"
     },
+    "server-server-a0.2.5-0923": {
+      "id": "server_server_a0_2_5_0923",
+      "type": "server",
+      "version": "server-a0.2.5-0923",
+      "era": "alpha"
+    },
+    "client-a1.2.3_01-0956": {
+      "id": "client_a1_2_3_01_0956",
+      "type": "client",
+      "version": "a1.2.3_01-0956",
+      "era": "alpha"
+    },
+    "server-server-a0.2.5-1004": {
+      "id": "server_server_a0_2_5_1004",
+      "type": "server",
+      "version": "server-a0.2.5-1004",
+      "era": "alpha"
+    },
     "server-b1.3-1647": {
       "id": "server_b1_3_1647",
       "type": "server",
@@ -9148,18 +9196,6 @@
       "type": "server",
       "version": "1.0.1",
       "era": "1.0"
-    },
-    "server-server-a0.2.5-0923": {
-      "id": "server_server_a0_2_5_0923",
-      "type": "server",
-      "version": "server-a0.2.5-0923",
-      "era": "alpha"
-    },
-    "server-server-a0.2.5-1004": {
-      "id": "server_server_a0_2_5_1004",
-      "type": "server",
-      "version": "server-a0.2.5-1004",
-      "era": "alpha"
     },
     "server-server-a0.2.5_01": {
       "id": "server_server_a0_2_5_01",
