@@ -832,8 +832,18 @@
     },
     {
       "a": "client-c0.0.18a_02",
+      "b": "client-c0.0.19a_04",
+      "file": "matches/client/classic/c0.0.18a_02#c0.0.19a_04.match"
+    },
+    {
+      "a": "client-c0.0.18a_02",
       "b": "client-c0.0.19a_06",
       "file": "matches/client/classic/c0.0.18a_02#c0.0.19a_06.match"
+    },
+    {
+      "a": "client-c0.0.19a_04",
+      "b": "client-c0.0.19a_06",
+      "file": "matches/client/classic/c0.0.19a_04#c0.0.19a_06.match"
     },
     {
       "a": "client-c0.0.19a_06",
@@ -842,8 +852,18 @@
     },
     {
       "a": "client-c0.0.20a_01",
+      "b": "client-c0.0.20a_02",
+      "file": "matches/client/classic/c0.0.20a_01#c0.0.20a_02.match"
+    },
+    {
+      "a": "client-c0.0.20a_01",
       "b": "client-c0.0.21a",
       "file": "matches/client/classic/c0.0.20a_01#c0.0.21a.match"
+    },
+    {
+      "a": "client-c0.0.20a_02",
+      "b": "client-c0.0.21a",
+      "file": "matches/client/classic/c0.0.20a_02#c0.0.21a.match"
     },
     {
       "a": "client-c0.0.21a",
@@ -5412,6 +5432,12 @@
       "version": "c0.0.18a_02",
       "era": "classic"
     },
+    "client-c0.0.19a_04": {
+      "id": "client_c0_0_19a_04",
+      "type": "client",
+      "version": "c0.0.19a_04",
+      "era": "classic"
+    },
     "client-c0.0.19a_06": {
       "id": "client_c0_0_19a_06",
       "type": "client",
@@ -5422,6 +5448,12 @@
       "id": "client_c0_0_20a_01",
       "type": "client",
       "version": "c0.0.20a_01",
+      "era": "classic"
+    },
+    "client-c0.0.20a_02": {
+      "id": "client_c0_0_20a_02",
+      "type": "client",
+      "version": "c0.0.20a_02",
       "era": "classic"
     },
     "client-c0.0.21a": {
