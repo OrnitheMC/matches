@@ -1,18 +1,18 @@
-Matches saved 2021-06-26, status: c:71/71 m:373/383 f:410/423 ma:727/737, input files:
+Matches saved 2024-09-15, status: c:71/71 m:373/383 f:410/423 ma:727/737, input files:
 	a:
-		133657	MAB8tBgnhiRb8n6e5t6KOT6gOYpY4rUP0VWr+TlbjbY=	minecraft-client-c0.0.21a.jar
+		133657	SHA256	MAB8tBgnhiRb8n6e5t6KOT6gOYpY4rUP0VWr+TlbjbY=	minecraft-client-c0.0.21a.jar
 	b:
-		178817	wFuwBxUwkrf854W4iC+2ONNqGF6mYmQBS/UkbzfAhqA=	minecraft-client-c0.0.22a_05.jar
+		178817	SHA256	wFuwBxUwkrf854W4iC+2ONNqGF6mYmQBS/UkbzfAhqA=	minecraft-client-c0.0.22a_05.jar
 	cp:
-		27583	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 c	Lcom/mojang/a/a;	Lcom/mojang/a/a;
@@ -673,14 +673,6 @@ c	Lcom/mojang/minecraft/d;	Lcom/mojang/minecraft/h;
 	m	e()V	d()V
 	m	f()V	e()V
 	m	g()Z	f()Z
-	mu	a	a(F)V
-	mu	a	a(Z)V
-	mu	a	c()V
-	mu	a	h()V
-	mu	a	a(FFFF)Ljava/nio/FloatBuffer;
-	mu	a	a(Ljava/lang/String;)V
-	mu	a	b(Ljava/lang/String;)V
-	mu	a	a(I)V
 	m	b(I)V	a(I)V
 		ma	0	0
 	m	a(Ljava/lang/String;I)Z	a(Ljava/lang/String;I)Z
@@ -688,7 +680,6 @@ c	Lcom/mojang/minecraft/d;	Lcom/mojang/minecraft/h;
 		ma	1	1
 	m	a(Lcom/mojang/minecraft/level/Level;)V	a(Lcom/mojang/minecraft/level/Level;)V
 		ma	0	0
-	mu	a	c(Ljava/lang/String;)V
 	f	v;;Z	I;;Z
 	f	a;;I	a;;I
 	f	b;;I	b;;I
