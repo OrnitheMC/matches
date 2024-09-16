@@ -20,9 +20,16 @@ digraph {
     client_c0_0_14a_08[label="Client c0.0.14a_08",href="https://ornithemc.net/mc-versions/version/c0.0.14a_08.json"];
     client_c0_0_15a[label="Client c0.0.15a",href="https://ornithemc.net/mc-versions/version/c0.0.15a.json"];
     client_c0_0_16a_02[label="Client c0.0.16a_02",href="https://ornithemc.net/mc-versions/version/c0.0.16a_02.json"];
+    server_server_c1_2[label="Server server-c1.2",href="https://ornithemc.net/mc-versions/version/server-c1.2.json"];
+    server_server_c1_3[label="Server server-c1.3",href="https://ornithemc.net/mc-versions/version/server-c1.3.json"];
     client_c0_0_17a[label="Client c0.0.17a",href="https://ornithemc.net/mc-versions/version/c0.0.17a.json"];
+    server_server_c1_4_1327[label="Server server-c1.4-1327",href="https://ornithemc.net/mc-versions/version/server-c1.4-1327.json"];
+    server_server_c1_4_1422[label="Server server-c1.4-1422",href="https://ornithemc.net/mc-versions/version/server-c1.4-1422.json"];
     client_c0_0_18a_02[label="Client c0.0.18a_02",href="https://ornithemc.net/mc-versions/version/c0.0.18a_02.json"];
+    server_server_c1_4_1[label="Server server-c1.4.1",href="https://ornithemc.net/mc-versions/version/server-c1.4.1.json"];
+    server_server_c1_6[label="Server server-c1.6",href="https://ornithemc.net/mc-versions/version/server-c1.6.json"];
     client_c0_0_19a_06[label="Client c0.0.19a_06",href="https://ornithemc.net/mc-versions/version/c0.0.19a_06.json"];
+    server_server_c1_8_2[label="Server server-c1.8.2",href="https://ornithemc.net/mc-versions/version/server-c1.8.2.json"];
     client_c0_0_20a_01[label="Client c0.0.20a_01",href="https://ornithemc.net/mc-versions/version/c0.0.20a_01.json"];
     client_c0_0_21a[label="Client c0.0.21a",href="https://ornithemc.net/mc-versions/version/c0.0.21a.json"];
     client_c0_0_22a_05[label="Client c0.0.22a_05",href="https://ornithemc.net/mc-versions/version/c0.0.22a_05.json"];
@@ -31,10 +38,14 @@ digraph {
     client_c0_25_05_st[label="Client c0.25_05_st",href="https://ornithemc.net/mc-versions/version/c0.25_05_st.json"];
     client_c0_27_st[label="Client c0.27_st",href="https://ornithemc.net/mc-versions/version/c0.27_st.json"];
     client_c0_28_01[label="Client c0.28_01",href="https://ornithemc.net/mc-versions/version/c0.28_01.json"];
+    server_server_c1_8_3[label="Server server-c1.8.3",href="https://ornithemc.net/mc-versions/version/server-c1.8.3.json"];
+    server_server_c1_9_1[label="Server server-c1.9.1",href="https://ornithemc.net/mc-versions/version/server-c1.9.1.json"];
     client_c0_29_01[label="Client c0.29_01",href="https://ornithemc.net/mc-versions/version/c0.29_01.json"];
     client_c0_29_02[label="Client c0.29_02",href="https://ornithemc.net/mc-versions/version/c0.29_02.json"];
     client_c0_30_s[label="Client c0.30-s",href="https://ornithemc.net/mc-versions/version/c0.30-s.json"];
     client_c0_30_c[label="Client c0.30-c",href="https://ornithemc.net/mc-versions/version/c0.30-c.json"];
+    server_server_c1_10[label="Server server-c1.10",href="https://ornithemc.net/mc-versions/version/server-c1.10.json"];
+    server_server_c1_10_1[label="Server server-c1.10.1",href="https://ornithemc.net/mc-versions/version/server-c1.10.1.json"];
     client_c0_30_c_renew[label="Client c0.30-c-renew",href="https://ornithemc.net/mc-versions/version/c0.30-c-renew.json"];
   }
   subgraph cluster_indev {
@@ -1944,4 +1955,14 @@ digraph {
   server_b1_9_pre4_201110131440 -> server_b1_9_pre5[label="99.83%",color="#0000aa",href="server/beta/b1.9-pre4-201110131440%23b1.9-pre5.match"];
   server_b1_9_pre5 -> server_b1_9_pre6[label="99.86%",color="#0000aa",href="server/beta/b1.9-pre5%23b1.9-pre6.match"];
   server_server_a0_2_8 -> server_b1_0[label="99.12%",color="#0000aa",href="server/beta/server-a0.2.8%23b1.0.match"];
+  server_server_c1_10 -> server_server_c1_10_1[label="100%",color="#0000aa",href="server/classic/server-c1.10%23server-c1.10.1.match"];
+  server_server_c1_2 -> server_server_c1_3[label="99.68%",color="#0000aa",href="server/classic/server-c1.2%23server-c1.3.match"];
+  server_server_c1_3 -> server_server_c1_4_1327[label="100%",color="#0000aa",href="server/classic/server-c1.3%23server-c1.4-1327.match"];
+  server_server_c1_4_1327 -> server_server_c1_4_1422[label="100%",color="#0000aa",href="server/classic/server-c1.4-1327%23server-c1.4-1422.match"];
+  server_server_c1_4_1422 -> server_server_c1_4_1[label="100%",color="#0000aa",href="server/classic/server-c1.4-1422%23server-c1.4.1.match"];
+  server_server_c1_4_1 -> server_server_c1_6[label="99.52%",color="#0000aa",href="server/classic/server-c1.4.1%23server-c1.6.match"];
+  server_server_c1_6 -> server_server_c1_8_2[label="100%",color="#0000aa",href="server/classic/server-c1.6%23server-c1.8.2.match"];
+  server_server_c1_8_2 -> server_server_c1_8_3[label="99.28%",color="#0000aa",href="server/classic/server-c1.8.2%23server-c1.8.3.match"];
+  server_server_c1_8_3 -> server_server_c1_9_1[label="100%",color="#0000aa",href="server/classic/server-c1.8.3%23server-c1.9.1.match"];
+  server_server_c1_9_1 -> server_server_c1_10[label="100%",color="#0000aa",href="server/classic/server-c1.9.1%23server-c1.10.match"];
 }
