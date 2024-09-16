@@ -2,7 +2,7 @@ Matches saved 2023-04-24, status: c:375/375 m:2973/2974 f:1908/1908 ma:5437/5441
 	a:
 		755560	SHA256	7ARO1MPp+ukPhTHWCmKXCajgPEIhtkGiRR0gtNqKr4k=	minecraft-client-a1.0.4.jar
 	b:
-		780225	SHA256	ndX5W+9aTZrBtFGhE6lYXjWNzBQG6syRdxQe2GxdWjE=	minecraft-client-a1.0.5-2149.jar
+		780225	SHA256	ndX5W+9aTZrBtFGhE6lYXjWNzBQG6syRdxQe2GxdWjE=	minecraft-client-a1.0.5.jar
 	cp:
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
 		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
