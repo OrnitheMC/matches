@@ -1,4 +1,4 @@
-Matches saved 2024-09-18, status: c:519/527 m:3966/4020 f:2502/2529 ma:6969/7048, input files:
+Matches saved 2024-09-18, status: c:518/527 m:3961/4020 f:2500/2529 ma:6966/7048, input files:
 	a:
 		1105909	SHA256	Yydr8mFwaP+68qGZLR8G+TOclsIZker8lYPV8+cHS5w=	minecraft-client-a1.2.6.jar
 	b:
@@ -11321,18 +11321,7 @@ c	Loz;	Lpo;
 	f	f;;[F	f;;[F
 	f	g;;I	g;;I
 	f	h;;[F	h;;[F
-c	Lp;	Lgp;
-	m	<init>()V	<init>()V
-	mu	a	<init>(I[Lfp;)V
-	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
-		ma	0	0
-	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
-		ma	0	0
-	m	a(Lmo;)V	a(Lne;)V
-		ma	0	0
-	m	a()I	a()I
-	f	a;;I	a;;I
-	f	b;;[Lfp;	b;;[Lfy;
+cu	a	Lp;
 c	Lpa;	Lpp;
 	m	<init>()V	<init>()V
 	m	a(Len;)V	a(Let;)V
