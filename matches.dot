@@ -1181,7 +1181,7 @@ digraph {
   client_a1_2_4_01 -> client_a1_2_5[label="100%",href="client/alpha/a1.2.4_01%23a1.2.5.match"];
   client_a1_2_5 -> client_a1_2_6[label="100%",href="client/alpha/a1.2.5%23a1.2.6.match"];
   client_inf_20100630_1835 -> client_a1_0_1_01[label="99.53%",href="client/alpha/inf-20100630-1835%23a1.0.1_01.match"];
-  client_a1_2_6 -> client_b1_0[label="98.65%",href="client/beta/a1.2.6%23b1.0.match"];
+  client_a1_2_6 -> client_b1_0[label="98.51%",href="client/beta/a1.2.6%23b1.0.match"];
   client_b1_0 -> client_b1_0_01[label="99.22%",href="client/beta/b1.0%23b1.0_01.match"];
   client_b1_0_2 -> client_b1_1_1245[label="99.19%",href="client/beta/b1.0.2%23b1.1-1245.match"];
   client_b1_0_2 -> client_b1_1_1255[label="99.97%",href="client/beta/b1.0.2%23b1.1-1255.match"];
