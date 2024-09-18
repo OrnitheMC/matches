@@ -286,6 +286,11 @@
       "file": "matches/client/alpha/a1.0.14-1603#a1.0.14-launcher.match"
     },
     {
+      "a": "client-a1.0.14-1603",
+      "b": "client-a1.0.14",
+      "file": "matches/client/alpha/a1.0.14-1603#a1.0.14.match"
+    },
+    {
       "a": "client-a1.0.14-launcher",
       "b": "client-a1.0.14",
       "file": "matches/client/alpha/a1.0.14-launcher#a1.0.14.match"
@@ -416,6 +421,11 @@
       "file": "matches/client/alpha/a1.1.0-101847#a1.1.0-101847-launcher.match"
     },
     {
+      "a": "client-a1.1.0-101847",
+      "b": "client-a1.1.0",
+      "file": "matches/client/alpha/a1.1.0-101847#a1.1.0.match"
+    },
+    {
       "a": "client-a1.1.0-101847-launcher",
       "b": "client-a1.1.0",
       "file": "matches/client/alpha/a1.1.0-101847-launcher#a1.1.0.match"
@@ -477,6 +487,11 @@
     },
     {
       "a": "client-a1.2.3",
+      "b": "client-a1.2.3_01-0956",
+      "file": "matches/client/alpha/a1.2.3#a1.2.3_01-0956.match"
+    },
+    {
+      "a": "client-a1.2.3",
       "b": "client-a1.2.3_01",
       "file": "matches/client/alpha/a1.2.3#a1.2.3_01.match"
     },
@@ -484,6 +499,11 @@
       "a": "client-a1.2.3_01",
       "b": "client-a1.2.3_02",
       "file": "matches/client/alpha/a1.2.3_01#a1.2.3_02.match"
+    },
+    {
+      "a": "client-a1.2.3_01-0956",
+      "b": "client-a1.2.3_01",
+      "file": "matches/client/alpha/a1.2.3_01-0956#a1.2.3_01.match"
     },
     {
       "a": "client-a1.2.3_02",
@@ -5212,6 +5232,12 @@
       "version": "a1.2.2",
       "era": "alpha"
     },
+    "client-a1.2.3_01-0956": {
+      "id": "client_a1_2_3_01_0956",
+      "type": "client",
+      "version": "a1.2.3_01-0956",
+      "era": "alpha"
+    },
     "client-a1.2.3_01": {
       "id": "client_a1_2_3_01",
       "type": "client",
@@ -6386,12 +6412,6 @@
       "id": "server_server_a0_2_5_0923",
       "type": "server",
       "version": "server-a0.2.5-0923",
-      "era": "alpha"
-    },
-    "client-a1.2.3_01-0956": {
-      "id": "client_a1_2_3_01_0956",
-      "type": "client",
-      "version": "a1.2.3_01-0956",
       "era": "alpha"
     },
     "server-server-a0.2.5-1004": {
