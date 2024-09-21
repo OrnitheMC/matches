@@ -1,18 +1,18 @@
-Matches saved 2021-06-27, status: c:123/124 m:549/567 f:619/642 ma:924/974, input files:
+Matches saved 2024-09-21, status: c:123/124 m:554/567 f:629/642 ma:946/974, input files:
 	a:
-		193575	3QhKJUXVc4FYZr6Q2u4uSI0vd87BLdlGmtm43IFPp8E=	minecraft-client-c0.0.23a_01.jar
+		193575	SHA256	3QhKJUXVc4FYZr6Q2u4uSI0vd87BLdlGmtm43IFPp8E=	minecraft-client-c0.0.23a_01.jar
 	b:
-		248203	cxjN0vKVhKfh8iWLI2hQEmShjK16rjJmVTUfI2y+ID4=	minecraft-client-c0.24_st_03.jar
+		248203	SHA256	cxjN0vKVhKfh8iWLI2hQEmShjK16rjJmVTUfI2y+ID4=	minecraft-client-c0.24_st_03.jar
 	cp:
-		27583	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 c	Lcom/mojang/a/a;	Lcom/mojang/a/a;
@@ -207,7 +207,8 @@ c	Lcom/mojang/minecraft/a/c;	Lcom/mojang/minecraft/a/c;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(I)V
+	m	a(I)V	a(I)V
+		ma	0	0
 	m	c()V	c()V
 	m	<clinit>()V	<clinit>()V
 	f	b;;Ljava/nio/FloatBuffer;	b;;Ljava/nio/FloatBuffer;
@@ -279,16 +280,22 @@ c	Lcom/mojang/minecraft/a/f;	Lcom/mojang/minecraft/a/f;
 	f	a;;Lcom/mojang/minecraft/player/Player;	a;;Lcom/mojang/minecraft/player/Player;
 c	Lcom/mojang/minecraft/a/g;	Lcom/mojang/minecraft/a/g;
 	m	<init>(Lcom/mojang/minecraft/a/a;)V	<init>(Lcom/mojang/minecraft/k;Lcom/mojang/minecraft/a/a;)V
+		ma	0	1
 	m	a()V	a()V
 	m	a(Lcom/mojang/minecraft/player/Player;I)I	a(Lcom/mojang/minecraft/player/Player;I)I
+		ma	0	0
+		ma	1	1
 	m	a(F)V	a(F)V
+		ma	0	0
 	m	a(III)V	a(III)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 	m	a(Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/f;II)V	a(Lcom/mojang/minecraft/f;II)V
-		ma	0	0
-		ma	2	2
+		mau	a	0
+		ma	1	0
+		ma	2	1
+		ma	3	2
 	m	a(IIIIII)V	a(IIIIII)V
 		ma	0	0
 		ma	1	1
@@ -321,10 +328,12 @@ c	Lcom/mojang/minecraft/a/h;	Lcom/mojang/minecraft/a/i;
 		ma	5	5
 	m	a(Lcom/mojang/minecraft/player/Player;)F	a(Lcom/mojang/minecraft/player/Player;)F
 		ma	0	0
-	mu	a	c()V
+	m	c()V	b()V
 	m	a()V	a()V
 	m	b()V	a(Z)V
-	mu	a	a(Ljava/nio/IntBuffer;I)V
+	m	a(Ljava/nio/IntBuffer;I)V	a([IIIFFF)I
+		mau	a	0
+		ma	1	1
 	m	a(Lcom/mojang/minecraft/a/e;)V	a(Lcom/mojang/minecraft/a/e;)V
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
@@ -758,30 +767,34 @@ c	Lcom/mojang/minecraft/c;	Lcom/mojang/minecraft/c;
 	f	b;;Ljava/io/File;	b;;Ljava/io/File;
 	f	c;;Lcom/mojang/minecraft/k;	c;;Lcom/mojang/minecraft/k;
 	f	a;;Z	a;;Z
-c	Lcom/mojang/minecraft/character/Zombie;	Lcom/mojang/minecraft/mob/Zombie;
-	m	<init>(Lcom/mojang/minecraft/level/Level;FFF)V	<init>(Lcom/mojang/minecraft/level/Level;FFF)V
+c	Lcom/mojang/minecraft/character/Zombie;	Lcom/mojang/minecraft/mob/Mob;
+	m	<init>(Lcom/mojang/minecraft/level/Level;FFF)V	<init>(Lcom/mojang/minecraft/level/Level;)V
+		ma	0	0
+	m	tick()V	tick()V
+	m	render$2a8c5a(Lcom/mojang/minecraft/a/a;F)V	render$2a8c5a(Lcom/mojang/minecraft/a/a;F)V
+		ma	0	0
+		ma	1	1
+	fu	a	serialVersionUID;;J
+	f	a;;Lcom/mojang/minecraft/character/a;	model;;Lcom/mojang/minecraft/d/a;
+	f	rot;;F	rot;;F
+	f	timeOffs;;F	rotOffs;;F
+	f	speed;;F	speed;;F
+	f	rotA;;F	rotA;;F
+c	Lcom/mojang/minecraft/character/a;	Lcom/mojang/minecraft/d/h;
+	m	<init>()V	<init>()V
+	m	a(FFFFFF)V	a(FFFFFF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	tick()V
-	mu	a	render$2a8c5a(Lcom/mojang/minecraft/a/a;F)V
-	m	<clinit>()V	<clinit>()V
-	fu	a	serialVersionUID;;J
-	fu	a	a;;Lcom/mojang/minecraft/character/a;
-	fu	a	rot;;F
-	fu	a	timeOffs;;F
-	fu	a	speed;;F
-	fu	a	rotA;;F
-c	Lcom/mojang/minecraft/character/a;	Lcom/mojang/minecraft/item/b;
-	m	<init>()V	<init>(I)V
-	mu	a	a(FFFFFF)V
-	f	a;;Lcom/mojang/minecraft/character/c;	a;;Lcom/mojang/minecraft/d/j;
-	fu	a	b;;Lcom/mojang/minecraft/character/c;
-	fu	a	c;;Lcom/mojang/minecraft/character/c;
-	fu	a	d;;Lcom/mojang/minecraft/character/c;
-	fu	a	e;;Lcom/mojang/minecraft/character/c;
-	fu	a	f;;Lcom/mojang/minecraft/character/c;
+		ma	4	4
+		ma	5	5
+	f	a;;Lcom/mojang/minecraft/character/c;	b;;Lcom/mojang/minecraft/d/j;
+	f	b;;Lcom/mojang/minecraft/character/c;	d;;Lcom/mojang/minecraft/d/j;
+	f	c;;Lcom/mojang/minecraft/character/c;	e;;Lcom/mojang/minecraft/d/j;
+	f	d;;Lcom/mojang/minecraft/character/c;	f;;Lcom/mojang/minecraft/d/j;
+	f	e;;Lcom/mojang/minecraft/character/c;	g;;Lcom/mojang/minecraft/d/j;
+	f	f;;Lcom/mojang/minecraft/character/c;	h;;Lcom/mojang/minecraft/d/j;
 c	Lcom/mojang/minecraft/character/b;	Lcom/mojang/minecraft/d/g;
 	m	<init>([Lcom/mojang/minecraft/character/e;)V	<init>([Lcom/mojang/minecraft/d/i;)V
 		ma	0	0
@@ -807,7 +820,7 @@ c	Lcom/mojang/minecraft/character/c;	Lcom/mojang/minecraft/d/j;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(F)V	b(F)V
+	m	a(F)V	a(F)V
 		ma	0	0
 	f	d;;[Lcom/mojang/minecraft/character/e;	a;;[Lcom/mojang/minecraft/d/i;
 	f	e;;[Lcom/mojang/minecraft/character/b;	b;;[Lcom/mojang/minecraft/d/g;
@@ -939,7 +952,11 @@ c	Lcom/mojang/minecraft/j;	Lcom/mojang/minecraft/j;
 c	Lcom/mojang/minecraft/k;	Lcom/mojang/minecraft/k;
 	m	<init>(Ljava/awt/Canvas;IIZ)V	<init>(Ljava/awt/Canvas;Lcom/mojang/minecraft/MinecraftApplet;IIZ)V
 		ma	0	0
+		ma	1	2
+		ma	2	3
+		ma	3	4
 	m	a(Lcom/mojang/minecraft/c/o;)V	a(Lcom/mojang/minecraft/c/n;)V
+		ma	0	0
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 	m	a()V	a()V
@@ -955,6 +972,7 @@ c	Lcom/mojang/minecraft/k;	Lcom/mojang/minecraft/k;
 		ma	0	0
 		ma	1	1
 	m	a(Lcom/mojang/minecraft/level/Level;)V	a(Lcom/mojang/minecraft/level/Level;)V
+		ma	0	0
 	f	I;;Z	H;;Z
 	f	a;;I	b;;I
 	f	b;;I	c;;I
@@ -1175,6 +1193,7 @@ c	Lcom/mojang/minecraft/level/a/a/a;	Lcom/mojang/minecraft/level/a/a/a;
 c	Lcom/mojang/minecraft/level/a/a/b;	Lcom/mojang/minecraft/level/a/a/b;
 	m	<init>(Ljava/util/Random;I)V	<init>(Ljava/util/Random;I)V
 		ma	0	0
+		ma	1	1
 	m	a(DD)D	a(DD)D
 		ma	0	0
 		ma	1	1
@@ -1215,6 +1234,7 @@ c	Lcom/mojang/minecraft/level/a/a;	Lcom/mojang/minecraft/level/a/a;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	a([I)V	a([I)V
 		ma	0	0
 	m	b([I)V	b([I)V
@@ -1372,12 +1392,12 @@ c	Lcom/mojang/minecraft/level/tile/a;	Lcom/mojang/minecraft/level/tile/a;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	a(Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V	a(Lcom/mojang/minecraft/level/Level;IIIILcom/mojang/minecraft/particle/a;)V
+	m	a(Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V	a(Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
 		ma	0	0
-		ma	1	2
-		ma	2	3
-		ma	3	4
-		ma	4	5
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	c()Lcom/mojang/minecraft/level/b/a;	d()Lcom/mojang/minecraft/level/b/a;
 	m	a(Lcom/mojang/minecraft/level/Level;IIII)V	a(Lcom/mojang/minecraft/level/Level;IIII)V
 		ma	0	0
@@ -1573,6 +1593,9 @@ c	Lcom/mojang/minecraft/level/tile/g;	Lcom/mojang/minecraft/level/tile/h;
 		ma	4	4
 	m	e(Lcom/mojang/minecraft/level/Level;III)V	f(Lcom/mojang/minecraft/level/Level;III)V
 		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 c	Lcom/mojang/minecraft/level/tile/h;	Lcom/mojang/minecraft/level/tile/j;
 	m	<init>(ILcom/mojang/minecraft/level/b/a;)V	<init>(ILcom/mojang/minecraft/level/b/a;)V
 		ma	0	0
@@ -1646,7 +1669,6 @@ c	Lcom/mojang/minecraft/net/NetworkPlayer;	Lcom/mojang/minecraft/net/NetworkPlay
 		ma	5	5
 		ma	6	6
 		ma	7	7
-	mu	a	tick()V
 	m	render$2a8c5a(Lcom/mojang/minecraft/a/a;F)V	render$2a8c5a(Lcom/mojang/minecraft/a/a;F)V
 		ma	0	0
 		ma	1	1
@@ -1671,7 +1693,6 @@ c	Lcom/mojang/minecraft/net/NetworkPlayer;	Lcom/mojang/minecraft/net/NetworkPlay
 		ma	1	1
 	m	clear()V	clear()V
 	f	serialVersionUID;;J	serialVersionUID;;J
-	fu	a	zombieModel;;Lcom/mojang/minecraft/character/a;
 	f	moveQueue;;Ljava/util/List;	moveQueue;;Ljava/util/List;
 	f	minecraft;;Lcom/mojang/minecraft/k;	minecraft;;Lcom/mojang/minecraft/k;
 	f	xp;;I	xp;;I
@@ -1855,7 +1876,6 @@ c	Lcom/mojang/minecraft/player/Player;	Lcom/mojang/minecraft/player/Player;
 	m	<init>(Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/player/a;)V	<init>(Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/player/a;)V
 		ma	0	0
 		ma	1	1
-	mu	a	tick()V
 	m	releaseAllKeys()V	releaseAllKeys()V
 	m	setKey(IZ)V	setKey(IZ)V
 		ma	0	0
