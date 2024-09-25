@@ -917,8 +917,18 @@
     },
     {
       "a": "client-c0.28_01",
+      "b": "client-c0.29",
+      "file": "matches/client/classic/c0.28_01#c0.29.match"
+    },
+    {
+      "a": "client-c0.28_01",
       "b": "client-c0.29_01",
       "file": "matches/client/classic/c0.28_01#c0.29_01.match"
+    },
+    {
+      "a": "client-c0.29",
+      "b": "client-c0.29_01",
+      "file": "matches/client/classic/c0.29#c0.29_01.match"
     },
     {
       "a": "client-c0.29_01",
@@ -5662,6 +5672,12 @@
       "id": "client_c0_28_01",
       "type": "client",
       "version": "c0.28_01",
+      "era": "classic"
+    },
+    "client-c0.29": {
+      "id": "client_c0_29",
+      "type": "client",
+      "version": "c0.29",
       "era": "classic"
     },
     "client-c0.29_01": {
