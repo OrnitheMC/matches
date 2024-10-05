@@ -1447,6 +1447,7 @@ digraph {
   server_b1_9_pre4_201110131434 -> client_b1_9_pre4_201110131434[label="91.06%",color="#8888ff",href="cross/beta/server-b1.9-pre4-201110131434%23client-b1.9-pre4-201110131434.match"];
   server_b1_9_pre5 -> client_b1_9_pre5[label="91.1%",color="#8888ff",href="cross/beta/server-b1.9-pre5%23client-b1.9-pre5.match"];
   server_b1_9_pre6 -> client_b1_9_pre6[label="91.12%",color="#8888ff",href="cross/beta/server-b1.9-pre6%23client-b1.9-pre6.match"];
+  client_c0_0_13a_launcher -> server_server_c1_2[label="32.79%",color="#888800",href="cross/classic/client-c0.0.13a-launcher%23server-server-c1.2.match"];
   server_server_c1_10 -> client_c0_30_c_renew[label="80.87%",color="#8888ff",href="cross/classic/server-server-c1.10%23client-c0.30-c-renew.match"];
   server_server_c1_10 -> client_c0_30_c[label="80.87%",color="#8888ff",href="cross/classic/server-server-c1.10%23client-c0.30-c.match"];
   server_server_c1_10 -> client_c0_30_s[label="80.87%",color="#8888ff",href="cross/classic/server-server-c1.10%23client-c0.30-s.match"];

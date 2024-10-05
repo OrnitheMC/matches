@@ -1841,6 +1841,11 @@
       "file": "matches/cross/beta/server-b1.9-pre6#client-b1.9-pre6.match"
     },
     {
+      "a": "client-c0.0.13a-launcher",
+      "b": "server-server-c1.2",
+      "file": "matches/cross/classic/client-c0.0.13a-launcher#server-server-c1.2.match"
+    },
+    {
       "a": "server-server-c1.10",
       "b": "client-c0.30-c-renew",
       "file": "matches/cross/classic/server-server-c1.10#client-c0.30-c-renew.match"
@@ -6798,6 +6803,12 @@
       "version": "b1.9-pre6",
       "era": "beta"
     },
+    "server-server-c1.2": {
+      "id": "server_server_c1_2",
+      "type": "server",
+      "version": "server-c1.2",
+      "era": "classic"
+    },
     "server-server-c1.10": {
       "id": "server_server_c1_10",
       "type": "server",
@@ -6808,12 +6819,6 @@
       "id": "server_server_c1_10_1",
       "type": "server",
       "version": "server-c1.10.1",
-      "era": "classic"
-    },
-    "server-server-c1.2": {
-      "id": "server_server_c1_2",
-      "type": "server",
-      "version": "server-c1.2",
       "era": "classic"
     },
     "server-server-c1.3": {
