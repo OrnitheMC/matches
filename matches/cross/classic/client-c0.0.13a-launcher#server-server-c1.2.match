@@ -1,0 +1,497 @@
+Matches saved 2024-10-04, status: c:20/53 m:97/308 f:78/302 ma:185/568, input files:
+	a:
+		97935	SHA256	s7WoiDTCNRyUiVDG1gyCLQ0dYPiMWtrUeU+K1v5bOjM=	minecraft-client-c0.0.13a-launcher.jar
+	b:
+		38580	SHA256	j1l9nQyU8pPbVVXe0oaUbBD8Zq2H2AZgYbEu4taMjog=	minecraft-server-server-c1.2.jar
+	cp:
+	cp a:
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+	cp b:
+	non-obf cls a	paulscode|jcraft
+	non-obf cls b	paulscode|jcraft
+	non-obf mem a	paulscode|jcraft
+	non-obf mem b	paulscode|jcraft
+c	Lcom/mojang/minecraft/Entity;	Lcom/mojang/minecraft/Entity;
+	m	<init>(Lcom/mojang/minecraft/level/Level;)V	<init>(Lcom/mojang/minecraft/level/Level;)V
+		ma	0	0
+	m	resetPos()V	resetPos()V
+	m	remove()V	remove()V
+	m	setSize(FF)V	setSize(FF)V
+		ma	0	0
+		ma	1	1
+	m	setPos(FFF)V	setPos(FFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	turn(FF)V	turn(FF)V
+		ma	0	0
+		ma	1	1
+	m	tick()V	tick()V
+	m	isFree(FFF)Z	isFree(FFF)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	move(FFF)V	move(FFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	isInWater()Z	isInWater()Z
+	m	isInLava()Z	isInLava()Z
+	m	moveRelative(FFF)V	moveRelative(FFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	isLit()Z	isLit()Z
+	m	render(F)V	render(Lcom/mojang/minecraft/b/a;F)V
+		ma	0	1
+	f	level;;Lcom/mojang/minecraft/level/Level;	level;;Lcom/mojang/minecraft/level/Level;
+	f	xo;;F	xo;;F
+	f	yo;;F	yo;;F
+	f	zo;;F	zo;;F
+	f	x;;F	x;;F
+	f	y;;F	y;;F
+	f	z;;F	z;;F
+	f	xd;;F	xd;;F
+	f	yd;;F	yd;;F
+	f	zd;;F	zd;;F
+	f	yRot;;F	yRot;;F
+	f	xRot;;F	xRot;;F
+	f	bb;;Lcom/mojang/minecraft/phys/AABB;	bb;;Lcom/mojang/minecraft/phys/AABB;
+	f	onGround;;Z	onGround;;Z
+	f	horizontalCollision;;Z	horizontalCollision;;Z
+	f	removed;;Z	removed;;Z
+	f	heightOffset;;F	heightOffset;;F
+	f	bbWidth;;F	bbWidth;;F
+	f	bbHeight;;F	bbHeight;;F
+cu	a	Lcom/mojang/minecraft/HitResult;
+cu	a	Lcom/mojang/minecraft/Minecraft;
+cu	a	Lcom/mojang/minecraft/MinecraftApplet$1;
+cu	a	Lcom/mojang/minecraft/MinecraftApplet;
+cu	a	Lcom/mojang/minecraft/Player;
+cu	a	Lcom/mojang/minecraft/Timer;
+cu	a	Lcom/mojang/minecraft/User;
+cu	a	Lcom/mojang/minecraft/character/Cube;
+cu	a	Lcom/mojang/minecraft/character/Polygon;
+cu	a	Lcom/mojang/minecraft/character/Vec3;
+cu	a	Lcom/mojang/minecraft/character/Vertex;
+cu	a	Lcom/mojang/minecraft/character/Zombie;
+cu	a	Lcom/mojang/minecraft/character/ZombieModel;
+cu	a	Lcom/mojang/minecraft/comm/ConnectionListener;
+cu	a	Lcom/mojang/minecraft/comm/ServerListener;
+c	Lcom/mojang/minecraft/comm/SocketConnection;	Lcom/mojang/a/b;
+	mu	a	getIp()Ljava/lang/String;
+	m	<init>(Ljava/nio/channels/SocketChannel;)V	<init>(Ljava/nio/channels/SocketChannel;)V
+		ma	0	0
+	mu	a	getBuffer()Ljava/nio/ByteBuffer;
+	mu	a	setConnectionListener(Lcom/mojang/minecraft/comm/ConnectionListener;)V
+	mu	a	isConnected()Z
+	m	disconnect()V	a()V
+	mu	a	tick()V
+	mu	a	getSentBytes()I
+	mu	a	getReadBytes()I
+	mu	a	clearSentBytes()V
+	mu	a	clearReadBytes()V
+	fu	a	BUFFER_SIZE;;I
+	f	connected;;Z	a;;Z
+	f	socketChannel;;Ljava/nio/channels/SocketChannel;	b;;Ljava/nio/channels/SocketChannel;
+	f	readBuffer;;Ljava/nio/ByteBuffer;	c;;Ljava/nio/ByteBuffer;
+	f	writeBuffer;;Ljava/nio/ByteBuffer;	d;;Ljava/nio/ByteBuffer;
+	fu	a	lastRead;;J
+	f	connectionListener;;Lcom/mojang/minecraft/comm/ConnectionListener;	e;;Lcom/mojang/minecraft/server/d;
+	fu	a	bytesRead;;I
+	fu	a	totalBytesWritten;;I
+	f	socket;;Ljava/net/Socket;	g;;Ljava/net/Socket;
+	fu	a	in;;Ljava/io/BufferedInputStream;
+	fu	a	out;;Ljava/io/BufferedOutputStream;
+c	Lcom/mojang/minecraft/comm/SocketServer;	Lcom/mojang/a/a;
+	m	<init>([BILcom/mojang/minecraft/comm/ServerListener;)V	<init>(ILcom/mojang/minecraft/server/MinecraftServer;)V
+		ma	1	0
+		ma	2	1
+	f	ssc;;Ljava/nio/channels/ServerSocketChannel;	a;;Ljava/nio/channels/ServerSocketChannel;
+	f	serverListener;;Lcom/mojang/minecraft/comm/ServerListener;	b;;Lcom/mojang/minecraft/server/MinecraftServer;
+	f	connections;;Ljava/util/List;	c;;Ljava/util/List;
+cu	a	Lcom/mojang/minecraft/gui/Button;
+cu	a	Lcom/mojang/minecraft/gui/Font;
+cu	a	Lcom/mojang/minecraft/gui/PauseScreen;
+cu	a	Lcom/mojang/minecraft/gui/Screen;
+cu	a	Lcom/mojang/minecraft/level/Chunk;
+c	Lcom/mojang/minecraft/level/Coord;	Lcom/mojang/minecraft/a/b;
+cu	a	Lcom/mojang/minecraft/level/DirtyChunkSorter;
+cu	a	Lcom/mojang/minecraft/level/DistanceSorter;
+c	Lcom/mojang/minecraft/level/Level;	Lcom/mojang/minecraft/level/Level;
+	m	<init>()V	<init>()V
+	m	setData(III[B)V	setData(III[B)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	calcLightDepths(IIII)V	calcLightDepths(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	addListener(Lcom/mojang/minecraft/level/LevelListener;)V	addListener$74652038(Lcom/mojang/minecraft/server/MinecraftServer;)V
+		ma	0	0
+	m	removeListener(Lcom/mojang/minecraft/level/LevelListener;)V	removeListener$74652038(Lcom/mojang/minecraft/server/MinecraftServer;)V
+		ma	0	0
+	m	isLightBlocker(III)Z	isLightBlocker(III)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getCubes(Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList;	getCubes(Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList;
+		ma	0	0
+	m	setTile(IIII)Z	setTile(IIII)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	setTileNoUpdate(IIII)Z	setTileNoUpdate(IIII)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	neighborChanged(IIII)V	b(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	isLit(III)Z	isLit(III)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getTile(III)I	getTile(III)I
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	isSolidTile(III)Z	isSolidTile(III)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	tick()V	tick()V
+	m	getGroundLevel()F	getGroundLevel()F
+	m	containsAnyLiquid(Lcom/mojang/minecraft/phys/AABB;)Z	containsAnyLiquid(Lcom/mojang/minecraft/phys/AABB;)Z
+		ma	0	0
+	m	containsLiquid(Lcom/mojang/minecraft/phys/AABB;I)Z	containsLiquid(Lcom/mojang/minecraft/phys/AABB;Lcom/mojang/minecraft/level/c/a;)Z
+		ma	0	0
+		mau	a	1
+	fu	a	TILE_UPDATE_INTERVAL;;I
+	f	width;;I	width;;I
+	f	height;;I	height;;I
+	f	depth;;I	depth;;I
+	f	blocks;;[B	blocks;;[B
+	f	lightDepths;;[I	b;;[I
+	f	levelListeners;;Ljava/util/ArrayList;	a;;Ljava/util/ArrayList;
+	f	random;;Ljava/util/Random;	c;;Ljava/util/Random;
+	f	randValue;;I	d;;I
+	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
+	f	creator;;Ljava/lang/String;	creator;;Ljava/lang/String;
+	f	createTime;;J	createTime;;J
+	f	unprocessed;;I	unprocessed;;I
+	fu	a	multiplier;;I
+	fu	a	addend;;I
+c	Lcom/mojang/minecraft/level/LevelIO;	Lcom/mojang/minecraft/level/a;
+	m	<init>(Lcom/mojang/minecraft/level/LevelLoaderListener;)V	<init>(Lcom/mojang/minecraft/server/MinecraftServer;)V
+		ma	0	0
+	m	load(Lcom/mojang/minecraft/level/Level;Ljava/io/InputStream;)Z	a(Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;
+		ma	1	0
+	m	save(Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V	a(Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
+		ma	0	0
+		ma	1	1
+	f	levelLoaderListener;;Lcom/mojang/minecraft/level/LevelLoaderListener;	a;;Lcom/mojang/minecraft/server/MinecraftServer;
+cu	a	Lcom/mojang/minecraft/level/LevelListener;
+cu	a	Lcom/mojang/minecraft/level/LevelLoaderListener;
+cu	a	Lcom/mojang/minecraft/level/LevelRenderer;
+c	Lcom/mojang/minecraft/level/levelgen/LevelGen;	Lcom/mojang/minecraft/level/b/a;
+	m	<init>(Lcom/mojang/minecraft/level/LevelLoaderListener;)V	<init>(Lcom/mojang/minecraft/server/MinecraftServer;)V
+		ma	0	0
+	m	generateLevel(Lcom/mojang/minecraft/level/Level;Ljava/lang/String;III)Z	a(Ljava/lang/String;III)Lcom/mojang/minecraft/level/Level;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		ma	4	3
+	mu	a	buildBlocks([D)V
+	mu	a	buildHeightmap(II)[D
+	mu	a	carveTunnels()V
+	mu	a	addWater()V
+	m	addLava()V	a()V
+	m	floodFillLiquid(IIIII)J	a(IIIII)J
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	f	levelLoaderListener;;Lcom/mojang/minecraft/level/LevelLoaderListener;	a;;Lcom/mojang/minecraft/server/MinecraftServer;
+	f	width;;I	b;;I
+	f	height;;I	c;;I
+	f	depth;;I	d;;I
+	f	random;;Ljava/util/Random;	e;;Ljava/util/Random;
+	f	blocks;;[B	f;;[B
+	f	coords;;[I	g;;[I
+c	Lcom/mojang/minecraft/level/levelgen/synth/Distort;	Lcom/mojang/minecraft/level/b/a/a;
+	m	<init>(Lcom/mojang/minecraft/level/levelgen/synth/Synth;Lcom/mojang/minecraft/level/levelgen/synth/Synth;)V	<init>(Lcom/mojang/minecraft/level/b/a/c;Lcom/mojang/minecraft/level/b/a/c;)V
+		ma	0	0
+		ma	1	1
+	m	getValue(DD)D	a(DD)D
+		ma	0	0
+		ma	1	1
+	f	source;;Lcom/mojang/minecraft/level/levelgen/synth/Synth;	a;;Lcom/mojang/minecraft/level/b/a/c;
+	f	distort;;Lcom/mojang/minecraft/level/levelgen/synth/Synth;	b;;Lcom/mojang/minecraft/level/b/a/c;
+cu	a	Lcom/mojang/minecraft/level/levelgen/synth/Emboss;
+c	Lcom/mojang/minecraft/level/levelgen/synth/ImprovedNoise;	Lcom/mojang/minecraft/level/b/a/d;
+	m	<init>()V	<init>()V
+	m	<init>(Ljava/util/Random;)V	<init>(Ljava/util/Random;)V
+		ma	0	0
+	m	fade(D)D	a(D)D
+		ma	0	0
+	m	lerp(DDD)D	a(DDD)D
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	grad(IDDD)D	a(IDDD)D
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	getValue(DD)D	a(DD)D
+		ma	0	0
+		ma	1	1
+	f	p;;[I	a;;[I
+c	Lcom/mojang/minecraft/level/levelgen/synth/PerlinNoise;	Lcom/mojang/minecraft/level/b/a/b;
+	m	<init>(Ljava/util/Random;I)V	<init>(Ljava/util/Random;I)V
+		ma	0	0
+		ma	1	1
+	m	getValue(DD)D	a(DD)D
+		ma	0	0
+		ma	1	1
+	f	noiseLevels;;[Lcom/mojang/minecraft/level/levelgen/synth/ImprovedNoise;	a;;[Lcom/mojang/minecraft/level/b/a/d;
+	f	levels;;I	b;;I
+cu	a	Lcom/mojang/minecraft/level/levelgen/synth/Rotate;
+cu	a	Lcom/mojang/minecraft/level/levelgen/synth/Scale;
+c	Lcom/mojang/minecraft/level/levelgen/synth/Synth;	Lcom/mojang/minecraft/level/b/a/c;
+	m	<init>()V	<init>()V
+	m	getValue(DD)D	a(DD)D
+		ma	0	0
+		ma	1	1
+c	Lcom/mojang/minecraft/level/tile/Bush;	Lcom/mojang/minecraft/level/a/a;
+	m	<init>(I)V	<init>(I)V
+		ma	0	0
+	m	tick(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V	a(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	mu	a	render(Lcom/mojang/minecraft/renderer/Tesselator;Lcom/mojang/minecraft/level/Level;IIII)V
+	m	getAABB(III)Lcom/mojang/minecraft/phys/AABB;	a(III)Lcom/mojang/minecraft/phys/AABB;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	blocksLight()Z	a()Z
+	m	isSolid()Z	b()Z
+c	Lcom/mojang/minecraft/level/tile/CalmLiquidTile;	Lcom/mojang/minecraft/level/a/f;
+	m	<init>(II)V	<init>(ILcom/mojang/minecraft/level/c/a;)V
+		ma	0	0
+		mau	a	1
+	m	tick(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V	a(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	neighborChanged(Lcom/mojang/minecraft/level/Level;IIII)V	a(Lcom/mojang/minecraft/level/Level;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+c	Lcom/mojang/minecraft/level/tile/DirtTile;	Lcom/mojang/minecraft/level/a/d;
+	m	<init>(II)V	<init>(II)V
+		ma	0	0
+		ma	1	1
+c	Lcom/mojang/minecraft/level/tile/GrassTile;	Lcom/mojang/minecraft/level/a/i;
+	m	<init>(I)V	<init>(I)V
+		ma	0	0
+	mu	a	getTexture(I)I
+	m	tick(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V	a(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+c	Lcom/mojang/minecraft/level/tile/LiquidTile;	Lcom/mojang/minecraft/level/a/h;
+	m	<init>(II)V	<init>(ILcom/mojang/minecraft/level/c/a;)V
+		ma	0	0
+		mau	a	1
+	m	tick(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V	a(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	mu	a	updateWater(Lcom/mojang/minecraft/level/Level;IIII)Z
+	m	checkWater(Lcom/mojang/minecraft/level/Level;IIII)Z	b(Lcom/mojang/minecraft/level/Level;III)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	mu	a	shouldRenderFace(Lcom/mojang/minecraft/level/Level;IIIII)Z
+	mu	a	renderFace(Lcom/mojang/minecraft/renderer/Tesselator;IIII)V
+	mu	a	mayPick()Z
+	m	getAABB(III)Lcom/mojang/minecraft/phys/AABB;	a(III)Lcom/mojang/minecraft/phys/AABB;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	blocksLight()Z	a()Z
+	m	isSolid()Z	b()Z
+	m	getLiquidType()I	d()I
+	m	neighborChanged(Lcom/mojang/minecraft/level/Level;IIII)V	a(Lcom/mojang/minecraft/level/Level;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	fu	a	liquidType;;I
+	f	calmTileId;;I	t;;I
+	f	tileId;;I	u;;I
+	fu	a	spreadSpeed;;I
+c	Lcom/mojang/minecraft/level/tile/Tile;	Lcom/mojang/minecraft/level/a/b;
+	m	<clinit>()V	<clinit>()V
+	m	<init>(I)V	<init>(I)V
+		ma	0	0
+	m	setTicking(Z)V	a(Z)V
+		ma	0	0
+	mu	a	setShape(FFFFFF)V
+	m	<init>(II)V	<init>(II)V
+		ma	0	0
+		ma	1	1
+	mu	a	render(Lcom/mojang/minecraft/renderer/Tesselator;Lcom/mojang/minecraft/level/Level;IIII)V
+	mu	a	shouldRenderFace(Lcom/mojang/minecraft/level/Level;IIIII)Z
+	mu	a	getTexture(I)I
+	mu	a	renderFace(Lcom/mojang/minecraft/renderer/Tesselator;IIII)V
+	mu	a	renderBackFace(Lcom/mojang/minecraft/renderer/Tesselator;IIII)V
+	mu	a	renderFaceNoTexture(Lcom/mojang/minecraft/Player;Lcom/mojang/minecraft/renderer/Tesselator;IIII)V
+	mu	a	getTileAABB(III)Lcom/mojang/minecraft/phys/AABB;
+	m	getAABB(III)Lcom/mojang/minecraft/phys/AABB;	a(III)Lcom/mojang/minecraft/phys/AABB;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	blocksLight()Z	a()Z
+	m	isSolid()Z	b()Z
+	mu	a	mayPick()Z
+	m	tick(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V	a(Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	mu	a	destroy(Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/ParticleEngine;)V
+	m	getLiquidType()I	d()I
+	m	neighborChanged(Lcom/mojang/minecraft/level/Level;IIII)V	a(Lcom/mojang/minecraft/level/Level;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	fu	a	NOT_LIQUID;;I
+	fu	a	LIQUID_WATER;;I
+	fu	a	LIQUID_LAVA;;I
+	f	tiles;;[Lcom/mojang/minecraft/level/tile/Tile;	a;;[Lcom/mojang/minecraft/level/a/b;
+	f	shouldTick;;[Z	b;;[Z
+	fu	a	empty;;Lcom/mojang/minecraft/level/tile/Tile;
+	f	rock;;Lcom/mojang/minecraft/level/tile/Tile;	c;;Lcom/mojang/minecraft/level/a/b;
+	f	grass;;Lcom/mojang/minecraft/level/tile/Tile;	d;;Lcom/mojang/minecraft/level/a/b;
+	f	dirt;;Lcom/mojang/minecraft/level/tile/Tile;	e;;Lcom/mojang/minecraft/level/a/b;
+	fu	a	stoneBrick;;Lcom/mojang/minecraft/level/tile/Tile;
+	fu	a	wood;;Lcom/mojang/minecraft/level/tile/Tile;
+	fu	a	bush;;Lcom/mojang/minecraft/level/tile/Tile;
+	f	unbreakable;;Lcom/mojang/minecraft/level/tile/Tile;	f;;Lcom/mojang/minecraft/level/a/b;
+	f	water;;Lcom/mojang/minecraft/level/tile/Tile;	g;;Lcom/mojang/minecraft/level/a/b;
+	f	calmWater;;Lcom/mojang/minecraft/level/tile/Tile;	h;;Lcom/mojang/minecraft/level/a/b;
+	f	lava;;Lcom/mojang/minecraft/level/tile/Tile;	i;;Lcom/mojang/minecraft/level/a/b;
+	f	calmLava;;Lcom/mojang/minecraft/level/tile/Tile;	j;;Lcom/mojang/minecraft/level/a/b;
+	fu	a	tex;;I
+	f	id;;I	r;;I
+	fu	a	xx0;;F
+	fu	a	yy0;;F
+	fu	a	zz0;;F
+	fu	a	xx1;;F
+	fu	a	yy1;;F
+	fu	a	zz1;;F
+cu	a	Lcom/mojang/minecraft/particle/Particle;
+cu	a	Lcom/mojang/minecraft/particle/ParticleEngine;
+c	Lcom/mojang/minecraft/phys/AABB;	Lcom/mojang/minecraft/phys/AABB;
+	m	<init>(FFFFFF)V	<init>(FFFFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	m	expand(FFF)Lcom/mojang/minecraft/phys/AABB;	expand(FFF)Lcom/mojang/minecraft/phys/AABB;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	grow(FFF)Lcom/mojang/minecraft/phys/AABB;	grow(FFF)Lcom/mojang/minecraft/phys/AABB;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	cloneMove(FFF)Lcom/mojang/minecraft/phys/AABB;	cloneMove(FFF)Lcom/mojang/minecraft/phys/AABB;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	clipXCollide(Lcom/mojang/minecraft/phys/AABB;F)F	clipXCollide(Lcom/mojang/minecraft/phys/AABB;F)F
+		ma	0	0
+		ma	1	1
+	m	clipYCollide(Lcom/mojang/minecraft/phys/AABB;F)F	clipYCollide(Lcom/mojang/minecraft/phys/AABB;F)F
+		ma	0	0
+		ma	1	1
+	m	clipZCollide(Lcom/mojang/minecraft/phys/AABB;F)F	clipZCollide(Lcom/mojang/minecraft/phys/AABB;F)F
+		ma	0	0
+		ma	1	1
+	m	intersects(Lcom/mojang/minecraft/phys/AABB;)Z	intersects(Lcom/mojang/minecraft/phys/AABB;)Z
+		ma	0	0
+	m	move(FFF)V	move(FFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	f	epsilon;;F	epsilon;;F
+	f	x0;;F	x0;;F
+	f	y0;;F	y0;;F
+	f	z0;;F	z0;;F
+	f	x1;;F	x1;;F
+	f	y1;;F	y1;;F
+	f	z1;;F	z1;;F
+cu	a	Lcom/mojang/minecraft/renderer/Frustum;
+cu	a	Lcom/mojang/minecraft/renderer/Tesselator;
+cu	a	Lcom/mojang/minecraft/renderer/Textures;
+c	Lcom/mojang/minecraft/server/Client;	Lcom/mojang/minecraft/server/d;
+	m	<init>(Lcom/mojang/minecraft/server/MinecraftServer;Lcom/mojang/minecraft/comm/SocketConnection;)V	<init>(Lcom/mojang/minecraft/server/MinecraftServer;Lcom/mojang/a/b;I)V
+		ma	0	0
+		ma	1	1
+	mu	a	command(BILjava/nio/ByteBuffer;)V
+	m	handleException(Ljava/lang/Exception;)V	a(Ljava/lang/Exception;)V
+		ma	0	0
+	mu	a	disconnect()V
+	f	serverConnection;;Lcom/mojang/minecraft/comm/SocketConnection;	a;;Lcom/mojang/a/b;
+	f	server;;Lcom/mojang/minecraft/server/MinecraftServer;	e;;Lcom/mojang/minecraft/server/MinecraftServer;
+c	Lcom/mojang/minecraft/server/MinecraftServer;	Lcom/mojang/minecraft/server/MinecraftServer;
+	mu	a	<init>([BI)V
+	mu	a	clientConnected(Lcom/mojang/minecraft/comm/SocketConnection;)V
+	m	disconnect(Lcom/mojang/minecraft/server/Client;)V	a(Lcom/mojang/a/b;)V
+		mau	a	0
+	mu	a	clientException(Lcom/mojang/minecraft/comm/SocketConnection;Ljava/lang/Exception;)V
+	m	run()V	run()V
+	m	tick()V	c()V
+	m	main([Ljava/lang/String;)V	main([Ljava/lang/String;)V
+		ma	0	0
+	f	socketServer;;Lcom/mojang/minecraft/comm/SocketServer;	h;;Lcom/mojang/a/a;
+	f	clientMap;;Ljava/util/Map;	i;;Ljava/util/Map;
+	f	clients;;Ljava/util/List;	j;;Ljava/util/List;
