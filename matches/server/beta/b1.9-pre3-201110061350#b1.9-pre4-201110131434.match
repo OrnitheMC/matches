@@ -1,4 +1,4 @@
-Matches saved 2024-03-23, status: c:625/626 m:4592/4611 f:2276/2306 ma:7837/7872, input files:
+Matches saved 2024-10-18, status: c:625/626 m:4586/4611 f:2267/2306 ma:7829/7872, input files:
 	a:
 		695939	SHA256	/KbZxbm8uEwniL0tDCUZb4nqIGYnjihYDzQgS82tHDQ=	minecraft-server-b1.9-pre3-201110061350.jar
 	b:
@@ -840,6 +840,7 @@ c	Lbv;	Lcb;
 c	Lbw;	Lcc;
 	m	<init>(Lev;)V	<init>(Lfh;)V
 		ma	0	0
+	mu	a	b()V
 	m	<init>(Lev;Lkq;)V	<init>(Lfh;Llj;)V
 		ma	0	0
 		ma	1	1
@@ -849,6 +850,10 @@ c	Lbw;	Lcc;
 		ma	2	2
 		ma	3	3
 	mu	a	a(DDDFF)V
+	mu	a	t_()V
+	mu	a	b(Lml;)V
+	mu	a	a(Lml;)V
+	mu	a	a_(Lgj;)V
 c	Lbx;	Lcd;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -8344,35 +8349,18 @@ c	Lmh;	Lnb;
 		ma	0	0
 	f	a;;I	a;;I
 	f	b;;I	b;;I
-c	Lmi;	Lbc;
+c	Lmi;	Lnc;
 	m	<init>(Lev;)V	<init>(Lfh;)V
 		ma	0	0
-	m	b()V	b()V
+	mu	a	b()V
 	m	<init>(Lev;Lkq;)V	<init>(Lfh;Llj;)V
 		ma	0	0
 		ma	1	1
-	m	a(DDDFF)V	a(DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	t_()V	u_()V
-	m	b(Lml;)V	b(Lnf;)V
-		ma	0	0
-	m	a(Lml;)V	a(Lnf;)V
-		ma	0	0
-	m	a_(Lgj;)V	a_(Lgx;)V
-		ma	0	0
-	f	b;;I	d;;I
-	f	c;;I	e;;I
-	f	d;;I	f;;I
-	f	e;;I	g;;I
-	f	f;;Z	a;;Z
-	f	a;;I	b;;I
-	f	g;;Lkq;	c;;Llj;
-	f	h;;I	h;;I
-	f	i;;I	i;;I
+	mu	a	a(DDDFF)V
+	mu	a	t_()V
+	mu	a	b(Lml;)V
+	mu	a	a(Lml;)V
+	mu	a	a_(Lgj;)V
 c	Lmj;	Lnd;
 	m	<init>(ILjava/util/Random;Lty;I)V	<init>(ILjava/util/Random;Lva;I)V
 		ma	0	0
@@ -13540,6 +13528,7 @@ c	Ltw;	Lux;
 c	Ltx;	Luy;
 	m	<init>(Lev;)V	<init>(Lfh;)V
 		ma	0	0
+	mu	a	b()V
 	m	<init>(Lev;Lkq;)V	<init>(Lfh;Llj;)V
 		ma	0	0
 		ma	1	1
@@ -13549,6 +13538,10 @@ c	Ltx;	Luy;
 		ma	2	2
 		ma	3	3
 	mu	a	a(DDDFF)V
+	mu	a	t_()V
+	mu	a	b(Lml;)V
+	mu	a	a(Lml;)V
+	mu	a	a_(Lgj;)V
 c	Lty;	Lva;
 	m	<init>()V	<init>()V
 	m	a()Lty;	a()Lva;

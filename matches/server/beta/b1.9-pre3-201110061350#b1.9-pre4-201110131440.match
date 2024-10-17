@@ -1,4 +1,4 @@
-Matches saved 2023-04-24, status: c:624/626 m:4596/4611 f:2280/2306 ma:7841/7872, input files:
+Matches saved 2024-10-18, status: c:625/626 m:4581/4611 f:2267/2306 ma:7824/7872, input files:
 	a:
 		695939	SHA256	/KbZxbm8uEwniL0tDCUZb4nqIGYnjihYDzQgS82tHDQ=	minecraft-server-b1.9-pre3-201110061350.jar
 	b:
@@ -837,32 +837,19 @@ c	Lbv;	Lcb;
 	m	b()I	b()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
-c	Lbw;	Lck;
+c	Lbw;	Lcc;
 	m	<init>(Lev;)V	<init>(Lfh;)V
 		ma	0	0
-	m	b()V	b()V
+	m	<init>(Lev;Lkq;)V	<init>(Lfh;Llj;)V
+		ma	0	0
+		ma	1	1
 	m	<init>(Lev;DDD)V	<init>(Lfh;DDD)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(DDDFF)V	a(DID)V
-		ma	0	0
-		ma	1	2
-		ma	2	1
-	m	t_()V	u_()V
-	m	b(Lml;)V	b(Lnf;)V
-		ma	0	0
-	m	a(Lml;)V	a(Lnf;)V
-		ma	0	0
-	m	a_(Lgj;)V	a_(Lgx;)V
-		ma	0	0
-	f	b;;I	b;;D
-	f	c;;I	c;;D
-	f	d;;I	d;;D
-	f	e;;I	a;;I
-	f	f;;Z	f;;Z
-	f	h;;I	e;;I
+	mu	a	a(DDDFF)V
+	mu	a	a_(Lgj;)V
 c	Lbx;	Lcd;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -1013,8 +1000,7 @@ c	Lcf;	Lcn;
 		ma	0	0
 	m	a(Lml;)V	a(Lnf;)V
 		ma	0	0
-	m	a_(Lgj;)V	a_(Lgx;)V
-		ma	0	0
+	mu	a	a_(Lgj;)V
 	m	l_()I	m_()I
 	m	b(I)I	b(I)I
 		ma	0	0
@@ -4647,8 +4633,7 @@ c	Lha;	Lho;
 		ma	0	0
 	m	a(Lml;)V	a(Lnf;)V
 		ma	0	0
-	m	a_(Lgj;)V	a_(Lgx;)V
-		ma	0	0
+	mu	a	a_(Lgj;)V
 	m	ac()Ljava/lang/String;	ad()Ljava/lang/String;
 	f	a;;Lil;	a;;Lja;
 	f	e;;I	e;;I
@@ -8158,7 +8143,7 @@ c	Llv;	Lmp;
 		ma	1	2
 		ma	2	1
 	m	a(Lnq;Loo;)I	a(ILpo;)I
-		ma	0	0
+		mau	a	0
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	a;;[Llv;	b;;[Lmp;
@@ -8358,35 +8343,14 @@ c	Lmh;	Lnb;
 		ma	0	0
 	f	a;;I	a;;I
 	f	b;;I	b;;I
-c	Lmi;	Lbc;
+c	Lmi;	Lnc;
 	m	<init>(Lev;)V	<init>(Lfh;)V
 		ma	0	0
-	m	b()V	b()V
 	m	<init>(Lev;Lkq;)V	<init>(Lfh;Llj;)V
 		ma	0	0
 		ma	1	1
-	m	a(DDDFF)V	a(DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	t_()V	u_()V
-	m	b(Lml;)V	b(Lnf;)V
-		ma	0	0
-	m	a(Lml;)V	a(Lnf;)V
-		ma	0	0
-	m	a_(Lgj;)V	a_(Lgx;)V
-		ma	0	0
-	f	b;;I	d;;I
-	f	c;;I	e;;I
-	f	d;;I	f;;I
-	f	e;;I	g;;I
-	f	f;;Z	a;;Z
-	f	a;;I	b;;I
-	f	g;;Lkq;	c;;Llj;
-	f	h;;I	h;;I
-	f	i;;I	i;;I
+	mu	a	a(DDDFF)V
+	mu	a	a_(Lgj;)V
 c	Lmj;	Lnd;
 	m	<init>(ILjava/util/Random;Lty;I)V	<init>(ILjava/util/Random;Lva;I)V
 		ma	0	0
@@ -9458,7 +9422,9 @@ c	Lnp;	Lok;
 	m	a(Lnp;)Z	a(Lok;)Z
 		ma	0	0
 	f	a;;Z	a;;Z
-cu	a	Lnq;
+c	Lnq;	Lon;
+	f	a;;Llv;	a;;Lmp;
+	f	b;;I	b;;I
 c	Lnr;	Lop;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
@@ -10387,7 +10353,7 @@ c	Lpg;	Lqg;
 		ma	0	0
 		ma	1	1
 	m	a(Lnq;Loo;)I	a(ILpo;)I
-		ma	0	0
+		mau	a	0
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	l;;[Ljava/lang/String;	w;;[Ljava/lang/String;
@@ -10952,8 +10918,7 @@ c	Lqk;	Lrj;
 		ma	0	0
 	m	a(Lml;)V	a(Lnf;)V
 		ma	0	0
-	m	a_(Lgj;)V	a_(Lgx;)V
-		ma	0	0
+	mu	a	a_(Lgj;)V
 	f	e;;I	e;;I
 	f	f;;I	f;;I
 	f	g;;I	g;;I
@@ -11144,8 +11109,7 @@ c	Lqn;	Lrm;
 		ma	2	2
 	m	h(Lqn;)D	h(Lrm;)D
 		ma	0	0
-	m	a_(Lgj;)V	a_(Lgx;)V
-		ma	0	0
+	mu	a	a_(Lgj;)V
 	m	i(Lqn;)V	i(Lrm;)V
 		ma	0	0
 	m	b_(DDD)V	b_(DDD)V
@@ -12151,7 +12115,9 @@ c	Lsa;	Lta;
 	f	g;;Lta;	g;;Lty;
 c	Lsb;	Ltb;
 	m	<init>()V	<init>()V
-	mu	a	a(Lik;Loo;)I
+	m	a(Lik;Loo;)I	a(Liz;Lpo;)I
+		ma	0	0
+		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Random;	a;;Ljava/util/Random;
 c	Lsc;	Ltc;
@@ -12826,8 +12792,7 @@ c	Lsn;	Ltm;
 	m	z()I	A()I
 	m	x()Lsn;	y()Ltm;
 	m	R()V	S()V
-	m	a_(Lgj;)V	a_(Lgx;)V
-		ma	0	0
+	mu	a	a_(Lgj;)V
 	m	B()Z	C()Z
 	m	C()I	D()I
 	m	m()Ljava/lang/String;	m()Ljava/lang/String;
@@ -13559,6 +13524,7 @@ c	Ltx;	Luy;
 		ma	2	2
 		ma	3	3
 	mu	a	a(DDDFF)V
+	mu	a	a_(Lgj;)V
 c	Lty;	Lva;
 	m	<init>()V	<init>()V
 	m	a()Lty;	a()Lva;

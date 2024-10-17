@@ -1,4 +1,4 @@
-Matches saved 2024-03-23, status: c:972/973 m:7426/7480 f:4045/4136 ma:12836/12959, input files:
+Matches saved 2024-10-17, status: c:972/973 m:7417/7480 f:4036/4136 ma:12824/12959, input files:
 	a:
 		2087104	SHA256	Oz8ovzlMxK8KUfdB/FzLdPd5UIQXL3zl2dtDJ33BhJE=	minecraft-client-b1.9-pre3-201110061402.jar
 	b:
@@ -14560,6 +14560,8 @@ c	Loc;	Loq;
 c	Lod;	Lor;
 	m	<init>(Luc;)V	<init>(Luv;)V
 		ma	0	0
+	mu	a	b()V
+	mu	a	a(D)Z
 	m	<init>(Luc;Lyv;)V	<init>(Luv;Lzt;)V
 		ma	0	0
 		ma	1	1
@@ -14569,6 +14571,12 @@ c	Lod;	Lor;
 		ma	2	2
 		ma	3	3
 	mu	a	a(DDDFF)V
+	mu	a	a(DDD)V
+	mu	a	z_()V
+	mu	a	b(Lzx;)V
+	mu	a	a(Lzx;)V
+	mu	a	a_(Lvj;)V
+	mu	a	g_()F
 c	Loe;	Lot;
 	m	<init>(Lyt;)V	<init>(Lzr;)V
 		ma	0	0
@@ -18426,6 +18434,8 @@ c	Ls;	Lt;
 c	Lsa;	Lss;
 	m	<init>(Luc;)V	<init>(Luv;)V
 		ma	0	0
+	mu	a	b()V
+	mu	a	a(D)Z
 	m	<init>(Luc;Lyv;)V	<init>(Luv;Lzt;)V
 		ma	0	0
 		ma	1	1
@@ -18435,6 +18445,12 @@ c	Lsa;	Lss;
 		ma	2	2
 		ma	3	3
 	mu	a	a(DDDFF)V
+	mu	a	a(DDD)V
+	mu	a	z_()V
+	mu	a	b(Lzx;)V
+	mu	a	a(Lzx;)V
+	mu	a	a_(Lvj;)V
+	mu	a	g_()F
 c	Lsb;	Lsr;
 	m	<init>()V	<init>()V
 	m	a(Ljava/util/Random;IIIZ)V	a(Ljava/util/Random;IIIZ)V
@@ -25136,12 +25152,11 @@ c	Lzu;	Laat;
 		ma	0	0
 	f	a;;I	a;;I
 	f	b;;I	b;;I
-c	Lzv;	Lap;
+c	Lzv;	Laau;
 	m	<init>(Luc;)V	<init>(Luv;)V
 		ma	0	0
-	m	b()V	b()V
-	m	a(D)Z	a(D)Z
-		ma	0	0
+	mu	a	b()V
+	mu	a	a(D)Z
 	m	<init>(Luc;Lyv;)V	<init>(Luv;Lzt;)V
 		ma	0	0
 		ma	1	1
@@ -25150,33 +25165,13 @@ c	Lzv;	Lap;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(DDDFF)V	a(DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	a(DDD)V	a(DDD)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	z_()V	A_()V
-	m	b(Lzx;)V	b(Laaw;)V
-		ma	0	0
-	m	a(Lzx;)V	a(Laaw;)V
-		ma	0	0
-	m	a_(Lvj;)V	a(Lwe;)V
-		ma	0	0
-	m	g_()F	f()F
-	f	b;;I	d;;I
-	f	c;;I	e;;I
-	f	d;;I	ao;;I
-	f	e;;I	ap;;I
-	f	ao;;Z	a;;Z
-	f	a;;I	b;;I
-	f	ap;;Lyv;	c;;Lzt;
-	f	aq;;I	aq;;I
-	f	ar;;I	ar;;I
+	mu	a	a(DDDFF)V
+	mu	a	a(DDD)V
+	mu	a	z_()V
+	mu	a	b(Lzx;)V
+	mu	a	a(Lzx;)V
+	mu	a	a_(Lvj;)V
+	mu	a	g_()F
 c	Lzw;	Laav;
 	m	<init>(ILjava/util/Random;Log;I)V	<init>(ILjava/util/Random;Lov;I)V
 		ma	0	0
