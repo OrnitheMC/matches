@@ -1,4 +1,4 @@
-Matches saved 2024-09-18, status: c:518/527 m:3961/4020 f:2500/2529 ma:6966/7048, input files:
+Matches saved 2024-10-18, status: c:518/527 m:3959/4020 f:2500/2529 ma:6964/7048, input files:
 	a:
 		1105909	SHA256	Yydr8mFwaP+68qGZLR8G+TOclsIZker8lYPV8+cHS5w=	minecraft-client-a1.2.6.jar
 	b:
@@ -4768,15 +4768,8 @@ c	Lfa;	Lfj;
 	f	g;;Z	g;;Z
 	f	h;;Z	h;;Z
 	f	i;;Z	i;;Z
-c	Lfb;	Lgv;
-	m	<init>()V	<init>()V
-	m	a(Lat;DDDFF)V	a(Lbb;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+c	Lfb;	Lbw;
+	m	<init>()V	<init>(I)V
 	m	a(Llw;DDDFF)V	a(Lmm;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -5634,8 +5627,15 @@ c	Lgk;	Lgu;
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
 	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
 	f	j;;Z	k;;Z
-c	Lgl;	Lbw;
-	m	<init>()V	<init>(I)V
+c	Lgl;	Lgv;
+	m	<init>()V	<init>()V
+	m	a(Laz;DDDFF)V	a(Lbb;DDDFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
 	m	a(Llw;DDDFF)V	a(Lmm;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -6727,8 +6727,7 @@ c	Lib;	Lio;
 		ma	0	0
 	m	a(Lek;)V	a(Leq;)V
 		ma	0	0
-	m	a(Lp;)V	a(Lgp;)V
-		ma	0	0
+	mu	a	a(Lp;)V
 	mu	a	a(Lpy;)V
 	m	a(Lkv;)V	a(Lll;)V
 		ma	0	0
@@ -9692,8 +9691,7 @@ c	Lmo;	Lne;
 		ma	0	0
 	m	a(Lek;)V	a(Leq;)V
 		ma	0	0
-	m	a(Lp;)V	a(Lgp;)V
-		ma	0	0
+	mu	a	a(Lp;)V
 	mu	a	a(Lpy;)V
 	m	a(Lkv;)V	a(Lll;)V
 		ma	0	0
