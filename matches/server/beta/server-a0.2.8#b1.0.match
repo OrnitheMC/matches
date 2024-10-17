@@ -1,4 +1,4 @@
-Matches saved 2024-09-18, status: c:294/297 m:2126/2159 f:1237/1250 ma:3754/3801, input files:
+Matches saved 2024-10-17, status: c:293/297 m:2120/2159 f:1236/1250 ma:3751/3801, input files:
 	a:
 		321391	SHA256	KbsYAmIlAjUTH7U/EtYfQ40AhiDhtCjjctut7HMfXgk=	minecraft-server-server-a0.2.8.jar
 	b:
@@ -4828,16 +4828,7 @@ c	Lgs;	Lhl;
 		ma	1	1
 	m	a(I)I	a(I)I
 		ma	0	0
-c	Lgt;	Lhm;
-	m	<init>()V	<init>()V
-	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
-		ma	0	0
-	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
-		ma	0	0
-	m	a(Lfc;)V	a(Lfr;)V
-		ma	0	0
-	m	a()I	a()I
-	f	b;;I	a;;I
+cu	a	Lgt;
 c	Lgu;	Lhn;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -6330,6 +6321,7 @@ c	Lji;	Lkj;
 	m	b(Ljava/lang/String;)V	b(Ljava/lang/String;)V
 		ma	0	0
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
+	mu	a	a(Lu;)V
 	mu	a	d()V
 	mu	a	a(Ljh;)V
 	m	a(La;)V	a(La;)V
