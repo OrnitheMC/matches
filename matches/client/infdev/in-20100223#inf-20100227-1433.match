@@ -1,18 +1,18 @@
-Matches saved 2021-10-03, status: c:285/309 m:1815/2223 f:1508/1644 ma:2899/3656, input files:
+Matches saved 2024-10-18, status: c:285/309 m:1815/2223 f:1507/1644 ma:2899/3656, input files:
 	a:
-		555633	wUeyUneB/MJEQDu2rX9N6EbbXFIHlgPiIghwMD+aU8Q=	minecraft-client-in-20100223.jar
+		555633	SHA256	wUeyUneB/MJEQDu2rX9N6EbbXFIHlgPiIghwMD+aU8Q=	minecraft-client-in-20100223.jar
 	b:
-		509103	UHzs+tIcqi4TegDFfWOsbrwpnLEZHnA/HEknTVPn/vM=	minecraft-client-inf-20100227-1433.jar
+		509103	SHA256	UHzs+tIcqi4TegDFfWOsbrwpnLEZHnA/HEknTVPn/vM=	minecraft-client-inf-20100227-1433.jar
 	cp:
-		27583	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -2018,19 +2018,16 @@ c	Lnet/minecraft/a/a/c/a/a;	Lnet/minecraft/a/a/c/a/a;
 	f	a;;[I	a;;[I
 c	Lnet/minecraft/a/a/c/a/b;	Lnet/minecraft/a/a/c/a/b;
 	m	<init>()V	<init>()V
-	mu	a	a(DD)D
 c	Lnet/minecraft/a/a/c/a/c;	Lnet/minecraft/a/a/c/a/c;
 	m	<init>(Ljava/util/Random;I)V	<init>(Ljava/util/Random;I)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(DD)D
 	f	a;;[Lnet/minecraft/a/a/c/a/a;	a;;[Lnet/minecraft/a/a/c/a/a;
 	f	b;;I	b;;I
 c	Lnet/minecraft/a/a/c/a/d;	Lnet/minecraft/client/f;
 	m	<init>(Lnet/minecraft/a/a/c/a/b;Lnet/minecraft/a/a/c/a/b;)V	<init>(Lnet/minecraft/client/d;La/b;)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(DD)D
 cu	a	Lnet/minecraft/a/a/c/a;
 cu	a	Lnet/minecraft/a/a/c;
 c	Lnet/minecraft/a/a/d/a;	Lnet/minecraft/a/a/d/a;
@@ -2230,7 +2227,7 @@ c	Lnet/minecraft/a/a/g;	Lnet/minecraft/a/a/e;
 	fu	a	n;;Ljava/util/List;
 	fu	a	G;;Ljava/util/List;
 	fu	a	o;;Ljava/util/Map;
-	f	H;;Ljava/util/List;	j;;Ljava/util/List;
+	fu	a	H;;Ljava/util/List;
 	fu	a	p;;[I
 	f	q;;Ljava/util/Random;	e;;Ljava/util/Random;
 	fu	a	I;;Ljava/util/Random;
