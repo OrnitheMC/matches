@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:3968/4027 m:30710/31520 f:14275/14542 ma:43873/45608, input files:
+Matches saved 2024-11-25, status: c:3968/4027 m:30704/31520 f:14275/14542 ma:43869/45608, input files:
 	a:
 		15910613	SHA256	HYUBqjrxFA++V8yGimoxXP6Ezf/f5vxFLrd30WDEDYc=	minecraft-merged-1.13.2.jar
 	b:
@@ -19197,7 +19197,8 @@ c	Laxj;	Laym;
 c	Laxk;	Layn;
 	m	f(Lel;)Lbji;	d(Leq;)Lbkf;
 		ma	0	0
-	m	a_(Lel;)Lblc;	a(III)Lblz;
+	m	a_(Lel;)Lblc;	h(Leq;)Lblz;
+		ma	0	0
 	m	b(Lel;)Lbyw;	a(Leq;)Lcac;
 		ma	0	0
 	m	K()I	H()I
@@ -19582,8 +19583,6 @@ c	Laxy;	Laza;
 	mu	a	a(Layi;Lel;I)V
 	mu	a	m(Lel;)V
 	mu	a	b(Lel;I)I
-	m	a_(Lel;)Lblc;	a(III)Lblz;
-		ma	0	0
 	m	b(Lel;)Lbyw;	a(Leq;)Lcac;
 		ma	0	0
 	m	L()Z	J()Z
@@ -20521,8 +20520,6 @@ c	Layl;	Lazm;
 	mu	a	b(Lel;I)I
 	mu	a	e(Lel;)Z
 	mu	a	a(II)Z
-	m	a_(Lel;)Lblc;	a(III)Lblz;
-		mau	a	0
 	m	b(Lel;)Lbyw;	a(Leq;)Lcac;
 		ma	0	0
 	m	d(Lel;)Layu;	c(Leq;)Lazx;
@@ -33265,8 +33262,6 @@ c	Lbnf;	Lboc;
 	mu	a	a(II)Z
 	mu	a	n()V
 	mu	a	o()V
-	m	a_(Lel;)Lblc;	a(III)Lblz;
-		ma	0	0
 	mu	a	a(Layi;Lel;Z)I
 	mu	a	a(Layi;ZLel;I)V
 	mu	a	a(Lel;IZ)I
@@ -33358,6 +33353,7 @@ c	Lbni;	Lbog;
 	m	<init>(Lbmx;)V	<init>(Lboh;)V
 	m	f(Lel;)Lbji;	d(Leq;)Lbkf;
 		ma	0	0
+	m	a_(Lel;)Lblc;	h(Leq;)Lblz;
 	m	b(Lel;)Lbyw;	a(Leq;)Lcac;
 		ma	0	0
 	m	K()I	H()I
@@ -33482,7 +33478,6 @@ c	Lbnj;	Lboh;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a_(Lel;)Lblc;	a(III)Lblz;
 	mu	a	a(III)Lblc;
 	m	b(Lel;)Lbyw;	a(Leq;)Lcac;
 		ma	0	0
@@ -33827,8 +33822,6 @@ c	Lbnr;	Lbop;
 		ma	0	0
 		ma	1	1
 	mu	a	a([Lit/unimi/dsi/fastutil/shorts/ShortList;I)Lit/unimi/dsi/fastutil/shorts/ShortList;
-	m	a_(Lel;)Lblc;	a(III)Lblz;
-		ma	0	0
 	m	b(Lel;)Lbyw;	a(Leq;)Lcac;
 		ma	0	0
 	mu	a	j()Ljava/util/List;
@@ -72462,8 +72455,6 @@ c	Lcwv;	Ldag;
 		ma	5	5
 	m	a(Lel;)I	d(III)I
 		ma	0	0
-	m	a_(Lel;)Lblc;	a(III)Lblz;
-		ma	0	0
 	m	b(Lel;)Lbyw;	a(Leq;)Lcac;
 		ma	0	0
 	m	d(Lel;)Layu;	c(Leq;)Lazx;
@@ -94241,8 +94232,6 @@ c	Lti;	Luh;
 	m	b(II)Lbmx;	b(II)Lbnu;
 		ma	0	0
 		ma	1	1
-	m	a_(Lel;)Lblc;	a(III)Lblz;
-		ma	0	0
 	m	b(Lel;)Lbyw;	a(Leq;)Lcac;
 		ma	0	0
 	m	a(DDDDLjava/util/function/Predicate;)Laog;	a(DDDDLjava/util/function/Predicate;)Lapb;
