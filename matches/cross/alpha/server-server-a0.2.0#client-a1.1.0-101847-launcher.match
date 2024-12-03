@@ -1,4 +1,4 @@
-Matches saved 2024-11-30, status: c:223/261 m:1635/1909 f:902/1066 ma:2976/3340, input files:
+Matches saved 2024-09-15, status: c:222/261 m:1631/1909 f:901/1066 ma:2969/3340, input files:
 	a:
 		273947	SHA256	tYq0Ft3JrT75Dk43mT/1w/A0bYQkZ/5vUmH2oNWlWgI=	minecraft-server-server-a0.2.0.jar
 	b:
@@ -4745,17 +4745,7 @@ c	Lht;	Lno;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;J	d;;J
-c	Lhu;	Lk;
-	m	<init>(Lee;ILjava/lang/Class;[Ljava/lang/Class;)V	<init>(Lia;ILjava/lang/Class;[Ljava/lang/Class;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	a(Ldy;II)Lgs;	a(Lcn;II)Lms;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	f	a;;Lee;	a;;Lia;
+cu	a	Lhu;
 c	Lhv;	Lft;
 	m	<init>(Ldy;Laq;Lbj;)V	<init>(Lcn;Laf;Law;)V
 		ma	0	0
