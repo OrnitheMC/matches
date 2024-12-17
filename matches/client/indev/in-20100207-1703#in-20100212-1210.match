@@ -1,18 +1,18 @@
-Matches saved 2021-09-05, status: c:287/287 m:2058/2074 f:1508/1512 ma:3388/3435, input files:
+Matches saved 2024-12-17, status: c:286/287 m:2055/2074 f:1508/1512 ma:3399/3435, input files:
 	a:
-		464930	DtUiXRFrp1c1pCEJ0OWty0wjx97srKahThDjtaCwdcc=	minecraft-client-in-20100207-1703.jar
+		464930	SHA256	DtUiXRFrp1c1pCEJ0OWty0wjx97srKahThDjtaCwdcc=	minecraft-client-in-20100207-1703.jar
 	b:
-		485564	wx7XyoLVcVkJ+JlozEwopF7hDjjF2DBb100h5NCkPRg=	minecraft-client-in-20100212-1210.jar
+		485564	SHA256	wx7XyoLVcVkJ+JlozEwopF7hDjjF2DBb100h5NCkPRg=	minecraft-client-in-20100212-1210.jar
 	cp:
-		27583	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -2344,14 +2344,17 @@ c	Lnet/minecraft/a/a/b/x;	Lnet/minecraft/a/a/b/aa;
 	m	a()I	a()I
 	m	a(Lnet/minecraft/a/a/f;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;	a(Lnet/minecraft/a/a/g;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
 		ma	0	0
+		ma	1	1
 		ma	2	2
 		ma	3	3
 		ma	4	4
 		ma	5	5
 	m	b(Lnet/minecraft/a/a/f;IIILjava/util/Random;)V	b(Lnet/minecraft/a/a/g;IIILjava/util/Random;)V
 		ma	0	0
+		ma	1	1
 		ma	2	2
 		ma	3	3
+		ma	4	4
 c	Lnet/minecraft/a/a/b/y;	Lnet/minecraft/a/a/b/ab;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -2375,11 +2378,7 @@ c	Lnet/minecraft/a/a/b/y;	Lnet/minecraft/a/a/b/ab;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	e(Lnet/minecraft/a/a/f;III)V	h(Lnet/minecraft/a/a/g;III)V
-		mau	a	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
+	mu	a	e(Lnet/minecraft/a/a/f;III)V
 	m	a(III)Lnet/minecraft/a/d/b;	a(III)Lnet/minecraft/a/d/b;
 		ma	0	0
 		ma	1	1
@@ -3115,7 +3114,6 @@ c	Lnet/minecraft/a/b/b/a;	Lnet/minecraft/a/c/b/a;
 		ma	0	0
 	m	b(Lcom/a/a/c;)V	b(Lcom/a/a/c;)V
 		ma	0	0
-	mu	a	a()Ljava/lang/String;
 c	Lnet/minecraft/a/b/b/b;	Lnet/minecraft/a/c/b/b;
 	m	<init>(Lnet/minecraft/a/a/f;)V	<init>(Lnet/minecraft/a/a/g;)V
 		ma	0	0
@@ -3438,6 +3436,7 @@ c	Lnet/minecraft/a/c/d;	Lnet/minecraft/a/b/d;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+		ma	5	5
 	m	a(Lnet/minecraft/a/a/f;FFF)Z	a(Lnet/minecraft/a/a/g;FFF)Z
 		ma	0	0
 		ma	1	1
@@ -3874,6 +3873,9 @@ c	Lnet/minecraft/client/a/a/h;	Lnet/minecraft/client/a/a/i;
 	m	a(Lnet/minecraft/a/b/a;FFFFF)V	a(Lnet/minecraft/a/c/a;FFFFF)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 		ma	5	5
 	f	d;;Lnet/minecraft/client/b/k;	d;;Lnet/minecraft/client/b/l;
 c	Lnet/minecraft/client/a/a/i;	Lnet/minecraft/client/a/a/k;
@@ -5400,6 +5402,13 @@ c	Lnet/minecraft/client/f/j;	Lnet/minecraft/client/f/j;
 		ma	2	2
 		ma	3	3
 	m	a(Lnet/minecraft/client/a/c;FFFFFF)V	a(Lnet/minecraft/client/a/d;FFFFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
 	m	b()V	b()V
 c	Lnet/minecraft/client/f/k;	Lnet/minecraft/client/f/k;
 	m	<init>(Lnet/minecraft/a/a/f;FFFFFF)V	<init>(Lnet/minecraft/a/a/g;FFFFFF)V
@@ -5548,11 +5557,7 @@ c	Lnet/minecraft/client/n;	Lnet/minecraft/client/n;
 	m	<init>(Lnet/minecraft/client/d;)V	<init>(Lnet/minecraft/client/d;Ljava/lang/String;)V
 		ma	0	0
 	m	run()V	run()V
-c	Lnet/minecraft/client/o;	Lnet/minecraft/client/a/j;
-	m	<init>(Lnet/minecraft/client/d;)V	<init>(Lnet/minecraft/client/a/i;Ljava/lang/String;Lnet/minecraft/client/a/c;)V
-		mau	a	0
-	m	run()V	run()V
-	fu	a	a;;Lnet/minecraft/client/d;
+cu	a	Lnet/minecraft/client/o;
 c	Lnet/minecraft/client/p;	Lnet/minecraft/client/o;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
