@@ -1,4 +1,4 @@
-Matches saved 2024-03-28, status: c:288/326 m:2026/2362 f:1161/1340 ma:3537/4006, input files:
+Matches saved 2024-12-17, status: c:287/326 m:2029/2362 f:1159/1340 ma:3534/4006, input files:
 	a:
 		351526	SHA256	W1pci0s7XmkAbt/yeb8W6N1fKgPddrqwC2Uyn6vVe1Q=	minecraft-server-b1.1-1245.jar
 	b:
@@ -6679,15 +6679,7 @@ c	Lla;	Lhm;
 	f	w;;Lla;	w;;Lhm;
 	f	x;;Lla;	x;;Lhm;
 	f	y;;Z	y;;Z
-c	Llb;	Lit;
-	m	<init>(II)V	<init>(II)V
-		ma	0	0
-		ma	1	1
-	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
-		ma	0	0
-	m	hashCode()I	hashCode()I
-	f	a;;I	a;;I
-	f	b;;I	b;;I
+cu	a	Llb;
 c	Llc;	Lhq;
 	m	<init>(Lff;)V	<init>(Ldd;)V
 		ma	0	0

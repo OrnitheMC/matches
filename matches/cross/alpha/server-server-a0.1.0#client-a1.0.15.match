@@ -1,4 +1,4 @@
-Matches saved 2024-09-15, status: c:210/244 m:1567/1794 f:859/1001 ma:2888/3200, input files:
+Matches saved 2024-12-17, status: c:209/244 m:1566/1794 f:857/1001 ma:2885/3200, input files:
 	a:
 		256134	SHA256	JFwI6WZp+JlIWSQqJa/2nV44XCGoSPbOAFfgiF2tPWM=	minecraft-server-server-a0.1.0.jar
 	b:
@@ -5143,15 +5143,7 @@ c	Li;	Lgo;
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
 		ma	0	0
 		ma	1	1
-c	Lia;	Lgr;
-	m	<init>(II)V	<init>(II)V
-		ma	0	0
-		ma	1	1
-	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
-		ma	0	0
-	m	hashCode()I	hashCode()I
-	f	a;;I	a;;I
-	f	b;;I	b;;I
+cu	a	Lia;
 cu	a	Lib;
 c	Lic;	Lfv;
 	m	<init>(Ldp;)V	<init>(Lcj;)V
