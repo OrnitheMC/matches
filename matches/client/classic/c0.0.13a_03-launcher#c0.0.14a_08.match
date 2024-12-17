@@ -1,4 +1,4 @@
-Matches saved 2024-09-13, status: c:44/44 m:217/224 f:235/249 ma:419/439, input files:
+Matches saved 2024-12-17, status: c:44/44 m:218/224 f:235/249 ma:420/439, input files:
 	a:
 		66276	SHA256	QFlfDDetscWB0NTYNnM4Bv91r5d4NvgV8aVgD+8KQ74=	minecraft-client-c0.0.13a_03-launcher.jar
 	b:
@@ -331,7 +331,8 @@ c	Lcom/mojang/minecraft/a/c;	Lcom/mojang/minecraft/a/f;
 		ma	4	4
 	mu	a	b(I)V
 	m	a()V	b()V
-	mu	a	a(I)I
+	m	a(I)I	a(Ljava/nio/IntBuffer;I)V
+		ma	0	1
 	mu	a	b()V
 	mu	a	c()Z
 	m	a(Lcom/mojang/minecraft/e;)F	a(Lcom/mojang/minecraft/player/Player;)F
