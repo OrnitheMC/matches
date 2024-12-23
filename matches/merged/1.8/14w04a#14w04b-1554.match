@@ -25131,6 +25131,7 @@ c	Lbnp;	Lbnp;
 		ma	5	5
 		ma	6	6
 	m	m_()V	m_()V
+c	Lbnq;	Lbnq;
 c	Lbnr;	Lbnr;
 	m	<init>(Lahn;DDD)V	<init>(Lahn;DDD)V
 		ma	0	0
@@ -42450,10 +42451,10 @@ c	Lsx;	Lsx;
 		ma	4	2
 	m	<init>(Lahn;IIIILjava/lang/String;)V	<init>(Lahn;Lcw;Lde;Ljava/lang/String;)V
 		ma	0	0
-		ma	1	1
+		mau	a	1
 		mau	a	2
 		mau	a	3
-		mau	a	4
+		ma	4	2
 		ma	5	3
 	m	b(Lea;)V	b(Lea;)V
 		ma	0	0

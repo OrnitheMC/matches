@@ -1,4 +1,4 @@
-Matches saved 2024-12-23, status: c:1914/1916 m:16134/16262 f:7057/7139 ma:21009/21268, input files:
+Matches saved 2024-12-23, status: c:1914/1916 m:16135/16262 f:7057/7139 ma:21014/21268, input files:
 	a:
 		5425060	SHA256	DLdyXU921xplSTagyJAHKCO1HnmPdAI/CYEkVmKFz8U=	minecraft-merged-14w03b.jar
 	b:
@@ -24786,6 +24786,7 @@ c	Lbne;	Lbnp;
 		ma	5	5
 		ma	6	6
 	m	m_()V	m_()V
+c	Lbnf;	Lbnq;
 c	Lbng;	Lbnr;
 	m	<init>(Lahc;DDD)V	<init>(Lahn;DDD)V
 		ma	0	0
@@ -25854,7 +25855,10 @@ c	Lbor;	Lbqf;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Lajj;IF)V
+	m	a(Lajj;IF)V	a(Laju;IF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	mu	a	a(I)Z
 	m	a(Lajj;Lahl;Lcu;Ldc;)Lql;	a(Laju;Lahw;Lcw;Lde;)Lqu;
 		ma	0	0
@@ -33270,7 +33274,7 @@ c	Leh;	Lem;
 		ma	1	1
 	m	a(Ljava/io/File;)Ldx;	a(Ljava/io/File;)Lea;
 		ma	0	0
-	m	a(Ljava/io/DataInput;)Ldx;	a(Ljava/io/DataInput;Lek;)Lea;
+	m	a(Ljava/io/DataInput;)Ldx;	a(Ljava/io/DataInputStream;)Lea;
 		ma	0	0
 	m	a(Ldx;Ljava/io/DataOutput;)V	a(Lea;Ljava/io/DataOutput;)V
 		ma	0	0
@@ -44127,11 +44131,11 @@ c	Lvk;	Lvw;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbau;	a;;Lbbg;
 c	Lvl;	Lvx;
-	m	<init>(Lcu;III)V	<init>(Lcw;Lde;I)V
+	m	<init>(Lcu;III)V	<init>(Lcw;III)V
 		ma	0	0
-		mau	a	1
+		ma	1	1
 		ma	2	2
-		mau	a	3
+		ma	3	3
 	m	b(III)I	b(III)I
 		ma	0	0
 		ma	1	1
