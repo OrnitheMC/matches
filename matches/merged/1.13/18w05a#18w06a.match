@@ -1,4 +1,4 @@
-Matches saved 2024-06-09, status: c:3510/3568 m:26519/27036 f:12420/12945 ma:35705/37724, input files:
+Matches saved 2024-12-30, status: c:3510/3568 m:26521/27036 f:12420/12945 ma:35708/37724, input files:
 	a:
 		10680771	SHA256	NBnd1UDacpPvF1vV86TlODzmvoTD6tAok98BsBzYKMQ=	minecraft-merged-18w05a.jar
 	b:
@@ -16366,8 +16366,6 @@ c	Lasm;	Latr;
 	f	g;;Z	g;;Z
 	f	h;;Ljava/lang/String;	h;;Ljava/lang/String;
 c	Lasn;	Latq;
-	mu	a	t(Lea;)Lbas;
-	mu	a	q(Lea;)Lbcl;
 	m	b(Lea;)Lasw;	d(Lec;)Laud;
 		ma	0	0
 	m	a(Lea;Leg;)I	a(Lec;Lei;)I
@@ -28957,7 +28955,6 @@ c	Lbgz;	Lbjk;
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
-	mu	a	a(Lasj;Lea;Z)Lea;
 	m	b(IILbew;)I	b(IILbgn;)I
 		ma	0	0
 		ma	1	1
@@ -29116,7 +29113,6 @@ c	Lbhb;	Lbks;
 	m	<init>()V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
-	mu	a	a(Lasj;Lea;Z)Lea;
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
 c	Lbhc$1;	Lbor$1;
 	m	<clinit>()V	<clinit>()V
@@ -29320,7 +29316,6 @@ c	Lbhe;	Lbkv;
 	m	b()Ljava/util/List;	e()Ljava/util/List;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
-	mu	a	a(Lasj;Lea;Z)Lea;
 	f	a;;Ljava/util/List;	d;;Ljava/util/List;
 c	Lbhf$1;	Lbos$1;
 	m	<clinit>()V	<clinit>()V
@@ -29785,7 +29780,6 @@ c	Lbhg;	Lbkz;
 	m	<init>()V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
-	mu	a	a(Lasj;Lea;Z)Lea;
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
 	m	b()Ljava/util/List;	e()Ljava/util/List;
 	m	<clinit>()V	<clinit>()V
@@ -30203,7 +30197,7 @@ c	Lbhk;	Lblx;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/util/Map;)V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
-	mu	a	a(Lasj;Lea;Z)Lea;
+	m	a(Lasj;Lea;Z)Lea;	a(Latm;Lbgn;Lec;Z)Lec;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
 	m	c()V	a(Lbgn;)V
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
@@ -30674,12 +30668,15 @@ c	Lbhm;	Lbly;
 	m	a(Lasj;Lea;)Z	a(Latm;Lec;)Z
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lasj;Lea;Z)Lea;
+	m	a(Lasj;Lea;Z)Lea;	a(Latm;Lbgn;Lec;Z)Lec;
+		ma	0	0
+		ma	1	2
+		ma	2	3
 	mu	a	a(Lasj;)V
 	mu	a	a(IILbhq;)V
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
-	m	a(Lasj;Lbhm;Lea;IIIZIZ)Lea;	a(Latm;Lbgn;Lec;Z)Lec;
+	mu	a	a(Lasj;Lbhm;Lea;IIIZIZ)Lea;
 	f	a;;Lbho;	av;;Lboy;
 	f	f;;Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	a;;Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
 c	Lbhn;	Lbow;
@@ -30976,10 +30973,8 @@ c	Lbhs$a;	Lbmi$a;
 	f	c;;Z	c;;Z
 c	Lbhs;	Lbmi;
 	m	<init>()V	<init>()V
-	m	<init>(Ljava/util/Map;)V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
-	mu	a	a(Lasj;Lea;Z)Lea;
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
 	f	h;;I	d;;I
 c	Lbht$1;	Lbpd$1;
@@ -31442,7 +31437,6 @@ c	Lbhu;	Lbmn;
 	m	<init>(Lbev;)V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
-	mu	a	a(Lasj;Lea;Z)Lea;
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
 	f	g;;I	d;;I
 c	Lbhv$1;	Lbpe$1;
