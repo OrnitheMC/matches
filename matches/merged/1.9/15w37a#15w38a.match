@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:2787/2787 m:21361/21424 f:9545/9558 ma:28649/28768, input files:
+Matches saved 2025-01-03, status: c:2787/2787 m:21359/21424 f:9545/9558 ma:28649/28768, input files:
 	a:
 		9001252	SHA256	7rbR9ZI9m68As5nZzJ2Em4GLZmaJGUrnpY+R4f/BAR0=	minecraft-merged-15w37a.jar
 	b:
@@ -57623,8 +57623,6 @@ c	Lvi;	Lvu;
 		ma	2	2
 	m	g(Lyx;)V	g(Lzb;)V
 		ma	0	0
-	m	dk()Z	dp()Z
-	m	dl()Z	v(Z)V
 	m	bM()Z	bN()Z
 	m	d(Lacr;)Z	d(Lacv;)Z
 		ma	0	0
