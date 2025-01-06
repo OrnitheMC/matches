@@ -1,4 +1,4 @@
-Matches saved 2024-03-27, status: c:634/635 m:4950/4994 f:2931/3004 ma:8278/8384, input files:
+Matches saved 2025-01-06, status: c:634/635 m:4946/4994 f:2931/3004 ma:8274/8384, input files:
 	a:
 		1306747	SHA256	NhcOYaLOnctt2lr2NEAHDRutgsCEbXefJcL7C9wUmS4=	minecraft-client-b1.4_01.jar
 	b:
@@ -386,8 +386,6 @@ c	Lat;	Lbb;
 	f	b;;Ljava/net/URL;	b;;Ljava/net/URL;
 c	Lau;	Lbc;
 	m	<init>(I)V	<init>(I)V
-		ma	0	0
-	m	a(Lhi;)I	a(I)I
 		ma	0	0
 	m	a(I)I	b(I)I
 		ma	0	0
@@ -3342,8 +3340,6 @@ c	Ldm;	Lec;
 c	Ldn;	Led;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
-	m	a(Lhi;)I	a(I)I
-		ma	0	0
 	m	a(I)I	b(I)I
 		ma	0	0
 	m	b(Lhi;)Ljava/lang/String;	a(Lii;)Ljava/lang/String;
@@ -4806,7 +4802,7 @@ c	Lfg;	Lgb;
 	m	a(II)Lfg;	a(II)Lgb;
 		ma	0	0
 		ma	1	1
-	m	a(Lhi;)I	a(I)I
+	m	a(Lhi;)I	b(Lii;)I
 		ma	0	0
 	m	a(Lhi;Lfm;Leb;IIII)Z	a(Lii;Lgh;Let;IIII)Z
 		ma	0	0
@@ -5023,8 +5019,6 @@ c	Lfi;	Lge;
 	f	c;;I	c;;I
 c	Lfj;	Lgd;
 	m	<init>(I)V	<init>(I)V
-		ma	0	0
-	m	a(Lhi;)I	a(I)I
 		ma	0	0
 	m	a(I)I	b(I)I
 		ma	0	0
@@ -6993,8 +6987,6 @@ c	Lil;	Ljr;
 		ma	5	5
 c	Lim;	Ljs;
 	m	<init>(I)V	<init>(I)V
-		ma	0	0
-	m	a(Lhi;)I	a(I)I
 		ma	0	0
 	m	b(Lhi;)Ljava/lang/String;	a(Lii;)Ljava/lang/String;
 		ma	0	0
