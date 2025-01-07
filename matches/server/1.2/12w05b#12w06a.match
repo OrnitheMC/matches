@@ -1,4 +1,4 @@
-Matches saved 2024-03-15, status: c:717/719 m:5491/5592 f:2639/2650 ma:8946/8979, input files:
+Matches saved 2025-01-07, status: c:718/719 m:5492/5592 f:2642/2650 ma:8948/8979, input files:
 	a:
 		1310220	SHA256	Ii3QtxXMYiRz+M9N4Nv7tPWL/7Otd1PYJBpvNuYKPWM=	minecraft-server-12w05b.jar
 	b:
@@ -11254,7 +11254,7 @@ c	Lps;	Lze;
 	mu	a	a()V
 	mu	a	b()Lmn;
 	mu	a	a(Lmn;)V
-	fu	a	a;;Lmn;
+	f	a;;Lmn;	c;;Lmr;
 c	Lpt;	Lpx;
 	m	g(Lfz;III)Z	g(Lgb;III)Z
 		ma	0	0
@@ -15491,7 +15491,19 @@ c	Lvs;	Lvw;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/logging/Logger;	a;;Ljava/util/logging/Logger;
 	f	b;;Lnet/minecraft/server/MinecraftServer;	b;;Lnet/minecraft/server/MinecraftServer;
-cu	a	Lvt;
+c	Lvt;	Laaj;
+	m	<init>(Lmn;FI)V	<init>(Lmr;Ljava/lang/Class;FIZ)V
+		mau	a	0
+		ma	1	2
+		ma	2	3
+	mu	a	a()V
+	mu	a	a(Lmn;)V
+	mu	a	b()Lmn;
+	mu	a	c()V
+	f	b;;Lmn;	a;;Lmr;
+	fu	a	c;;F
+	fu	a	d;;I
+	f	e;;I	f;;I
 c	Lvu;	Lvx;
 	m	<init>()V	<init>()V
 	m	a(Ljava/util/Collection;)I	a(Ljava/util/Collection;)I

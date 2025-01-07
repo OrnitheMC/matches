@@ -1,4 +1,4 @@
-Matches saved 2024-03-14, status: c:1066/1070 m:8317/8449 f:4432/4504 ma:14188/14302, input files:
+Matches saved 2025-01-07, status: c:1069/1070 m:8320/8449 f:4436/4504 ma:14191/14302, input files:
 	a:
 		3931694	SHA256	KPtBHyb0bw/CA+uzk7VPpnqgJSugO4434+IKAA+pEGA=	minecraft-client-12w05b.jar
 	b:
@@ -3165,7 +3165,12 @@ c	Lady;	Laed;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-cu	a	Ladz;
+c	Ladz;	Lre;
+	m	<init>()V	<init>(Labv;FZ)V
+	mu	a	a()V
+	mu	a	b()Labq;
+	mu	a	a(Labq;)V
+	f	a;;Labq;	a;;Labv;
 c	Lae;	Lae;
 	m	<init>()V	<init>()V
 	m	<init>(DDDDZ)V	<init>(DDDDZ)V
@@ -5508,7 +5513,19 @@ c	Laif;	Laik;
 	m	a()I	a()I
 	f	a;;I	a;;I
 	f	b;;B	b;;B
-cu	a	Laig;
+c	Laig;	Lalf;
+	m	<init>(Labq;FI)V	<init>(Labv;Ljava/lang/Class;FIZ)V
+		mau	a	0
+		ma	1	2
+		ma	2	3
+	mu	a	a()V
+	mu	a	a(Labq;)V
+	mu	a	b()Labq;
+	mu	a	c()V
+	f	b;;Labq;	d;;Labv;
+	fu	a	c;;F
+	fu	a	d;;I
+	f	e;;I	f;;I
 c	Laih;	Lail;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
@@ -27813,7 +27830,15 @@ c	Lzq;	Lzw;
 	f	d;;Lzq;	d;;Lzw;
 	f	e;;Lzq;	e;;Lzw;
 	f	f;;[Lzq;	f;;[Lzw;
-cu	a	Lzr;
+c	Lzr;	Lwv;
+	m	<init>(Lxq;)V	<init>(Lvp;)V
+		ma	0	0
+	mu	a	a()V
+	mu	a	a(Labq;)V
+	mu	a	b(Labq;)Z
+	mu	a	c()V
+	fu	a	b;;Lwm;
+	f	c;;Lxq;	d;;Lvp;
 c	Lzs;	Lzx;
 	m	<init>()V	<init>()V
 	m	a(Lkn;DDDF)V	a(Lko;DDDF)V
