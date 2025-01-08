@@ -1,4 +1,4 @@
-Matches saved 2024-02-16, status: c:1258/1263 m:9796/9893 f:5212/5303 ma:15529/15798, input files:
+Matches saved 2025-01-08, status: c:1258/1263 m:9797/9893 f:5212/5303 ma:15530/15798, input files:
 	a:
 		4343792	SHA256	0zmsNIL2P+75JPlcCGJ4hM9wEyx6rXMNyGCkdPZx+Gk=	minecraft-client-12w19a.jar
 	b:
@@ -17479,7 +17479,8 @@ c	Lhi;	Lho;
 		ma	0	0
 	m	d(Lfl;)V	d(Lfq;)V
 		ma	0	0
-	mu	a	a(Lact;Ljava/lang/String;)Lfl;
+	m	a(Lact;Ljava/lang/String;)Lfl;	a(Ljava/lang/String;)Lfq;
+		ma	1	0
 	m	a(Lfl;IZ)Lfl;	a(Lfq;IZ)Lfq;
 		ma	0	0
 		ma	1	1
