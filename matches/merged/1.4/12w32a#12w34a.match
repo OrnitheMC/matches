@@ -1,4 +1,4 @@
-Matches saved 2024-12-06, status: c:1360/1366 m:10942/11003 f:5625/5645 ma:17370/17466, input files:
+Matches saved 2025-01-08, status: c:1360/1366 m:10946/11003 f:5625/5645 ma:17371/17466, input files:
 	a:
 		4676885	SHA256	2P4/cysWvJnoMez54xuqlPZgjkDFVh8lNPw4U1TcFgw=	minecraft-merged-12w32a.jar
 	b:
@@ -21531,9 +21531,6 @@ c	Lgy;	Lgy;
 	m	e()F	e()F
 	m	h_()V	i_()V
 	m	g()V	g()V
-	mu	a	b(I)Lrp;
-	mu	a	h()Lrp;
-	mu	a	i()[Lrp;
 	m	a(Lji;)V	a(Lji;)V
 		ma	0	0
 	m	a(Lji;I)Z	a(Lji;I)Z
@@ -23233,7 +23230,7 @@ c	Ljr;	Ljr;
 		ma	0	0
 	m	ac()V	ac()V
 	m	ad()V	ad()V
-	mu	a	i()[Lrp;
+	m	i()[Lrp;	ae()[Lrz;
 	m	a(ILrp;)V	b(ILrz;)V
 		ma	0	0
 		ma	1	1
@@ -23658,14 +23655,15 @@ c	Lka;	Lkd;
 	m	bu()Lkc;	bw()Lkf;
 	m	a(Lrp;)V	a(Lrz;)V
 		ma	0	0
-	mu	a	h()Lrp;
-	mu	a	b(I)Lrp;
+	m	h()Lrp;	bx()Lrz;
+	m	b(I)Lrp;	p(I)Lrz;
+		ma	0	0
 	m	p(I)Lrp;	q(I)Lrz;
 		ma	0	0
 	m	a(ILrp;)V	b(ILrz;)V
 		ma	0	0
 		ma	1	1
-	mu	a	i()[Lrp;
+	m	i()[Lrp;	ae()[Lrz;
 	m	q(I)V	r(I)V
 		ma	0	0
 	m	bv()V	by()V
@@ -26409,7 +26407,6 @@ c	Lnz;	Loe;
 	m	l(I)V	l(I)V
 		ma	0	0
 	m	aU()I	aW()I
-	mu	a	h()Lrp;
 	m	c(Ljr;)I	c(Ljr;)I
 		ma	0	0
 	mu	a	<clinit>()V
