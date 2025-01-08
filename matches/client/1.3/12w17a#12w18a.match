@@ -16497,11 +16497,11 @@ c	Lkt;	Lmf;
 c	Lku;	Lug;
 	m	<init>(Lnet/minecraft/client/Minecraft;)V	<init>(Lnet/minecraft/client/Minecraft;Lahm;)V
 		ma	0	0
-	m	a(IIII)V	a(Lnet/minecraft/client/Minecraft;Lug;IIII)V
-		ma	0	2
-		ma	1	3
-		ma	2	4
-		ma	3	5
+	m	a(IIII)V	b(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	b(IIII)Z	a(IIII)Z
 		ma	0	0
 		ma	1	1
