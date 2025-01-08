@@ -1,4 +1,4 @@
-Matches saved 2024-02-08, status: c:1152/1152 m:8908/8960 f:4700/4769 ma:14687/14823, input files:
+Matches saved 2025-01-08, status: c:1152/1152 m:8909/8960 f:4700/4769 ma:14687/14823, input files:
 	a:
 		4080437	SHA256	E+L11aTi0d4v55ePK3+4CJmfskEpKYETb0RGewBMi64=	minecraft-client-12w16a.jar
 	b:
@@ -6966,7 +6966,7 @@ c	Lakl;	Lakz;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a()V
+	m	a()V	a()V
 	mu	a	b()V
 	mu	a	a(Ljava/lang/String;)V
 	mu	a	c()Ljava/util/List;
