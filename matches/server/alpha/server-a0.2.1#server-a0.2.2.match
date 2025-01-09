@@ -880,12 +880,12 @@ c	Lbk;	Lbs;
 	m	g()I	g()I
 c	Lbl;	Lbt;
 	m	<init>(ILjava/lang/Class;[Ljava/lang/Class;)V	<init>()V
+	m	a(Ldy;)V	a(Lel;)I
+		ma	0	0
 	m	a(Ldy;II)Lgs;	a(Lel;II)Lhl;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Ldy;ILhw;)I	a(Lel;)I
-		ma	0	0
 	f	d;;Ljava/util/Set;	a;;Ljava/util/Set;
 c	Lbm;	Lbv;
 	m	<init>(Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V	<init>(Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
