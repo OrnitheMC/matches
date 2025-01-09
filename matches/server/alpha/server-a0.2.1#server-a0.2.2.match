@@ -2566,7 +2566,7 @@ c	Ldy;	Lel;
 		ma	2	2
 		ma	3	3
 	m	b()V	c()V
-	m	e(Ldj;)V	a(Ldv;Z)V
+	m	e(Ldj;)V	e(Ldv;)V
 		ma	0	0
 	m	a(Ldg;)Z	a(Lds;)Z
 		ma	0	0
