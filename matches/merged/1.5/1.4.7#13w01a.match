@@ -1,4 +1,4 @@
-Matches saved 2025-01-09, status: c:1500/1500 m:12142/12189 f:6109/6115 ma:19229/19386, input files:
+Matches saved 2025-01-09, status: c:1500/1500 m:12142/12189 f:6110/6115 ma:19229/19386, input files:
 	a:
 		5058272	SHA256	/InUBT8ZWG3AxBrdobxKDeEn4nVkShEfHbQWAZqRM8k=	minecraft-merged-1.4.7.jar
 	b:
@@ -6929,7 +6929,7 @@ c	Lalo;	Lalu;
 		ma	2	3
 		ma	3	2
 	mu	a	l(Lyc;III)V
-	fu	a	a;;Lalp;
+	f	a;;Lalp;	a;;Lalv;
 c	Lalp;	Lalv;
 	m	values()[Lalp;	values()[Lalv;
 	m	valueOf(Ljava/lang/String;)Lalp;	valueOf(Ljava/lang/String;)Lalv;
