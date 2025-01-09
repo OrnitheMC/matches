@@ -1905,7 +1905,7 @@ c	Lcn;	Lcu;
 		ma	2	2
 		ma	3	3
 	m	c()V	e()V
-	m	e(Lkh;)V	a(Llk;Z)V
+	m	e(Lkh;)V	e(Llk;)V
 		ma	0	0
 	m	a(Lcf;)Z	a(Lcl;)Z
 		ma	0	0
