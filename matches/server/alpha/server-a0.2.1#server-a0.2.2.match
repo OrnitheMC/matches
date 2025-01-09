@@ -1,4 +1,4 @@
-Matches saved 2024-12-06, status: c:260/261 m:1879/1910 f:1062/1073 ma:3281/3340, input files:
+Matches saved 2025-01-09, status: c:260/261 m:1880/1910 f:1062/1073 ma:3285/3340, input files:
 	a:
 		274703	SHA256	GYH0QCuKwBodbC2QDygFb/LWvJE1lO21UYfDLMSNENU=	minecraft-server-server-a0.2.1.jar
 	b:
@@ -938,7 +938,11 @@ c	Lbr;	Lcc;
 	mu	a	e(Ldy;IIII)V
 	mu	a	g(Ldy;III)V
 	mu	a	f(Ldy;IIII)I
-	mu	a	h(Ldy;III)V
+	m	h(Ldy;III)V	g(Lel;III)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
