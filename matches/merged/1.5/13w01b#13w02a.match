@@ -1,4 +1,4 @@
-Matches saved 2025-01-09, status: c:1507/1514 m:12273/12365 f:6100/6152 ma:19553/19788, input files:
+Matches saved 2025-01-09, status: c:1507/1514 m:12278/12365 f:6101/6152 ma:19559/19788, input files:
 	a:
 		5088547	SHA256	LA+5pi2KaHEvySrhnB3KF+XEtAdNXsfUWYlxlel5csI=	minecraft-merged-13w01b.jar
 	b:
@@ -4274,7 +4274,6 @@ c	Laja;	Lajk;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
 	m	a(Lyd;IIILmd;)V	a(Lyn;IIILmj;Lvc;)V
 		ma	0	0
 		ma	1	1
@@ -4506,7 +4505,6 @@ c	Lajd;	Lajp;
 c	Laje;	Lajq;
 	m	<init>(II)V	<init>(I)V
 		ma	0	0
-	mu	a	a(I)I
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
 	m	a(ILjava/util/Random;I)I	a(ILjava/util/Random;I)I
@@ -4746,7 +4744,6 @@ c	Laji;	Laju;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(I)I
 	m	b()Z	b()Z
 	m	c()Z	c()Z
 	m	d()I	d()I
@@ -4794,7 +4791,6 @@ c	Lajj;	Lajv;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
 	m	b()Z	b()Z
 	m	c()Z	c()Z
 	m	a(Lyd;IIILqx;IFFF)Z	a(Lyn;IIILrh;IFFF)Z
@@ -4924,8 +4920,6 @@ c	Lajm;	Lajy;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	d(Lym;IIII)I
-	mu	a	a(I)I
 	m	b(Lyd;III)Z	b(Lyn;III)Z
 		ma	0	0
 		ma	1	1
@@ -5368,7 +5362,6 @@ c	Lajx;	Lakj;
 		ma	3	3
 		ma	4	4
 	m	d()I	d()I
-	mu	a	a(I)I
 	m	c(Lym;IIII)I	c(Lyw;IIII)I
 		ma	0	0
 		ma	1	1
@@ -5507,8 +5500,6 @@ c	Laka;	Lakm;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	d(Lym;IIII)I
-	mu	a	a(I)I
 	m	a(Lyd;IIILqx;IFFF)Z	a(Lyn;IIILrh;IFFF)Z
 		ma	0	0
 		ma	1	1
@@ -5564,7 +5555,7 @@ c	Laka;	Lakm;
 	f	b;;Ljava/util/Random;	b;;Ljava/util/Random;
 c	Lakb;	Lakn;
 	m	<init>(ILagi;)V	<init>(ILags;)V
-	mu	a	d(Lym;IIII)I
+	m	d(Lym;IIII)I	b_(Lyw;IIII)Lld;
 	m	c()Z	c()Z
 	m	b(Lym;III)Z	b(Lyw;III)Z
 		ma	0	0
@@ -5737,7 +5728,6 @@ c	Lakd;	Lakp;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
 	m	a(Lyd;)Laoj;	b(Lyn;)Laox;
 		ma	0	0
 	m	a(Lyd;IIILqx;IFFF)Z	a(Lyn;IIILrh;IFFF)Z
@@ -6105,14 +6095,12 @@ c	Lakl;	Lakx;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	d(Lym;IIII)I
 	m	b(Lyd;IIILjava/util/Random;)V	b(Lyn;IIILjava/util/Random;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(I)I
 	m	a(Lyd;IIILqx;IFFF)Z	a(Lyn;IIILrh;IFFF)Z
 		ma	0	0
 		ma	1	1
@@ -6171,7 +6159,7 @@ c	Lakn;	Lakz;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	d(Lym;IIII)I
+	m	d(Lym;IIII)I	b_(Lyw;IIII)Lld;
 	m	o()I	n()I
 	m	g_(I)I	b(I)I
 		ma	0	0
@@ -6216,7 +6204,6 @@ c	Lakp;	Lalb;
 		ma	4	4
 		ma	5	5
 		ma	6	6
-	mu	a	a(I)I
 	m	c()Z	c()Z
 	m	a(Lyd;IIIIFFFI)I	a(Lyn;IIIIFFFI)I
 		ma	0	0
@@ -6686,7 +6673,6 @@ c	Lalc;	Lalo;
 		ma	3	3
 	m	e(I)F	d(I)F
 		ma	0	0
-	mu	a	a(I)I
 	m	i_(Lyd;III)I	j_(Lyn;III)I
 		ma	0	0
 		ma	1	1
@@ -6876,8 +6862,6 @@ c	Lale;	Lalq;
 c	Lalf;	Lalr;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
-	mu	a	d(Lym;IIII)I
-	mu	a	a(I)I
 	m	b(Lyd;III)Z	b(Lyn;III)Z
 		ma	0	0
 		ma	1	1
@@ -6895,7 +6879,6 @@ c	Lalg;	Lals;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
 	m	a(ILjava/util/Random;I)I	a(ILjava/util/Random;I)I
 		ma	0	0
 		ma	1	1
@@ -6908,7 +6891,6 @@ c	Lalg;	Lals;
 c	Lalh;	Lalt;
 	m	<init>(II)V	<init>(I)V
 		ma	0	0
-	mu	a	a(I)I
 c	Lali;	Lalu;
 	m	<init>(II)V	<init>(I)V
 		ma	0	0
@@ -6965,7 +6947,6 @@ c	Lalj;	Lalv;
 c	Lalk;	Lalw;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
-	mu	a	a(I)I
 	m	a(Lyd;IIII)V	a(Lyn;IIII)V
 		ma	0	0
 		ma	1	1
@@ -7003,7 +6984,7 @@ c	Lall;	Lalx;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	d(Lym;IIII)I
+	m	d(Lym;IIII)I	b_(Lyw;IIII)Lld;
 	m	a(Lyd;IIILjava/util/Random;)V	a(Lyn;IIILjava/util/Random;)V
 		ma	0	0
 		ma	1	1
@@ -7292,7 +7273,6 @@ c	Lalw;	Lamj;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
 	m	g(Lyd;III)V	c_(Lyn;III)V
 		ma	0	0
 		ma	1	1
@@ -7415,7 +7395,6 @@ c	Laly;	Lajn;
 c	Lalz;	Lamm;
 	m	<init>(II)V	<init>(I)V
 		ma	0	0
-	mu	a	a(I)I
 	m	a(Lyd;IIILqx;IFFF)Z	a(Lyn;IIILrh;IFFF)Z
 		ma	0	0
 		ma	1	1
@@ -7764,7 +7743,6 @@ c	Lamg;	Lamt;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
 	m	b(I)I	a(I)I
 		ma	0	0
 	m	a(ILtk;Ljava/util/List;)V	a(ILtu;Ljava/util/List;)V
@@ -8036,7 +8014,6 @@ c	Lamo;	Lana;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
 	m	e()I	a(Lyn;)I
 	m	c_(Lyd;III)Laor;	e_(Lyn;III)Lapf;
 		ma	0	0
@@ -8226,7 +8203,6 @@ c	Lamr;	Lane;
 	m	a(II)I	a(II)Lld;
 		mau	a	0
 		ma	1	1
-	mu	a	a(I)I
 	m	a(ILjava/util/Random;I)I	a(ILjava/util/Random;I)I
 		ma	0	0
 		ma	1	1
@@ -8472,11 +8448,17 @@ c	Lamx;	Lank;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	d(Lym;IIII)I
+	m	d(Lym;IIII)I	b_(Lyw;IIII)Lld;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
+	m	a(I)I	l(I)Lld;
+		ma	0	0
 	m	c_(Lyd;III)Laor;	e_(Lyn;III)Lapf;
 		ma	0	0
 		ma	1	1
@@ -8968,7 +8950,7 @@ c	Lamx;	Lank;
 	f	cq;;Lamx;	cq;;Lank;
 	f	cr;;Lamx;	cr;;Lank;
 	f	cs;;Lamx;	cs;;Lalg;
-	fu	a	ct;;I
+	f	ct;;I	cN;;Lld;
 	f	cu;;I	cw;;I
 	f	cv;;F	cx;;F
 	f	cw;;F	cy;;F
@@ -9041,7 +9023,6 @@ c	Lanb;	Lano;
 c	Lanc;	Lanp;
 	m	<init>(II)V	<init>(I)V
 		ma	0	0
-	mu	a	a(I)I
 	m	g(Lyd;III)V	c_(Lyn;III)V
 		ma	0	0
 		ma	1	1
@@ -9735,7 +9716,6 @@ c	Lanp;	Laod;
 	m	a(II)I	a(II)Lld;
 		ma	0	0
 		ma	1	1
-	mu	a	a(I)I
 	m	a(ILjava/util/Random;I)I	a(ILjava/util/Random;I)I
 		ma	0	0
 		ma	1	1
@@ -9767,7 +9747,6 @@ c	Lanq;	Laoe;
 c	Lanr;	Laof;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
-	mu	a	a(I)I
 	m	a(Lyd;IIILqx;IFFF)Z	a(Lyn;IIILrh;IFFF)Z
 		ma	0	0
 		ma	1	1
