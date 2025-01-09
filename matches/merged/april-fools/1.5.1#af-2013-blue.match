@@ -12757,7 +12757,7 @@ c	Laqi;	Laqm;
 	m	a(Llt;Lrh;)Z	a(Llt;Lrg;)Z
 		ma	0	0
 		ma	1	1
-	m	c(Llt;Lwm;II)Lwm;	a(Llt;Lwm;I)Lwm;
+	m	a(Llt;Lwm;I)Lwm;	a(Llt;Lwm;I)Lwm;
 		ma	0	0
 		ma	1	1
 		ma	2	2
