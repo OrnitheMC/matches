@@ -1,4 +1,4 @@
-Matches saved 2025-01-09, status: c:1621/2326 m:13413/20203 f:6625/8356 ma:21057/29244, input files:
+Matches saved 2025-01-09, status: c:1621/2326 m:13414/20203 f:6625/8356 ma:21057/29244, input files:
 	a:
 		6586185	SHA256	K46Rsjc4OUOtxnuQt68oHxZ2Ye9YyolgBOglg+OuDP0=	minecraft-merged-13w07a.jar
 	b:
@@ -23355,7 +23355,6 @@ c	Lbgw;	Lbjd;
 	m	d()Ljava/lang/String;	d()Ljava/lang/String;
 	m	e()Ljava/lang/String;	e()Ljava/lang/String;
 	m	f()I	f()I
-	mu	a	g()Z
 	mu	a	h()Z
 	f	e;;Ljava/lang/String;	e;;Ljava/lang/String;
 	f	f;;Ljava/lang/String;	f;;Ljava/lang/String;
@@ -23399,7 +23398,7 @@ c	Lbha;	Lbjh;
 	m	d()Ljava/lang/String;	d()Ljava/lang/String;
 	m	e()Ljava/lang/String;	e()Ljava/lang/String;
 	m	f()I	f()I
-	mu	a	g()Z
+	m	g()Z	g()Z
 c	Lbhb$1;	Lbjj;
 	m	<init>(Lbhb;)V	<init>(Lbji;)V
 		ma	0	0
