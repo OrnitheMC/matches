@@ -1,4 +1,4 @@
-Matches saved 2023-02-12, status: c:1500/1500 m:12138/12189 f:6109/6115 ma:19209/19386, input files:
+Matches saved 2025-01-09, status: c:1500/1500 m:12142/12189 f:6109/6115 ma:19229/19386, input files:
 	a:
 		5058272	SHA256	/InUBT8ZWG3AxBrdobxKDeEn4nVkShEfHbQWAZqRM8k=	minecraft-merged-1.4.7.jar
 	b:
@@ -5116,13 +5116,7 @@ c	Lajt;	Lamf;
 	m	<init>(IZ)V	<init>(IZ)V
 		ma	0	0
 		ma	1	1
-	mu	a	b()Z
-	mu	a	b(Lyc;III)Z
-	mu	a	b(Lyc;IIILjava/util/Random;)V
 	m	d()I	d()I
-	mu	a	c(Lym;IIII)Z
-	mu	a	b(Lym;IIII)Z
-	mu	a	a(Lyc;IIII)V
 	mu	a	i(Lyc;IIII)Z
 	mu	a	e(Lym;IIII)Z
 	m	a(Lyc;IIILqx;IFFF)Z	a(Lyd;IIILqx;IFFF)Z
@@ -5135,9 +5129,6 @@ c	Lajt;	Lamf;
 		ma	6	6
 		ma	7	7
 		ma	8	8
-	mu	a	i()Z
-	mu	a	c(Lyc;IIII)V
-	mu	a	c()Z
 	m	a(ILjava/util/Random;I)I	a(ILjava/util/Random;I)I
 		ma	0	0
 		ma	1	1
@@ -6937,23 +6928,7 @@ c	Lalo;	Lalu;
 		ma	1	1
 		ma	2	3
 		ma	3	2
-	mu	a	r_()I
-	mu	a	e(Lyc;III)Laoe;
-	mu	a	c()Z
-	mu	a	b()Z
-	mu	a	c(Lym;III)Z
-	mu	a	b(Lyc;III)Z
-	mu	a	a(Lyc;IIII)V
-	mu	a	b(Lyc;IIILjava/util/Random;)V
-	mu	a	a(Lyc;IIILlq;)V
 	mu	a	l(Lyc;III)V
-	mu	a	a(Lyc;IIIII)V
-	mu	a	a(Lym;III)V
-	mu	a	b(Lym;IIII)Z
-	mu	a	c(Lym;IIII)Z
-	mu	a	i()Z
-	mu	a	f()V
-	mu	a	q_()I
 	fu	a	a;;Lalp;
 c	Lalp;	Lalv;
 	m	values()[Lalp;	values()[Lalv;
@@ -7685,7 +7660,12 @@ c	Lamh;	Lamo;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	c(Lyc;IIII)V
+	m	c(Lyc;IIII)V	f(Lyd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	e(Lym;III)I	e(Lym;III)I
 		ma	0	0
 		ma	1	1
@@ -7866,7 +7846,12 @@ c	Lamj;	Lamq;
 	m	a(II)I	a(II)I
 		ma	0	0
 		ma	1	1
-	mu	a	c(Lyc;IIII)V
+	m	c(Lyc;IIII)V	f(Lyd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
 	m	e(I)Z	e(I)Z
@@ -8194,7 +8179,12 @@ c	Lamq;	Lamx;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	c(Lyc;IIII)V
+	m	c(Lyc;IIII)V	f(Lyd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Lyc;IIII)V	a(Lyd;IIII)V
 		ma	0	0
 		ma	1	1
@@ -8702,7 +8692,12 @@ c	Lamv;	Lanc;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	c(Lyc;IIII)V
+	m	c(Lyc;IIII)V	f(Lyd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Lyc;IIILqx;IFFF)Z	a(Lyd;IIILqx;IFFF)Z
 		ma	0	0
 		ma	1	1
