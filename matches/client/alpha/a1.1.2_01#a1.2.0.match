@@ -610,13 +610,12 @@ c	Lay;	Lbd;
 	f	i;;Lfr;	i;;Lgi;
 c	Laz;	Lbe;
 	m	<init>(ILjava/lang/Class;[Ljava/lang/Class;)V	<init>()V
-	mu	a	a(Lcn;)V
+	m	a(Lcn;)V	a(Lcu;)I
+		ma	0	0
 	m	a(Lcn;II)Lmt;	a(Lcu;II)Loa;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Lcn;ILnu;)I	a(Lcu;)I
-		ma	0	0
 	fu	a	a;;I
 	fu	a	b;;Ljava/lang/Class;
 	fu	a	c;;[Ljava/lang/Class;
