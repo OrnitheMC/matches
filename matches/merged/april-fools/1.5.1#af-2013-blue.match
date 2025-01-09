@@ -1,4 +1,4 @@
-Matches saved 2023-07-30, status: c:1632/1638 m:13549/13582 f:6645/6662 ma:21219/21276, input files:
+Matches saved 2025-01-09, status: c:1632/1638 m:13549/13582 f:6645/6662 ma:21219/21276, input files:
 	a:
 		5605243	SHA256	Y1hQ2TpLVROaxj04cdc59/iXN0ZwG5ujI6LotVdb8NA=	minecraft-merged-1.5.1.jar
 	b:
@@ -3864,6 +3864,7 @@ c	Lafn;	Lafo;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+c	Lafo;	Lafp;
 c	Lafp;	Lafq;
 c	Lafq;	Lafr;
 	m	<init>(Ljava/util/Random;II)V	<init>(Ljava/util/Random;II)V
@@ -20304,6 +20305,7 @@ c	Lbei;	Lben;
 		ma	5	5
 		ma	6	6
 	m	l_()V	l_()V
+c	Lbej;	Lbeo;
 c	Lbek;	Lbep;
 	m	<init>(Laab;DDD)V	<init>(Laac;DDD)V
 		ma	0	0
