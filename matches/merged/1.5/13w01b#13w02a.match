@@ -1,4 +1,4 @@
-Matches saved 2025-01-09, status: c:1507/1514 m:12272/12365 f:6100/6152 ma:19553/19788, input files:
+Matches saved 2025-01-09, status: c:1507/1514 m:12273/12365 f:6100/6152 ma:19553/19788, input files:
 	a:
 		5088547	SHA256	LA+5pi2KaHEvySrhnB3KF+XEtAdNXsfUWYlxlel5csI=	minecraft-merged-13w01b.jar
 	b:
@@ -17764,7 +17764,7 @@ c	Lbbo;	Lbcd;
 	m	d(Ljava/lang/String;)V	d(Ljava/lang/String;)V
 		ma	0	0
 	mu	a	a(Lbdu;)V
-	mu	a	a()V
+	m	a()V	a()V
 	mu	a	a(Lbdu;I)I
 	m	b()V	b()V
 	m	a(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;	a(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
