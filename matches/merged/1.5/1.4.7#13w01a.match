@@ -37205,23 +37205,9 @@ c	Lyc;	Lyd;
 	m	e(II)Lzz;	e(II)Lzz;
 		ma	0	0
 		ma	1	1
-	m	c(IIIII)Z	c(IIII)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	a(IIIIIZ)Z	e(IIIIII)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		mau	a	5
-	m	b(IIII)Z	c(IIIII)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
+	mu	a	c(IIIII)Z
+	mu	a	a(IIIIIZ)Z
+	mu	a	b(IIII)Z
 	m	g(III)Lagi;	g(III)Lagi;
 		ma	0	0
 		ma	1	1
@@ -37230,10 +37216,23 @@ c	Lyc;	Lyd;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	c(IIII)V
+	m	c(IIII)V	c(IIIII)Z
+		ma	0	0
+		ma	1	1
+		ma	2	4
+		ma	3	2
 	mu	a	d(IIII)Z
-	mu	a	e(IIII)Z
-	mu	a	d(IIIII)Z
+	m	e(IIII)Z	c(IIII)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	d(IIIII)Z	e(IIIIII)Z
+		ma	0	0
+		ma	1	1
+		ma	2	4
+		ma	3	2
+		ma	4	3
 	m	i(III)V	j(III)V
 		ma	0	0
 		ma	1	1
