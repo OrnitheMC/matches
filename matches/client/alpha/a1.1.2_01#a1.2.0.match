@@ -10207,7 +10207,7 @@ c	Lnet/minecraft/client/Minecraft;	Lnet/minecraft/client/Minecraft;
 		ma	0	0
 	m	a(Lcn;)V	a(Lcu;)V
 		ma	0	0
-	m	a(Lcn;Ljava/lang/String;)V	a(Lcu;Ljava/lang/String;Ldv;)V
+	m	a(Lcn;Ljava/lang/String;)V	a(Lcu;Ljava/lang/String;)V
 		ma	0	0
 		ma	1	1
 	m	d(Ljava/lang/String;)V	d(Ljava/lang/String;)V
