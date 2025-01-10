@@ -1,4 +1,4 @@
-Matches saved 2025-01-10, status: c:1479/1485 m:12361/12465 f:5701/5765 ma:19718/19850, input files:
+Matches saved 2025-01-10, status: c:1479/1485 m:12366/12465 f:5701/5765 ma:19718/19850, input files:
 	a:
 		5662439	SHA256	mCx5uajewXBA9gfH3tX7qUvN15rhJ9LMrOAgh2p9BA0=	minecraft-merged-13w17a.jar
 	b:
@@ -7573,7 +7573,6 @@ c	Lame;	Lamd;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	q_()Z
 c	Lamf;	Lame;
 	m	<init>(IZ)V	<init>(IZ)V
 		ma	0	0
@@ -8319,7 +8318,7 @@ c	Lamt;	Lams;
 		ma	2	2
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
-	mu	a	q_()Z
+	m	q_()Z	q_()Z
 	m	a(Laao;IIILnk;Lwv;)V	a(Laan;IIILnk;Lww;)V
 		ma	0	0
 		ma	1	1
@@ -8755,7 +8754,7 @@ c	Lanb;	Lana;
 	m	n()I	n()I
 	m	c()Z	c()Z
 	m	b()Z	b()Z
-	mu	a	q_()Z
+	m	q_()Z	q_()Z
 c	Lanc;	Lanb;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
@@ -11222,7 +11221,7 @@ c	Lapo;	Lapn;
 	m	q()Lma;	q()Lma;
 	m	d(I)Z	d(I)Z
 		ma	0	0
-	mu	a	q_()Z
+	m	q_()Z	q_()Z
 	m	d_(I)Lwv;	d_(I)Lww;
 		ma	0	0
 	m	a(Lmb;)V	a(Lmb;)V
@@ -11532,7 +11531,7 @@ c	Lapp;	Lapo;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	q_()Z
+	m	q_()Z	q_()Z
 	m	d_(I)Lwv;	d_(I)Lww;
 		ma	0	0
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
@@ -12553,7 +12552,7 @@ c	Laqf;	Laqe;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	q_()Z
+	m	q_()Z	q_()Z
 c	Laqg;	Laqf;
 	m	<init>(ILjava/lang/String;Lais;I)V	<init>(ILjava/lang/String;Lair;I)V
 		ma	0	0
