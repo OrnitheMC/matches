@@ -1,4 +1,4 @@
-Matches saved 2025-01-10, status: c:1479/1485 m:12360/12465 f:5702/5765 ma:19716/19850, input files:
+Matches saved 2025-01-10, status: c:1479/1485 m:12361/12465 f:5701/5765 ma:19718/19850, input files:
 	a:
 		5662439	SHA256	mCx5uajewXBA9gfH3tX7qUvN15rhJ9LMrOAgh2p9BA0=	minecraft-merged-13w17a.jar
 	b:
@@ -21288,42 +21288,11 @@ c	Lbdl;	Lbgg;
 	m	<init>(Lbhn;Lasz;)V	<init>(Lbhl;)V
 		mau	a	0
 		mau	a	1
-	mu	a	a(Ljava/lang/String;)[I
-	mu	a	b(Ljava/awt/image/BufferedImage;)[I
-	mu	a	a(Ljava/awt/image/BufferedImage;[I)[I
-	mu	a	b(Ljava/lang/String;)V
-	mu	a	c(I)V
-	mu	a	a()V
-	mu	a	g(Ljava/lang/String;)I
-	m	a(Ljava/awt/image/BufferedImage;)I	a(Lbfv;Ljava/lang/String;)Ljava/lang/String;
-		mau	a	0
-	mu	a	a(Ljava/awt/image/BufferedImage;I)V
-	mu	a	a(Ljava/awt/image/BufferedImage;IZZ)V
-	mu	a	a([I)[I
-	mu	a	a([IIII)V
-	mu	a	a(I)V
-	mu	a	a(Ljava/lang/String;Ljava/lang/String;)I
-	mu	a	d(Ljava/lang/String;)Z
-	mu	a	a(Ljava/lang/String;Lbdc;)Lbda;
-	mu	a	e(Ljava/lang/String;)V
-	mu	a	a(Ljava/lang/String;[Ljava/lang/String;)V
-	mu	a	b()V
+	m	b(Ljava/lang/String;)V	a(Ljava/lang/String;)V
+		ma	0	0
+	m	g(Ljava/lang/String;)I	a(Ljava/lang/String;Lbgh;)V
+		ma	0	0
 	m	c()V	a(Lbhl;)V
-	mu	a	a(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
-	mu	a	d()V
-	mu	a	b(I)Lma;
-	fu	a	a;;Ljava/util/HashMap;
-	fu	a	b;;Ljava/util/HashMap;
-	fu	a	c;;Lku;
-	fu	a	d;;Ljava/nio/IntBuffer;
-	fu	a	e;;Ljava/util/Map;
-	fu	a	f;;Ljava/util/Map;
-	fu	a	g;;Lasz;
-	f	h;;Lbhn;	d;;Lbhl;
-	fu	a	i;;Ljava/awt/image/BufferedImage;
-	fu	a	j;;Lbgb;
-	fu	a	k;;Lbgb;
-	fu	a	l;;I
 c	Lbdm;	Lbdj;
 	m	<init>(Laax;)V	<init>(Laaw;)V
 		ma	0	0
