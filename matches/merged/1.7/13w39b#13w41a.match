@@ -1,4 +1,4 @@
-Matches saved 2025-01-11, status: c:1689/1705 m:14011/14418 f:6469/6598 ma:21509/22045, input files:
+Matches saved 2025-01-11, status: c:1690/1705 m:14016/14418 f:6473/6598 ma:21510/22045, input files:
 	a:
 		5098747	SHA256	j1OXlxCMzhSMIGryEK5L5P6UioBkNQp/RAtg+weF7yc=	minecraft-merged-13w39b.jar
 	b:
@@ -34377,7 +34377,18 @@ c	Lkx;	Lmt;
 	m	call()Ljava/lang/Object;	call()Ljava/lang/Object;
 	f	a;;Lgw;	a;;Lfi;
 	f	b;;Lkv;	b;;Lms;
-cu	a	Lky;
+c	Lky;	Lmo;
+	m	<init>(Lnet/minecraft/server/MinecraftServer;)V	<init>(Lnet/minecraft/server/MinecraftServer;)V
+		ma	0	0
+	mu	a	a(Lkv;)V
+	m	a()V	b()V
+	m	b()V	c()V
+	m	d()Lnet/minecraft/server/MinecraftServer;	d()Lnet/minecraft/server/MinecraftServer;
+	m	<clinit>()V	<clinit>()V
+	f	b;;Lorg/apache/logging/log4j/Logger;	b;;Lorg/apache/logging/log4j/Logger;
+	f	c;;Lnet/minecraft/server/MinecraftServer;	c;;Lnet/minecraft/server/MinecraftServer;
+	f	d;;Ljava/util/List;	e;;Ljava/util/List;
+	f	a;;Z	a;;Z
 c	Lkz;	Lmr;
 	m	<init>(Lky;Lkv;)V	<init>(Lmo;Led;)V
 		ma	0	0
