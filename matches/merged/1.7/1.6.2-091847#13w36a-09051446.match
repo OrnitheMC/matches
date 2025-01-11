@@ -1,4 +1,4 @@
-Matches saved 2025-01-11, status: c:1560/1568 m:12993/13127 f:5613/6021 ma:20080/20474, input files:
+Matches saved 2025-01-11, status: c:1560/1568 m:12994/13127 f:5613/6021 ma:20081/20474, input files:
 	a:
 		4786249	SHA256	uSaXw3F+ynDNje1kTtftk5XGo4/mpsMEHVgVdkJEnt8=	minecraft-merged-1.6.2-091847.jar
 	b:
@@ -25612,7 +25612,8 @@ c	Lbjq;	Lbmb;
 	m	b()Ljava/util/List;	b()Ljava/util/List;
 	m	c()Ljava/util/List;	c()Ljava/util/List;
 	mu	a	d()Ljava/lang/String;
-	mu	a	a([Lbjs;)V
+	m	a([Lbjs;)V	a(Ljava/util/List;)V
+		ma	0	0
 	m	e()Ljava/io/File;	d()Ljava/io/File;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/io/FileFilter;	a;;Ljava/io/FileFilter;
