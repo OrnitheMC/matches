@@ -1,4 +1,4 @@
-Matches saved 2025-01-11, status: c:1559/1568 m:12992/13127 f:5612/6021 ma:20079/20474, input files:
+Matches saved 2025-01-11, status: c:1560/1568 m:12993/13127 f:5612/6021 ma:20080/20474, input files:
 	a:
 		4786249	SHA256	uSaXw3F+ynDNje1kTtftk5XGo4/mpsMEHVgVdkJEnt8=	minecraft-merged-1.6.2-091847.jar
 	b:
@@ -2349,7 +2349,9 @@ c	Lad;	Lad;
 		ma	1	1
 	m	b()Lt;	g_()Lt;
 	m	f_()Labv;	c()Lact;
-cu	a	Lada;
+c	Lada;	Laed;
+	m	<init>(I)V	<init>(IZ)V
+		ma	0	0
 c	Ladb;	Laee;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
