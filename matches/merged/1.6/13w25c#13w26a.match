@@ -1,4 +1,4 @@
-Matches saved 2025-01-11, status: c:1552/1552 m:12996/13009 f:5965/5970 ma:20330/20340, input files:
+Matches saved 2025-01-11, status: c:1552/1552 m:12997/13009 f:5965/5970 ma:20331/20340, input files:
 	a:
 		5820074	SHA256	pMN53PnwvAKkGjiPCoHvkeO242+xjeF+9h8qj7A3rSA=	minecraft-merged-13w25c.jar
 	b:
@@ -26439,7 +26439,8 @@ c	Lbs;	Lbs;
 	m	a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;	a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 		ma	0	0
 		ma	1	1
-	mu	a	b(Ljava/lang/String;)Z
+	m	b(Ljava/lang/String;)Z	b(Ljava/lang/String;)Z
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbt;	a;;Lbt;
 c	Lbt;	Lbt;
