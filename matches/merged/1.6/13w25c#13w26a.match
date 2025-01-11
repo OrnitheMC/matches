@@ -1,4 +1,4 @@
-Matches saved 2024-06-01, status: c:1552/1552 m:12995/13009 f:5965/5970 ma:20330/20340, input files:
+Matches saved 2025-01-11, status: c:1552/1552 m:12996/13009 f:5965/5970 ma:20330/20340, input files:
 	a:
 		5820074	SHA256	pMN53PnwvAKkGjiPCoHvkeO242+xjeF+9h8qj7A3rSA=	minecraft-merged-13w25c.jar
 	b:
@@ -26445,7 +26445,7 @@ c	Lbs;	Lbs;
 c	Lbt;	Lbt;
 	m	<init>(Ljava/lang/String;)V	<init>()V
 	m	a()Lbt;	a()Lbt;
-	mu	a	e()V
+	m	e()V	b()V
 	mu	a	b()Ljava/util/TreeMap;
 	mu	a	a(Ljava/util/Properties;Ljava/lang/String;)V
 	mu	a	a(Ljava/lang/String;Z)V
