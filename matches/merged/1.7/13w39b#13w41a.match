@@ -1,4 +1,4 @@
-Matches saved 2025-01-11, status: c:1690/1705 m:14016/14418 f:6473/6598 ma:21510/22045, input files:
+Matches saved 2025-01-11, status: c:1690/1705 m:14017/14418 f:6473/6598 ma:21511/22045, input files:
 	a:
 		5098747	SHA256	j1OXlxCMzhSMIGryEK5L5P6UioBkNQp/RAtg+weF7yc=	minecraft-merged-13w39b.jar
 	b:
@@ -32112,7 +32112,8 @@ c	Lgv;	Liv;
 c	Lgw;	Lfi;
 	m	<init>()V	<init>()V
 	mu	a	a(IZZLjava/lang/Class;)V
-	mu	a	d(I)Lgw;
+	m	d(I)Lgw;	a(Lcom/google/common/collect/BiMap;I)Lfi;
+		ma	0	1
 	mu	a	a(Ljava/io/DataOutput;[B)V
 	mu	a	b(Ljava/io/DataInput;)[B
 	mu	a	n()I
