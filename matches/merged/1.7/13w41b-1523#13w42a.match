@@ -1,4 +1,4 @@
-Matches saved 2025-01-12, status: c:1765/1770 m:15042/15107 f:6617/6673 ma:22532/22647, input files:
+Matches saved 2025-01-12, status: c:1765/1770 m:15044/15107 f:6619/6673 ma:22533/22647, input files:
 	a:
 		5253293	SHA256	NGvsn+H++54L88cRKzebre1D3co58qVnSrKyHf2w2rM=	minecraft-merged-13w41b-1523.jar
 	b:
@@ -31003,7 +31003,7 @@ c	Lbrs;	Lbsl;
 	m	a(Lqy;F)V	a(Lxi;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	d()V
+	m	d()V	c()V
 	mu	a	a(Ljava/lang/String;FFF)V
 	mu	a	a(Lqe;)V
 	mu	a	a(Lqe;Lqe;)V
@@ -31018,7 +31018,15 @@ c	Lbrs;	Lbsl;
 	m	f()V	e()V
 	m	g()V	f()V
 	mu	a	h()V
-	mu	a	a(Ljava/lang/String;FFFFFILafv;)V
+	m	a(Ljava/lang/String;FFFFFILafv;)V	a(Lbrx;I)V
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		mau	a	4
+		mau	a	5
+		ma	6	1
+		mau	a	7
 	mu	a	a(Lbrs;Lpaulscode/sound/SoundSystem;)Lpaulscode/sound/SoundSystem;
 	m	a(Lbrs;Z)Z	a(Lbsl;Z)Z
 		ma	0	0
@@ -31026,7 +31034,7 @@ c	Lbrs;	Lbsl;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
 	fu	a	b;;[Ljava/lang/String;
-	fu	a	c;;Lpaulscode/sound/SoundSystem;
+	f	c;;Lpaulscode/sound/SoundSystem;	d;;Lbsp;
 	f	d;;Z	e;;Z
 	fu	a	e;;Lbrv;
 	fu	a	f;;Lbrv;
@@ -31035,7 +31043,7 @@ c	Lbrs;	Lbsl;
 	f	i;;Lazi;	c;;Lazp;
 	fu	a	j;;Ljava/io/File;
 	fu	a	k;;Ljava/util/Set;
-	fu	a	l;;Ljava/util/List;
+	f	l;;Ljava/util/List;	l;;Ljava/util/Map;
 	fu	a	m;;Ljava/util/Random;
 	fu	a	n;;I
 c	Lbrt;	Lbsm;
