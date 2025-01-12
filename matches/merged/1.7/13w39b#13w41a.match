@@ -1,4 +1,4 @@
-Matches saved 2025-01-11, status: c:1690/1705 m:14017/14418 f:6473/6598 ma:21511/22045, input files:
+Matches saved 2025-01-12, status: c:1690/1705 m:14018/14418 f:6473/6598 ma:21512/22045, input files:
 	a:
 		5098747	SHA256	j1OXlxCMzhSMIGryEK5L5P6UioBkNQp/RAtg+weF7yc=	minecraft-merged-13w39b.jar
 	b:
@@ -30831,7 +30831,8 @@ c	Le;	Le;
 	m	call()Ljava/lang/Object;	call()Ljava/lang/Object;
 	f	a;;Lb;	a;;Lb;
 c	Lea;	Led;
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	m	a(Lgw;)V	a(Lfi;)V
 		ma	0	0
 	mu	a	a()V
@@ -31191,7 +31192,6 @@ c	Lew;	Lfk;
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
 	m	a(Lgx;)V	a(Leq;)V
-		ma	0	0
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
