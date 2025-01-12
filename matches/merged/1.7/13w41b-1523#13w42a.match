@@ -8752,7 +8752,8 @@ c	Lakb;	Lakh;
 	m	a(Lpk;)V	a(Lpq;)V
 		ma	0	0
 	f	a;;Lpj;	a;;Lpp;
-cu	a	Lakc;
+c	Lakc;	Laki;
+	m	<init>()V	<init>(Lava;)V
 c	Lakd;	Lakj;
 	m	<init>()V	<init>()V
 	m	a(Lafe;I)Lamp;	a(Lafk;I)Lamw;
