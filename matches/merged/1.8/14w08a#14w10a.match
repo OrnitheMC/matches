@@ -28432,7 +28432,7 @@ c	Lbsa;	Lbsv;
 		ma	1	1
 		ma	2	2
 	m	a()Lbsb;	a()Lbte;
-	m	a(Lalj;I)Lbsb;	a(Lamg;ILakg;Lde;)Lbte;
+	m	a(Lalj;I)Lbsb;	a(Lamg;I)Lbte;
 		ma	0	0
 		ma	1	1
 	mu	a	c(Lalj;I)I
