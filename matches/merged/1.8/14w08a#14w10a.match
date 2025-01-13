@@ -1,4 +1,4 @@
-Matches saved 2024-06-26, status: c:2052/2075 m:16836/17008 f:7427/7457 ma:21858/22104, input files:
+Matches saved 2025-01-13, status: c:2052/2075 m:16842/17008 f:7428/7457 ma:21861/22104, input files:
 	a:
 		5742012	SHA256	vvVLdKp+JejnZhN48tij3ZIH55I3IPjWfOUAeplfxDY=	minecraft-merged-14w08a.jar
 	b:
@@ -39773,17 +39773,20 @@ c	Llq;	Lpp;
 	m	b()Z	b()Z
 	m	a(Z)V	a(Z)V
 		ma	0	0
-	mu	a	c()Ljava/util/Map;
-	mu	a	a(Ljava/lang/String;)Z
-	mu	a	a(Llp;)V
-	mu	a	b(Ljava/lang/String;)V
+	m	c()Ljava/util/Map;	e()Ljava/util/Map;
+	m	a(Ljava/lang/String;)Z	d(Ljava/lang/Object;)Z
+		ma	0	0
+	m	a(Llp;)V	a(Lpo;)V
+		ma	0	0
+	m	b(Ljava/lang/String;)V	c(Ljava/lang/Object;)V
+		ma	0	0
 	m	d()V	h()V
-	mu	a	e()V
-	mu	a	f()V
+	m	e()V	g()V
+	m	f()V	f()V
 	mu	a	b(Z)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
-	fu	a	b;;Lqe;
+	f	b;;Lqe;	d;;Ljava/util/Map;
 	f	c;;Ljava/io/File;	c;;Ljava/io/File;
 	f	d;;Z	e;;Z
 c	Llr;	Llp;
