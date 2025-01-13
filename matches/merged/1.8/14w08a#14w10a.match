@@ -15059,8 +15059,8 @@ c	Law;	Law;
 		mau	a	1
 		ma	2	1
 		ma	3	2
-	f	a;;Lde;	a;;Lde;
-	fu	a	b;;Lde;
+	fu	a	a;;Lde;
+	f	b;;Lde;	a;;Lde;
 	f	c;;Lalj;	b;;Lamg;
 	f	d;;I	c;;I
 c	Lawa;	Lawx;
