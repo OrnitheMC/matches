@@ -10784,7 +10784,7 @@ c	Lapu;	Lari;
 	m	d()V	d()V
 	m	a([I[I)I	a(Lct;Lct;)I
 	m	e()Z	f()Z
-	mu	a	a(DDD)V
+	m	a(DDD)V	e()V
 	m	a(Lafs;Ljava/util/Random;III)Z	a(Lagv;Ljava/util/Random;Lct;)Z
 		ma	0	0
 	mu	a	<clinit>()V
@@ -10884,7 +10884,7 @@ c	Laqe;	Lart;
 	m	a(Lafs;Ljava/util/Random;III)Z	a(Lagv;Ljava/util/Random;Lct;)Z
 		ma	0	0
 		ma	1	1
-	mu	a	a(DDD)V
+	m	a(DDD)V	e()V
 	m	a(Lafs;IIILahz;)V	a(Lagv;Lct;Lajc;)V
 		ma	0	0
 	m	a(Lafs;IIILahz;I)V	a(Lagv;Lct;Lajc;I)V
