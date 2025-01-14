@@ -1,4 +1,4 @@
-Matches saved 2025-01-14, status: c:2287/2331 m:17922/18630 f:8100/8484 ma:22206/24054, input files:
+Matches saved 2025-01-14, status: c:2288/2331 m:17924/18630 f:8102/8484 ma:22208/24054, input files:
 	a:
 		7081891	SHA256	4FTePlgkOOpHsy9pZH8oM3UbMdNaYJLPs3OjOWgbZhY=	minecraft-merged-14w21b.jar
 	b:
@@ -32062,7 +32062,13 @@ c	Lcco;	Lcni;
 	fu	a	f;;Z
 	fu	a	g;;Z
 	f	h;;Z	d;;Z
-cu	a	Lccp;
+c	Lccp;	Lcnl;
+	m	<init>(Lcjk;)V	<init>(Lclw;Lckq;)V
+		ma	0	0
+	m	a(Ljava/lang/String;)Lccq;	a(Lclv;)Lcfd;
+		ma	0	0
+	f	b;;Lcjk;	f;;Lclw;
+	f	c;;Ljava/util/Map;	h;;Ljava/util/Map;
 c	Lccq;	Lcfd;
 	m	<init>(Ljava/util/Collection;)V	<init>(Ljava/util/Collection;)V
 		ma	0	0
