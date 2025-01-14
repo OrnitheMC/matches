@@ -1,4 +1,4 @@
-Matches saved 2025-01-14, status: c:2287/2331 m:17919/18630 f:8100/8484 ma:22206/24054, input files:
+Matches saved 2025-01-14, status: c:2287/2331 m:17922/18630 f:8100/8484 ma:22206/24054, input files:
 	a:
 		7081891	SHA256	4FTePlgkOOpHsy9pZH8oM3UbMdNaYJLPs3OjOWgbZhY=	minecraft-merged-14w21b.jar
 	b:
@@ -32049,9 +32049,9 @@ c	Lcco;	Lcni;
 	m	a(Ldr;)Ljava/util/List;	a(Ldt;)Ljava/util/List;
 		ma	0	0
 	m	c()Z	a()Z
-	mu	a	d()Z
-	mu	a	e()Z
-	mu	a	f()Z
+	m	d()Z	d()Z
+	m	e()Z	e()Z
+	m	f()Z	f()Z
 	m	g()Z	c()Z
 	m	h()Z	b()Z
 	fu	a	a;;Ljava/util/EnumMap;
