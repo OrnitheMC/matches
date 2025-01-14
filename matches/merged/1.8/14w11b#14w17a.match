@@ -1,4 +1,4 @@
-Matches saved 2023-02-13, status: c:2137/2149 m:17479/17568 f:7715/7768 ma:22435/22593, input files:
+Matches saved 2025-01-14, status: c:2138/2149 m:17481/17568 f:7715/7768 ma:22437/22593, input files:
 	a:
 		5945790	SHA256	ivLoFwptZeVRPiOVvGHRlx1RHFAm5OSrniLN96lYGps=	minecraft-merged-14w11b.jar
 	b:
@@ -2653,7 +2653,13 @@ c	Laec;	Laej;
 	f	h;;[I	h;;[I
 	f	i;;I	i;;I
 	f	j;;[Laec;	j;;[Laej;
-cu	a	Laed;
+c	Laed;	Lafk;
+	m	<init>(Lamq;Lamq;)V	<init>(Lanj;Ljava/lang/String;)V
+		ma	0	0
+		mau	a	1
+	m	b_(I)Lsj;	b_(I)Lsp;
+		ma	0	0
+	fu	a	b;;Lamq;
 c	Laee;	Laek;
 	m	<init>(Lagg;)V	<init>(Lagx;)V
 		ma	0	0
