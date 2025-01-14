@@ -1,4 +1,4 @@
-Matches saved 2024-06-03, status: c:2440/2442 m:19059/19149 f:8588/8634 ma:24827/25053, input files:
+Matches saved 2025-01-14, status: c:2440/2442 m:19063/19149 f:8589/8634 ma:24829/25053, input files:
 	a:
 		7648978	SHA256	ShUdF8L1JQGUkXGc9n/gDQCiFlFDGFVNwTqUihAuFdI=	minecraft-merged-14w27b-07021646.jar
 	b:
@@ -33894,11 +33894,18 @@ c	Lcdf;	Lcih;
 		mau	a	3
 		mau	a	4
 		ma	5	4
-	mu	a	a(III)V
+	m	a(III)V	a(Ldq;)V
+		mau	a	0
+		mau	a	1
+		mau	a	2
 	mu	a	f()V
-	mu	a	a(Lum;)V
-	mu	a	a(Lamh;)V
-	mu	a	a(Lamh;Lum;)V
+	m	a(Lum;)V	a(FFFLcii;)V
+		mau	a	0
+	m	a(Lamh;)V	a(Lcic;)V
+		ma	0	0
+	m	a(Lamh;Lum;)V	a(Lape;FFFLcic;)V
+		ma	0	0
+		mau	a	1
 	m	b(Lum;)V	a(FFFLcic;)V
 		mau	a	0
 	m	c(Lum;)F	a(Lwe;)F
@@ -33929,7 +33936,7 @@ c	Lcdf;	Lcih;
 	fu	a	i;;I
 	fu	a	j;;I
 	fu	a	k;;I
-	fu	a	l;;Z
+	f	l;;Z	i;;Z
 	f	m;;[Z	j;;[Z
 	f	A;;Z	l;;Z
 	fu	a	n;;I
