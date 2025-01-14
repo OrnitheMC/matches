@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:2534/2534 m:19896/19925 f:8848/8863 ma:26129/26178, input files:
+Matches saved 2025-01-14, status: c:2534/2534 m:19899/19925 f:8849/8863 ma:26138/26178, input files:
 	a:
 		7850075	SHA256	S36SlWUdigk97WWSHHyK+v/gucYiqCTXsZoTUHTo6EA=	minecraft-merged-1.8.2-pre4.jar
 	b:
@@ -35892,7 +35892,9 @@ c	Lciv;	Lbfe;
 	mu	a	c()V
 	m	a(I)V	a(ILbmv;)V
 		ma	0	0
-	mu	a	a(DD)V
+	m	a(DD)V	a(DD)Lbfe;
+		ma	0	0
+		ma	1	1
 	mu	a	b(I)V
 	m	a(IIII)V	a(IIII)V
 		ma	0	0
@@ -35934,7 +35936,11 @@ c	Lciv;	Lbfe;
 		ma	2	2
 		ma	3	3
 	mu	a	a(III)V
-	mu	a	b(IIII)V
+	m	b(IIII)V	b(IIII)Lbfe;
+		ma	0	3
+		ma	1	1
+		ma	2	2
+		ma	3	0
 	mu	a	a(DDDDD)V
 	mu	a	a(Lcus;)V
 	m	a([I)V	a([I)V
@@ -35943,7 +35949,10 @@ c	Lciv;	Lbfe;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	d(FFF)V
+	m	d(FFF)V	c(FFF)Lbfe;
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	e(FFF)V	b(FFF)V
 		ma	0	0
 		ma	1	1
@@ -35971,7 +35980,7 @@ c	Lciv;	Lbfe;
 	fu	a	e;;D
 	fu	a	f;;D
 	fu	a	g;;I
-	fu	a	h;;I
+	f	h;;I	g;;I
 	f	i;;Z	h;;Z
 	f	j;;I	i;;I
 	f	k;;D	j;;D
