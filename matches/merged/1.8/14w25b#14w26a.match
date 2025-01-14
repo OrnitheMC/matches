@@ -1,4 +1,4 @@
-Matches saved 2025-01-14, status: c:2397/2401 m:18869/18912 f:8494/8514 ma:24553/24872, input files:
+Matches saved 2025-01-14, status: c:2397/2401 m:18870/18912 f:8494/8514 ma:24558/24872, input files:
 	a:
 		7570927	SHA256	93ULNbESfHcoN1tvlBACkv9LTF95Yv8DzOOI6yW+1X8=	minecraft-merged-14w25b.jar
 	b:
@@ -34882,7 +34882,14 @@ c	Lcff;	Lcga;
 	m	a(Ljavax/vecmath/Vector3f;Ljavax/vecmath/Vector3f;)[F	a(Ljavax/vecmath/Vector3f;Ljavax/vecmath/Vector3f;)[F
 		ma	0	0
 		ma	1	1
-	mu	a	a([IILccn;Lcet;[FILckt;)V
+	m	a([IILccn;Lcet;[FILckt;)V	a([IILdu;Lcfk;[FLclo;Lcoe;Lcfm;ZZ)V
+		ma	0	0
+		ma	1	1
+		mau	a	2
+		ma	3	3
+		ma	4	4
+		ma	5	9
+		mau	a	6
 cu	a	Lcfg;
 c	Lcfh;	Lcgc;
 	m	<init>()V	<init>()V
