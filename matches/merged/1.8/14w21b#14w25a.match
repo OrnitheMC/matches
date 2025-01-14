@@ -1,4 +1,4 @@
-Matches saved 2024-06-26, status: c:2287/2331 m:17932/18630 f:8097/8484 ma:22230/24054, input files:
+Matches saved 2025-01-14, status: c:2287/2331 m:17920/18630 f:8097/8484 ma:22206/24054, input files:
 	a:
 		7081891	SHA256	4FTePlgkOOpHsy9pZH8oM3UbMdNaYJLPs3OjOWgbZhY=	minecraft-merged-14w21b.jar
 	b:
@@ -8243,7 +8243,7 @@ c	Lanv;	Laof;
 	m	G()I	I()I
 	m	i(I)I	e(I)I
 		ma	0	0
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
+	m	d(Lalt;Ldg;)I	d(Lamd;Ldi;)I
 		ma	0	0
 		ma	1	1
 	m	b(Lalt;Ldg;Ldr;)I	a(Lamd;Ldi;Laxv;Ldt;)I
@@ -9784,9 +9784,6 @@ c	Lapo;	Lapu;
 	mu	a	a(Ldr;I)Ltb;
 	mu	a	f(Lalt;Ldg;Ldr;)Ltb;
 	mu	a	a(ZI)Ltb;
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	c(Lalk;Ldg;II)V	a(Lalu;Ldi;Lapw;I)V
 		ma	1	1
 		ma	3	3
@@ -10431,9 +10428,6 @@ c	Laql;	Laqp;
 	m	e()Ljava/util/List;	e()Ljava/util/List;
 	m	d()Z	d()Z
 	mu	a	f(Lalt;Ldg;Ldr;)Ltb;
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	a(Lalk;Ldg;Laco;Ldr;FFF)Z	a(Lalu;Ldi;Laxv;Lacw;Ldt;FFF)Z
 		ma	0	0
 		ma	1	1
@@ -10574,9 +10568,6 @@ c	Laqt;	Laqw;
 	m	G()I	I()I
 	m	i(I)I	e(I)I
 		ma	0	0
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	b(Lalk;Ldg;Ljava/util/Random;)V	c(Lalu;Ldi;Laxv;Ljava/util/Random;)V
 		ma	0	0
 		ma	1	1
@@ -10968,9 +10959,6 @@ c	Larl;	Larn;
 	m	G()I	I()I
 	m	i(I)I	e(I)I
 		ma	0	0
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	a(Lalk;Ldg;Lanv;I)V	b(Lalu;Ldi;Laxv;)V
 		ma	0	0
 		ma	1	1
@@ -11111,9 +11099,6 @@ c	Larq;	Lars;
 	m	<init>(Lbft;)V	<init>(Lbhf;)V
 		ma	0	0
 	m	b(Lalt;Ldg;)Z	b(Lamd;Ldi;)Z
-		ma	0	0
-		ma	1	1
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
 		ma	0	0
 		ma	1	1
 	m	c(I)F	b(I)F
@@ -11503,9 +11488,6 @@ c	Lasl;	Lasn;
 	m	<init>()V	<init>()V
 	m	i(I)I	e(I)I
 		ma	0	0
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	c(Lalk;Ldg;II)V	a(Lalu;Ldi;Laxv;I)V
 		ma	0	0
 		ma	1	1
@@ -11897,9 +11879,6 @@ c	Lath;	Latp;
 	m	c()Z	c()Z
 	m	d()Z	d()Z
 	m	e()Ljava/util/List;	e()Ljava/util/List;
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	b(Lalk;Ldg;)Z	a(Lalu;Ldi;)Z
 		ma	0	0
 		ma	1	1
@@ -12084,9 +12063,6 @@ c	Latn;	Latv;
 	m	c()Z	c()Z
 	m	d()Z	d()Z
 	m	c(Lalk;Ldg;)Lagu;	b(Lalu;Ldi;)Lahb;
-		ma	0	0
-		ma	1	1
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
 		ma	0	0
 		ma	1	1
 	m	l()Lalc;	l()Lalm;
@@ -12736,9 +12712,6 @@ c	Laup;	Lauy;
 		ma	1	1
 	m	i(I)I	e(I)I
 		ma	0	0
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	i()V	i()V
 	m	a(Lalt;Ldg;)V	a(Lamd;Ldi;)V
 		ma	0	0
@@ -12962,9 +12935,6 @@ c	Lava;	Lavh;
 		ma	1	1
 	m	i(I)I	e(I)I
 		ma	0	0
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	a(ILjava/util/Random;I)Lagu;	a(Laxv;Ljava/util/Random;I)Lahb;
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
 		ma	0	0
@@ -13427,9 +13397,6 @@ c	Lavq;	Lavv;
 	m	G()I	I()I
 	m	i(I)I	e(I)I
 		ma	0	0
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	a(Lalk;Ldg;Lanv;)V	a(Lalu;Ldi;Laxv;Laof;)V
 		ma	0	0
 		ma	1	1
@@ -13576,9 +13543,6 @@ c	Lavy;	Lawb;
 	m	G()I	I()I
 	m	i(I)I	e(I)I
 		ma	0	0
-	m	d(Lalt;Ldg;)I	b(Lamd;Ldi;I)I
-		ma	0	0
-		ma	1	1
 	m	a(Lanv;)Z	c(Laof;)Z
 		ma	0	0
 	m	l(Lalk;Ldg;)Z	f(Lalu;Ldi;Laxv;)Z
