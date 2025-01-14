@@ -21475,7 +21475,7 @@ c	Lbin;	Lbip;
 		ma	2	2
 		ma	3	3
 	m	b()I	b()I
-	m	c()Latk;	c()Lbdv;
+	m	c()Latk;	e()Latk;
 	m	d()I	f()I
 	m	e()I	d()I
 	m	c(I)V	b(I)V
