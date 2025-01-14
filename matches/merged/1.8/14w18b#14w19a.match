@@ -1,4 +1,4 @@
-Matches saved 2025-01-14, status: c:2259/2259 m:18376/18389 f:8349/8371 ma:23425/23456, input files:
+Matches saved 2025-01-14, status: c:2259/2259 m:18376/18389 f:8350/8371 ma:23426/23456, input files:
 	a:
 		7030948	SHA256	Mpy1JsVwo0jIok3MfeovX2LH3AS0A9yyklTWY53hvj0=	minecraft-merged-14w18b.jar
 	b:
@@ -42109,7 +42109,7 @@ c	Lid;	Lie;
 c	Lie;	Lig;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/lang/String;FFFFFFFI)V	<init>(Lea;FFFFFFFI[I)V
-		mau	a	0
+		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
@@ -42135,7 +42135,7 @@ c	Lie;	Lig;
 		ma	0	0
 	m	a(Lgb;)V	a(Lgc;)V
 		ma	0	0
-	fu	a	a;;Ljava/lang/String;
+	f	a;;Ljava/lang/String;	a;;Lea;
 	f	b;;F	b;;F
 	f	c;;F	c;;F
 	f	d;;F	d;;F
