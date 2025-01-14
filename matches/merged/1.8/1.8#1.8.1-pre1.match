@@ -1,4 +1,4 @@
-Matches saved 2023-02-14, status: c:2525/2532 m:19749/19778 f:8774/8788 ma:26004/26039, input files:
+Matches saved 2025-01-14, status: c:2525/2532 m:19751/19778 f:8774/8788 ma:26005/26039, input files:
 	a:
 		7832726	SHA256	aFpsZmJ9JQlVZT/aqNA4M7Utq5T22dAbbxPEpdqmKfU=	minecraft-merged-1.8.jar
 	b:
@@ -61458,8 +61458,6 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	m	H()I	I()I
 	m	I()[Ljava/lang/String;	J()[Ljava/lang/String;
 	m	J()[Lcom/mojang/authlib/GameProfile;	K()[Lcom/mojang/authlib/GameProfile;
-	mu	a	K()Ljava/lang/String;
-	mu	a	g(Ljava/lang/String;)Ljava/lang/String;
 	m	L()Z	L()Z
 	m	h(Ljava/lang/String;)V	g(Ljava/lang/String;)V
 		ma	0	0
@@ -62166,8 +62164,9 @@ c	Lpj;	Lpk;
 	m	H()I	I()I
 	m	I()[Ljava/lang/String;	J()[Ljava/lang/String;
 	m	T()Ljava/lang/String;	T()Ljava/lang/String;
-	mu	a	K()Ljava/lang/String;
-	mu	a	g(Ljava/lang/String;)Ljava/lang/String;
+	m	K()Ljava/lang/String;	d_()Ljava/lang/String;
+	m	g(Ljava/lang/String;)Ljava/lang/String;	a_(Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
 	m	L()Z	L()Z
 	m	e(Ljava/lang/String;)V	e(Ljava/lang/String;)V
 		ma	0	0
