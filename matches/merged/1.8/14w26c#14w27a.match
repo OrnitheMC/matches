@@ -1,4 +1,4 @@
-Matches saved 2025-01-14, status: c:2404/2429 m:18882/19100 f:8463/8579 ma:24715/24958, input files:
+Matches saved 2025-01-14, status: c:2404/2429 m:18883/19100 f:8463/8579 ma:24720/24958, input files:
 	a:
 		7596288	SHA256	Dhh2BRwAK87neY8YdsOz9l0kiexMpNn8ITu0VUboJ7k=	minecraft-merged-14w26c.jar
 	b:
@@ -60609,12 +60609,14 @@ c	Ldq;	Lds;
 	m	a(I)Ljava/lang/Object;	a(I)Ljava/lang/Object;
 		ma	0	0
 	m	a(Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
 	f	d;;Ljava/lang/String;	d;;Ljava/lang/Object;
 	f	e;;Ljava/lang/Object;	e;;Ljava/lang/Object;
 c	Ldr;	Ldt;
 	m	<init>(Ljava/lang/Object;)V	<init>(Ljava/lang/Object;)V
 		ma	0	0
 	m	a(Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
 	f	a;;Ljava/lang/Object;	a;;Ljava/lang/Object;
 c	Lds;	Ldu;
 	m	a(Ldm;Lahx;)Lahx;	a(Ldp;Laio;)Laio;
@@ -60786,7 +60788,8 @@ c	Led;	Lef;
 		ma	2	2
 	m	a()Ljava/util/Map;	b()Ljava/util/Map;
 	mu	a	a(Ljava/lang/String;)Ljava/lang/Object;
-	mu	a	c(Ljava/lang/Object;)Ljava/lang/String;
+	m	c(Ljava/lang/Object;)Ljava/lang/String;	c(Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
 	mu	a	b(Ljava/lang/String;)Z
 	m	b(Ljava/lang/Object;)I	b(Ljava/lang/Object;)I
 		ma	0	0
@@ -60892,6 +60895,7 @@ c	Leg;	Lei;
 	f	c;;D	c;;D
 c	Leh;	Lej;
 	m	a(Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
 	m	a(Ljava/lang/Object;Ljava/lang/Object;)V	a(Ljava/lang/Object;Ljava/lang/Object;)V
 		ma	0	0
 		ma	1	1
@@ -60899,6 +60903,7 @@ c	Lei;	Lek;
 	m	<init>()V	<init>()V
 	m	a()Ljava/util/Map;	b()Ljava/util/Map;
 	m	a(Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
 	m	a(Ljava/lang/Object;Ljava/lang/Object;)V	a(Ljava/lang/Object;Ljava/lang/Object;)V
 		ma	0	0
 		ma	1	1
