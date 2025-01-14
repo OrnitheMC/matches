@@ -1,4 +1,4 @@
-Matches saved 2025-01-14, status: c:2440/2442 m:19063/19149 f:8589/8634 ma:24829/25053, input files:
+Matches saved 2025-01-14, status: c:2440/2442 m:19064/19149 f:8589/8634 ma:24829/25053, input files:
 	a:
 		7648978	SHA256	ShUdF8L1JQGUkXGc9n/gDQCiFlFDGFVNwTqUihAuFdI=	minecraft-merged-14w27b-07021646.jar
 	b:
@@ -22340,8 +22340,10 @@ c	Lbjy;	Lbns;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(III)V
-	mu	a	a([B)V
+	m	a(III)V	a(II)V
+		mau	a	0
+		mau	a	1
+		mau	a	2
 	m	a(Ladq;)Lbjz;	a(Lage;)Lbnt;
 		ma	0	0
 	f	a;;I	b;;I
