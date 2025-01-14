@@ -1,4 +1,4 @@
-Matches saved 2025-01-14, status: c:2525/2532 m:19751/19778 f:8775/8788 ma:26005/26039, input files:
+Matches saved 2025-01-14, status: c:2525/2532 m:19752/19778 f:8775/8788 ma:26006/26039, input files:
 	a:
 		7832726	SHA256	aFpsZmJ9JQlVZT/aqNA4M7Utq5T22dAbbxPEpdqmKfU=	minecraft-merged-1.8.jar
 	b:
@@ -28993,7 +28993,8 @@ c	Lbwj;	Lbwh;
 	m	b(I)V	b(I)V
 		ma	0	0
 	m	h()V	h()V
-	mu	a	a(Z)V
+	m	a(Z)V	b(Z)V
+		ma	0	0
 	m	i()V	i()V
 	m	a(CI)V	a(CI)V
 		ma	0	0
