@@ -1,4 +1,4 @@
-Matches saved 2025-01-14, status: c:2440/2442 m:19064/19149 f:8589/8634 ma:24829/25053, input files:
+Matches saved 2025-01-14, status: c:2440/2442 m:19066/19149 f:8589/8634 ma:24829/25053, input files:
 	a:
 		7648978	SHA256	ShUdF8L1JQGUkXGc9n/gDQCiFlFDGFVNwTqUihAuFdI=	minecraft-merged-14w27b-07021646.jar
 	b:
@@ -12667,8 +12667,12 @@ c	Lasx;	Lavv;
 	m	<init>()V	<init>()V
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
-	mu	a	a(Lapa;I)Z
-	mu	a	b(Lapa;I)I
+	m	a(Lapa;I)Z	c(Lbbt;)Z
+		mau	a	0
+		mau	a	1
+	m	b(Lapa;I)I	d(Lbbt;)I
+		mau	a	0
+		mau	a	1
 	m	c(I)Lorg/apache/commons/lang3/tuple/ImmutablePair;	c(I)Lorg/apache/commons/lang3/tuple/ImmutablePair;
 		ma	0	0
 	m	f(Layu;)Laio;	g(Lbbt;)Lalg;
