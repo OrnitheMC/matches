@@ -1,4 +1,4 @@
-Matches saved 2023-02-14, status: c:2520/2521 m:19674/19689 f:8788/8794 ma:25868/25882, input files:
+Matches saved 2025-01-14, status: c:2520/2521 m:19674/19689 f:8788/8794 ma:25868/25882, input files:
 	a:
 		7819346	SHA256	BqdFqGMh9fa9lfG7UxcoH495o61UDrKfoDHBtb6T46Y=	minecraft-merged-14w33c.jar
 	b:
@@ -2038,10 +2038,10 @@ c	Lade;	Ladh;
 	m	b(Lamd;)V	b(Lamg;)V
 		ma	0	0
 	m	o()Lamd;	o()Lamg;
-	m	a(Lamd;)V	a(Lamg;Z)V
+	m	a(Lamd;)V	a(Lamg;)V
 		ma	0	0
 	m	p()I	p()I
-	m	a(I)V	a(IZ)V
+	m	a(I)V	a(I)V
 		ma	0	0
 	m	b(Lfm;)V	b(Lfn;)V
 		ma	0	0
