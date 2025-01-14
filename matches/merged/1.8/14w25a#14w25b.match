@@ -1,4 +1,4 @@
-Matches saved 2023-02-14, status: c:2398/2398 m:18882/18895 f:8501/8506 ma:24837/24853, input files:
+Matches saved 2025-01-14, status: c:2398/2398 m:18884/18895 f:8501/8506 ma:24839/24853, input files:
 	a:
 		7570722	SHA256	lufmJkZDhaQFsmLQjX9IeuvLYwe+cYM+wag+iIDPIfQ=	minecraft-merged-14w25a.jar
 	b:
@@ -33244,12 +33244,14 @@ c	Lcce;	Lccg;
 	m	i()V	f()V
 	mu	a	a()Z
 	mu	a	b()Z
-	mu	a	a(Lalm;Lub;Lcdi;)Z
+	m	a(Lalm;Lub;Lcdi;)Z	a(Lub;)V
+		ma	1	0
 	mu	a	j()V
 	m	a(Lalm;)V	a(Lalm;)V
 		ma	0	0
 	mu	a	c()Z
-	mu	a	a(Lub;Lcdi;)V
+	m	a(Lub;Lcdi;)V	b(Lub;)V
+		ma	0	0
 	m	a(Lub;)F	c(Lub;)F
 		ma	0	0
 	m	b(Lub;)F	d(Lub;)F
