@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:2541/2542 m:20005/20007 f:8901/8906 ma:26253/26256, input files:
+Matches saved 2025-01-15, status: c:2541/2542 m:20005/20007 f:8902/8906 ma:26253/26256, input files:
 	a:
 		9390368	SHA256	+KOdlYszDSYvLfRVVsz2Km1TY6ZBz5sypaQFkLWhIxo=	minecraft-merged-1.8.3.jar
 	b:
@@ -13229,7 +13229,7 @@ c	Lank;	Lanj;
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
-	fu	a	b;;Ljava/util/List;
+	f	b;;Ljava/util/List;	b;;Ljava/util/Map;
 	f	c;;Ljava/util/Set;	c;;Ljava/util/Set;
 	fu	a	d;;Ljava/lang/Object;
 	f	e;;Ljava/io/File;	d;;Ljava/io/File;
