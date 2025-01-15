@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:2491/2541 m:19428/20022 f:8519/8913 ma:25605/26263, input files:
+Matches saved 2025-01-15, status: c:2491/2541 m:19432/20022 f:8519/8913 ma:25609/26263, input files:
 	a:
 		8528251	SHA256	J2Yw1rVyfczZkZOU+tzBsCoaSAlcIyPpRoWfVNlJu+Q=	minecraft-merged-1.8.8.jar
 	b:
@@ -48245,7 +48245,8 @@ c	Lpr;	Lqa;
 	m	by()Lqf;	by()Lqo;
 	m	bz()Lpw;	bz()Lqf;
 	mu	a	bA()Lzx;
-	mu	a	p(I)Lzx;
+	m	p(I)Lzx;	a(Lpw;)Laas;
+		ma	0	0
 	mu	a	q(I)Lzx;
 	m	c(ILzx;)V	a(Lpw;Laas;)V
 		ma	0	0
@@ -48467,7 +48468,8 @@ c	Lps;	Lqb;
 	m	bV()I	cj()I
 	m	aE()I	aG()I
 	mu	a	bA()Lzx;
-	mu	a	p(I)Lzx;
+	m	p(I)Lzx;	a(Lpw;)Laas;
+		ma	0	0
 	mu	a	q(I)Lzx;
 	m	c(ILzx;)V	a(Lpw;Laas;)V
 		ma	0	0
@@ -51323,7 +51325,8 @@ c	Lum;	Luy;
 	m	bM()Z	bN()Z
 	m	h()V	h()V
 	mu	a	bA()Lzx;
-	mu	a	p(I)Lzx;
+	m	p(I)Lzx;	a(Lpw;)Laas;
+		ma	0	0
 	mu	a	q(I)Lzx;
 	m	c(ILzx;)V	a(Lpw;Laas;)V
 		ma	0	0
@@ -53764,7 +53767,8 @@ c	Lwn;	Lxa;
 		ma	0	0
 	m	e_()Ljava/lang/String;	e_()Ljava/lang/String;
 	m	co()Lyd;	cq()Lyu;
-	mu	a	p(I)Lzx;
+	m	p(I)Lzx;	a(Lpw;)Laas;
+		ma	0	0
 	mu	a	bA()Lzx;
 	m	c(ILzx;)V	a(Lpw;Laas;)V
 		ma	0	0
