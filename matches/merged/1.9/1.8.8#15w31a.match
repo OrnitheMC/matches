@@ -29068,8 +29068,8 @@ c	Lbfn;	Lbhp;
 		mvu	a	3
 		mvu	a	4
 		mvu	a	5
-	m	b()V	a(Loo;)V
-	mu	a	c()V
+	mu	a	b()V
+	m	c()V	a(Loo;)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljy;	a;;Ljz;
 	f	b;;Ljy;	b;;Ljz;
