@@ -1,4 +1,4 @@
-Matches saved 2025-01-16, status: c:3248/3259 m:24839/24909 f:11501/11536 ma:33622/33727, input files:
+Matches saved 2025-01-16, status: c:3251/3259 m:24843/24909 f:11505/11536 ma:33628/33727, input files:
 	a:
 		9939166	SHA256	ZfFkJtHojd766mlplLjH68mGLRejvPdlnor+QFCFi+A=	minecraft-merged-17w15a.jar
 	b:
@@ -35731,16 +35731,31 @@ c	Lbin;	Lbis;
 	f	f;;Ljava/util/List;	f;;Ljava/util/List;
 	f	g;;Z	g;;Z
 c	Lbio$1;	Lbja$1;
-cu	a	Lbio$a;
+c	Lbio$a;	Lbiw;
+	m	<init>(Lbio;Li;Lbio$1;)V	<init>(Li;)V
+		ma	1	0
+	f	d;;Li;	c;;Li;
 c	Lbio$b;	Lbix;
 	m	<init>(Lbio;Lahl;)V	<init>(Lahp;)V
 		ma	1	0
-	m	a()Z	a(Lbja;J)Lbiz$a;
 	m	a(Lahl;)V	a(Lahp;)V
 		ma	0	0
 	f	d;;Ljava/util/List;	c;;Ljava/util/List;
 	fu	a	a;;Lbio;
-cu	a	Lbio$c;
+c	Lbio$c;	Lbiy;
+	m	<init>(Lbio;Lbio$d;Lgo;Lgo;)V	<init>(Lbiy$a;Lgo;Lgo;)V
+		ma	1	0
+		ma	2	1
+		ma	3	2
+	m	a(Lgo;Lgo;)V	a(Lgo;Lgo;)V
+		ma	0	0
+		ma	1	1
+	m	b()Lbio$d;	a()Lbiy$a;
+	f	d;;Lbio$d;	c;;Lbiy$a;
+	f	e;;Ljava/lang/String;	d;;Ljava/lang/String;
+	f	f;;Ljava/lang/String;	e;;Ljava/lang/String;
+	fu	a	g;;I
+	fu	a	a;;Lbio;
 c	Lbio$d;	Lbiy$a;
 	m	values()[Lbio$d;	values()[Lbiy$a;
 	m	valueOf(Ljava/lang/String;)Lbio$d;	valueOf(Ljava/lang/String;)Lbiy$a;
@@ -35752,7 +35767,8 @@ c	Lbio$d;	Lbiy$a;
 	f	a;;Lbio$d;	b;;Lbiy$a;
 	f	b;;[Lbio$d;	c;;[Lbiy$a;
 cu	a	Lbio$e;
-cu	a	Lbio$f;
+c	Lbio$f;	Lbja$a;
+	m	a()Z	a(II)Z
 c	Lbio;	Lbja;
 	m	<init>(Lbgu;)V	<init>(Lbgy;)V
 		ma	0	0
