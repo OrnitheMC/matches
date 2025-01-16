@@ -1,4 +1,4 @@
-Matches saved 2025-01-16, status: c:2794/2794 m:21488/21505 f:9759/9785 ma:28916/28939, input files:
+Matches saved 2025-01-16, status: c:2794/2794 m:21489/21505 f:9759/9785 ma:28917/28939, input files:
 	a:
 		9016918	SHA256	HwzNbgNT5idmP9FCwcRFcNHEhE5zD6iHVD6hIi3gCSw=	minecraft-merged-15w40b.jar
 	b:
@@ -33850,7 +33850,6 @@ c	Lbkh;	Lbkh;
 		ma	1	1
 	m	b(F)V	b(F)V
 		ma	0	0
-	mu	a	a(Lrc;)V
 	m	m()V	m()V
 	m	t()V	u()V
 	m	a(Z)Lxo;	k(Z)Lxt;
@@ -49938,7 +49937,6 @@ c	Llm;	Llq;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Lrc;)V
 	m	a(DZLaqb;Lcj;)V	a(DZLaqh;Lcj;)V
 		ma	0	0
 		ma	1	1
@@ -55408,7 +55406,8 @@ c	Lrc;	Lrh;
 	m	aq()V	k(Lrh;)V
 	m	ar()D	ar()D
 	m	as()D	as()D
-	mu	a	a(Lrc;)V
+	m	a(Lrc;)V	m(Lrh;)Z
+		ma	0	0
 	m	a(DDDFFIZ)V	a(DDDFFIZ)V
 		ma	0	0
 		ma	1	1
@@ -56084,7 +56083,6 @@ c	Lrl;	Lrq;
 		mvu	a	4
 	m	t(Lrc;)V	C(Lrh;)V
 		ma	0	0
-	mu	a	a(Lrc;)V
 	m	ap()V	aq()V
 	m	a(DDDFFIZ)V	a(DDDFFIZ)V
 		ma	0	0
@@ -59703,7 +59701,6 @@ c	Lwy;	Lxd;
 		ma	1	1
 	m	cK()Z	cU()Z
 	m	bJ()Lrq;	bR()Lrv;
-	mu	a	a(Lrc;)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljz;	a;;Lkd;
 	f	b;;Ljz;	b;;Lkd;
