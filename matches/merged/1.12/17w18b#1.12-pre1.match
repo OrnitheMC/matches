@@ -30960,7 +30960,7 @@ c	Lbd;	Lbi;
 		ma	0	0
 	m	a(Lbh;)Lod;	a(Lbn;)Lol;
 		ma	0	0
-	m	a(Lnet/minecraft/server/MinecraftServer;Lbh;Ljava/lang/String;)Lod;	a(Lnet/minecraft/server/MinecraftServer;Lol;Ljava/lang/String;)Lol;
+	m	a(Lnet/minecraft/server/MinecraftServer;Lbh;Ljava/lang/String;)Lod;	b(Lnet/minecraft/server/MinecraftServer;Lbn;Ljava/lang/String;)Lol;
 		ma	0	0
 		ma	1	1
 		ma	2	2
