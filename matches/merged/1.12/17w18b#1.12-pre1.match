@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:3307/3307 m:25326/25337 f:11792/11795 ma:34292/34306, input files:
+Matches saved 2025-01-16, status: c:3307/3307 m:25326/25337 f:11792/11795 ma:34292/34306, input files:
 	a:
 		10053021	SHA256	+H3rlaafpChHDkDN6YIdL+00efUvOW/Z+m0a7GQCFEg=	minecraft-merged-17w18b.jar
 	b:
@@ -61735,9 +61735,11 @@ c	Lcom/sun/jna/platform/win32/WinNT$ACCESS_ACEStructure;	Lcom/sun/jna/platform/w
 	f	Mask;;I	Mask;;I
 	f	SidStart;;[B	SidStart;;Lcom/sun/jna/platform/win32/WinDef$DWORD;
 c	Lcom/sun/jna/platform/win32/WinNT$ACCESS_ALLOWED_ACE;	Lcom/sun/jna/platform/win32/WinNT$ACCESS_ALLOWED_ACE;
+	m	<init>()V	<init>(Lcom/sun/jna/Pointer;)V
 	m	<init>(Lcom/sun/jna/Pointer;)V	<init>(Lcom/sun/jna/Pointer;)V
 c	Lcom/sun/jna/platform/win32/WinNT$ACCESS_DENIED_ACE;	Lcom/sun/jna/platform/win32/WinNT$ACCESS_DENIED_ACE;
 	m	<init>(Lcom/sun/jna/Pointer;)V	<init>(Lcom/sun/jna/Pointer;)V
+	m	<init>(IBLcom/sun/jna/platform/win32/WinNT$PSID;)V	<init>(Lcom/sun/jna/Pointer;)V
 c	Lcom/sun/jna/platform/win32/WinNT$ACEStructure;	Lcom/sun/jna/platform/win32/WinNT$ACEStructure;
 	m	<init>()V	<init>(Lcom/sun/jna/Pointer;)V
 	m	<init>(Lcom/sun/jna/Pointer;)V	<init>(Lcom/sun/jna/Pointer;)V
@@ -61760,6 +61762,7 @@ c	Lcom/sun/jna/platform/win32/WinNT$ACL;	Lcom/sun/jna/platform/win32/WinNT$ACL;
 	f	ACEs;;[Lcom/sun/jna/platform/win32/WinNT$ACCESS_ACEStructure;	ACEs;;[Lcom/sun/jna/platform/win32/WinNT$ACCESS_ACEStructure;
 c	Lcom/sun/jna/platform/win32/WinNT$FILE_NOTIFY_INFORMATION;	Lcom/sun/jna/platform/win32/WinNT$FILE_NOTIFY_INFORMATION;
 	m	<init>()V	<init>()V
+	m	<init>(I)V	<init>(I)V
 	m	getFilename()Ljava/lang/String;	getFilename()Ljava/lang/String;
 	m	read()V	read()V
 	m	next()Lcom/sun/jna/platform/win32/WinNT$FILE_NOTIFY_INFORMATION;	next()Lcom/sun/jna/platform/win32/WinNT$FILE_NOTIFY_INFORMATION;
@@ -61796,11 +61799,11 @@ c	Lcom/sun/jna/platform/win32/WinNT$LARGE_INTEGER$LowHigh;	Lcom/sun/jna/platform
 	f	HighPart;;Lcom/sun/jna/platform/win32/WinDef$DWORD;	HighPart;;Lcom/sun/jna/platform/win32/WinDef$DWORD;
 c	Lcom/sun/jna/platform/win32/WinNT$LARGE_INTEGER$UNION;	Lcom/sun/jna/platform/win32/WinNT$LARGE_INTEGER$UNION;
 	m	<init>()V	<init>()V
-	m	<init>(J)V	<init>()V
 	f	lh;;Lcom/sun/jna/platform/win32/WinNT$LARGE_INTEGER$LowHigh;	lh;;Lcom/sun/jna/platform/win32/WinNT$LARGE_INTEGER$LowHigh;
 	f	value;;J	value;;J
 c	Lcom/sun/jna/platform/win32/WinNT$LARGE_INTEGER;	Lcom/sun/jna/platform/win32/WinNT$LARGE_INTEGER;
 	m	<init>()V	<init>()V
+	m	<init>(J)V	<init>()V
 	m	getLow()Lcom/sun/jna/platform/win32/WinDef$DWORD;	getLow()Lcom/sun/jna/platform/win32/WinDef$DWORD;
 	m	getHigh()Lcom/sun/jna/platform/win32/WinDef$DWORD;	getHigh()Lcom/sun/jna/platform/win32/WinDef$DWORD;
 	m	getValue()J	getValue()J
@@ -61850,6 +61853,7 @@ c	Lcom/sun/jna/platform/win32/WinNT$PSID;	Lcom/sun/jna/platform/win32/WinNT$PSID
 	m	<init>()V	<init>()V
 	m	<init>([B)V	<init>([B)V
 		ma	0	0
+	m	<init>(I)V	<init>(I)V
 	m	<init>(Lcom/sun/jna/Pointer;)V	<init>(Lcom/sun/jna/Pointer;)V
 		ma	0	0
 	m	getBytes()[B	getBytes()[B
@@ -61889,6 +61893,7 @@ c	Lcom/sun/jna/platform/win32/WinNT$TOKEN_GROUPS;	Lcom/sun/jna/platform/win32/Wi
 	f	GroupCount;;I	GroupCount;;I
 	f	Group0;;Lcom/sun/jna/platform/win32/WinNT$SID_AND_ATTRIBUTES;	Group0;;Lcom/sun/jna/platform/win32/WinNT$SID_AND_ATTRIBUTES;
 c	Lcom/sun/jna/platform/win32/WinNT$TOKEN_PRIVILEGES;	Lcom/sun/jna/platform/win32/WinNT$TOKEN_PRIVILEGES;
+	m	<init>(I)V	<init>(I)V
 	m	<init>(Lcom/sun/jna/Pointer;)V	<init>(I)V
 	f	PrivilegeCount;;Lcom/sun/jna/platform/win32/WinDef$DWORD;	PrivilegeCount;;Lcom/sun/jna/platform/win32/WinDef$DWORD;
 	f	Privileges;;[Lcom/sun/jna/platform/win32/WinNT$LUID_AND_ATTRIBUTES;	Privileges;;[Lcom/sun/jna/platform/win32/WinNT$LUID_AND_ATTRIBUTES;
