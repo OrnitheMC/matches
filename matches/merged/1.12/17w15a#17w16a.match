@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:3248/3259 m:24835/24909 f:11500/11536 ma:33622/33727, input files:
+Matches saved 2025-01-16, status: c:3248/3259 m:24835/24909 f:11501/11536 ma:33622/33727, input files:
 	a:
 		9939166	SHA256	ZfFkJtHojd766mlplLjH68mGLRejvPdlnor+QFCFi+A=	minecraft-merged-17w15a.jar
 	b:
@@ -33340,7 +33340,7 @@ c	Lbgr;	Lbgv;
 	m	compareTo(Ljava/lang/Object;)I	compareTo(Ljava/lang/Object;)I
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
-	fu	a	a;;Ljava/util/List;
+	f	a;;Ljava/util/List;	a;;Ljava/util/Map;
 	f	b;;Lqi;	b;;Lqj;
 	f	c;;Ljava/util/Set;	c;;Ljava/util/Set;
 	f	d;;Ljava/lang/String;	e;;Ljava/lang/String;
