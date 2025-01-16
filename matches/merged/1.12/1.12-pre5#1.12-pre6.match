@@ -1,4 +1,4 @@
-Matches saved 2025-01-16, status: c:3331/3333 m:25422/25491 f:11827/11876 ma:34418/34525, input files:
+Matches saved 2025-01-16, status: c:3331/3333 m:25422/25491 f:11829/11876 ma:34418/34525, input files:
 	a:
 		10092068	SHA256	85BdrnXRRlpFPNyYUBqYMCV5+m2omg6s6o/+gu5Wg6Q=	minecraft-merged-1.12-pre5.jar
 	b:
@@ -69319,8 +69319,8 @@ c	Lqj;	Lqj;
 		ma	0	0
 	m	f(Lakq;)Z	b(Lakr;)Z
 		ma	0	0
-	fu	a	a;;Ljava/util/List;
-	fu	a	b;;Ljava/util/SortedSet;
+	f	a;;Ljava/util/List;	b;;Ljava/util/BitSet;
+	f	b;;Ljava/util/SortedSet;	a;;Ljava/util/BitSet;
 	f	c;;Z	c;;Z
 	f	d;;Z	d;;Z
 c	Lqk;	Lqk;
