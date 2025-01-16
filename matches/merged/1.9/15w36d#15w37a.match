@@ -1,4 +1,4 @@
-Matches saved 2025-01-16, status: c:2774/2776 m:21255/21379 f:9489/9510 ma:28302/28502, input files:
+Matches saved 2025-01-16, status: c:2774/2776 m:21247/21379 f:9489/9510 ma:28286/28502, input files:
 	a:
 		8990464	SHA256	nktsTpQNA0svOXOacCx7aZb3jpO0U11K2uzqBAe27p4=	minecraft-merged-15w36d.jar
 	b:
@@ -16294,9 +16294,7 @@ c	Laql;	Laqs;
 	f	c;;Laqv;	c;;Lard;
 	f	e;;I	e;;I
 c	Laqm;	Laqu;
-	m	a(II)Z	d(II)Laqz;
-		ma	0	0
-		ma	1	1
+	mu	a	a(II)Z
 	m	d(II)Laqr;	b(II)Laqz;
 		ma	0	0
 		ma	1	1
@@ -17326,12 +17324,10 @@ c	Lars;	Lasa;
 c	Lart;	Lasb;
 	m	<init>(Lagq;)V	<init>(Lagr;)V
 		ma	0	0
-	m	d(II)Laqr;	a(II)Laqz;
-		ma	0	0
-		ma	1	1
 	m	b(II)Lapp;	c(II)Lapw;
 		ma	0	0
 		ma	1	1
+	mu	a	a(II)Z
 	m	a(Laqm;II)V	b(II)V
 		ma	1	1
 		ma	2	0
@@ -17360,9 +17356,7 @@ c	Laru;	Lasc;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	d(II)Laqr;	a(II)Laqz;
-		ma	0	0
-		ma	1	1
+	mu	a	a(II)Z
 	m	a(Laqm;II)V	b(II)V
 		ma	1	0
 		ma	2	1
@@ -17402,9 +17396,6 @@ c	Larv;	Lasg;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	d(II)Laqr;	a(II)Laqz;
-		ma	0	0
-		ma	1	1
 	m	a([DIIIIII)[D	a([DIIIIII)[D
 		ma	0	0
 		ma	1	1
@@ -17413,6 +17404,7 @@ c	Larv;	Lasg;
 		ma	4	4
 		ma	5	5
 		ma	6	6
+	mu	a	a(II)Z
 	m	a(Laqm;II)V	b(II)V
 		ma	1	0
 		ma	2	1
@@ -17556,13 +17548,11 @@ c	Larz;	Lash;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	d(II)Laqr;	a(II)Laqz;
-		ma	0	0
-		ma	1	1
 	m	a(III)V	a(III)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(II)Z
 	m	a(Laqm;II)V	b(II)V
 		ma	1	0
 		ma	2	1
@@ -17636,9 +17626,6 @@ c	Lasa;	Lasi;
 		ma	2	2
 	m	a(Larr;)V	a(Larz;)V
 		ma	0	0
-	m	d(II)Laqr;	a(II)Laqz;
-		ma	0	0
-		ma	1	1
 	m	a(IIII)F	a(IIII)F
 		ma	0	0
 		ma	1	1
@@ -17655,6 +17642,7 @@ c	Lasa;	Lasi;
 		ma	4	4
 		ma	5	5
 		ma	6	6
+	mu	a	a(II)Z
 	m	a(Laqm;II)V	b(II)V
 		ma	1	0
 		ma	2	1
@@ -30698,9 +30686,7 @@ c	Lbhr;	Lbib;
 c	Lbhs;	Lbhz;
 	m	<init>(Lagq;)V	<init>(Lagr;)V
 		ma	0	0
-	m	a(II)Z	d(II)Laqz;
-		ma	0	0
-		ma	1	1
+	mu	a	a(II)Z
 	m	b(II)V	a(II)V
 		ma	0	0
 		ma	1	1
@@ -48640,9 +48626,7 @@ c	Llk;	Llj;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(II)Z	d(II)Laqz;
-		ma	0	1
-		ma	1	0
+	mu	a	a(II)Z
 	m	a()Ljava/util/List;	a()Ljava/util/List;
 	m	b(II)V	a(II)V
 		ma	0	0
