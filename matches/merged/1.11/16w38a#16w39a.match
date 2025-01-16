@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:3008/3009 m:22882/22984 f:10795/10811 ma:30555/30725, input files:
+Matches saved 2025-01-16, status: c:3008/3009 m:22882/22984 f:10796/10811 ma:30559/30725, input files:
 	a:
 		8925610	SHA256	xOM5YylH3t/RXPC3pR9oDKSy03jq9NPq4UXNUz8NRuA=	minecraft-merged-16w38a.jar
 	b:
@@ -25773,8 +25773,11 @@ c	Lbak;	Lbbe;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Z	b;;Z
 c	Lbal;	Lbbf;
-	m	<init>(Lbal;)V	<init>(Lbbf$a;BBB)V
-		mau	a	0
+	m	<init>(BBBB)V	<init>(Lbbf$a;BBB)V
+		ma	0	1
+		ma	1	2
+		ma	2	0
+		ma	3	3
 	m	a()B	a()B
 	m	b()B	b()B
 	m	c()B	c()B
@@ -25782,7 +25785,7 @@ c	Lbal;	Lbbf;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 	m	hashCode()I	hashCode()I
-	fu	a	a;;B
+	f	a;;B	a;;Lbbf$a;
 	f	b;;B	b;;B
 	f	c;;B	c;;B
 	f	d;;B	d;;B
