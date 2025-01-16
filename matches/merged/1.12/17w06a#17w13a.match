@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:3107/3128 m:23634/23800 f:11002/11103 ma:31727/32042, input files:
+Matches saved 2025-01-16, status: c:3107/3128 m:23634/23800 f:11002/11103 ma:31727/32042, input files:
 	a:
 		9302777	SHA256	SQ817zVNtELv4n/DDBIq6RoKXJbBrscD+eVLm52ic8M=	minecraft-merged-17w06a.jar
 	b:
@@ -1206,8 +1206,8 @@ c	Laax;	Lacs;
 	m	h(Lafj;)I	c(Lahe;)I
 		ma	0	0
 	m	n()V	n()V
-	m	c(Lafj;)Z	c(ILahe;)Z
-		ma	0	1
+	m	c(Lafj;)Z	d(Lahe;)Z
+		ma	0	0
 	m	a(II)Lafj;	a(II)Lahe;
 		ma	0	0
 		ma	1	1
