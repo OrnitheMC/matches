@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:3331/3333 m:25421/25491 f:11827/11876 ma:34417/34525, input files:
+Matches saved 2025-01-16, status: c:3331/3333 m:25422/25491 f:11827/11876 ma:34418/34525, input files:
 	a:
 		10092068	SHA256	85BdrnXRRlpFPNyYUBqYMCV5+m2omg6s6o/+gu5Wg6Q=	minecraft-merged-1.12-pre5.jar
 	b:
@@ -8901,7 +8901,9 @@ c	Lain;	Lain;
 		ma	0	0
 	m	s()V	s()V
 	m	t()Z	t()Z
-	mu	a	a(Laeb;Z)Ljava/util/List;
+	m	a(Laeb;Z)Ljava/util/List;	a(Laeb;Lajz;)Ljava/util/List;
+		ma	0	0
+		mau	a	1
 	m	u()Z	u()Z
 	m	v()Lajc;	v()Lajc;
 	m	w()Z	w()Z
