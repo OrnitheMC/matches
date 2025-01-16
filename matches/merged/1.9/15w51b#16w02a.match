@@ -1,4 +1,4 @@
-Matches saved 2025-01-16, status: c:2907/2915 m:22206/22314 f:10502/10597 ma:29917/30094, input files:
+Matches saved 2025-01-16, status: c:2907/2915 m:22206/22314 f:10503/10597 ma:29917/30094, input files:
 	a:
 		8712151	SHA256	/Gx1MB4S1hNAZ0d2PO1Y/KFVh+GXplMzPoZDsohtE7U=	minecraft-merged-15w51b.jar
 	b:
@@ -6549,7 +6549,7 @@ c	Laij;	Lail;
 		ma	0	0
 	mu	a	d(I)Laib;
 	m	<clinit>()V	<clinit>()V
-	fu	a	aP;;I
+	f	aP;;I	B;;Lail$a;
 	f	aM;;Latl;	y;;Lato;
 	f	aN;;Latl;	z;;Lato;
 	f	aO;;Laur;	A;;Lauu;
