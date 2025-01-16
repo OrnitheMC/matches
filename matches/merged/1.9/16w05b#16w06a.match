@@ -1,4 +1,4 @@
-Matches saved 2024-06-05, status: c:2939/2939 m:22359/22368 f:10622/10625 ma:30192/30205, input files:
+Matches saved 2025-01-16, status: c:2939/2939 m:22359/22368 f:10625/10625 ma:30192/30205, input files:
 	a:
 		8732044	SHA256	nzU40dCC5/cFan0jguGScDszkRDbThN+pZEfFGlsHbY=	minecraft-merged-16w05b.jar
 	b:
@@ -48468,9 +48468,9 @@ c	Lfj;	Lfj;
 		ma	0	0
 	f	a;;I	a;;I
 	f	b;;Ljava/util/UUID;	b;;Ljava/util/UUID;
-	fu	a	c;;I
-	fu	a	d;;I
-	fu	a	e;;I
+	f	c;;I	c;;D
+	f	d;;I	d;;D
+	f	e;;I	e;;D
 	f	f;;I	f;;I
 	f	g;;I	g;;I
 	f	h;;I	h;;I
