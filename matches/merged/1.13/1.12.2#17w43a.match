@@ -1,4 +1,4 @@
-Matches saved 2025-01-17, status: c:3315/3344 m:25091/25568 f:11758/11915 ma:33702/34606, input files:
+Matches saved 2025-01-17, status: c:3315/3344 m:25094/25568 f:11758/11915 ma:33702/34606, input files:
 	a:
 		10110776	SHA256	zYO9KwkFtzX4lXLbu+N5hLOrAZ+nlTmSaByc7nWOWnQ=	minecraft-merged-1.12.2.jar
 	b:
@@ -54379,7 +54379,9 @@ c	Lced;	Lpg;
 		ma	0	0
 	m	c(Ljava/lang/String;)V	d(Ljava/lang/String;)V
 		ma	0	0
-	mu	a	a(Lcfg;Ljava/lang/String;)Lcfe;
+	m	a(Lcfg;Ljava/lang/String;)Lcfe;	a(Lpn;)Ljava/lang/Object;
+		mau	a	0
+		mau	a	1
 	mu	a	a(Lcfg;Ljava/io/InputStream;Ljava/lang/String;)Lcfe;
 	mu	a	a()Ljava/awt/image/BufferedImage;
 	m	b()Ljava/lang/String;	a()Ljava/lang/String;
@@ -54422,7 +54424,9 @@ c	Lceg;	Lcfu;
 	m	b(Lnf;)Z	b(Lpl;Lnf;)Z
 		ma	0	1
 	m	c()Ljava/util/Set;	a(Lpl;)Ljava/util/Set;
-	mu	a	a(Lcfg;Ljava/lang/String;)Lcfe;
+	m	a(Lcfg;Ljava/lang/String;)Lcfe;	a(Lpn;)Ljava/lang/Object;
+		mau	a	0
+		mau	a	1
 	mu	a	a()Ljava/awt/image/BufferedImage;
 	m	b()Ljava/lang/String;	a()Ljava/lang/String;
 	m	<clinit>()V	<clinit>()V
@@ -54537,7 +54541,9 @@ c	Lcer;	Lpk;
 	m	b(Lnf;)Z	b(Lpl;Lnf;)Z
 		ma	0	1
 	m	c()Ljava/util/Set;	a(Lpl;)Ljava/util/Set;
-	mu	a	a(Lcfg;Ljava/lang/String;)Lcfe;
+	m	a(Lcfg;Ljava/lang/String;)Lcfe;	a(Lpn;)Ljava/lang/Object;
+		mau	a	0
+		mau	a	1
 	mu	a	a()Ljava/awt/image/BufferedImage;
 	m	b()Ljava/lang/String;	a()Ljava/lang/String;
 cu	a	Lces$1;
