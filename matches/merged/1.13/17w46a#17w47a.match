@@ -1,4 +1,4 @@
-Matches saved 2025-01-17, status: c:3403/3579 m:25323/26969 f:11726/12353 ma:34235/37421, input files:
+Matches saved 2025-01-17, status: c:3403/3579 m:25323/26969 f:11727/12353 ma:34237/37421, input files:
 	a:
 		10450226	SHA256	j3G+5Fbelvv8Q+TWX8UnylSTB0NR1I6Ye+ENIsu5sVc=	minecraft-merged-17w46a.jar
 	b:
@@ -20146,6 +20146,8 @@ c	Lawu;	Lawz;
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	mu	a	a(I)Lazq;
 	m	a(Lapv;Ldq;)Z	a(Lbak;Laki;)Z
+		ma	0	0
+		ma	1	1
 	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
@@ -30823,7 +30825,7 @@ c	Lbhz;	Lbis;
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	c;;Lorg/apache/logging/log4j/Logger;	e;;Lorg/apache/logging/log4j/Logger;
-	fu	a	a;;Ljava/io/File;
+	f	a;;Ljava/io/File;	a;;Ljava/nio/file/Path;
 	f	b;;Lut;	c;;Lur;
 c	Lbi;	Lbi;
 	m	<init>(Lgk;)V	<init>(Lgo;)V
