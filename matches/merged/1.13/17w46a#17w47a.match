@@ -1,4 +1,4 @@
-Matches saved 2025-01-17, status: c:3404/3579 m:25334/26969 f:11726/12353 ma:34233/37421, input files:
+Matches saved 2025-01-17, status: c:3404/3579 m:25335/26969 f:11726/12353 ma:34233/37421, input files:
 	a:
 		10450226	SHA256	j3G+5Fbelvv8Q+TWX8UnylSTB0NR1I6Ye+ENIsu5sVc=	minecraft-merged-17w46a.jar
 	b:
@@ -10183,7 +10183,7 @@ c	Lalm;	Lalx;
 	m	f()Z	f()Z
 	mu	a	g()Z
 	m	h()Z	g()Z
-	mu	a	i()I
+	m	i()I	h()I
 	mu	a	j()I
 	mu	a	b(I)V
 	m	k()I	i()I
