@@ -1,4 +1,4 @@
-Matches saved 2025-01-17, status: c:3404/3579 m:25325/26969 f:11727/12353 ma:34240/37421, input files:
+Matches saved 2025-01-17, status: c:3403/3579 m:25324/26969 f:11725/12353 ma:34240/37421, input files:
 	a:
 		10450226	SHA256	j3G+5Fbelvv8Q+TWX8UnylSTB0NR1I6Ye+ENIsu5sVc=	minecraft-merged-17w46a.jar
 	b:
@@ -18335,10 +18335,7 @@ c	Lauj;	Laus;
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	D;;Lbad;	N;;Lbax;
-c	Lauk$1;	Lauw$1;
-	m	<clinit>()V	<clinit>()V
-	f	a;;[I	a;;[I
-	f	c;;[I	b;;[I
+cu	a	Lauk$1;
 cu	a	Lauk$a;
 c	Lauk;	Laut;
 	m	<init>(Lbfw;Lbfx;Lart;)V	<init>(Lbgq;Lbgr;Lasg;)V
