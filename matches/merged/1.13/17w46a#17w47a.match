@@ -1,4 +1,4 @@
-Matches saved 2025-01-17, status: c:3405/3579 m:25342/26969 f:11731/12353 ma:34272/37421, input files:
+Matches saved 2025-01-17, status: c:3404/3579 m:25341/26969 f:11730/12353 ma:34272/37421, input files:
 	a:
 		10450226	SHA256	j3G+5Fbelvv8Q+TWX8UnylSTB0NR1I6Ye+ENIsu5sVc=	minecraft-merged-17w46a.jar
 	b:
@@ -14633,9 +14633,7 @@ c	Lark;	Larw;
 	f	c;;Lbjy;	E;;Lblj;
 	f	d;;Lbjy;	F;;Lblj;
 	f	e;;Lorg/apache/logging/log4j/Logger;	G;;Lorg/apache/logging/log4j/Logger;
-c	Larl$1;	Last$1;
-	m	<clinit>()V	<clinit>()V
-	f	a;;[I	a;;[I
+cu	a	Larl$1;
 c	Larl$a;	Lary;
 	m	<init>()V	<init>(Lakz;)V
 	m	b(Lazq;Lapv;Ldq;)Lbjy;	b(Lbak;Laqf;Lds;)Lblj;
