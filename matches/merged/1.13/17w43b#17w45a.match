@@ -1,4 +1,4 @@
-Matches saved 2024-06-07, status: c:3474/3529 m:25463/26347 f:11921/12156 ma:35054/36410, input files:
+Matches saved 2025-01-17, status: c:3474/3529 m:25464/26347 f:11921/12156 ma:35056/36410, input files:
 	a:
 		10289392	SHA256	NL/aWZc44S0winxPG6OdCskWAtdXlKniWPalV1Oexa8=	minecraft-merged-17w43b.jar
 	b:
@@ -59775,10 +59775,18 @@ c	Ldg;	Lod;
 	m	a(Lbn;Lnet/minecraft/server/MinecraftServer;)V	b(Lbk;)I
 		ma	0	0
 	mu	a	i(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V
-	mu	a	j(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V
+	m	j(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V	a(Lbk;Ljava/lang/String;)I
+		ma	0	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
 	mu	a	k(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V
 	mu	a	l(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V
-	mu	a	m(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V
+	m	m(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V	a(Lbk;Ljava/util/Collection;Lbjk;)I
+		ma	0	1
+		mau	a	1
+		mau	a	2
+		mau	a	3
 	mu	a	n(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V
 	mu	a	o(Lbn;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V
 	mu	a	a(Lnet/minecraft/server/MinecraftServer;Lbn;[Ljava/lang/String;I)V
@@ -59822,7 +59830,6 @@ c	Ldm;	Loe;
 	mu	a	a(Lnet/minecraft/server/MinecraftServer;Lbn;[Ljava/lang/String;)V
 c	Ldn$a;	Loj$a;
 	m	<init>()V	<init>()V
-	m	<init>(DD)V	<init>()V
 	m	a(Ldn$a;)D	a(Loj$a;)D
 		ma	0	0
 	m	a()V	a()V
