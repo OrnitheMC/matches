@@ -14553,9 +14553,6 @@ c	Larj;	Larv;
 		ma	2	0
 		ma	3	3
 		ma	4	4
-	m	a(Lapv;Ldq;)Z	e(Lbak;)Z
-		mau	a	0
-		mau	a	1
 	m	c(Lazq;)Z	a(Lbak;)Z
 		ma	0	0
 	m	a(Lapv;Lazq;Ldq;Ldx;)Lazo;	a(Laqf;Lbak;Lds;Ldz;)Lbai;
@@ -15206,7 +15203,7 @@ c	Lart;	Lasg;
 		ma	1	2
 	m	a(Lazq;)Lawh;	d(Lbak;)Lawl;
 		ma	0	0
-	m	a(Lapv;Ldq;)Z	e(Lbak;)Z
+	m	a(Lapv;Ldq;)Z	a(Lbak;Laki;)Z
 		mau	a	0
 		mau	a	1
 	m	c(F)Lart;	c(F)Lasg;
@@ -20146,6 +20143,7 @@ c	Lawu;	Lawz;
 		ma	3	3
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	mu	a	a(I)Lazq;
+	m	a(Lapv;Ldq;)Z	a(Lbak;Laki;)Z
 	mu	a	e(Lazq;)I
 	m	b()Lazr;	b()Lbal;
 	m	<clinit>()V	<clinit>()V
