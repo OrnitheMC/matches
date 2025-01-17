@@ -1,4 +1,4 @@
-Matches saved 2025-01-17, status: c:3404/3579 m:25328/26969 f:11730/12353 ma:34246/37421, input files:
+Matches saved 2025-01-17, status: c:3404/3579 m:25335/26969 f:11731/12353 ma:34264/37421, input files:
 	a:
 		10450226	SHA256	j3G+5Fbelvv8Q+TWX8UnylSTB0NR1I6Ye+ENIsu5sVc=	minecraft-merged-17w46a.jar
 	b:
@@ -15843,6 +15843,7 @@ c	Lary;	Lasl;
 		ma	0	1
 		ma	1	2
 		ma	2	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	v(Lazq;)Z	v(Lbak;)Z
 		ma	0	0
 	m	c(Lazq;Lapr;Ldq;)I	c(Lbak;Laqb;Lds;)I
@@ -16145,6 +16146,7 @@ c	Lase;	Lass;
 	m	h(Lapr;Ldq;)V	g(Laqb;Lds;)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	v(Lazq;)Z	v(Lbak;)Z
 		ma	0	0
 	m	c(Lazq;Lapr;Ldq;)I	c(Lbak;Laqb;Lds;)I
@@ -16550,6 +16552,7 @@ c	Lasm$a;	Lata$a;
 	f	d;;[Lasm$a;	d;;[Lata$a;
 c	Lasm;	Lata;
 	mu	a	<init>(Z)V
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	x(Lazq;)I	i(Lbak;)I
 		ma	0	0
 	mu	a	y(Lazq;)Lazq;
@@ -16741,6 +16744,7 @@ c	Lasq;	Latf;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	c(Lazq;)Z	a(Lbak;)Z
 		ma	0	0
 	m	b(Lazq;)Z	b(Lbak;)Z
@@ -17200,22 +17204,47 @@ c	Lasy$a;	Latm$a;
 	f	b;;Lasy$a;	b;;Latm$a;
 	f	c;;[Lasy$a;	c;;[Latm$a;
 cu	a	Lasy$b;
-c	Lasy;	Laws;
-	m	<init>()V	<init>(Lbgq;Lasg;)V
+c	Lasy;	Latm;
+	m	<init>()V	<init>(Lbgq;)V
 	mu	a	a(Lapv;Ldq;Lazq;)Lasy$b;
+	m	a(Lapr;Ldq;)Z	a(Lbak;Laqb;Lds;)Z
+		ma	0	1
+		ma	1	2
 	mu	a	e(Lapr;Ldq;Lazq;)V
 	mu	a	f(Lapr;Ldq;Lazq;)Z
-	m	a(Lazq;Ljava/util/Random;I)Lalk;	a(Lbak;Laqb;Lds;I)Lalv;
-		ma	0	0
-		mau	a	1
-		ma	2	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	mu	a	d(Lazq;)I
 	mu	a	a(Lapr;Ldq;Lasy$b;I)V
+	m	a(Lapr;Ldq;Lazq;Lym;Lalm;)V	a(Laqb;Lds;Lbak;Lyx;Lalx;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	a(Lapr;Laha;Ldq;Lazq;Layg;Lalm;)V	a(Laqb;Lahl;Lds;Lbak;Layq;Lalx;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	m	a(Lapr;Ldq;Lazq;Laha;)V	a(Laqb;Lds;Lbak;Lahl;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	mu	a	b(Lapr;Ldq;Lazq;Laha;)Z
 	mu	a	a(I)Lazq;
+	m	d(Lazq;Lapv;Ldq;)Lazq;	a(Lbak;Ldz;Lbak;Laqb;Lds;Lds;)Lbak;
+		ma	0	0
+		ma	1	1
+		ma	2	4
 	mu	a	e(Lazq;)I
+	m	b()Lazr;	b()Lbal;
+	m	u()Lart$a;	u()Lasg$a;
+	m	<clinit>()V	<clinit>()V
 	fu	a	a;;Lbae;
-	fu	a	c;;Lbae;
+	f	c;;Lbae;	a;;Lbay;
 	fu	a	d;;Lbae;
 c	Lasz;	Latn;
 	m	<init>()V	<init>()V
@@ -17998,6 +18027,7 @@ cu	a	Lats;
 cu	a	Latt;
 cu	a	Latu$1;
 c	Latu;	Laug;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	mu	a	e(Lapr;Ldq;Lazq;)V
 	m	a(Lazq;Lapr;Ldq;Ljava/util/Random;)V	c(Lbak;Laqb;Lds;Ljava/util/Random;)V
 		ma	0	0
@@ -18102,6 +18132,7 @@ c	Latx;	Lauk;
 		ma	2	2
 c	Laty;	Laul;
 	m	<init>()V	<init>()V
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	a(Lapr;Ldq;Lazq;Z)Z	a(Laqb;Lds;Lbak;Z)Z
 		ma	0	0
 		ma	1	1
@@ -18945,6 +18976,7 @@ c	Lava;	Lavk;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	mu	a	e(Lazq;)I
 c	Lavb;	Lavl;
 	m	<init>()V	<init>()V
@@ -19592,6 +19624,7 @@ c	Lawd;	Lawg;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	c(Lazq;Lapv;Ldq;Ldx;)I	b(Lbak;Laqf;Lds;Ldz;)I
 		ma	0	0
 		ma	1	1
@@ -19664,6 +19697,7 @@ c	Lawe;	Lawh;
 		ma	1	2
 		ma	2	0
 		ma	3	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	fu	a	a;;Z
 c	Lawf$a;	Lawi$a;
 	m	<init>(Ldq;J)V	<init>(Lds;J)V
@@ -19717,6 +19751,7 @@ c	Lawf;	Lawi;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	g(Lazq;)Z	g(Lbak;)Z
 		ma	0	0
 	m	a(Lazq;Lapr;Ldq;Ljava/util/Random;)V	c(Lbak;Laqb;Lds;Ljava/util/Random;)V
@@ -19743,6 +19778,7 @@ c	Lawg;	Lawk;
 		ma	1	2
 	mu	a	e(Lapr;Ldq;Lazq;)Z
 	mu	a	b(Lapr;Ldq;)Z
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	b(Lazq;)Z	b(Lbak;)Z
 		ma	0	0
 	m	c(Lazq;)Z	a(Lbak;)Z
@@ -19792,6 +19828,7 @@ c	Lawi;	Lawm;
 		ma	0	0
 	mu	a	y(Lazq;)Lazq;
 	mu	a	z(Lazq;)Lazq;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	b(Lapv;Ldq;Lazq;)Z	b(Laqf;Lds;Lbak;)Z
 		ma	0	0
 		ma	1	1
@@ -20051,6 +20088,7 @@ c	Lawq;	Lawu;
 	m	d()Z	a()Z
 	m	a(Lapr;I)Layg;	a_(Laqb;)Layq;
 		ma	0	0
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	a(Lapr;Ldq;Lazq;Laha;Lwy;Ldx;FFF)Z	a(Lbak;Laqb;Lds;Lahl;Lxj;Ldz;FFF)Z
 		ma	0	1
 		ma	1	2
@@ -20072,6 +20110,7 @@ cu	a	Lawr$1;
 cu	a	Lawr$2;
 c	Lawr;	Layi;
 	m	<init>()V	<init>()V
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	b(Lapr;Ldq;Lalm;)Z	b(Laqb;Lds;Lalx;)Z
 		ma	0	0
 		ma	1	1
@@ -20742,6 +20781,7 @@ c	Laxm;	Late;
 		ma	2	2
 	m	x(Lazq;)I	i(Lbak;)I
 		ma	0	0
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	mu	a	a(Lazq;Lapv;Ldq;Ldx;)Z
 	mu	a	b(Lapv;Lazq;Ldq;Ldx;)Z
 	mu	a	e(Lart;)Z
@@ -20928,6 +20968,7 @@ c	Laxq;	Laxw;
 	m	c(Lazq;)Z	a(Lbak;)Z
 		ma	0	0
 	m	f()Lapj;	c()Lapt;
+	mu	a	a(Lazq;Ljava/util/Random;I)Lalk;
 	m	c(Lapr;Ldq;Lazq;)V	b(Lbak;Laqb;Lds;Lbak;)V
 		ma	0	1
 		ma	1	2
