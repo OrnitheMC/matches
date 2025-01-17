@@ -1,4 +1,4 @@
-Matches saved 2025-01-17, status: c:3474/3529 m:25464/26347 f:11921/12156 ma:35056/36410, input files:
+Matches saved 2025-01-17, status: c:3475/3529 m:25466/26347 f:11925/12156 ma:35058/36410, input files:
 	a:
 		10289392	SHA256	NL/aWZc44S0winxPG6OdCskWAtdXlKniWPalV1Oexa8=	minecraft-merged-17w43b.jar
 	b:
@@ -42029,7 +42029,24 @@ c	Lbnz;	Lboz;
 	f	x;;Luy;	x;;Lvz;
 	f	y;;Lbnz$b;	y;;Lboz$b;
 	f	z;;Z	z;;Z
-cu	a	Lbo;
+c	Lbo;	Lbk;
+	mu	a	<init>(Lbn;Lbih;Let;Ljava/lang/Integer;Lwj;Ljava/lang/Boolean;)V
+	mu	a	a(Lbn;)Lbo;
+	m	a(Lwj;Lbih;)Lbo;	a(Lxk;)Lbk;
+		ma	0	0
+	m	a(I)Lbo;	a(I)Lbk;
+		ma	0	0
+	mu	a	a(Z)Lbo;
+	mu	a	i()Lbo;
+	mu	a	e()Lanx;
+	mu	a	f()Lwj;
+	mu	a	a(Lbp$a;I)V
+	f	a;;Lbn;	c;;Lbj;
+	f	b;;Lbih;	d;;Lbji;
+	fu	a	c;;Let;
+	f	d;;Ljava/lang/Integer;	f;;Ljava/lang/Integer;
+	f	e;;Lwj;	k;;Lxk;
+	fu	a	f;;Ljava/lang/Boolean;
 c	Lboa$1;	Lbpa$1;
 	m	<init>(Lboa;IIIIILjava/lang/String;)V	<init>(Lbpa;IIIIILjava/lang/String;)V
 		ma	0	0
