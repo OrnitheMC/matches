@@ -1,4 +1,4 @@
-Matches saved 2025-01-17, status: c:3403/3579 m:25326/26969 f:11729/12353 ma:34244/37421, input files:
+Matches saved 2025-01-17, status: c:3404/3579 m:25328/26969 f:11729/12353 ma:34246/37421, input files:
 	a:
 		10450226	SHA256	j3G+5Fbelvv8Q+TWX8UnylSTB0NR1I6Ye+ENIsu5sVc=	minecraft-merged-17w46a.jar
 	b:
@@ -17200,7 +17200,23 @@ c	Lasy$a;	Latm$a;
 	f	b;;Lasy$a;	b;;Latm$a;
 	f	c;;[Lasy$a;	c;;[Latm$a;
 cu	a	Lasy$b;
-cu	a	Lasy;
+c	Lasy;	Laws;
+	m	<init>()V	<init>(Lbgq;Lasg;)V
+	mu	a	a(Lapv;Ldq;Lazq;)Lasy$b;
+	mu	a	e(Lapr;Ldq;Lazq;)V
+	mu	a	f(Lapr;Ldq;Lazq;)Z
+	m	a(Lazq;Ljava/util/Random;I)Lalk;	a(Lbak;Laqb;Lds;I)Lalv;
+		ma	0	0
+		mau	a	1
+		ma	2	3
+	mu	a	d(Lazq;)I
+	mu	a	a(Lapr;Ldq;Lasy$b;I)V
+	mu	a	b(Lapr;Ldq;Lazq;Laha;)Z
+	mu	a	a(I)Lazq;
+	mu	a	e(Lazq;)I
+	fu	a	a;;Lbae;
+	fu	a	c;;Lbae;
+	fu	a	d;;Lbae;
 c	Lasz;	Latn;
 	m	<init>()V	<init>()V
 	m	b(Lazq;Lapv;Ldq;)Lbjy;	b(Lbak;Laqf;Lds;)Lblj;
