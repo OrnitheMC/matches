@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3996/4024 m:29504/29824 f:14046/14085 ma:42190/42617, input files:
+Matches saved 2025-01-18, status: c:3996/4024 m:29506/29824 f:14046/14085 ma:42197/42617, input files:
 	a:
 		11771741	SHA256	r0aqyN/+UAUnQ7/av3XVrwvPMjVkQdNMW/650XtSq+I=	minecraft-merged-18w16a.jar
 	b:
@@ -41059,6 +41059,8 @@ c	Lbul;	Lbza;
 	m	a(Lbuo;)Lbhu;	b(Lbzd;)Lbmb;
 		ma	0	0
 	m	a(Lbup;Lel;)Z	a(Lbzc;Lel;)Z
+		ma	0	0
+		ma	1	1
 	mu	a	c()Loh;
 	m	a(Lava;Lef;Lbuo;)Lbzs;	a(Lazh;Lef;Lbzd;)Lcei;
 		ma	0	0
@@ -41162,7 +41164,9 @@ c	Lbun;	Lbzg;
 		ma	0	0
 	m	c(Lava;)I	c(Lazh;)I
 		ma	0	0
-	m	a(Lbup;Lel;)Z	a(Lbzc;)Z
+	m	a(Lbup;Lel;)Z	a(Lbzc;Lel;)Z
+		ma	0	0
+		ma	1	1
 	mu	a	c()Loh;
 	m	a(Lava;)I	a(Lazh;)I
 		ma	0	0
@@ -41182,6 +41186,9 @@ c	Lbun;	Lbzg;
 c	Lbuo;	Lbzd;
 	m	a()Lbup;	c()Lbzc;
 	m	b()F	f()F
+	m	c()Z	e()Z
+	m	d()Z	d()Z
+	mu	a	e()Z
 	m	f()I	g()I
 	m	a(Lauj;Lef;)Z	a(Layr;Lef;)Z
 		ma	0	0
@@ -41211,6 +41218,8 @@ c	Lbup;	Lbzc;
 	m	a(Lbuo;)Lbhu;	b(Lbzd;)Lbmb;
 		ma	0	0
 	m	a(Lbup;Lel;)Z	a(Lbzc;Lel;)Z
+		ma	0	0
+		ma	1	1
 	mu	a	c()Loh;
 	m	a(Lava;Lef;Lbuo;)Lbzs;	a(Lazh;Lef;Lbzd;)Lcei;
 		ma	0	0
@@ -41416,8 +41425,9 @@ c	Lbuu;	Lbzk;
 		ma	0	0
 	m	c(Lava;)I	c(Lazh;)I
 		ma	0	0
-	m	a(Lbup;Lel;)Z	a(Lbzc;)Z
+	m	a(Lbup;Lel;)Z	a(Lbzc;Lel;)Z
 		ma	0	0
+		ma	1	1
 	mu	a	c()Loh;
 	m	a(Lava;)I	a(Lazh;)I
 		ma	0	0
