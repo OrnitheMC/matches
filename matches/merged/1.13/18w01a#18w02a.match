@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3547/3597 m:26574/26937 f:12718/12788 ma:36952/37421, input files:
+Matches saved 2025-01-18, status: c:3546/3597 m:26574/26937 f:12718/12788 ma:36952/37421, input files:
 	a:
 		10628942	SHA256	NyvPUXooArb3rOgZer/2jQ/iip9uKTJAJODl93dqFeE=	minecraft-merged-18w01a.jar
 	b:
@@ -62892,7 +62892,7 @@ c	Lea;	Lec;
 	m	g()Lbaj;	g()Lbao;
 	f	a;;Larv;	a;;Lasf;
 	f	b;;Ldy;	b;;Lea;
-c	Leb$1;	Lcc$1;
+cu	a	Leb$1;
 cu	a	Leb$a;
 cu	a	Leb$b$a;
 cu	a	Leb$b;
