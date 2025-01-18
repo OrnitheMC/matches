@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3510/3568 m:26523/27036 f:12420/12945 ma:35708/37724, input files:
+Matches saved 2025-01-18, status: c:3510/3568 m:26524/27036 f:12420/12945 ma:35712/37724, input files:
 	a:
 		10680771	SHA256	NBnd1UDacpPvF1vV86TlODzmvoTD6tAok98BsBzYKMQ=	minecraft-merged-18w05a.jar
 	b:
@@ -16598,7 +16598,13 @@ c	Lasw;	Laud;
 	m	c(Lea;)I	c(Lec;)I
 		ma	0	0
 	mu	a	a(Lasj;Ljava/util/Random;Lben;IID)V
-	mu	a	b(Lasj;Ljava/util/Random;Lben;IID)V
+	m	b(Lasj;Ljava/util/Random;Lben;IID)V	a(Ljava/util/Random;Lbgm;IIIDIJ)V
+		mau	a	0
+		ma	1	0
+		mau	a	2
+		ma	3	2
+		ma	4	3
+		ma	5	5
 	mu	a	g()Ljava/lang/Class;
 	m	h()Lasw$b;	h()Laud$b;
 	m	b(I)Lasw;	b(I)Laud;
