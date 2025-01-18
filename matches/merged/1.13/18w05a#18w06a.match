@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3509/3568 m:26523/27036 f:12420/12945 ma:35711/37724, input files:
+Matches saved 2025-01-18, status: c:3509/3568 m:26524/27036 f:12420/12945 ma:35711/37724, input files:
 	a:
 		10680771	SHA256	NBnd1UDacpPvF1vV86TlODzmvoTD6tAok98BsBzYKMQ=	minecraft-merged-18w05a.jar
 	b:
@@ -30776,7 +30776,7 @@ c	Lbhp;	Lboz;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	b(Lasj;IIILbgy;)I
+	m	b(Lasj;IIILbgy;)I	b(Latn;IIILboi;)Z
 	m	a(Lasj;Lbgy;IIIIII)V	a(Latn;Lboi;IIIIII)V
 		ma	1	1
 		ma	2	2
