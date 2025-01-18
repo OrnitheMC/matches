@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:4264/4271 m:31665/31740 f:14470/14497 ma:45465/45555, input files:
+Matches saved 2025-01-18, status: c:4264/4271 m:31665/31740 f:14470/14497 ma:45465/45555, input files:
 	a:
 		12078722	SHA256	K+K6p7D0YPuQ7WcoM11yJnfZm/aaE2+PI+xufPTwQsE=	minecraft-merged-18w20c.jar
 	b:
@@ -87582,7 +87582,7 @@ c	Lqd;	Lqd;
 c	Lqe;	Lqe;
 	m	a(Lcom/mojang/brigadier/CommandDispatcher;)V	a(Lcom/mojang/brigadier/CommandDispatcher;)V
 		ma	0	0
-	m	a(Lbs;)I	a(Lbs;Ljava/util/function/Function;)I
+	m	a(Lbs;)I	a(Lbs;)I
 		ma	0	0
 	m	a(Lcom/mojang/brigadier/context/CommandContext;)I	b(Lcom/mojang/brigadier/context/CommandContext;)I
 		ma	0	0
