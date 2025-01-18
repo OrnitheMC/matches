@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:4011/4019 m:31276/31373 f:14462/14499 ma:45227/45323, input files:
+Matches saved 2025-01-18, status: c:4011/4019 m:31275/31373 f:14462/14499 ma:45227/45323, input files:
 	a:
 		15869165	SHA256	yzGwMtq7NyZ9ZgWvQPkfVeAgU30gZGXx9OUizBM91zc=	minecraft-merged-18w30b.jar
 	b:
@@ -79548,11 +79548,12 @@ c	Lig;	Lih;
 	m	a(Lip;)Lij;	a(Liq;)Lik;
 		ma	0	0
 	m	b()Lip;	b()Liq;
-	m	c()Ljava/lang/String;	c()Ljava/util/stream/Stream;
+	mu	a	a(Ljava/lang/Iterable;)Ljava/util/Iterator;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 	m	hashCode()I	hashCode()I
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	mu	a	b(Lij;)Lij;
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;Lip;	b;;Liq;
 c	Lih;	Lii;
@@ -79665,7 +79666,7 @@ c	Lij;	Lik;
 		ma	0	0
 	m	d()Ljava/lang/String;	d()Ljava/lang/String;
 	m	getString()Ljava/lang/String;	getString()Ljava/lang/String;
-	m	c()Ljava/lang/String;	c()Ljava/util/stream/Stream;
+	m	c()Ljava/lang/String;	e()Ljava/lang/String;
 	m	a()Ljava/util/List;	a()Ljava/util/List;
 	m	e()Lij;	g()Lik;
 	m	a(Ljava/util/function/Consumer;)Lij;	a(Ljava/util/function/Consumer;)Lik;
@@ -91822,8 +91823,7 @@ c	Lit/unimi/dsi/fastutil/objects/ObjectCollections$EmptyCollection;	Lit/unimi/ds
 	m	contains(Ljava/lang/Object;)Z	contains(Ljava/lang/Object;)Z
 		ma	0	0
 	m	toArray()[Ljava/lang/Object;	toArray()[Ljava/lang/Object;
-	m	toArray([Ljava/lang/Object;)[Ljava/lang/Object;	toArray()[Ljava/lang/Object;
-		mau	a	0
+	mu	a	toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 	m	iterator()Lit/unimi/dsi/fastutil/objects/ObjectBidirectionalIterator;	iterator()Lit/unimi/dsi/fastutil/objects/ObjectBidirectionalIterator;
 	m	size()I	size()I
 	m	clear()V	clear()V
