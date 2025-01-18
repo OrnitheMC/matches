@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3995/4024 m:29500/29824 f:14046/14085 ma:42186/42617, input files:
+Matches saved 2025-01-18, status: c:3996/4024 m:29504/29824 f:14046/14085 ma:42190/42617, input files:
 	a:
 		11771741	SHA256	r0aqyN/+UAUnQ7/av3XVrwvPMjVkQdNMW/650XtSq+I=	minecraft-merged-18w16a.jar
 	b:
@@ -74792,7 +74792,15 @@ c	Lgr;	Lgs;
 	m	i()F	i()F
 	m	b()Lhi;	b()Lhj;
 	f	f;;B	f;;B
-cu	a	Lgs;
+c	Lgs;	Lgt;
+	m	a_()I	size()I
+	m	c(I)Lhi;	c(I)Lhj;
+		ma	0	0
+	m	a(ILhi;)V	a(ILhj;)V
+		ma	0	0
+		ma	1	1
+	m	b(I)V	b(I)V
+		ma	0	0
 c	Lgt$1;	Lgu$1;
 	m	<init>(Lgt;Ljava/lang/String;)V	<init>(Lgu;Ljava/lang/String;)V
 		ma	0	0
