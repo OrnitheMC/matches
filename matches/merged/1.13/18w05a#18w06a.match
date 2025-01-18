@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3509/3568 m:26524/27036 f:12420/12945 ma:35711/37724, input files:
+Matches saved 2025-01-18, status: c:3509/3568 m:26525/27036 f:12420/12945 ma:35714/37724, input files:
 	a:
 		10680771	SHA256	NBnd1UDacpPvF1vV86TlODzmvoTD6tAok98BsBzYKMQ=	minecraft-merged-18w05a.jar
 	b:
@@ -61455,7 +61455,10 @@ c	Ldg;	Ldj$a;
 		ma	0	0
 c	Ldh;	Ldj;
 	m	a()V	a()V
-	mu	a	a(Ldf;Ljava/lang/String;I)V
+	m	a(Ldf;Ljava/lang/String;I)V	a(Ldi;Ljava/lang/String;I)Ldj$a;
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	a(Ldf;)V	b(Ldi;)V
 		ma	0	0
 	m	a(Ljava/util/Map;Laaj;)Z	a(Ljava/util/Map;Labh;)Z
