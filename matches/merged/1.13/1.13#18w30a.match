@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:4012/4020 m:31240/31328 f:14478/14496 ma:45094/45256, input files:
+Matches saved 2025-01-18, status: c:4012/4020 m:31239/31328 f:14478/14496 ma:45093/45256, input files:
 	a:
 		15856190	SHA256	MefGytOpJ9NvLT9flMFuLQmXpALM8IetLqyftw8rep8=	minecraft-merged-1.13.jar
 	b:
@@ -1719,7 +1719,7 @@ c	Lacr;	Lacs;
 	m	b(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;	a(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
 		ma	0	0
 	m	b()Ljava/util/concurrent/CompletableFuture;	a()Ljava/util/concurrent/CompletableFuture;
-	m	a(Ljava/lang/Object;)Lacr$a;	a(Ljava/lang/Object;Z)Lacs$a;
+	m	a(Ljava/lang/Object;)Lacr$a;	b(Ljava/lang/Object;)Lacs$a;
 		ma	0	0
 	m	c()V	b()V
 	m	a(Ljava/lang/Object;Lacu;Ljava/util/Map;)Ljava/lang/Object;	a(Ljava/lang/Object;Lacv;Ljava/util/Map;)Ljava/lang/Object;
@@ -91180,6 +91180,7 @@ c	Ltw;	Ltw;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(II)Lbni;
 	m	a(Laxi;Lacr$a;)Lacr$a;	a(Laxj;Lacs$a;)Lacs$a;
 		ma	0	0
 		ma	1	1
@@ -91197,8 +91198,7 @@ c	Ltw;	Ltw;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Ljava/lang/Object;)Lacr$a;	a(Ljava/lang/Object;Z)Lacs$a;
-		ma	0	0
+	mu	a	a(Lacr$a;)V
 	m	a(Lbmo;)V	a(Lbmq;)V
 		ma	0	0
 	m	a(Laxi;Ljava/lang/Long;)Lacr$a;	a(Laxj;Ljava/lang/Long;)Lacs$a;
