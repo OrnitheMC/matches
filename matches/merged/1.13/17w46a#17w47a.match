@@ -44923,7 +44923,7 @@ c	Lbvu;	Lbxa;
 		ma	5	5
 		ma	6	6
 		ma	7	7
-c	Lbvv$a;	Lbye$a;
+c	Lbvv$a;	Lbxb$a;
 	m	<init>()V	<init>()V
 	m	a(Let;Lapr;DDDDDD)Lbwo;	a(Lex;Laqb;DDDDDD)Lbxt;
 		ma	0	0
@@ -44943,7 +44943,7 @@ c	Lbvv$a;	Lbye$a;
 		ma	5	5
 		ma	6	6
 		ma	7	7
-c	Lbvv;	Lbye;
+c	Lbvv;	Lbxb;
 	m	<init>(Lapr;DDDDDD)V	<init>(Laqb;DDDDDD)V
 		ma	0	0
 		ma	1	1
@@ -46470,7 +46470,7 @@ c	Lbx;	Lbx;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	a;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	b;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	b;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-c	Lbxa$a;	Lbxb$a;
+c	Lbxa$a;	Lbye$a;
 	m	<init>()V	<init>()V
 	m	a(Let;Lapr;DDDDDD)Lbwo;	a(Lex;Laqb;DDDDDD)Lbxt;
 		ma	0	0
@@ -46490,7 +46490,7 @@ c	Lbxa$a;	Lbxb$a;
 		ma	5	5
 		ma	6	6
 		ma	7	7
-c	Lbxa;	Lbxb;
+c	Lbxa;	Lbye;
 	m	<init>(Lapr;DDDDDD)V	<init>(Laqb;DDDDDD)V
 		ma	0	0
 		ma	1	1
