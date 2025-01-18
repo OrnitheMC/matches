@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:4012/4020 m:31239/31328 f:14478/14496 ma:45093/45256, input files:
+Matches saved 2025-01-18, status: c:4013/4020 m:31242/31328 f:14478/14496 ma:45102/45256, input files:
 	a:
 		15856190	SHA256	MefGytOpJ9NvLT9flMFuLQmXpALM8IetLqyftw8rep8=	minecraft-merged-1.13.jar
 	b:
@@ -52082,7 +52082,19 @@ c	Lchy;	Lcib;
 	f	g;;F	g;;F
 	f	h;;F	h;;F
 	f	i;;F	i;;F
-cu	a	Lchz;
+c	Lchz;	Lcic;
+	m	<init>(I)V	<init>()V
+	m	a(Lddd;ZFFLctf;FFFF)V	a(Lddf;ZFFLcth;FFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+		ma	8	8
+	m	d()Lpc;	a()Lpc;
 c	Lci;	Lci;
 	m	<init>()V	<init>()V
 	m	a()Lci;	a()Lci;
