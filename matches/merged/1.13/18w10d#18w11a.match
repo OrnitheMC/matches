@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:3932/3932 m:29118/29121 f:13738/13739 ma:41424/41431, input files:
+Matches saved 2025-01-18, status: c:3932/3932 m:29119/29121 f:13738/13739 ma:41428/41431, input files:
 	a:
 		11518946	SHA256	iy+/UtvIRQ1Lv2guANaIb+ezb8g5RcFkebu9yC9Xjik=	minecraft-merged-18w10d.jar
 	b:
@@ -2340,9 +2340,10 @@ c	Labw;	Labw;
 		ma	1	1
 	m	b(Laaf;)V	b(Laaf;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
+	m	a(Laaf;Laby;Lapp;)Laby;	a(Laaf;Laby;Lapq;)Laby;
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	dg()Z	dg()Z
 	m	dh()V	dh()V
 	m	a(Labr;F)V	a(Labr;F)V
@@ -5514,6 +5515,10 @@ c	Lagu;	Lagu;
 	m	dK()I	dK()I
 	m	dG()Loe;	dG()Loe;
 	m	dH()Loe;	dH()Loe;
+	m	a(Laaf;Laby;Lapp;)Laby;	a(Laaf;Laby;Lapq;)Laby;
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	<clinit>()V	<clinit>()V
 	f	b;;Lnu;	b;;Lnu;
 	f	c;;[Loe;	c;;[Loe;
