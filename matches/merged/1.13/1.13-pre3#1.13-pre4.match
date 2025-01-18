@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:4117/4313 m:31916/32551 f:14447/14714 ma:46027/46780, input files:
+Matches saved 2025-01-18, status: c:4127/4313 m:31945/32551 f:14447/14714 ma:46178/46780, input files:
 	a:
 		15985587	SHA256	SzWK2c/WFjkmMM9jZGedLl5kZE61cv+uJGwULcucurs=	minecraft-merged-1.13-pre3.jar
 	b:
@@ -64090,7 +64090,26 @@ c	Lcuf;	Lcup;
 		ma	5	5
 		ma	6	6
 		ma	7	7
-cu	a	Lcug$a;
+c	Lcug$a;	Lcuq$a;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 c	Lcug;	Lcuq;
 	m	<init>(Lbbr;DDDDDD)V	<init>(Lbbz;DDDDDD)V
 		ma	0	0
@@ -64101,7 +64120,26 @@ c	Lcug;	Lcuq;
 		ma	5	5
 		ma	6	6
 	m	a()V	a()V
-cu	a	Lcuh$a;
+c	Lcuh$a;	Lcur$a;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 c	Lcuh;	Lcur;
 	m	<init>(Lbbr;DDDDDD)V	<init>(Lbbz;DDDDDD)V
 		ma	0	0
@@ -64376,8 +64414,47 @@ c	Lcum;	Lcuw;
 		ma	7	7
 	m	a()V	a()V
 	f	J;;F	J;;F
-cu	a	Lcun$a;
-cu	a	Lcun$b;
+c	Lcun$a;	Lcux$a;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+		mv	0	0
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+c	Lcun$b;	Lcux$b;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 c	Lcun;	Lcux;
 	m	<init>(Lbbr;DDDDDD)V	<init>(Lbbz;DDDDDD)V
 		ma	0	0
@@ -65382,10 +65459,86 @@ c	Lcvh;	Lcvr;
 		ma	6	6
 		ma	7	7
 	f	J;;F	J;;F
-cu	a	Lcvi$a;
-cu	a	Lcvi$b;
-cu	a	Lcvi$c;
-cu	a	Lcvi$d;
+c	Lcvi$a;	Lcvs$a;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+c	Lcvi$b;	Lcvs$b;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+c	Lcvi$c;	Lcvs$c;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+c	Lcvi$d;	Lcvs$d;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 c	Lcvi$e;	Lcvs$e;
 	m	<init>()V	<init>()V
 	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
@@ -65511,8 +65664,36 @@ c	Lcvl;	Lcvv;
 		ma	5	5
 		ma	6	6
 	m	a()V	a()V
-cu	a	Lcvm$a;
-cu	a	Lcvm;
+c	Lcvm$a;	Lcvw$a;
+	m	<init>()V	<init>()V
+	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a(Lfj;Lbbr;DDDDDD)Lcvb;	a(Lfj;Lbbz;DDDDDD)Lcvl;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+c	Lcvm;	Lcvw;
+	m	<init>(Lbbr;DDDDDD)V	<init>(Lbbz;DDDDDD)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+	m	a()V	a()V
 c	Lcvn$a;	Lcvx$a;
 	m	<init>()V	<init>()V
 	m	a(Lfm;Lbbr;DDDDDD)Lcvb;	a(Lfm;Lbbz;DDDDDD)Lcvl;
