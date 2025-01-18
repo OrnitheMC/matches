@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:4011/4019 m:31275/31373 f:14462/14499 ma:45226/45323, input files:
+Matches saved 2025-01-18, status: c:4011/4019 m:31276/31373 f:14462/14499 ma:45227/45323, input files:
 	a:
 		15869165	SHA256	yzGwMtq7NyZ9ZgWvQPkfVeAgU30gZGXx9OUizBM91zc=	minecraft-merged-18w30b.jar
 	b:
@@ -20156,7 +20156,8 @@ c	Laxv;	Laxx;
 	mu	a	a(Ljava/lang/Class;Ljava/util/function/Predicate;Ljava/util/List;Laeq;)Z
 	m	j(Laeq;)Ljava/lang/String;	k(Laer;)Ljava/lang/String;
 		ma	0	0
-	mu	a	b(Lbjc;)V
+	m	b(Lbjc;)V	b(Lbjf;)V
+		ma	0	0
 	mu	a	c(Lbjc;)Z
 	m	d(Lbjc;)Ljava/lang/String;	c(Lbjf;)Ljava/lang/String;
 		ma	0	0
