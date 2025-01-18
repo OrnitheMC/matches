@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:4127/4313 m:31945/32551 f:14447/14714 ma:46178/46780, input files:
+Matches saved 2025-01-18, status: c:4128/4313 m:31949/32551 f:14463/14714 ma:46182/46780, input files:
 	a:
 		15985587	SHA256	SzWK2c/WFjkmMM9jZGedLl5kZE61cv+uJGwULcucurs=	minecraft-merged-1.13-pre3.jar
 	b:
@@ -66777,7 +66777,31 @@ c	Lcwp$k;	Lcwz$k;
 	f	a;;Lcwp$c;	a;;Lcwz$c;
 	f	b;;Z	b;;Z
 	f	c;;I	c;;I
-cu	a	Lcwp$l;
+c	Lcwp$l;	Lcwz$l;
+	m	values()[Lcwp$l;	values()[Lcwz$l;
+	m	valueOf(Ljava/lang/String;)Lcwp$l;	valueOf(Ljava/lang/String;)Lcwz$l;
+		ma	0	0
+	m	<init>(Ljava/lang/String;II)V	<init>(Ljava/lang/String;II)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	<clinit>()V	<clinit>()V
+	f	a;;Lcwp$l;	a;;Lcwz$l;
+	f	b;;Lcwp$l;	b;;Lcwz$l;
+	f	c;;Lcwp$l;	c;;Lcwz$l;
+	f	d;;Lcwp$l;	d;;Lcwz$l;
+	f	e;;Lcwp$l;	e;;Lcwz$l;
+	f	f;;Lcwp$l;	f;;Lcwz$l;
+	f	g;;Lcwp$l;	g;;Lcwz$l;
+	f	h;;Lcwp$l;	h;;Lcwz$l;
+	f	i;;Lcwp$l;	i;;Lcwz$l;
+	f	j;;Lcwp$l;	j;;Lcwz$l;
+	f	k;;Lcwp$l;	k;;Lcwz$l;
+	f	l;;Lcwp$l;	l;;Lcwz$l;
+	f	m;;Lcwp$l;	m;;Lcwz$l;
+	f	n;;Lcwp$l;	n;;Lcwz$l;
+	f	o;;I	o;;I
+	f	p;;[Lcwp$l;	p;;[Lcwz$l;
 c	Lcwp$m;	Lcwz$m;
 	m	values()[Lcwp$m;	values()[Lcwz$m;
 	m	valueOf(Ljava/lang/String;)Lcwp$m;	valueOf(Ljava/lang/String;)Lcwz$m;
