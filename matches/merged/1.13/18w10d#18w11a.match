@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3932/3932 m:29119/29121 f:13738/13739 ma:41428/41431, input files:
+Matches saved 2025-01-18, status: c:3932/3932 m:29120/29121 f:13738/13739 ma:41429/41431, input files:
 	a:
 		11518946	SHA256	iy+/UtvIRQ1Lv2guANaIb+ezb8g5RcFkebu9yC9Xjik=	minecraft-merged-18w10d.jar
 	b:
@@ -9396,7 +9396,8 @@ c	Lakh;	Laki;
 	m	dA()V	m()V
 	m	bW()V	bW()V
 	m	x_()V	x_()V
-	mu	a	a(Z)V
+	m	a(Z)V	r(Z)V
+		ma	0	0
 	m	dC()Z	dx()Z
 	m	dD()Z	dE()Z
 	m	r(Z)V	t(Z)V
