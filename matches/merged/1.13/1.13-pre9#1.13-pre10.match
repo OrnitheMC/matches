@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:4009/4011 m:31254/31266 f:14447/14449 ma:45150/45185, input files:
+Matches saved 2025-01-18, status: c:4008/4011 m:31252/31266 f:14446/14449 ma:45141/45185, input files:
 	a:
 		15839783	SHA256	VeECJuyemC/GOmL1bNiQhksQrzJpu7EiKYlbsCsirJQ=	minecraft-merged-1.13-pre9.jar
 	b:
@@ -58698,19 +58698,7 @@ c	Lcmm;	Lcmo;
 	f	t;;Lcgh;	t;;Lcgh;
 	f	u;;Lcgh;	u;;Lcgh;
 	f	v;;Lcmo;	v;;Lcmq;
-c	Lcmn$1$1;	Lcir$3;
-	m	<init>(Lcmn$1;IIIIILjava/lang/String;)V	<init>(Lcir;IIIIILjava/lang/String;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-	m	a(DD)V	a(DD)V
-		ma	0	0
-		ma	1	1
-	f	o;;Lcmn$1;	o;;Lcir;
+cu	a	Lcmn$1$1;
 cu	a	Lcmn$1;
 c	Lcmn;	Lcmp;
 	m	<init>(Lcmo;Lcbs;Lcbr;)V	<init>(Lcmq;Lcbs;Lcbr;)V
