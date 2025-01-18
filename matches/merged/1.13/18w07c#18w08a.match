@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3839/3839 m:28476/28483 f:13352/13360 ma:40287/40305, input files:
+Matches saved 2025-01-18, status: c:3839/3839 m:28472/28483 f:13343/13360 ma:40284/40305, input files:
 	a:
 		11159799	SHA256	QIrtqCMKipcisTpSRKEBmWq0W7r/GSDMYUb3VBxOunY=	minecraft-merged-18w07c.jar
 	b:
@@ -31337,23 +31337,7 @@ c	Lbih;	Lbip;
 	f	g;;Lbnc;	g;;Lbnl;
 	f	h;;Laug;	h;;Lauh;
 	f	i;;Lbio;	i;;Lbiw;
-c	Lbii;	Lbiq$b;
-	m	values()[Lbii;	values()[Lbiq$b;
-	m	valueOf(Ljava/lang/String;)Lbii;	valueOf(Ljava/lang/String;)Lbiq$b;
-		ma	0	0
-	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	<clinit>()V	<clinit>()V
-	f	a;;Lbii;	a;;Lbiq$b;
-	f	b;;Lbii;	b;;Lbiq$b;
-	f	c;;Lbii;	c;;Lbiq$b;
-	f	d;;Lbii;	d;;Lbiq$b;
-	f	e;;Lbii;	e;;Lbiq$b;
-	f	f;;Lbii;	f;;Lbiq$b;
-	f	g;;Lbii;	g;;Lbiq$b;
-	f	h;;Lbii;	h;;Lbiq$b;
-	f	j;;[Lbii;	i;;[Lbiq$b;
+c	Lbii;	Lbiq;
 c	Lbij$a;	Lbir$a;
 	m	values()[Lbij$a;	values()[Lbir$a;
 	m	valueOf(Ljava/lang/String;)Lbij$a;	valueOf(Ljava/lang/String;)Lbir$a;
