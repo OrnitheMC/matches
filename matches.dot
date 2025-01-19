@@ -1667,7 +1667,7 @@ digraph {
   merged_12w38a -> merged_12w38b[label="99.93%",href="merged/1.4/12w38a%2312w38b.match"];
   merged_12w38b -> merged_12w39a[label="99.94%",href="merged/1.4/12w38b%2312w39a.match"];
   merged_12w39a -> merged_12w39b[label="99.84%",href="merged/1.4/12w39a%2312w39b.match"];
-  merged_12w39b -> merged_12w40a[label="99.85%",href="merged/1.4/12w39b%2312w40a.match"];
+  merged_12w39b -> merged_12w40a[label="99.86%",href="merged/1.4/12w39b%2312w40a.match"];
   merged_12w40a -> merged_12w40b[label="100%",href="merged/1.4/12w40a%2312w40b.match"];
   merged_12w40b -> merged_12w41a[label="100%",href="merged/1.4/12w40b%2312w41a.match"];
   merged_12w41a -> merged_12w41b[label="100%",href="merged/1.4/12w41a%2312w41b.match"];
