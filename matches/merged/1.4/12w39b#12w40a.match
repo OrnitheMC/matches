@@ -1,4 +1,4 @@
-Matches saved 2025-01-09, status: c:1412/1412 m:11562/11599 f:5856/5861 ma:18383/18549, input files:
+Matches saved 2025-01-19, status: c:1412/1412 m:11562/11599 f:5857/5861 ma:18383/18549, input files:
 	a:
 		4819360	SHA256	WlBBRD4td55cxvxHp3xYAzxRbaUxIwhjbZIKTygo+6M=	minecraft-merged-12w39b.jar
 	b:
@@ -1444,7 +1444,7 @@ c	Lacn;	Ladr;
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	e;;Ljava/util/List;	e;;Ljava/util/List;
-	fu	a	f;;I
+	f	f;;I	f;;I
 c	Laco;	Lads;
 	m	<init>(Lvs;Ljava/util/Random;III)V	<init>(Lwv;Ljava/util/Random;III)V
 		ma	0	0
