@@ -1,4 +1,4 @@
-Matches saved 2025-01-11, status: c:1560/1568 m:12994/13127 f:5613/6021 ma:20081/20474, input files:
+Matches saved 2025-01-20, status: c:1560/1568 m:12994/13127 f:5613/6021 ma:20081/20474, input files:
 	a:
 		4786249	SHA256	uSaXw3F+ynDNje1kTtftk5XGo4/mpsMEHVgVdkJEnt8=	minecraft-merged-1.6.2-091847.jar
 	b:
@@ -2052,7 +2052,7 @@ c	Lacp;	Lado;
 		ma	0	0
 	m	a(Log;)Ljava/util/List;	a(Low;)Ljava/util/List;
 		ma	0	0
-	m	c()Z	j()Z
+	m	c()Z	d()Z
 	m	d()Z	e()Z
 	m	e()Z	f()Z
 	m	f()F	g()F
