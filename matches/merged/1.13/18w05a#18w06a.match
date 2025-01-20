@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3509/3568 m:26525/27036 f:12420/12945 ma:35714/37724, input files:
+Matches saved 2025-01-20, status: c:3509/3568 m:26523/27036 f:12420/12945 ma:35723/37724, input files:
 	a:
 		10680771	SHA256	NBnd1UDacpPvF1vV86TlODzmvoTD6tAok98BsBzYKMQ=	minecraft-merged-18w05a.jar
 	b:
@@ -16778,25 +16778,28 @@ c	Lat;	Lav;
 	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
 c	Lata;	Laug;
 	m	<init>()V	<init>()V
-	m	<init>(JLaso;Ljava/lang/String;)V	<init>()V
-	m	<init>(Lbkq;)V	<init>()V
 	m	a()Ljava/util/List;	a()Ljava/util/List;
 	mu	a	a(Lea;)Lasw;
 	m	a(Lea;Lasw;)Lasw;	a(Lec;Laud;)Laud;
 		ma	0	0
 		ma	1	1
 	mu	a	a(FI)F
-	m	a([Lasw;IIII)[Lasw;	a(IIIIZ)[Laud;
+	m	a([Lasw;IIII)[Lasw;	a(IIII)[Laud;
 		ma	1	1
-		ma	2	2
+		ma	2	0
 		ma	3	3
-	m	b([Lasw;IIII)[Lasw;	a(IIII)[Laud;
+		ma	4	2
+	m	b([Lasw;IIII)[Lasw;	b(IIII)[Laud;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		ma	4	3
+	m	a([Lasw;IIIIZ)[Lasw;	a(IIIIZ)[Laud;
 		ma	1	1
-		ma	2	2
+		ma	2	0
 		ma	3	3
-	m	a([Lasw;IIIIZ)[Lasw;	b(IIII)[Laud;
-		ma	1	1
-		ma	2	2
+		ma	4	2
+		ma	5	4
 	mu	a	a(IIILjava/util/List;)Z
 	m	a(IIILjava/util/List;Ljava/util/Random;)Lea;	a(IIILjava/util/List;Ljava/util/Random;)Lec;
 		ma	0	0
@@ -16890,13 +16893,17 @@ c	Latf;	Laur;
 	m	<init>(Lasw;)V	<init>(Laud;)V
 		ma	0	0
 	mu	a	a(Lea;)Lasw;
-	m	a([Lasw;IIII)[Lasw;	a(IIIIZ)[Laud;
+	m	a([Lasw;IIII)[Lasw;	a(IIII)[Laud;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	b([Lasw;IIII)[Lasw;	a(IIII)[Laud;
-		ma	1	1
-		ma	2	2
+		ma	4	0
+	m	a([Lasw;IIIIZ)[Lasw;	a(IIIIZ)[Laud;
+		ma	1	2
+		ma	2	3
+		ma	3	1
+		ma	4	0
+		ma	5	4
 	m	a(IIILjava/util/List;Ljava/util/Random;)Lea;	a(IIILjava/util/List;Ljava/util/Random;)Lec;
 		ma	0	0
 		ma	1	1
@@ -30978,7 +30985,6 @@ c	Lbhs$a;	Lbmi$a;
 	f	c;;Z	c;;Z
 c	Lbhs;	Lbmi;
 	m	<init>()V	<init>()V
-	m	<init>(Ljava/util/Map;)V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
