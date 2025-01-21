@@ -1,4 +1,4 @@
-Matches saved 2025-01-20, status: c:3509/3568 m:26523/27036 f:12420/12945 ma:35723/37724, input files:
+Matches saved 2025-01-21, status: c:3509/3568 m:26515/27036 f:12420/12945 ma:35721/37724, input files:
 	a:
 		10680771	SHA256	NBnd1UDacpPvF1vV86TlODzmvoTD6tAok98BsBzYKMQ=	minecraft-merged-18w05a.jar
 	b:
@@ -29790,7 +29790,6 @@ c	Lbhg$a;	Lbkz$a;
 	f	d;;Z	d;;Z
 c	Lbhg;	Lbkz;
 	m	<init>()V	<init>()V
-	m	<init>(Ljava/util/Map;)V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(II)Z	a(Lbgn;Ljava/util/Random;II)Z
 	m	b(II)Lbhq;	a(Latn;Lbgn;Lbii;II)Lbpa;
@@ -32177,11 +32176,6 @@ c	Lbis;	Lbrd;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
 		ma	0	0
 		ma	1	1
-	m	a(IIII)[I	a(Lbqz;IIIII)I
-		ma	0	5
-		ma	1	1
-		ma	2	2
-		ma	3	3
 cu	a	Lbit$1;
 cu	a	Lbit$a;
 c	Lbit;	Lbre;
@@ -32193,7 +32187,6 @@ c	Lbiw;	Lbrh;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
 c	Lbix;	Lbri;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
-	m	a(IIII)[I	a(Lbqz;IIIII)I
 	m	a([I[IIIIIII)Z	a([IIIIIIII)Z
 		ma	3	3
 		ma	4	4
@@ -32274,15 +32267,17 @@ c	Lbj;	Lbl;
 cu	a	Lbjb;
 c	Lbjc;	Lbrk;
 	m	<init>(J)V	<init>(Ljava/lang/String;I)V
-c	Lbjd;	Lbrm;
-	m	a(JLaso;Lbeo;)[Lbjd;	a(JLatt;Lbie;)[Lbrl;
+c	Lbjd;	Lbrl;
+	m	<init>(J)V	<init>(Lbqv;)V
+		mau	a	0
 	mu	a	a(J)V
 	mu	a	a(JJ)V
 	mu	a	a(I)I
-	m	a(II)Z	a(II)Z
+	m	a(IIII)[I	a(IIIILaud;)[Laud;
 		ma	0	0
 		ma	1	1
-	m	b(I)Z	a(I)Z
+		ma	2	2
+		ma	3	3
 	mu	a	a([I)I
 	mu	a	b(IIII)I
 	fu	a	c;;J
@@ -32298,12 +32293,10 @@ c	Lbjf;	Lbro;
 	fu	a	d;;Lbjd;
 c	Lbjg;	Lbrp;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
-	m	a(IIII)[I	a(Lbqz;IIIII)I
 c	Lbjh;	Lbrq;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
 c	Lbji;	Lbrr;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
-	m	a(IIII)[I	a(Lbqz;IIIII)I
 	m	c(I)I	a(I)I
 c	Lbjj;	Lbrs;
 	m	<init>(JLbjd;Lbjd;)V	<init>(Ljava/lang/String;I)V
@@ -32312,13 +32305,11 @@ c	Lbjj;	Lbrs;
 	fu	a	d;;Lbjd;
 c	Lbjk;	Lbrt;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
-	m	a(IIII)[I	a(Lbqz;IIIII)I
 	mu	a	a([I[IIIIII)V
 	m	c(I)Z	a(I)Z
 	m	d(I)Z	b(I)Z
 c	Lbjl;	Lbru;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
-	m	a(IIII)[I	a(Lbqz;IIIII)I
 c	Lbjp;	Lbrv;
 	m	<init>(JLbjd;)V	<init>(Ljava/lang/String;I)V
 c	Lbjq;	Lbrw;
