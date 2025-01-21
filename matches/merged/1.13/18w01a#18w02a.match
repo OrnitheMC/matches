@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3546/3597 m:26574/26937 f:12718/12788 ma:36952/37421, input files:
+Matches saved 2025-01-21, status: c:3548/3597 m:26578/26937 f:12720/12788 ma:36956/37421, input files:
 	a:
 		10628942	SHA256	NyvPUXooArb3rOgZer/2jQ/iip9uKTJAJODl93dqFeE=	minecraft-merged-18w01a.jar
 	b:
@@ -54112,7 +54112,12 @@ c	Lcca;	Lccg;
 	f	c;;Z	c;;Z
 	f	d;;I	d;;I
 cu	a	Lccb$1;
-cu	a	Lccb;
+c	Lccb;	Lcch;
+	m	<init>(Ljava/lang/Iterable;)V	<init>(Ljava/lang/Iterable;)V
+		ma	0	0
+	m	getPredicate(Lbcc;)Lcom/google/common/base/Predicate;	getPredicate(Lbci;)Ljava/util/function/Predicate;
+		ma	0	0
+	f	a;;Ljava/lang/Iterable;	a;;Ljava/lang/Iterable;
 c	Lccc;	Lcci;
 	m	getPredicate(Lbcc;)Lcom/google/common/base/Predicate;	getPredicate(Lbci;)Ljava/util/function/Predicate;
 		ma	0	0
@@ -54171,7 +54176,12 @@ c	Lcce;	Lcck;
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;Lbcc;	b;;Lbci;
 cu	a	Lccf$1;
-cu	a	Lccf;
+c	Lccf;	Lccl;
+	m	<init>(Ljava/lang/Iterable;)V	<init>(Ljava/lang/Iterable;)V
+		ma	0	0
+	m	getPredicate(Lbcc;)Lcom/google/common/base/Predicate;	getPredicate(Lbci;)Ljava/util/function/Predicate;
+		ma	0	0
+	f	a;;Ljava/lang/Iterable;	a;;Ljava/lang/Iterable;
 cu	a	Lccg$a$1;
 cu	a	Lccg$a$2;
 c	Lccg$a;	Lccm$a;
