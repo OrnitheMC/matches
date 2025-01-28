@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3404/3579 m:25326/26969 f:11730/12353 ma:34224/37421, input files:
+Matches saved 2025-01-28, status: c:3403/3579 m:25323/26969 f:11726/12353 ma:34207/37421, input files:
 	a:
 		10450226	SHA256	j3G+5Fbelvv8Q+TWX8UnylSTB0NR1I6Ye+ENIsu5sVc=	minecraft-merged-17w46a.jar
 	b:
@@ -56229,19 +56229,7 @@ c	Lcjj;	Lckl;
 	m	k()Lcjj$a;	k()Lckl$a;
 c	Lcjk;	Lckm;
 	m	l()Z	l()Z
-c	Lcjm$a;	Lcko$b;
-	m	<init>(Ljava/util/Iterator;Ljava/util/Iterator;Lit/unimi/dsi/fastutil/objects/Object2IntMap;)V	<init>(Ljava/util/Iterator;Ljava/util/Iterator;Lit/unimi/dsi/fastutil/objects/Object2IntMap;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	computeNext()Ljava/lang/Object;	computeNext()Ljava/lang/Object;
-		mvu	a	1
-		mvu	a	2
-		mvu	a	3
-		mvu	a	4
-	f	a;;Ljava/util/Iterator;	a;;Lcom/google/common/collect/PeekingIterator;
-	f	b;;Ljava/util/Iterator;	b;;Lcom/google/common/collect/PeekingIterator;
-	f	c;;Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c;;Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+cu	a	Lcjm$a;
 c	Lcjm;	Lcko;
 	m	<init>(Ljava/util/function/Function;Ljava/util/function/Function;)V	<init>(Ljava/util/function/Function;Ljava/util/function/Function;)V
 		ma	0	0
@@ -56260,7 +56248,7 @@ c	Lcjm;	Lcko;
 		ma	0	0
 		ma	1	1
 	f	a;;Lcjp;	a;;Lckr;
-	f	b;;Lcjp;	b;;Lckr;
+	fu	a	b;;Lcjp;
 	f	c;;Ljava/util/function/Function;	d;;Ljava/util/function/Function;
 	f	d;;Ljava/util/function/Function;	e;;Ljava/util/function/Function;
 	f	e;;Ljava/util/List;	f;;Ljava/util/List;
