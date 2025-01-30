@@ -1524,7 +1524,7 @@ digraph {
   merged_17w18a -> merged_17w18b[label="99.98%",href="merged/1.12/17w18a%2317w18b.match"];
   merged_17w18b -> merged_1_12_pre1[label="99.98%",href="merged/1.12/17w18b%231.12-pre1.match"];
   merged_17w31a -> merged_1_12_1_pre1[label="100%",href="merged/1.12/17w31a%231.12.1-pre1.match"];
-  merged_1_12_2 -> merged_17w43a[label="98.74%",href="merged/1.13/1.12.2%2317w43a.match"];
+  merged_1_12_2 -> merged_17w43a[label="98.72%",href="merged/1.13/1.12.2%2317w43a.match"];
   merged_1_13 -> merged_18w30a[label="99.8%",href="merged/1.13/1.13%2318w30a.match"];
   merged_1_13_pre1 -> merged_1_13_pre2[label="99.92%",href="merged/1.13/1.13-pre1%231.13-pre2.match"];
   merged_1_13_pre10 -> merged_1_13[label="99.97%",href="merged/1.13/1.13-pre10%231.13.match"];
