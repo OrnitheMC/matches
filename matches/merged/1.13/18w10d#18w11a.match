@@ -1,4 +1,4 @@
-Matches saved 2025-01-18, status: c:3932/3932 m:29120/29121 f:13738/13739 ma:41429/41431, input files:
+Matches saved 2025-01-30, status: c:3932/3932 m:29098/29121 f:13738/13739 ma:41385/41431, input files:
 	a:
 		11518946	SHA256	iy+/UtvIRQ1Lv2guANaIb+ezb8g5RcFkebu9yC9Xjik=	minecraft-merged-18w10d.jar
 	b:
@@ -2340,6 +2340,7 @@ c	Labw;	Labw;
 		ma	1	1
 	m	b(Laaf;)V	b(Laaf;)V
 		ma	0	0
+	mu	a	a(Laaf;Laby;)Laby;
 	m	a(Laaf;Laby;Lapp;)Laby;	a(Laaf;Laby;Lapq;)Laby;
 		ma	0	0
 		ma	1	1
@@ -4848,9 +4849,7 @@ c	Lagj;	Lagj;
 	m	P()Z	P()Z
 	m	M_()Lhy;	N_()Lhy;
 	m	dy()V	dy()V
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	a(Labj;)Labj;	a(Labj;)Labj;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
@@ -4868,9 +4867,7 @@ c	Lagk$1;	Lagk$1;
 c	Lagk;	Lagk;
 	m	<init>(Lauf;)V	<init>(Laug;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	o()V	o()V
 	m	bW()V	bW()V
 	m	b(Lauf;)Lafk;	b(Laug;)Lafk;
@@ -5073,9 +5070,7 @@ c	Lagm;	Lagm;
 	m	u(F)F	u(F)F
 		ma	0	0
 	m	cI()F	cI()F
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	<clinit>()V	<clinit>()V
 	f	bx;;Lnu;	bx;;Lnu;
 	f	by;;F	by;;F
@@ -5232,9 +5227,7 @@ c	Lago;	Lago;
 	m	dz()I	dz()I
 	m	e(I)V	n(I)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	dH()I	dI()I
 	m	dI()Z	dJ()Z
 	m	a(B)V	a(B)V
@@ -5325,9 +5318,7 @@ c	Lagq;	Lagq;
 	m	b(Labj;)Lagq;	b(Labj;)Lagq;
 		ma	0	0
 	m	y()V	y()V
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	a(Lagd;Lagd;)Laon;	a(Lagd;Lagd;)Laoo;
 		ma	0	0
 		ma	1	1
@@ -5664,9 +5655,7 @@ c	Lagv;	Lagv;
 		ma	0	0
 	m	a(Lgq;)V	a(Lgq;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	O()Z	O()Z
 	m	o()V	o()V
 	m	bW()V	bW()V
@@ -6132,9 +6121,7 @@ c	Laha;	Laha;
 		ma	0	0
 		ma	1	1
 	m	bM()Labm;	bM()Labm;
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	a(Labm;)Z	a(Labm;)Z
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
@@ -6221,9 +6208,7 @@ c	Lahc;	Lahc;
 	m	eb()Z	ec()Z
 	m	g(Lapp;)Z	g(Lapq;)Z
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	<clinit>()V	<clinit>()V
 	f	bH;;Ljava/util/UUID;	bH;;Ljava/util/UUID;
 	f	bI;;Lnu;	bI;;Lnu;
@@ -6312,9 +6297,7 @@ c	Lahe;	Lahe;
 		ma	0	0
 		ma	1	1
 	m	cC()Z	cC()Z
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	ee()Z	ef()Z
 	m	dA()Lvi;	dA()Lvi;
 	m	F()Lvi;	F()Lvi;
@@ -7748,9 +7731,7 @@ c	Lajc;	Lajc;
 	m	aI()V	aI()V
 	m	a(Laaf;)V	a(Laaf;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	dy()V	dy()V
 	m	a(Labv;F)V	a(Labv;F)V
 		ma	0	0
@@ -7819,9 +7800,7 @@ c	Laje;	Laje;
 	m	bW()V	bW()V
 	m	B(Labm;)Z	B(Labm;)Z
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	bE()F	bE()F
 	m	I()Loe;	I()Loe;
 c	Lajf;	Lajf;
@@ -8364,9 +8343,7 @@ c	Lajp;	Lajq;
 		ma	0	0
 	m	o()V	o()V
 	m	bW()V	bW()V
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	x_()V	x_()V
 	m	I()Loe;	I()Loe;
 	m	bD()Lbxt;	bD()Lbxy;
@@ -8550,9 +8527,7 @@ c	Lajs;	Lajt;
 	m	R_()V	S_()V
 	m	l()V	l()V
 	m	L()V	L()V
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	a(Lgq;)V	a(Lgq;)V
 		ma	0	0
 	m	b(Lgq;)V	b(Lgq;)V
@@ -8750,9 +8725,7 @@ c	Lajw$e;	Lajx$e;
 c	Lajw;	Lajx;
 	m	<init>(Lauf;)V	<init>(Laug;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	o()V	o()V
 	m	am()Z	am()Z
 	m	bT()Lvk;	bT()Lvk;
@@ -8988,9 +8961,7 @@ c	Lajz;	Laka;
 	m	M()I	M()I
 	m	dy()Z	dy()Z
 	m	cE()V	cE()V
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	dv()Lvi;	dv()Lvi;
 	m	<clinit>()V	<clinit>()V
 	f	bx;;Lnu;	bx;;Lnu;
@@ -9136,9 +9107,7 @@ c	Lakb;	Lakc;
 	m	m()Z	m()Z
 	m	a(Z)V	a(Z)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	bE()F	bE()F
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lnu;	a;;Lnu;
@@ -9226,9 +9195,7 @@ c	Lakd;	Lake;
 	m	I()Loe;	I()Loe;
 	m	az()I	az()I
 	m	aA()F	aA()F
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	a(Laaf;)V	a(Laaf;)V
 		ma	0	0
 	m	a(Lakd;)Ljava/util/Random;	a(Lake;)Ljava/util/Random;
@@ -9282,9 +9249,7 @@ c	Lake;	Lakf;
 	m	m()Lajb$a;	m()Lajb$a;
 	m	a(Lgq;)V	a(Lgq;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	a(Laaf;)V	a(Laaf;)V
 		ma	0	0
 	m	L()V	L()V
@@ -9352,9 +9317,7 @@ c	Lakg;	Lakh;
 		ma	0	0
 	m	b(Laaf;)V	b(Laaf;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	bE()F	bE()F
 	m	B(Labm;)Z	B(Labm;)Z
 		ma	0	0
@@ -9439,9 +9402,7 @@ c	Lakh;	Laki;
 	m	bE()F	bE()F
 	m	d(Lapp;)Z	d(Lapq;)Z
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	t(Z)V	v(Z)V
 		ma	0	0
 	m	a(FF)V	a(FF)V
@@ -9479,9 +9440,7 @@ c	Laki;	Lakj;
 		ma	0	0
 	m	a(Lgq;)V	a(Lgq;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	R_()V	S_()V
 	m	a(Lakr;Laag;)Z	a(Laks;Laag;)Z
 		ma	0	0
@@ -9681,9 +9640,7 @@ c	Lakm;	Lakn;
 		ma	0	0
 	m	a(Lfd;)V	a(Lfd;)V
 		ma	0	0
-	m	a(Laaf;Laby;)Laby;	a(Laaf;Laby;Lapq;)Laby;
-		ma	0	0
-		ma	1	1
+	mu	a	a(Laaf;Laby;)Laby;
 	m	a(Laaf;Laby;Z)Laby;	a(Laaf;Laby;Lapq;Z)Laby;
 		ma	0	0
 		ma	1	1
