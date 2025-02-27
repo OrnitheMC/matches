@@ -1,4 +1,4 @@
-Matches saved 2024-12-17, status: c:353/358 m:2500/2510 f:1789/1792 ma:4331/4338, input files:
+Matches saved 2025-02-27, status: c:353/358 m:2500/2510 f:1789/1792 ma:4331/4338, input files:
 	a:
 		699308	SHA256	sSYmSSSVJzz9NWyIg5zDXO3YxMfgr6JlNwE69PeiBXE=	minecraft-client-inf-20100629.jar
 	b:
@@ -394,7 +394,7 @@ c	Lat;	Law;
 	f	y;;Z	a;;Z
 	f	b;;I	c;;I
 	f	c;;I	d;;I
-	f	z;;Lcr;	w;;Lfg;
+	f	z;;Lcr;	L;;Lcu;
 	f	A;;Lbz;	M;;Lcc;
 	f	d;;Lez;	e;;Lfe;
 	f	e;;Lbr;	f;;Lm;
