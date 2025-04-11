@@ -1,4 +1,4 @@
-Matches saved 2025-04-11, status: c:1339/1345 m:10668/10728 f:5563/5586 ma:17046/17150, input files:
+Matches saved 2025-04-11, status: c:1339/1345 m:10668/10728 f:5563/5586 ma:17047/17150, input files:
 	a:
 		4633833	SHA256	Q4AjZ7izLgpBRpJYlNIh6vBJ08q+nj1EYu6PtOMtesc=	minecraft-merged-1.3.2.jar
 	b:
@@ -19914,8 +19914,8 @@ c	Let;	Lew;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Lgu;I)V	a(Ljr;ILgv;Lgv;)V
-		mau	a	0
+	m	a(Lgu;I)V	a(Lgy;I)V
+		ma	0	0
 		ma	1	1
 	m	b()V	b()V
 	m	a(Ldb;)V	a(Lde;)V
