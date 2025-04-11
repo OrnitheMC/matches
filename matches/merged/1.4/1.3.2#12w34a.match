@@ -1,4 +1,4 @@
-Matches saved 2025-04-11, status: c:1339/1345 m:10668/10728 f:5563/5586 ma:17047/17150, input files:
+Matches saved 2025-04-11, status: c:1339/1345 m:10669/10728 f:5563/5586 ma:17048/17150, input files:
 	a:
 		4633833	SHA256	Q4AjZ7izLgpBRpJYlNIh6vBJ08q+nj1EYu6PtOMtesc=	minecraft-merged-1.3.2.jar
 	b:
@@ -20939,7 +20939,8 @@ c	Lgu;	Lgy;
 		ma	0	0
 		ma	1	1
 	m	h()Z	h()Z
-	mu	a	c(I)V
+	m	c(I)V	b(I)V
+		ma	0	0
 	m	a(Laji;)V	b(Lakh;)V
 		ma	0	0
 	m	a(Ljn;I)V	a(Ljr;I)V
@@ -26240,7 +26241,6 @@ c	Log;	Loq;
 		ma	0	0
 	m	aJ()Z	aM()Z
 	m	ak()Ljava/lang/String;	an()Ljava/lang/String;
-	mu	a	c(I)V
 	m	a(Log;Z)V	a(Loq;Z)V
 		ma	0	0
 		ma	1	1
