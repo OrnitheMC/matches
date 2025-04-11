@@ -1,4 +1,4 @@
-Matches saved 2025-04-11, status: c:1632/1638 m:13529/13582 f:6643/6662 ma:21208/21276, input files:
+Matches saved 2025-04-11, status: c:1633/1638 m:13541/13582 f:6644/6662 ma:21227/21276, input files:
 	a:
 		5605243	SHA256	Y1hQ2TpLVROaxj04cdc59/iXN0ZwG5ujI6LotVdb8NA=	minecraft-merged-1.5.1.jar
 	b:
@@ -18121,13 +18121,15 @@ c	Lbai;	Lbag;
 		ma	0	0
 	m	e(Lbai;)Lawg;	e(Lbag;)Lawg;
 		ma	0	0
-	mu	a	f(Lbai;)Lnet/minecraft/client/Minecraft;
+	m	f(Lbai;)Lnet/minecraft/client/Minecraft;	f(Lbag;)Lnet/minecraft/client/Minecraft;
+		ma	0	0
 	m	g(Lbai;)Lawg;	g(Lbag;)Lawg;
 		ma	0	0
 	m	c(Lbai;I)V	c(Lbag;I)V
 		ma	0	0
 		ma	1	1
-	mu	a	h(Lbai;)Lawv;
+	m	h(Lbai;)Lawv;	i(Lbag;)Lawv;
+		ma	0	0
 	m	a(Lbai;IIII)V	a(Lbag;IIII)V
 		ma	0	0
 		ma	1	1
@@ -18146,8 +18148,10 @@ c	Lbai;	Lbag;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	i(Lbai;)Lawv;
-	mu	a	j(Lbai;)Lawv;
+	m	i(Lbai;)Lawv;	k(Lbag;)Lawv;
+		ma	0	0
+	m	j(Lbai;)Lawv;	l(Lbag;)Lawv;
+		ma	0	0
 	m	h()Ljava/lang/Object;	h()Ljava/lang/Object;
 	m	i()I	i()I
 	m	j()I	j()I
@@ -18155,11 +18159,16 @@ c	Lbai;	Lbag;
 		ma	0	0
 		ma	1	1
 	m	k()I	k()I
-	mu	a	k(Lbai;)Lawv;
-	mu	a	l(Lbai;)Lawv;
-	mu	a	m(Lbai;)Lawv;
-	mu	a	n(Lbai;)Lawv;
-	mu	a	o(Lbai;)Lnet/minecraft/client/Minecraft;
+	m	k(Lbai;)Lawv;	m(Lbag;)Lawv;
+		ma	0	0
+	m	l(Lbai;)Lawv;	n(Lbag;)Lawv;
+		ma	0	0
+	m	m(Lbai;)Lawv;	o(Lbag;)Lawv;
+		ma	0	0
+	m	n(Lbai;)Lawv;	p(Lbag;)Lawv;
+		ma	0	0
+	m	o(Lbai;)Lnet/minecraft/client/Minecraft;	q(Lbag;)Lnet/minecraft/client/Minecraft;
+		ma	0	0
 	m	a(Lbai;Ljava/lang/String;)Ljava/lang/String;	a(Lbag;Ljava/lang/String;)Ljava/lang/String;
 		ma	0	0
 		ma	1	1
@@ -18185,7 +18194,21 @@ c	Lbaj;	Lbah;
 		ma	0	0
 	m	run()V	run()V
 	f	a;;Lbai;	a;;Lbag;
-cu	a	Lbak;
+c	Lbak;	Lbai;
+	m	<init>(Lbai;)V	<init>(Lbag;)V
+		ma	0	0
+	m	b(IIIILbge;)V	b(IIIILbgd;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	a(IIILbbf;)V	a(IIILbbe;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	f	a;;Lbai;	f;;Lbag;
 c	Lbal;	Lbaj;
 	m	<init>(Lbak;Lbbf;)V	<init>(Lbai;Lbbe;)V
 		ma	0	0
