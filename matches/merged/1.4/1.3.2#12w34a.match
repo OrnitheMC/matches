@@ -1,4 +1,4 @@
-Matches saved 2025-04-11, status: c:1339/1345 m:10671/10728 f:5563/5586 ma:17048/17150, input files:
+Matches saved 2025-04-11, status: c:1339/1345 m:10663/10728 f:5559/5586 ma:17044/17150, input files:
 	a:
 		4633833	SHA256	Q4AjZ7izLgpBRpJYlNIh6vBJ08q+nj1EYu6PtOMtesc=	minecraft-merged-1.3.2.jar
 	b:
@@ -23150,7 +23150,7 @@ c	Ljy;	Lkf;
 	f	b;;Ljy;	b;;Lkf;
 	f	c;;Ljy;	c;;Lkf;
 	f	d;;[Ljy;	d;;[Lkf;
-c	Ljz;	Lkb;
+c	Ljz;	Lkg;
 	m	<init>(Lup;)V	<init>(Lvg;)V
 		ma	0	0
 	m	<init>(Lup;IIII)V	<init>(Lvg;IIII)V
@@ -23159,36 +23159,27 @@ c	Ljz;	Lkb;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	<init>(Lup;IIIILjava/lang/String;)V
-	m	a()V	a()V
-	m	a(I)V	a(I)V
-		ma	0	0
-	m	b(I)F	g(I)F
-		ma	0	0
-	m	h_()V	i_()V
-	m	d()Z	c()Z
-	m	L()Z	L()Z
-	m	a(Lje;I)Z	a(Lji;I)Z
+	m	<init>(Lup;IIIILjava/lang/String;)V	<init>(Lvg;IIIILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	mu	a	a()V
+	mu	a	a(I)V
+	mu	a	b(I)F
+	mu	a	h_()V
+	mu	a	d()Z
+	mu	a	L()Z
+	mu	a	a(Lje;I)Z
 	m	b(Lan;)V	b(Laq;)V
 		ma	0	0
 	m	a(Lan;)V	a(Laq;)V
 		ma	0	0
-	m	d(DDD)V	d(DDD)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	g(DDD)V	g(DDD)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	f	f;;I	e;;I
-	f	a;;I	a;;I
-	f	b;;I	b;;I
-	f	c;;I	c;;I
-	f	d;;I	d;;I
-	fu	a	e;;Lka;
+	mu	a	d(DDD)V
+	mu	a	g(DDD)V
+	f	e;;Lka;	e;;Lkh;
 c	Lk;	Lk;
 	m	<init>(La;)V	<init>(La;)V
 		ma	0	0
