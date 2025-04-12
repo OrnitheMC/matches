@@ -1,4 +1,4 @@
-Matches saved 2025-01-10, status: c:1481/1638 m:12011/13582 f:5820/6662 ma:19396/21276, input files:
+Matches saved 2025-04-12, status: c:1453/1638 m:11882/13582 f:5563/6662 ma:19188/21276, input files:
 	a:
 		5605243	SHA256	Y1hQ2TpLVROaxj04cdc59/iXN0ZwG5ujI6LotVdb8NA=	minecraft-merged-1.5.1.jar
 	b:
@@ -13691,361 +13691,34 @@ cu	a	Larp;
 cu	a	Larq;
 cu	a	Larr;
 cu	a	Lars;
-c	Lart;	Lorg/bouncycastle/asn1/bc/BCObjectIdentifiers;
-	m	<clinit>()V	<clinit>()V
-	f	a;;Larq;	bc;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	b;;Larq;	bc_pbe;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	c;;Larq;	bc_pbe_sha1;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	d;;Larq;	bc_pbe_sha256;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	e;;Larq;	bc_pbe_sha384;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	f;;Larq;	bc_pbe_sha512;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	g;;Larq;	bc_pbe_sha224;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	h;;Larq;	bc_pbe_sha1_pkcs5;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	i;;Larq;	bc_pbe_sha1_pkcs12;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	j;;Larq;	bc_pbe_sha256_pkcs5;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	k;;Larq;	bc_pbe_sha256_pkcs12;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	l;;Larq;	bc_pbe_sha1_pkcs12_aes128_cbc;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	m;;Larq;	bc_pbe_sha1_pkcs12_aes192_cbc;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	n;;Larq;	bc_pbe_sha1_pkcs12_aes256_cbc;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	o;;Larq;	bc_pbe_sha256_pkcs12_aes128_cbc;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	p;;Larq;	bc_pbe_sha256_pkcs12_aes192_cbc;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	q;;Larq;	bc_pbe_sha256_pkcs12_aes256_cbc;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-c	Laru;	Lorg/bouncycastle/asn1/pkcs/PKCSObjectIdentifiers;
-	m	<clinit>()V	<clinit>()V
-	f	a;;Larq;	pkcs_1;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	b;;Larq;	rsaEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	c;;Larq;	md2WithRSAEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	d;;Larq;	md4WithRSAEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	e;;Larq;	md5WithRSAEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	f;;Larq;	sha1WithRSAEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	g;;Larq;	srsaOAEPEncryptionSET;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	h;;Larq;	id_RSAES_OAEP;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	i;;Larq;	id_mgf1;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	j;;Larq;	id_pSpecified;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	k;;Larq;	id_RSASSA_PSS;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	l;;Larq;	sha256WithRSAEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	m;;Larq;	sha384WithRSAEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	n;;Larq;	sha512WithRSAEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	o;;Larq;	sha224WithRSAEncryption;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	p;;Larq;	pkcs_3;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	q;;Larq;	dhKeyAgreement;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	r;;Larq;	pkcs_5;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	s;;Larq;	pbeWithMD2AndDES_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	t;;Larq;	pbeWithMD2AndRC2_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	u;;Larq;	pbeWithMD5AndDES_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	v;;Larq;	pbeWithMD5AndRC2_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	w;;Larq;	pbeWithSHA1AndDES_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	x;;Larq;	pbeWithSHA1AndRC2_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	y;;Larq;	id_PBES2;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	z;;Larq;	id_PBKDF2;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	A;;Larq;	encryptionAlgorithm;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	B;;Larq;	des_EDE3_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	C;;Larq;	RC2_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	D;;Larq;	digestAlgorithm;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	E;;Larq;	md2;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	F;;Larq;	md4;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	G;;Larq;	md5;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	H;;Larq;	id_hmacWithSHA1;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	I;;Larq;	id_hmacWithSHA224;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	J;;Larq;	id_hmacWithSHA256;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	K;;Larq;	id_hmacWithSHA384;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	L;;Larq;	id_hmacWithSHA512;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	M;;Larq;	data;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	N;;Larq;	signedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	O;;Larq;	envelopedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	P;;Larq;	signedAndEnvelopedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	Q;;Larq;	digestedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	R;;Larq;	encryptedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	S;;Larq;	pkcs_9;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	T;;Larq;	pkcs_9_at_emailAddress;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	U;;Larq;	pkcs_9_at_unstructuredName;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	V;;Larq;	pkcs_9_at_contentType;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	W;;Larq;	pkcs_9_at_messageDigest;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	X;;Larq;	pkcs_9_at_signingTime;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	Y;;Larq;	pkcs_9_at_counterSignature;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	Z;;Larq;	pkcs_9_at_challengePassword;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aa;;Larq;	pkcs_9_at_unstructuredAddress;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ab;;Larq;	pkcs_9_at_extendedCertificateAttributes;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ac;;Larq;	pkcs_9_at_signingDescription;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ad;;Larq;	pkcs_9_at_extensionRequest;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ae;;Larq;	pkcs_9_at_smimeCapabilities;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	af;;Larq;	pkcs_9_at_friendlyName;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ag;;Larq;	pkcs_9_at_localKeyId;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ah;;Larq;	x509certType;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ai;;Larq;	certTypes;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aj;;Larq;	x509Certificate;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ak;;Larq;	sdsiCertificate;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	al;;Larq;	crlTypes;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	am;;Larq;	x509Crl;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	an;;Larq;	id_alg_PWRI_KEK;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ao;;Larq;	preferSignedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ap;;Larq;	canNotDecryptAny;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aq;;Larq;	sMIMECapabilitiesVersions;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ar;;Larq;	id_ct;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	as;;Larq;	id_ct_authData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	at;;Larq;	id_ct_TSTInfo;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	au;;Larq;	id_ct_compressedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	av;;Larq;	id_ct_authEnvelopedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aw;;Larq;	id_ct_timestampedData;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ax;;Larq;	id_cti;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ay;;Larq;	id_cti_ets_proofOfOrigin;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	az;;Larq;	id_cti_ets_proofOfReceipt;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aA;;Larq;	id_cti_ets_proofOfDelivery;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aB;;Larq;	id_cti_ets_proofOfSender;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aC;;Larq;	id_cti_ets_proofOfApproval;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aD;;Larq;	id_cti_ets_proofOfCreation;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aE;;Larq;	id_aa;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aF;;Larq;	id_aa_receiptRequest;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aG;;Larq;	id_aa_contentHint;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aH;;Larq;	id_aa_msgSigDigest;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aI;;Larq;	id_aa_contentReference;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aJ;;Larq;	id_aa_encrypKeyPref;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aK;;Larq;	id_aa_signingCertificate;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aL;;Larq;	id_aa_signingCertificateV2;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aM;;Larq;	id_aa_contentIdentifier;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aN;;Larq;	id_aa_signatureTimeStampToken;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aO;;Larq;	id_aa_ets_sigPolicyId;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aP;;Larq;	id_aa_ets_commitmentType;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aQ;;Larq;	id_aa_ets_signerLocation;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aR;;Larq;	id_aa_ets_signerAttr;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aS;;Larq;	id_aa_ets_otherSigCert;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aT;;Larq;	id_aa_ets_contentTimestamp;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aU;;Larq;	id_aa_ets_certificateRefs;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aV;;Larq;	id_aa_ets_revocationRefs;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aW;;Larq;	id_aa_ets_certValues;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aX;;Larq;	id_aa_ets_revocationValues;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aY;;Larq;	id_aa_ets_escTimeStamp;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	aZ;;Larq;	id_aa_ets_certCRLTimestamp;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	ba;;Larq;	id_aa_ets_archiveTimestamp;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bb;;Larq;	id_aa_sigPolicyId;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bc;;Larq;	id_aa_commitmentType;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bd;;Larq;	id_aa_signerLocation;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	be;;Larq;	id_aa_otherSigCert;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bf;;Larq;	id_spq_ets_uri;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bg;;Larq;	id_spq_ets_unotice;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bh;;Larq;	pkcs_12;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bi;;Larq;	bagtypes;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bj;;Larq;	keyBag;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bk;;Larq;	pkcs8ShroudedKeyBag;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bl;;Larq;	certBag;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bm;;Larq;	crlBag;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bn;;Larq;	secretBag;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bo;;Larq;	safeContentsBag;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bp;;Larq;	pkcs_12PbeIds;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bq;;Larq;	pbeWithSHAAnd128BitRC4;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	br;;Larq;	pbeWithSHAAnd40BitRC4;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bs;;Larq;	pbeWithSHAAnd3_KeyTripleDES_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bt;;Larq;	pbeWithSHAAnd2_KeyTripleDES_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bu;;Larq;	pbeWithSHAAnd128BitRC2_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bv;;Larq;	pbeWithSHAAnd40BitRC2_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bw;;Larq;	pbewithSHAAnd40BitRC2_CBC;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	bx;;Larq;	id_alg_CMS3DESwrap;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-	f	by;;Larq;	id_alg_CMSRC2wrap;;Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
-c	Larv;	Lorg/bouncycastle/crypto/BlockCipher;
-	m	a(ZLary;)V	init(ZLorg/bouncycastle/crypto/CipherParameters;)V
-		ma	0	0
-		ma	1	1
-	m	a()Ljava/lang/String;	getAlgorithmName()Ljava/lang/String;
-	m	b()I	getBlockSize()I
-	m	a([BI[BI)I	processBlock([BI[BI)I
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	c()V	reset()V
-c	Larw;	Lorg/bouncycastle/crypto/BufferedBlockCipher;
-	m	<init>()V	<init>()V
-	m	<init>(Larv;)V	<init>(Lorg/bouncycastle/crypto/BlockCipher;)V
-		ma	0	0
-	m	a(ZLary;)V	init(ZLorg/bouncycastle/crypto/CipherParameters;)V
-		ma	0	0
-		ma	1	1
-	m	a()I	getBlockSize()I
-	m	a(I)I	getUpdateOutputSize(I)I
-		ma	0	0
-	m	b(I)I	getOutputSize(I)I
-		ma	0	0
-	m	a([BII[BI)I	processBytes([BII[BI)I
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	a([BI)I	doFinal([BI)I
-		ma	0	0
-		ma	1	1
-	m	b()V	reset()V
-	f	a;;[B	buf;;[B
-	f	b;;I	bufOff;;I
-	f	c;;Z	forEncryption;;Z
-	f	d;;Larv;	cipher;;Lorg/bouncycastle/crypto/BlockCipher;
-	f	e;;Z	partialBlockOkay;;Z
-	f	f;;Z	pgpCFB;;Z
-c	Larx;	Lorg/bouncycastle/crypto/CipherKeyGenerator;
-	m	<init>()V	<init>()V
-	m	a(Lasc;)V	init(Lorg/bouncycastle/crypto/KeyGenerationParameters;)V
-		ma	0	0
-	m	a()[B	generateKey()[B
-	f	a;;Ljava/security/SecureRandom;	random;;Ljava/security/SecureRandom;
-	f	b;;I	strength;;I
-c	Lary;	Lorg/bouncycastle/crypto/CipherParameters;
+cu	a	Lart;
+cu	a	Laru;
+cu	a	Larv;
+cu	a	Larw;
+cu	a	Larx;
+cu	a	Lary;
 c	Las;	Lau;
 	m	<init>(Ljava/lang/String;[Ljava/lang/Object;)V	<init>(Ljava/lang/String;[Ljava/lang/Object;)V
 		ma	0	0
 		ma	1	1
 	m	a()[Ljava/lang/Object;	a()[Ljava/lang/Object;
 	f	a;;[Ljava/lang/Object;	a;;[Ljava/lang/Object;
-c	Lasa;	Lorg/bouncycastle/crypto/DataLengthException;
-	m	<init>()V	<init>()V
-	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
-		ma	0	0
-c	Lasc;	Lorg/bouncycastle/crypto/KeyGenerationParameters;
-	m	<init>(Ljava/security/SecureRandom;I)V	<init>(Ljava/security/SecureRandom;I)V
-		ma	0	0
-		ma	1	1
-	m	a()Ljava/security/SecureRandom;	getRandom()Ljava/security/SecureRandom;
-	m	b()I	getStrength()I
-	f	a;;Ljava/security/SecureRandom;	random;;Ljava/security/SecureRandom;
-	f	b;;I	strength;;I
-c	Lasd;	Lorg/bouncycastle/crypto/RuntimeCryptoException;
-	m	<init>()V	<init>()V
-	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
-		ma	0	0
+cu	a	Lasa;
+cu	a	Lasc;
+cu	a	Lasd;
 cu	a	Lase;
-c	Lasf;	Lorg/bouncycastle/crypto/engines/AESFastEngine;
-	m	a(II)I	shift(II)I
-		ma	0	0
-		ma	1	1
-	m	a(I)I	FFmulX(I)I
-		ma	0	0
-	m	b(I)I	inv_mcol(I)I
-		ma	0	0
-	m	c(I)I	subWord(I)I
-		ma	0	0
-	m	a([BZ)[[I	generateWorkingKey([BZ)[[I
-		ma	0	0
-		ma	1	1
-	m	<init>()V	<init>()V
-	m	a(ZLary;)V	init(ZLorg/bouncycastle/crypto/CipherParameters;)V
-		ma	0	0
-		ma	1	1
-	m	a()Ljava/lang/String;	getAlgorithmName()Ljava/lang/String;
-	m	b()I	getBlockSize()I
-	m	a([BI[BI)I	processBlock([BI[BI)I
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	c()V	reset()V
-	m	a([BI)V	unpackBlock([BI)V
-		ma	0	0
-		ma	1	1
-	m	b([BI)V	packBlock([BI)V
-		ma	0	0
-		ma	1	1
-	m	a([[I)V	encryptBlock([[I)V
-		ma	0	0
-	m	b([[I)V	decryptBlock([[I)V
-		ma	0	0
-	m	<clinit>()V	<clinit>()V
-	f	a;;[B	S;;[B
-	f	b;;[B	Si;;[B
-	f	c;;[I	rcon;;[I
-	f	d;;[I	T0;;[I
-	f	e;;[I	T1;;[I
-	f	f;;[I	T2;;[I
-	f	g;;[I	T3;;[I
-	f	h;;[I	Tinv0;;[I
-	f	i;;[I	Tinv1;;[I
-	f	j;;[I	Tinv2;;[I
-	f	k;;[I	Tinv3;;[I
-	f	l;;I	ROUNDS;;I
-	f	m;;[[I	WorkingKey;;[[I
-	f	n;;I	C0;;I
-	f	o;;I	C1;;I
-	f	p;;I	C2;;I
-	f	q;;I	C3;;I
-	f	r;;Z	forEncryption;;Z
+cu	a	Lasf;
 cu	a	Lasg;
 cu	a	Lash;
-c	Lasi;	Lorg/bouncycastle/crypto/modes/CFBBlockCipher;
-	m	<init>(Larv;I)V	<init>(Lorg/bouncycastle/crypto/BlockCipher;I)V
-		ma	0	0
-		ma	1	1
-	m	a(ZLary;)V	init(ZLorg/bouncycastle/crypto/CipherParameters;)V
-		ma	0	0
-		ma	1	1
-	m	a()Ljava/lang/String;	getAlgorithmName()Ljava/lang/String;
-	m	b()I	getBlockSize()I
-	m	a([BI[BI)I	processBlock([BI[BI)I
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	b([BI[BI)I	encryptBlock([BI[BI)I
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	c([BI[BI)I	decryptBlock([BI[BI)I
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	c()V	reset()V
-	f	a;;[B	IV;;[B
-	f	b;;[B	cfbV;;[B
-	f	c;;[B	cfbOutV;;[B
-	f	d;;I	blockSize;;I
-	f	e;;Larv;	cipher;;Lorg/bouncycastle/crypto/BlockCipher;
-	f	f;;Z	encrypting;;Z
-c	Lasj;	Lorg/bouncycastle/crypto/params/KeyParameter;
-	m	<init>([B)V	<init>([B)V
-		ma	0	0
-	m	<init>([BII)V	<init>([BII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a()[B	getKey()[B
-	f	a;;[B	key;;[B
-c	Lask;	Lorg/bouncycastle/crypto/params/ParametersWithIV;
-	m	<init>(Lary;[BII)V	<init>(Lorg/bouncycastle/crypto/CipherParameters;[BII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	a()[B	getIV()[B
-	m	b()Lary;	getParameters()Lorg/bouncycastle/crypto/CipherParameters;
-	f	a;;[B	iv;;[B
-	f	b;;Lary;	parameters;;Lorg/bouncycastle/crypto/CipherParameters;
+cu	a	Lasi;
+cu	a	Lasj;
+cu	a	Lask;
 cu	a	Lasl;
 cu	a	Lasm;
-c	Lasn;	Lorg/bouncycastle/jcajce/provider/config/ProviderConfigurationPermission;
-	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
-		ma	0	0
-	m	<init>(Ljava/lang/String;Ljava/lang/String;)V	<init>(Ljava/lang/String;Ljava/lang/String;)V
-		ma	0	0
-		ma	1	1
-	m	a(Ljava/lang/String;)I	calculateMask(Ljava/lang/String;)I
-		ma	0	0
-	m	getActions()Ljava/lang/String;	getActions()Ljava/lang/String;
-	m	implies(Ljava/security/Permission;)Z	implies(Ljava/security/Permission;)Z
-		ma	0	0
-	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
-		ma	0	0
-	m	hashCode()I	hashCode()I
-	f	a;;Ljava/lang/String;	actions;;Ljava/lang/String;
-	f	b;;I	permissionMask;;I
-c	Laso;	Lorg/bouncycastle/jcajce/provider/util/AlgorithmProvider;
-	m	<init>()V	<init>()V
-	m	a(Lasl;)V	configure(Lorg/bouncycastle/jcajce/provider/config/ConfigurableProvider;)V
-		ma	0	0
+cu	a	Lasn;
+cu	a	Laso;
 cu	a	Lasp;
-c	Lasq;	Lorg/bouncycastle/jce/provider/BouncyCastleProvider$1;
-	m	<init>(Lasp;)V	<init>(Lorg/bouncycastle/jce/provider/BouncyCastleProvider;)V
-		ma	0	0
-	m	run()Ljava/lang/Object;	run()Ljava/lang/Object;
-	f	a;;Lasp;	this$0;;Lorg/bouncycastle/jce/provider/BouncyCastleProvider;
+cu	a	Lasq;
 cu	a	Lasr;
 cu	a	Lass;
 cu	a	Last;
@@ -30775,6 +30448,7 @@ c	Lnet/minecraft/client/Minecraft;	Lasm;
 	m	G()J	F()J
 	m	H()Z	G()Z
 	m	al()Lku;	al()Lkx;
+	m	run()V	c()V
 	m	<clinit>()V	<clinit>()V
 	f	a;;[B	a;;[B
 	f	P;;Lku;	J;;Lkx;
@@ -32107,294 +31781,27 @@ c	Lpa;	Lpf;
 	f	g;;I	g;;I
 	f	h;;I	h;;I
 cu	a	Lpaulscode/sound/Channel;
-c	Lpaulscode/sound/CommandObject;	Lpaulscode/sound/CommandObject;
-	m	<init>(I)V	<init>(I)V
-		ma	0	0
-	m	<init>(II)V	<init>(II)V
-		ma	0	0
-		ma	1	1
-	m	<init>(ILjava/lang/Class;)V	<init>(ILjava/lang/Class;)V
-		ma	0	0
-		ma	1	1
-	m	<init>(IF)V	<init>(IF)V
-		ma	0	0
-		ma	1	1
-	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
-		ma	0	0
-		ma	1	1
-	m	<init>(ILjava/lang/Object;)V	<init>(ILjava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	<init>(ILjava/lang/String;Ljava/lang/Object;)V	<init>(ILjava/lang/String;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	<init>(ILjava/lang/String;[B)V	<init>(ILjava/lang/String;[B)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	<init>(ILjava/lang/String;Ljava/lang/Object;J)V	<init>(ILjava/lang/String;Ljava/lang/Object;J)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	<init>(ILjava/lang/String;Ljava/lang/Object;JJ)V	<init>(ILjava/lang/String;Ljava/lang/Object;JJ)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	<init>(ILjava/lang/String;Ljava/lang/String;)V	<init>(ILjava/lang/String;Ljava/lang/String;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	<init>(ILjava/lang/String;I)V	<init>(ILjava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	<init>(ILjava/lang/String;F)V	<init>(ILjava/lang/String;F)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	<init>(ILjava/lang/String;Z)V	<init>(ILjava/lang/String;Z)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	<init>(IFFF)V	<init>(IFFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	<init>(ILjava/lang/String;FFF)V	<init>(ILjava/lang/String;FFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	<init>(IFFFFFF)V	<init>(IFFFFFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-	m	<init>(IZZZLjava/lang/String;Ljava/lang/Object;FFFIF)V	<init>(IZZZLjava/lang/String;Ljava/lang/Object;FFFIF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-		ma	8	8
-		ma	9	9
-		ma	10	10
-	m	<init>(IZZZLjava/lang/String;Ljava/lang/Object;FFFIFZ)V	<init>(IZZZLjava/lang/String;Ljava/lang/Object;FFFIFZ)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-		ma	8	8
-		ma	9	9
-		ma	10	10
-		ma	11	11
-	m	<init>(ILjava/lang/Object;ZLjava/lang/String;FFFIF)V	<init>(ILjava/lang/Object;ZLjava/lang/String;FFFIF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-		ma	7	7
-		ma	8	8
-	f	INITIALIZE;;I	INITIALIZE;;I
-	f	LOAD_SOUND;;I	LOAD_SOUND;;I
-	f	LOAD_DATA;;I	LOAD_DATA;;I
-	f	UNLOAD_SOUND;;I	UNLOAD_SOUND;;I
-	f	QUEUE_SOUND;;I	QUEUE_SOUND;;I
-	f	DEQUEUE_SOUND;;I	DEQUEUE_SOUND;;I
-	f	FADE_OUT;;I	FADE_OUT;;I
-	f	FADE_OUT_IN;;I	FADE_OUT_IN;;I
-	f	CHECK_FADE_VOLUMES;;I	CHECK_FADE_VOLUMES;;I
-	f	NEW_SOURCE;;I	NEW_SOURCE;;I
-	f	RAW_DATA_STREAM;;I	RAW_DATA_STREAM;;I
-	f	QUICK_PLAY;;I	QUICK_PLAY;;I
-	f	SET_POSITION;;I	SET_POSITION;;I
-	f	SET_VOLUME;;I	SET_VOLUME;;I
-	f	SET_PITCH;;I	SET_PITCH;;I
-	f	SET_PRIORITY;;I	SET_PRIORITY;;I
-	f	SET_LOOPING;;I	SET_LOOPING;;I
-	f	SET_ATTENUATION;;I	SET_ATTENUATION;;I
-	f	SET_DIST_OR_ROLL;;I	SET_DIST_OR_ROLL;;I
-	f	CHANGE_DOPPLER_FACTOR;;I	CHANGE_DOPPLER_FACTOR;;I
-	f	CHANGE_DOPPLER_VELOCITY;;I	CHANGE_DOPPLER_VELOCITY;;I
-	f	SET_VELOCITY;;I	SET_VELOCITY;;I
-	f	SET_LISTENER_VELOCITY;;I	SET_LISTENER_VELOCITY;;I
-	f	PLAY;;I	PLAY;;I
-	f	FEED_RAW_AUDIO_DATA;;I	FEED_RAW_AUDIO_DATA;;I
-	f	PAUSE;;I	PAUSE;;I
-	f	STOP;;I	STOP;;I
-	f	REWIND;;I	REWIND;;I
-	f	FLUSH;;I	FLUSH;;I
-	f	CULL;;I	CULL;;I
-	f	ACTIVATE;;I	ACTIVATE;;I
-	f	SET_TEMPORARY;;I	SET_TEMPORARY;;I
-	f	REMOVE_SOURCE;;I	REMOVE_SOURCE;;I
-	f	MOVE_LISTENER;;I	MOVE_LISTENER;;I
-	f	SET_LISTENER_POSITION;;I	SET_LISTENER_POSITION;;I
-	f	TURN_LISTENER;;I	TURN_LISTENER;;I
-	f	SET_LISTENER_ANGLE;;I	SET_LISTENER_ANGLE;;I
-	f	SET_LISTENER_ORIENTATION;;I	SET_LISTENER_ORIENTATION;;I
-	f	SET_MASTER_VOLUME;;I	SET_MASTER_VOLUME;;I
-	f	NEW_LIBRARY;;I	NEW_LIBRARY;;I
-	f	buffer;;[B	buffer;;[B
-	f	intArgs;;[I	intArgs;;[I
-	f	floatArgs;;[F	floatArgs;;[F
-	f	longArgs;;[J	longArgs;;[J
-	f	boolArgs;;[Z	boolArgs;;[Z
-	f	stringArgs;;[Ljava/lang/String;	stringArgs;;[Ljava/lang/String;
-	f	classArgs;;[Ljava/lang/Class;	classArgs;;[Ljava/lang/Class;
-	f	objectArgs;;[Ljava/lang/Object;	objectArgs;;[Ljava/lang/Object;
-	f	Command;;I	Command;;I
-c	Lpaulscode/sound/CommandThread;	Lpaulscode/sound/CommandThread;
-	m	<init>(Lpaulscode/sound/SoundSystem;)V	<init>(Lpaulscode/sound/SoundSystem;)V
-		ma	0	0
-	m	cleanup()V	cleanup()V
-	m	run()V	run()V
-	m	message(Ljava/lang/String;I)V	message(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	importantMessage(Ljava/lang/String;I)V	importantMessage(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	errorCheck(ZLjava/lang/String;)Z	errorCheck(ZLjava/lang/String;)Z
-		ma	0	0
-		ma	1	1
-	m	errorMessage(Ljava/lang/String;I)V	errorMessage(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	f	logger;;Lpaulscode/sound/SoundSystemLogger;	logger;;Lpaulscode/sound/SoundSystemLogger;
-	f	soundSystem;;Lpaulscode/sound/SoundSystem;	soundSystem;;Lpaulscode/sound/SoundSystem;
-	f	className;;Ljava/lang/String;	className;;Ljava/lang/String;
-c	Lpaulscode/sound/FilenameURL;	Lpaulscode/sound/FilenameURL;
-	m	<init>(Ljava/net/URL;Ljava/lang/String;)V	<init>(Ljava/net/URL;Ljava/lang/String;)V
-		ma	0	0
-		ma	1	1
-	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
-		ma	0	0
-	m	getFilename()Ljava/lang/String;	getFilename()Ljava/lang/String;
-	m	getURL()Ljava/net/URL;	getURL()Ljava/net/URL;
-	m	errorMessage(Ljava/lang/String;)V	errorMessage(Ljava/lang/String;)V
-		ma	0	0
-	m	printStackTrace(Ljava/lang/Exception;)V	printStackTrace(Ljava/lang/Exception;)V
-		ma	0	0
-	f	logger;;Lpaulscode/sound/SoundSystemLogger;	logger;;Lpaulscode/sound/SoundSystemLogger;
-	f	filename;;Ljava/lang/String;	filename;;Ljava/lang/String;
-	f	url;;Ljava/net/URL;	url;;Ljava/net/URL;
+cu	a	Lpaulscode/sound/CommandObject;
+cu	a	Lpaulscode/sound/CommandThread;
+cu	a	Lpaulscode/sound/FilenameURL;
 cu	a	Lpaulscode/sound/ICodec;
-c	Lpaulscode/sound/IStreamListener;	Lpaulscode/sound/IStreamListener;
-	m	endOfStream(Ljava/lang/String;I)V	endOfStream(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
+cu	a	Lpaulscode/sound/IStreamListener;
 cu	a	Lpaulscode/sound/Library;
 cu	a	Lpaulscode/sound/ListenerData;
-c	Lpaulscode/sound/MidiChannel$1;	Lpaulscode/sound/MidiChannel$1;
-c	Lpaulscode/sound/MidiChannel$FadeThread;	Lpaulscode/sound/MidiChannel$FadeThread;
-	m	<init>(Lpaulscode/sound/MidiChannel;)V	<init>(Lpaulscode/sound/MidiChannel;)V
-		ma	0	0
-	m	run()V	run()V
-	m	<init>(Lpaulscode/sound/MidiChannel;Lpaulscode/sound/MidiChannel$1;)V	<init>(Lpaulscode/sound/MidiChannel;Lpaulscode/sound/MidiChannel$1;)V
-		ma	0	0
-		ma	1	1
-	f	this$0;;Lpaulscode/sound/MidiChannel;	this$0;;Lpaulscode/sound/MidiChannel;
+cu	a	Lpaulscode/sound/MidiChannel$1;
+cu	a	Lpaulscode/sound/MidiChannel$FadeThread;
 cu	a	Lpaulscode/sound/MidiChannel;
-c	Lpaulscode/sound/SimpleThread$1;	Lpaulscode/sound/SimpleThread$1;
-	m	<init>(Lpaulscode/sound/SimpleThread;)V	<init>(Lpaulscode/sound/SimpleThread;)V
-		ma	0	0
-	m	run()V	run()V
-	f	this$0;;Lpaulscode/sound/SimpleThread;	this$0;;Lpaulscode/sound/SimpleThread;
+cu	a	Lpaulscode/sound/SimpleThread$1;
 cu	a	Lpaulscode/sound/SimpleThread;
 cu	a	Lpaulscode/sound/SoundBuffer;
 cu	a	Lpaulscode/sound/SoundSystem;
-c	Lpaulscode/sound/SoundSystemConfig$1;	Lpaulscode/sound/SoundSystemConfig$1;
-	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	run()V	run()V
-	f	val$srcName;;Ljava/lang/String;	val$srcName;;Ljava/lang/String;
-	f	val$qSize;;I	val$qSize;;I
-c	Lpaulscode/sound/SoundSystemConfig$Codec;	Lpaulscode/sound/SoundSystemConfig$Codec;
-	m	<init>(Ljava/lang/String;Ljava/lang/Class;)V	<init>(Ljava/lang/String;Ljava/lang/Class;)V
-		ma	0	0
-		ma	1	1
-	m	getInstance()Lpaulscode/sound/ICodec;	getInstance()Lpaulscode/sound/ICodec;
-	m	instantiationErrorMessage()V	instantiationErrorMessage()V
-	f	extensionRegX;;Ljava/lang/String;	extensionRegX;;Ljava/lang/String;
-	f	iCodecClass;;Ljava/lang/Class;	iCodecClass;;Ljava/lang/Class;
+cu	a	Lpaulscode/sound/SoundSystemConfig$1;
+cu	a	Lpaulscode/sound/SoundSystemConfig$Codec;
 cu	a	Lpaulscode/sound/SoundSystemConfig;
-c	Lpaulscode/sound/SoundSystemException;	Lpaulscode/sound/SoundSystemException;
-	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
-		ma	0	0
-	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	getType()I	getType()I
-	f	ERROR_NONE;;I	ERROR_NONE;;I
-	f	UNKNOWN_ERROR;;I	UNKNOWN_ERROR;;I
-	f	NULL_PARAMETER;;I	NULL_PARAMETER;;I
-	f	CLASS_TYPE_MISMATCH;;I	CLASS_TYPE_MISMATCH;;I
-	f	LIBRARY_NULL;;I	LIBRARY_NULL;;I
-	f	LIBRARY_TYPE;;I	LIBRARY_TYPE;;I
-	f	myType;;I	myType;;I
-c	Lpaulscode/sound/SoundSystemLogger;	Lpaulscode/sound/SoundSystemLogger;
-	m	<init>()V	<init>()V
-	m	message(Ljava/lang/String;I)V	message(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	importantMessage(Ljava/lang/String;I)V	importantMessage(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	errorCheck(ZLjava/lang/String;Ljava/lang/String;I)Z	errorCheck(ZLjava/lang/String;Ljava/lang/String;I)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	errorMessage(Ljava/lang/String;Ljava/lang/String;I)V	errorMessage(Ljava/lang/String;Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	printStackTrace(Ljava/lang/Exception;I)V	printStackTrace(Ljava/lang/Exception;I)V
-		ma	0	0
-		ma	1	1
-	m	printExceptionMessage(Ljava/lang/Exception;I)V	printExceptionMessage(Ljava/lang/Exception;I)V
-		ma	0	0
-		ma	1	1
+cu	a	Lpaulscode/sound/SoundSystemException;
+cu	a	Lpaulscode/sound/SoundSystemLogger;
 cu	a	Lpaulscode/sound/Source;
-c	Lpaulscode/sound/StreamThread;	Lpaulscode/sound/StreamThread;
-	m	<init>()V	<init>()V
-	m	cleanup()V	cleanup()V
-	m	run()V	run()V
-	m	watch(Lpaulscode/sound/Source;)V	watch(Lpaulscode/sound/Source;)V
-		ma	0	0
-	m	message(Ljava/lang/String;)V	message(Ljava/lang/String;)V
-		ma	0	0
-	m	importantMessage(Ljava/lang/String;)V	importantMessage(Ljava/lang/String;)V
-		ma	0	0
-	m	errorCheck(ZLjava/lang/String;)Z	errorCheck(ZLjava/lang/String;)Z
-		ma	0	0
-		ma	1	1
-	m	errorMessage(Ljava/lang/String;)V	errorMessage(Ljava/lang/String;)V
-		ma	0	0
-	f	logger;;Lpaulscode/sound/SoundSystemLogger;	logger;;Lpaulscode/sound/SoundSystemLogger;
-	f	streamingSources;;Ljava/util/List;	streamingSources;;Ljava/util/List;
-	f	listLock;;Ljava/lang/Object;	listLock;;Ljava/lang/Object;
+cu	a	Lpaulscode/sound/StreamThread;
 cu	a	Lpaulscode/sound/Vector3D;
 cu	a	Lpaulscode/sound/codecs/CodecJOrbis;
 cu	a	Lpaulscode/sound/codecs/CodecWav;
