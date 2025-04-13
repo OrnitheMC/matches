@@ -1,4 +1,4 @@
-Matches saved 2025-01-21, status: c:1561/1568 m:12996/13127 f:5613/6021 ma:20086/20474, input files:
+Matches saved 2025-04-13, status: c:1561/1568 m:12994/13127 f:5612/6021 ma:20084/20474, input files:
 	a:
 		4786249	SHA256	uSaXw3F+ynDNje1kTtftk5XGo4/mpsMEHVgVdkJEnt8=	minecraft-merged-1.6.2-091847.jar
 	b:
@@ -27090,10 +27090,7 @@ c	Lcw;	Ldg;
 		mau	a	0
 		ma	1	1
 		ma	2	2
-	m	b(Lcu;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonArray;	a(Ldh;Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
-		mau	a	0
-		ma	1	1
-		ma	2	2
+	mu	a	b(Lcu;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonArray;
 	m	deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;	deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
 		ma	0	0
 		ma	1	1
@@ -31248,12 +31245,12 @@ c	Lkt;	Llf;
 	m	d()Z	d()Z
 	m	a(I)Ljava/lang/String;	a(I)Ljava/lang/String;
 		ma	0	0
-	m	i()Ljava/lang/String;	i()Ldf;
+	mu	a	i()Ljava/lang/String;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	j()Ljava/text/NumberFormat;	l()Ljava/text/NumberFormat;
 	m	k()Ljava/text/DecimalFormat;	m()Ljava/text/DecimalFormat;
 	m	<clinit>()V	<clinit>()V
-	f	e;;I	a;;Ldf;
+	fu	a	e;;I
 	f	a;;Ljava/lang/String;	e;;Ljava/lang/String;
 	f	f;;Z	f;;Z
 	fu	a	g;;Ljava/lang/String;
