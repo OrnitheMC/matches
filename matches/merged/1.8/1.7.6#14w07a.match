@@ -1,6 +1,6 @@
-Matches saved 2025-04-23, status: c:4/1895 m:9/16144 f:3/7184 ma:4/23634, input files:
+Matches saved 2025-07-13, status: c:4/1899 m:11/16161 f:2/7191 ma:4/23667, input files:
 	a:
-		5504560	SHA256	cvOeK8P2RuhWLPEhlBEhoUhd69abaQBbYKUdoH0Rq/0=	minecraft-merged-1.7.6-pre1.jar
+		5507432	SHA256	4m9mN+FKVasZiWxtMQf0gTUTVjINgb06W4RHXpmNO7Q=	minecraft-merged-1.7.6.jar
 	b:
 		5739099	SHA256	EQt5FWur4/IB3GC3ZDq4Z0itNzsIokRwWdyN1C4Ncvs=	minecraft-merged-14w07a.jar
 	cp:
@@ -28,30 +28,26 @@ Matches saved 2025-04-23, status: c:4/1895 m:9/16144 f:3/7184 ma:4/23634, input 
 		1452995	SHA256	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
 		2172168	SHA256	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
 		315805	SHA256	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
-		59341	SHA256	k5MteUPVa4TQLIDP2bVHMuZEywVWwYh21ts8INUGkDY=	authlib-1.5.5.jar
+		59548	SHA256	zQFpmzvRH8NfVB9V8XB9xKOQBSWo0YnoxN0+ShQfxv8=	authlib-1.5.6.jar
 	cp b:
 		62477	SHA256	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
 		1501009	SHA256	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
 		2225441	SHA256	+pF/Tz9qdjdRNLqJpA06HOgHlFqRu9vjnDH3bgMDCGg=	guava-16.0.jar
 		385091	SHA256	gCTCUDv4Pvp9/xU/4CTBYk9fdWvg7F/BHIVv5CCGTSY=	commons-lang3-3.2.1.jar
 		50682	SHA256	Q2UEvs1gtih7iUJpObhyJii86C3bcORoHrI+9d70Lsw=	authlib-1.5.jar
-c	Lbak;	Lbdp;
-	m	<init>(Lbbn;IIZZLjava/io/File;Ljava/io/File;Ljava/io/File;Ljava/net/Proxy;Ljava/lang/String;Lcom/google/common/collect/Multimap;Ljava/lang/String;)V	<init>(Lber;IIZZLjava/io/File;Ljava/io/File;Ljava/io/File;Ljava/net/Proxy;Ljava/lang/String;Lcom/mojang/authlib/properties/PropertyMap;Ljava/lang/String;)V
+c	Lban;	Lbdp;
 	m	a(Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/ListenableFuture;	a(Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/ListenableFuture;
 		ma	0	0
 	m	a(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;	a(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
 		ma	0	0
 	m	ab()Z	aa()Z
-	m	<clinit>()V	<clinit>()V
 	f	aB;;Ljava/util/Queue;	aB;;Ljava/util/Queue;
 	f	aC;;Ljava/lang/Thread;	aC;;Ljava/lang/Thread;
-c	Lboe;	Lbrf;
-	m	a()V	a()V
-c	Lbtq;	Lcaj;
-	m	<init>(Lbsm;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V	<init>(Lbyx;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
-	m	<clinit>()V	<clinit>()V
-	f	b;;Ljava/util/concurrent/ExecutorService;	b;;Ljava/util/concurrent/ExecutorService;
-c	Lbtv;	Lcan;
-	m	a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lbte;)V	a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lbzx;)V
+c	Lbnq;	Lbqn;
+	m	a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lbth;)V	a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lbzx;)V
 		ma	0	0
 		ma	1	1
+c	Lboh;	Lbrf;
+	m	a()V	a()V
+c	Lbom;	Lbrm;
+	m	a()V	a()V

@@ -1,4 +1,4 @@
-Matches saved 2025-04-15, status: c:2/1859 m:6/15933 f:5/7112 ma:2/23334, input files:
+Matches saved 2025-07-13, status: c:2/1859 m:1/15933 f:5/7112 ma:2/23334, input files:
 	a:
 		5330420	SHA256	QmqOdpI5fYiqEG1DEDqkKEDQp99Qz+m42/93Xb3CoMk=	minecraft-merged-1.7.5.jar
 	b:
@@ -32,17 +32,12 @@ Matches saved 2025-04-15, status: c:2/1859 m:6/15933 f:5/7112 ma:2/23334, input 
 		263965	SHA256	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
 		44006	SHA256	zzW6SHbTDn4SsRNvScCZdgjte5Y1u/jX6m5xCPHEbwA=	authlib-1.4.2.jar
 c	Lavg;	Laxz;
-	m	<init>()V	<init>()V
-	m	<init>(Ljava/util/Random;)V	<init>(Ljava/util/Random;)V
-	m	<clinit>()V	<clinit>()V
 	f	e;;[D	e;;[D
 	f	f;;[D	f;;[D
 	f	g;;[D	g;;[D
 	f	h;;[D	h;;[D
 	f	i;;[D	i;;[D
 c	Lbvm;	Lcbu;
-	m	<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/Proxy;)V	<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/Proxy;)V
 	m	a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 		ma	0	0
 		ma	1	1
-	m	<clinit>()V	<clinit>()V

@@ -1,4 +1,4 @@
-Matches saved 2025-04-23, status: c:5/1899 m:23/16161 f:3/7191 ma:26/23667, input files:
+Matches saved 2025-07-13, status: c:10/1899 m:38/16161 f:10/7191 ma:33/23667, input files:
 	a:
 		5507432	SHA256	4m9mN+FKVasZiWxtMQf0gTUTVjINgb06W4RHXpmNO7Q=	minecraft-merged-1.7.6.jar
 	b:
@@ -31,15 +31,33 @@ Matches saved 2025-04-23, status: c:5/1899 m:23/16161 f:3/7191 ma:26/23667, inpu
 		59548	SHA256	zQFpmzvRH8NfVB9V8XB9xKOQBSWo0YnoxN0+ShQfxv8=	authlib-1.5.6.jar
 	cp b:
 		44006	SHA256	zzW6SHbTDn4SsRNvScCZdgjte5Y1u/jX6m5xCPHEbwA=	authlib-1.4.2.jar
+c	Lban;	Lbby;
+	m	ac()Lcom/mojang/authlib/minecraft/MinecraftSessionService;	ab()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	m	ad()Lbtt;	ac()Lbxb;
+	f	az;;Lcom/mojang/authlib/minecraft/MinecraftSessionService;	az;;Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	f	aA;;Lbtt;	aA;;Lbxb;
+c	Lbnq;	Lbov;
+	m	n()Z	a()Z
+	m	o()Z	b()Z
+c	Lbsb;	Lbvj;
+	m	a()V	a()V
+	f	e;;Ljava/io/File;	e;;Ljava/io/File;
+c	Lbtt;	Lbxb;
+	m	a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;)Lbth;	a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;)Lorg/apache/commons/lang3/tuple/Pair;
+		ma	0	0
+		ma	1	1
+	m	a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;	a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;
+		ma	0	0
+	f	a;;Lbth;	a;;Lbwp;
+	f	c;;Lbsp;	b;;Lbvx;
+	f	d;;Ljava/io/File;	c;;Ljava/io/File;
+	f	e;;Lcom/mojang/authlib/minecraft/MinecraftSessionService;	d;;Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+c	Lbty;	Lbwr;
 c	Ldh;	Lea;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInput;ILds;)V	a(Ljava/io/DataInput;ILek;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
-	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
-	m	hashCode()I	hashCode()I
 	m	a(Ljava/io/DataInput;Lds;)B	a(Ljava/io/DataInput;Lek;)B
 		ma	0	0
 		ma	1	1
@@ -52,18 +70,28 @@ c	Ldh;	Lea;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	<clinit>()V	<clinit>()V
 c	Lds;	Lek;
-	m	<init>(J)V	<init>(I)V
-		ma	0	0
 	m	a(J)V	a(I)V
 		ma	0	0
-	m	<clinit>()V	<clinit>()V
 	f	a;;Lds;	a;;Lek;
 	f	b;;J	b;;I
 	f	c;;J	c;;I
 c	Ldt;	Lel;
-	m	<init>(J)V	<init>(I)V
-		ma	0	0
 	m	a(J)V	a(I)V
 		ma	0	0
+c	Ldu;	Lem;
+	m	a([BLds;)Ldh;	a([BLek;)Lea;
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/io/DataInput;Lds;)Ldh;	a(Ljava/io/DataInput;Lek;)Lea;
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/io/DataInput;ILds;)Ldy;	a(Ljava/io/DataInput;ILek;)Lep;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+c	Ldy;	Lep;
+	m	a(Ljava/io/DataInput;ILds;)V	a(Ljava/io/DataInput;ILek;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2

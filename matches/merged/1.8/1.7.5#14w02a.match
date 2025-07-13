@@ -1,4 +1,4 @@
-Matches saved 2025-04-15, status: c:2/1859 m:6/15933 f:0/7112 ma:2/23334, input files:
+Matches saved 2025-07-13, status: c:2/1859 m:2/15933 f:0/7112 ma:2/23334, input files:
 	a:
 		5330420	SHA256	QmqOdpI5fYiqEG1DEDqkKEDQp99Qz+m42/93Xb3CoMk=	minecraft-merged-1.7.5.jar
 	b:
@@ -32,12 +32,8 @@ Matches saved 2025-04-15, status: c:2/1859 m:6/15933 f:0/7112 ma:2/23334, input 
 		34601	SHA256	3FrF1uHOIyfriYgecG16Teb3qR8y8cXiSctRt/GUwCs=	authlib-1.2.jar
 		52315	SHA256	fvCJml7bsEq4pLmvPcAXUyT6m9nEdjT1AMbNmcWQmxM=	twitch-5.12.jar
 c	Lmp;	Lmy;
-	m	<init>(Lms;)V	<init>(Lnb;)V
 	m	a(II)Z	a(II)Z
 		ma	0	0
 		ma	1	1
-	m	<clinit>()V	<clinit>()V
 c	Lmr;	Lna;
-	m	<init>(Lms;Laoz;Laor;)V	<init>(Lnb;Laqh;Lapy;)V
 	m	a()Ljava/util/List;	a()Ljava/util/List;
-	m	<clinit>()V	<clinit>()V

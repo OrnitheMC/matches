@@ -1,4 +1,4 @@
-Matches saved 2025-07-13, status: c:1/1901 m:2/16173 f:0/7194 ma:2/23683, input files:
+Matches saved 2025-07-13, status: c:6/1901 m:18/16173 f:7/7194 ma:9/23683, input files:
 	a:
 		5508366	SHA256	wmhBUuyFm+zC2/6BTWqKpBPCxi1wpBhjNkgX12CJVuc=	minecraft-merged-1.7.8.jar
 	b:
@@ -37,6 +37,30 @@ Matches saved 2025-07-13, status: c:1/1901 m:2/16173 f:0/7194 ma:2/23683, input 
 		385091	SHA256	gCTCUDv4Pvp9/xU/4CTBYk9fdWvg7F/BHIVv5CCGTSY=	commons-lang3-3.2.1.jar
 		61452	SHA256	XSlkEUvgSbQwtkI8qgP8RKNFRuxJgUtE255DTIpjpSk=	authlib-1.5.13.jar
 		55977	SHA256	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
+c	Lbdc;	Lbmi;
+	f	i;;Lbca;	i;;Lbkn;
+c	Lblz;	Lbuy;
+	m	b()Lbma;	b()Lbuz;
+	m	a(Lbma;)V	a(Lbuz;)V
+		ma	0	0
+	m	a(Lblz;)V	a(Lbuy;)V
+		ma	0	0
+	f	j;;Lbma;	j;;Lbuz;
+c	Lbma;	Lbuz;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a()Lfj;	a()Lgj;
+	f	a;;Lbma;	a;;Lbuz;
+	f	b;;Lbma;	b;;Lbuz;
+	f	c;;Lbma;	c;;Lbuz;
+	f	d;;Lfj;	d;;Lgj;
+	f	e;;[Lbma;	e;;[Lbuz;
+c	Lls;	Lnd;
+	m	aG()V	aH()V
+c	Lnr;	Lpd;
+	m	a(Ljava/util/UUID;)Lcom/mojang/authlib/GameProfile;	a(Ljava/util/UUID;)Lcom/mojang/authlib/GameProfile;
+		ma	0	0
 c	Lny;	Lpk;
 	m	b(Ljava/lang/String;Ljava/util/Date;)Ljava/util/Date;	b(Ljava/lang/String;Ljava/util/Date;)Ljava/util/Date;
 		ma	0	0
