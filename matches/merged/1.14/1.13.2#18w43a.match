@@ -1,4 +1,4 @@
-Matches saved 2024-11-25, status: c:3968/4027 m:30704/31520 f:14275/14542 ma:43869/45608, input files:
+Matches saved 2025-08-27, status: c:3968/4027 m:30704/31520 f:14275/14542 ma:43869/45608, input files:
 	a:
 		15910613	SHA256	HYUBqjrxFA++V8yGimoxXP6Ezf/f5vxFLrd30WDEDYc=	minecraft-merged-1.13.2.jar
 	b:
@@ -1738,7 +1738,7 @@ cu	a	Lacu$1;
 cu	a	Lacu$a;
 cu	a	Lacu;
 c	Lacv;	Ladn;
-	m	a(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;	a(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture;
+	m	a(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;	execute(Ljava/lang/Runnable;)V
 		ma	0	0
 	m	av()Z	aw()Z
 cu	a	Lacw;
@@ -48192,7 +48192,6 @@ c	Lcft;	Lcjj;
 	m	S()Laer;	S()Lafh;
 	m	a(Laer;)V	a(Lafh;)V
 		ma	0	0
-	mu	a	a(Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/ListenableFuture;
 	m	av()Z	aw()Z
 	m	T()Lcuu;	T()Lcyf;
 	m	U()Lcyo;	U()Ldca;
@@ -88749,7 +88748,6 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	m	as()Lom;	as()Lpd;
 	m	at()V	at()V
 	m	au()I	au()I
-	mu	a	a(Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/ListenableFuture;
 	m	av()Z	aw()Z
 	m	aw()I	ax()I
 	m	ax()J	ay()J
