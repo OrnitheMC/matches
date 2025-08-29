@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:4414/4433 m:33796/34161 f:16109/16242 ma:48196/49533, input files:
+Matches saved 2025-08-29, status: c:4415/4433 m:33798/34161 f:16109/16242 ma:48204/49533, input files:
 	a:
 		17216326	SHA256	CK1lTAZ/aFFH1TFaU2h14gt2yd+TerSHgWw5lsPDu4Q=	minecraft-merged-18w49a.jar
 	b:
@@ -79540,6 +79540,17 @@ c	Ldku;	Ldmm;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lpz;	a;;Lqc;
 	f	c;;Lcxt;	b;;Lczh;
+c	Ldkv;	Ldmn;
+	m	a(Lagt;FFFFFFF)V	a(Lagv;FFFFFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	a()Z	a()Z
 c	Ldkw;	Ldmo;
 	m	<init>(Ldiu;)V	<init>(Ldkj;)V
 	m	a(Lamg;FFFFFFF)V	a(Lamr;FFFFFFF)V
