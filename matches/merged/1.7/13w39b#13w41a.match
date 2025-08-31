@@ -1,4 +1,4 @@
-Matches saved 2025-01-12, status: c:1690/1705 m:14018/14418 f:6473/6598 ma:21512/22045, input files:
+Matches saved 2025-08-31, status: c:1690/1705 m:14021/14418 f:6473/6598 ma:21512/22045, input files:
 	a:
 		5098747	SHA256	j1OXlxCMzhSMIGryEK5L5P6UioBkNQp/RAtg+weF7yc=	minecraft-merged-13w39b.jar
 	b:
@@ -31324,7 +31324,6 @@ c	Lfd;	Lfr;
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
 	mu	a	a()I
-	mu	a	b_()Z
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
 c	Lfe;	Lfs;
 	m	<init>()V	<init>()V
@@ -31811,7 +31810,7 @@ c	Lgg;	Lgn;
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
-	mu	a	b_()Z
+	m	b_()Z	a()Z
 	f	a;;I	a;;I
 c	Lgh;	Lgo;
 	m	<init>()V	<init>()V
@@ -32130,7 +32129,7 @@ c	Lgw;	Lfi;
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
-	mu	a	b_()Z
+	m	b_()Z	a()Z
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	mu	a	c(Ljava/io/DataInput;)Lzi;
 	mu	a	a(Lzi;Ljava/io/DataOutput;)V
@@ -32338,7 +32337,6 @@ c	Lhg;	Lhi;
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
-	mu	a	b_()Z
 	f	a;;I	a;;I
 	f	b;;B	b;;B
 c	Lhh;	Lji;
@@ -32571,7 +32569,7 @@ c	Lhu;	Lhu;
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
-	mu	a	b_()Z
+	m	b_()Z	a()Z
 	f	a;;I	a;;I
 	f	b;;I	b;;I
 	f	c;;I	c;;I
@@ -32589,7 +32587,6 @@ c	Lhv;	Lhv;
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
-	mu	a	b_()Z
 	f	a;;J	a;;J
 	f	b;;J	b;;J
 c	Lhw;	Ljm;
