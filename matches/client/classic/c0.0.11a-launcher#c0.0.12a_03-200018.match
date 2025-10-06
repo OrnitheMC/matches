@@ -1,8 +1,8 @@
-Matches saved 2024-09-08, status: c:30/37 m:125/208 f:178/231 ma:238/358, input files:
+Matches saved 2025-10-06, status: c:30/37 m:125/208 f:178/231 ma:238/358, input files:
 	a:
 		67430	SHA256	LKE7Q+o+/AOIxcHUYThU9kEvl9TAL0sYcp9kjkbwLR8=	minecraft-client-c0.0.11a-launcher.jar
 	b:
-		46554	SHA256	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03.jar
+		46554	SHA256	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03-200018.jar
 	cp:
 		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
@@ -15,6 +15,10 @@ Matches saved 2024-09-08, status: c:30/37 m:125/208 f:178/231 ma:238/358, input 
 		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
+	non-obf cls a	paulscode|jcraft
+	non-obf cls b	paulscode|jcraft
+	non-obf mem a	paulscode|jcraft
+	non-obf mem b	paulscode|jcraft
 c	Lcom/mojang/minecraft/Entity;	Lcom/mojang/minecraft/f;
 	m	<init>(Lcom/mojang/minecraft/level/Level;)V	<init>(Lcom/mojang/minecraft/a/g;)V
 		ma	0	0
