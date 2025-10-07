@@ -1,8 +1,8 @@
-Matches saved 2025-01-06, status: c:413/413 m:3105/3122 f:1613/1618 ma:4943/5002, input files:
+Matches saved 2025-10-07, status: c:413/413 m:3105/3122 f:1613/1618 ma:4943/5002, input files:
 	a:
 		458602	SHA256	HseOPpda66M/S7iLJfnqSCnvaZ4rOm7a7npjmw5oi6s=	minecraft-server-b1.5_02.jar
 	b:
-		485882	SHA256	jyuAsdwIH4FhrhjeBI0FoTYaXV2SM/MEaqKNgIrzMkk=	minecraft-server-b1.6-pre-trailer.jar
+		485882	SHA256	jyuAsdwIH4FhrhjeBI0FoTYaXV2SM/MEaqKNgIrzMkk=	minecraft-server-b1.6-trailer.jar
 	cp:
 	cp a:
 	cp b:
