@@ -1,9 +1,10 @@
-Matches saved 2024-03-24, status: c:880/880 m:6704/6734 f:3790/3855 ma:11350/11433, input files:
+Matches saved 2025-10-07, status: c:880/880 m:6704/6734 f:3790/3855 ma:11350/11433, input files:
 	a:
-		1890166	SHA256	NMrNUo2QnM3RnBD5DOo+XVNri1aCShYOW553dzhC8es=	minecraft-client-b1.8-pre1-201109081459.jar
+		1890166	SHA256	NMrNUo2QnM3RnBD5DOo+XVNri1aCShYOW553dzhC8es=	minecraft-client-b1.8-pre1-081459.jar
 	b:
-		1893151	SHA256	LiKH7glG7rH3KFXpFdDjAX6Iyzrjq9szJIb0bb5FJ4Y=	minecraft-client-b1.8-pre1-201109091357.jar
+		1893151	SHA256	LiKH7glG7rH3KFXpFdDjAX6Iyzrjq9szJIb0bb5FJ4Y=	minecraft-client-b1.8-pre1-091358.jar
 	cp:
+		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
 		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
 		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
