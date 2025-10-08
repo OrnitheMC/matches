@@ -1,4 +1,4 @@
-Matches saved 2025-10-08, status: c:345/385 m:2487/2866 f:1297/1486 ma:4192/4715, input files:
+Matches saved 2025-10-08, status: c:344/385 m:2496/2866 f:1297/1486 ma:4192/4715, input files:
 	a:
 		410516	SHA256	TKwgcgC9BYtu7p2rb/xQzitkzaM60qZSMbKmjq71Nvg=	minecraft-server-b1.3.jar
 	b:
@@ -8261,7 +8261,6 @@ c	Lnt;	Ltu;
 	f	b;;I	b;;I
 cu	a	Lo;
 cu	a	Lp;
-c	Lq;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
 c	Lr;	Lx;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
