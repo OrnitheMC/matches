@@ -1,8 +1,8 @@
-Matches saved 2025-01-09, status: c:1416/1416 m:11563/11579 f:5858/5860 ma:18413/18461, input files:
+Matches saved 2025-10-08, status: c:1416/1416 m:11563/11579 f:5858/5860 ma:18413/18461, input files:
 	a:
 		4818879	SHA256	YVQMRRjFUpKXOVXTo5IXutc4K8HTp2VBl2DI6FZRuWw=	minecraft-merged-12w38b.jar
 	b:
-		4821806	SHA256	+SGHlsehG5VUPJiFwQ7U/JsMv34+/fHZ9a2+DbElCXs=	minecraft-merged-12w39a.jar
+		4821806	SHA256	rGQ1t64qu+aKCH7fjxlHegYSUMvf8GrlvAvRuM1oe1I=	minecraft-merged-12w39a-1243.jar
 	cp:
 		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
