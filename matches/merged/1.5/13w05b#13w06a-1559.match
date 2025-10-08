@@ -1,8 +1,8 @@
-Matches saved 2023-01-28, status: c:2309/2309 m:20086/20096 f:8321/8322 ma:29093/29116, input files:
+Matches saved 2025-10-08, status: c:2309/2309 m:20087/20096 f:8321/8322 ma:29096/29116, input files:
 	a:
-		6516465	SHA256	ImcNV0sxyn6Ve7GOlfzuYRAIgIztVxkkFMfjhtljxg4=	minecraft-merged-13w05b.jar
+		6516465	SHA256	mimUPhiTlo2PksqvJ/++0TuO/9DQMmS13SArn8AusiE=	minecraft-merged-13w05b.jar
 	b:
-		6467921	SHA256	GacqDDZuI1PqTCfTnMY3HvDExgYoFZZmAE2rHZS1vzc=	minecraft-merged-13w06a-1559.jar
+		6519649	SHA256	kVrH+srXLGVCxBphGlva/YDA5mHbmb1GGBVgy3rWdZM=	minecraft-merged-13w06a-1559.jar
 	cp:
 		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
@@ -22854,7 +22854,7 @@ c	Lbhu;	Lbhz;
 	f	a;;Lbas;	a;;Lbaw;
 c	Lbhv;	Lbia;
 	m	<init>()V	<init>()V
-	m	a(Laps;DDDF)V	a(Lzf;DDDF)V
+	m	a(Laps;DDDF)V	a(Lapw;DDDF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
@@ -59152,7 +59152,13 @@ c	Lzk;	Lzo;
 		ma	1	1
 		ma	2	2
 	mu	a	b(IIIIII)I
-	mu	a	g(IIIIII)I
+	m	g(IIIIII)I	a(IIILzz;)I
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mau	a	3
+		mau	a	4
+		mau	a	5
 	m	c(Lzv;III)V	c(Lzz;III)V
 		ma	0	0
 		ma	1	1
