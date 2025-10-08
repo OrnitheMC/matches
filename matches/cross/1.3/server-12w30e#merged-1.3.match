@@ -1,8 +1,8 @@
-Matches saved 2024-01-14, status: c:899/899 m:6787/6787 f:3288/3288 ma:10562/10562, input files:
+Matches saved 2025-10-08, status: c:899/899 m:6787/6787 f:3288/3288 ma:10562/10562, input files:
 	a:
 		1799522	SHA256	jmPr9oab4u7xDqh39/l9l1kYP643N9PvYmNFi6gRabE=	minecraft-server-12w30e.jar
 	b:
-		4752074	SHA256	6oRMJZGH5bf1DgugnwVyg/Gb2hhWzU+ae4TnirNMzbk=	minecraft-merged-1.3-pre-07261249.jar
+		4752074	SHA256	Z8hR/OgI18mcEAaI+oE/weba2Ub0qmzJrlQ8c5MwLLs=	minecraft-merged-1.3.jar
 	cp:
 	cp a:
 	cp b:
