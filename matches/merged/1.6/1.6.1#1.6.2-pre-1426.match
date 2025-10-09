@@ -1,8 +1,8 @@
-Matches saved 2023-02-13, status: c:1560/1562 m:13064/13092 f:5999/6003 ma:20415/20438, input files:
+Matches saved 2025-10-09, status: c:1560/1562 m:13064/13092 f:5999/6003 ma:20415/20438, input files:
 	a:
 		4780419	SHA256	WCJzXcgsUgyFAS5vADOMjqRsz+E7e+r6vi150ZxhgYk=	minecraft-merged-1.6.1.jar
 	b:
-		4786249	SHA256	uSaXw3F+ynDNje1kTtftk5XGo4/mpsMEHVgVdkJEnt8=	minecraft-merged-1.6.2-091847.jar
+		4786185	SHA256	csdBe5sl2KUwjyK8PnMJzretMg4GgPu0mmOF/8uW5rc=	minecraft-merged-1.6.2-pre-1426.jar
 	cp:
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
 		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
@@ -25058,7 +25058,7 @@ c	Lbhz;	Lbih;
 	f	c;;Lbjd;	c;;Lbjl;
 	f	d;;Ljava/util/List;	d;;Ljava/util/List;
 	f	e;;Ljava/util/Map;	e;;Ljava/util/Map;
-	f	f;;Ljava/util/HashMap;	f;;Ljava/util/Map;
+	f	f;;Ljava/util/HashMap;	f;;Ljava/util/HashMap;
 	f	g;;I	g;;I
 	f	h;;Ljava/lang/String;	h;;Ljava/lang/String;
 	f	i;;Lbia;	i;;Lbii;
