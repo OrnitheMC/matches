@@ -99,10 +99,10 @@ async function setupAnyMatchEnv(manifest: MainManifest, versionA: string, versio
 }
 
 async function setupMatchEnv(manifest: MainManifest, versionA: string, typeA: string, versionB: string, typeB: string, era?: string) {
-    const type = typeA === typeB ? typeA : 'cross'
-    const prefixA = type === 'cross' ? typeA + '-' : ''
-    const prefixB = type === 'cross' ? typeB + '-' : ''
-    const typeDir = path.resolve(MATCHES_DIR, type)
+    const matchType = typeA === typeB ? typeA : 'cross'
+    const prefixA = matchType === 'cross' ? typeA + '-' : ''
+    const prefixB = matchType === 'cross' ? typeB + '-' : ''
+    const typeDir = path.resolve(MATCHES_DIR, matchType)
     const eraB = await getEra(versionB)
     if (era && era !== eraB) return [true, false]
     const matchDir = eraB ? path.resolve(typeDir, eraB) : typeDir
@@ -128,10 +128,45 @@ async function setupMatchEnv(manifest: MainManifest, versionA: string, typeA: st
         for (const cp of libsA) lines.push(`\t\t${path.basename(cp)}`)
         lines.push('\tcp b:')
         for (const cp of libsB) lines.push(`\t\t${path.basename(cp)}`)
-        for (const type of ['cls', 'mem']) for (const side of ['a', 'b']) {
+        for (const entry of ['cls', 'mem']) for (const side of ['a', 'b']) {
+            let nonObfPattern = '';
+            const type = ({a: typeA, b: typeB})[side];
             const info = await getVersionDetails(({a: versionA, b: versionB})[side]!)
-            if (info.releaseTime > '2013-04-18' && !info.id.startsWith('1.5')) continue
-            lines.push(`\tnon-obf ${type} ${side}\tpaulscode|jcraft`)
+            if (type === 'client' || type === 'merged') {
+                if (info.releaseTime < '2009-06-29T21:56:00+00:00') { // <=c0.0.21a
+                } else if (info.releaseTime < '2009-12-23T00:40:00+00:00') { // <=c0.30
+                    nonObfPattern = 'jarnbjo';
+                } else if (info.releaseTime < '2010-01-04T21:54:00+00:00') { // <=in-20091231
+                } else if (info.releaseTime < '2013-04-18' || info.id.startsWith('1.5')) { // <=1.5.2
+                    nonObfPattern = 'jcraft|paulscode';
+                }
+            } else if (type === 'server') {
+                if (info.releaseTime < '2013-04-18' || info.id.startsWith('1.5')) { // <=1.5.2
+                } else if (info.releaseTime < '2013-09-05T00:00:00+00:00' || info.id.startsWith('1.6')) { // <=1.6.4
+                    nonObfPattern = 'argo|google|apache|bouncycastle';
+                } else if (info.releaseTime < '2013-09-20T13:45:00+00:00') { // <=13w38a
+                    nonObfPattern = 'google|apache|bouncycastle|trove';
+                } else if (info.releaseTime < '2013-10-10T14:21:00+00:00') { // <=13w39b
+                    nonObfPattern = 'javax|google|apache|bouncycastle|trove';
+                } else if (info.releaseTime < '2013-10-15T13:25:00+00:00') { // <=1.8
+                    nonObfPattern = 'javax|netty|google|apache|trove';
+                } else if (info.releaseTime < '2015-01-26T15:03:00+00:00') { // <=1.8.2-pre4
+                    nonObfPattern = 'javax|netty|google|apache';
+                } else if (info.releaseTime < '2015-07-27T10:31:00+00:00') { // <=1.8.7
+                    nonObfPattern = 'javax|netty|google|apache|oshi';
+                } else if (info.releaseTime < '2016-04-13T13:56:00+00:00') { // <=16w15a
+                    nonObfPattern = 'javax|netty|google|apache';
+                } else if (info.releaseTime < '2018-01-03T13:29:00+00:00') { // <=17w50a
+                    nonObfPattern = 'javax|netty|google|apache|fastutil';
+                } else {
+                    nonObfPattern = 'javax|netty|google|apache|fastutil|joptsimple';
+                }
+            } else{
+                throw Error(`unknown type ${type}`);
+            }
+            if (nonObfPattern) {
+                lines.push(`\tnon-obf ${entry} ${side}\t^.*(?:${nonObfPattern}).*$`)
+            }
         }
         lines.push('c\tLdummy;\tLdummy;', '')
         await Deno.mkdir(path.dirname(matchFile), {recursive: true})
