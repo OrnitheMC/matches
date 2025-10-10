@@ -1,8 +1,8 @@
-Matches saved 2025-04-15, status: c:1845/1849 m:15787/15823 f:7038/7063 ma:23154/23214, input files:
+Matches saved 2025-10-10, status: c:1845/1849 m:15787/15823 f:7038/7063 ma:23154/23214, input files:
 	a:
 		5311284	SHA256	LAqpwcvLIjavfSpxWXbREpL0zI6AsO10A56T7UwbWqE=	minecraft-merged-1.7.4.jar
 	b:
-		5330420	SHA256	QmqOdpI5fYiqEG1DEDqkKEDQp99Qz+m42/93Xb3CoMk=	minecraft-merged-1.7.5.jar
+		5330420	SHA256	HIrBFdnGUMtd28Ru0Wmqr9wE3GBPFby18FuB+u3nzOY=	minecraft-merged-1.7.5-02260922.jar
 	cp:
 		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
 		289881	SHA256	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
