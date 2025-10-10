@@ -1,8 +1,8 @@
-Matches saved 2024-02-16, status: c:1699/1705 m:14269/14336 f:6466/6489 ma:21971/22047, input files:
+Matches saved 2025-10-10, status: c:1699/1705 m:14269/14336 f:6466/6489 ma:21971/22047, input files:
 	a:
 		5070043	SHA256	6uCwmk2TMc/JX+nJwhMfYYxqi498TyNYq+arcCz9qFs=	minecraft-merged-13w38c.jar
 	b:
-		5097372	SHA256	DGil76S39SNd5UJNkXBwmNz2nf2ezGFFOrWIksOGm30=	minecraft-merged-13w39a.jar
+		5096668	SHA256	NtkWvxsRksn1KVSwFv/j5fQL1f5xzuiB022ZfeBHoCg=	minecraft-merged-13w39a-1511.jar
 	cp:
 		289881	SHA256	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
 		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
@@ -15216,11 +15216,7 @@ c	Laur;	Laku;
 	mu	a	a(Ljava/lang/String;)V
 	mu	a	f()Ljava/lang/String;
 	mu	a	a(Lade;)I
-	mu	a	c_()Ljava/lang/String;
-	mu	a	d_()Lem;
 	mu	a	b(Ljava/lang/String;)V
-	mu	a	a(Lem;)V
-	mu	a	a(ILjava/lang/String;)Z
 	m	b(Lde;)V	b(Lde;)V
 		ma	0	0
 	m	a(Lde;)V	a(Lde;)V
