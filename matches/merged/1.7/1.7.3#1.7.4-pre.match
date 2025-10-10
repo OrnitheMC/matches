@@ -1,35 +1,35 @@
-Matches saved 2022-01-07, status: c:1849/1849 m:15820/15820 f:7061/7062 ma:23213/23213, input files:
+Matches saved 2025-10-10, status: c:1849/1849 m:15820/15820 f:7061/7062 ma:23213/23213, input files:
 	a:
-		5310951	38N5nXl1o4R1QmoH02X3YN3ePEMj3RnbuSoVtns6lWI=	minecraft-merged-1.7.3-pre.jar
+		5310951	SHA256	tgWoQW1VPKXb3AbAC0/lOaSoLcflHaM2eWtATmQXRJM=	minecraft-merged-1.7.3.jar
 	b:
-		5311284	t9zRV1h5cKRuuSJKJTMeYQQgxJZAwha2H5lzJ+tkFVw=	minecraft-merged-1.7.4.jar
+		5311294	SHA256	1vk9J7QUPmCHDBp7JGSCuF5SK95yhiATXrAr+tpJzUM=	minecraft-merged-1.7.4-pre.jar
 	cp:
-		7877	MSD9JMCaubwIjLnB6yBlvoZxhghFD9vCe103FymmGcs=	netty-1.6.jar
-		289881	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1452995	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
-		2172168	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
-		315805	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		34601	3FrF1uHOIyfriYgecG16Teb3qR8y8cXiSctRt/GUwCs=	authlib-1.2.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1014767	Kuqx3a+cHkK76oXhzBAzjpPrebbOdLb8lTKsFavyqWw=	lwjgl-2.9.1-nightly-20131120.jar
-		173887	rx5+ciLmLUd1OT+jwATWz6LCfal46iOpTwSV1sIpPEw=	lwjgl_util-2.9.1-nightly-20131120.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		289881	SHA256	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1452995	SHA256	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
+		2172168	SHA256	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
+		315805	SHA256	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		34601	SHA256	3FrF1uHOIyfriYgecG16Teb3qR8y8cXiSctRt/GUwCs=	authlib-1.2.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1014767	SHA256	Kuqx3a+cHkK76oXhzBAzjpPrebbOdLb8lTKsFavyqWw=	lwjgl-2.9.1-nightly-20131120.jar
+		173887	SHA256	rx5+ciLmLUd1OT+jwATWz6LCfal46iOpTwSV1sIpPEw=	lwjgl_util-2.9.1-nightly-20131120.jar
 	cp a:
-		52315	fvCJml7bsEq4pLmvPcAXUyT6m9nEdjT1AMbNmcWQmxM=	twitch-5.12.jar
+		52315	SHA256	fvCJml7bsEq4pLmvPcAXUyT6m9nEdjT1AMbNmcWQmxM=	twitch-5.12.jar
 	cp b:
-		52315	+SGryceS9ZT3/G/Aa0p+ozC2Rupe03heNYn5CxayqtE=	twitch-5.16.jar
+		52315	SHA256	+SGryceS9ZT3/G/Aa0p+ozC2Rupe03heNYn5CxayqtE=	twitch-5.16.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
