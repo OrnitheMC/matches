@@ -1,8 +1,8 @@
-Matches saved 2024-06-05, status: c:3286/3290 m:25141/25190 f:11694/11721 ma:34043/34151, input files:
+Matches saved 2025-10-12, status: c:3286/3290 m:25141/25190 f:11694/11721 ma:34043/34151, input files:
 	a:
 		10021348	SHA256	5no9vJiRfBR2BbfZgxn5upgc28ldLVScQKlQQwQ+WxE=	minecraft-merged-17w17b.jar
 	b:
-		10038861	SHA256	r8PrxE3XFtb8yrKW5UOK4FkGBZlnbh90roy/ot4moYs=	minecraft-merged-17w18a.jar
+		10038861	SHA256	xSrIan0Mx8wY9+Px/GD65YkzLN3N/TanoMJOGaP5Mhg=	minecraft-merged-17w18a-1450.jar
 	cp:
 		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
@@ -21,7 +21,6 @@ Matches saved 2024-06-05, status: c:3286/3290 m:25141/25190 f:11694/11721 ma:340
 		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
 		231952	SHA256	xiIXY715xPHD3H91C18poLs4s2e4ExTE9xiW40DECCU=	gson-2.8.0.jar
 		65621	SHA256	yKCVEjvpPFnUrCnkoGFklbPUeaxlkTy3Gage5YPp380=	authlib-1.5.25.jar
-		3025164	SHA256	f5/bd+nqvJ9bLYtEhMxFsLRFLZYYT06jFZlYM8Z5vb4=	realms-1.10.8.jar
 		365552	SHA256	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
 		589512	SHA256	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
 		62050	SHA256	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
