@@ -1,8 +1,8 @@
-Matches saved 2024-06-06, status: c:4643/4643 m:36764/36771 f:17103/17109 ma:52654/53108, input files:
+Matches saved 2025-10-12, status: c:4643/4643 m:36764/36771 f:17103/17109 ma:52654/53108, input files:
 	a:
 		18323096	SHA256	z7VmAr6zhk8gjebxYijErF1lrM0jUuOJA/D823YqDN8=	minecraft-merged-19w13a.jar
 	b:
-		18328477	SHA256	cLEQDRb+30ZF5UbLg59IyK4miLpwZfoiQ+yIp257vqA=	minecraft-merged-19w13b-1653.jar
+		18328476	SHA256	5rMcD0oz5cN6wd0zXj2SMPHb2bRte9naUA+ag5DesBM=	minecraft-merged-19w13b-1316.jar
 	cp:
 		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
@@ -29,7 +29,6 @@ Matches saved 2024-06-06, status: c:4643/4643 m:36764/36771 f:17103/17109 ma:526
 		18800417	SHA256	fTNuK2Hd9uQZOlVie35ga/Qrfi9lLfL7g2/DQ91Ruko=	fastutil-8.2.1.jar
 		228859	SHA256	EgWrdksTJvfZbZm6pKThJhRZm/PXNXkJR3SO4RZRH6I=	log4j-api-2.8.1.jar
 		1402925	SHA256	gVpz4g6QpBNmLu/oWUQUaE3z1XI+3NdgcOGlruhkYW4=	log4j-core-2.8.1.jar
-		6381195	SHA256	B9650JZWzzxZspFmjO7YrKcZQ4svC7B34StuVsGfWIk=	realms-1.14.2.jar
 		317748	SHA256	i2ioJKOrGPJrgI668Sq730k5FPy1VHwQDOpB5GZPksI=	lwjgl-3.2.1.jar
 		38616	SHA256	lI9s/v2ME4eKilsNeN1YKceBM5t8jLwaF9uP+4C8bF4=	lwjgl-jemalloc-3.2.1.jar
 		80103	SHA256	2qr0B5g35F3dZN1TNx9CrwUOdgSjMzjIfLf74Lx74tY=	lwjgl-openal-3.2.1.jar
