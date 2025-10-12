@@ -1,10 +1,9 @@
-Matches saved 2024-06-06, status: c:4688/4688 m:37295/37295 f:17218/17218 ma:54044/54044, input files:
+Matches saved 2025-10-12, status: c:4688/4688 m:37295/37295 f:17218/17218 ma:54044/54044, input files:
 	a:
 		18430444	SHA256	B6npZT4DIFqqEZ7pMvdRKCp5j+w48bsVBAx4AhCPOgE=	minecraft-merged-1.14.2-pre3.jar
 	b:
-		18430553	SHA256	NMsAlfGwST7spf5S/zAXPWzLU3LtNuiVdlBXtKE9Wis=	minecraft-merged-1.14.2-pre4-270720.jar
+		18430506	SHA256	WYqK2cysXqhvdkfe71KspDao25l1eWPReOyHDZ7eHTk=	minecraft-merged-1.14.2-pre4-241548.jar
 	cp:
-		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
 		1091208	SHA256	xNre7sqpDIhHkCCCruXrEH/PWcXQ5joX/K8nPA4tK9E=	jna-4.4.0.jar
 		913436	SHA256	6onVCQyDA7pOmgBW5tiiBCnz4CFBHpUL/Z66O25s8Vw=	platform-3.4.0.jar
@@ -29,7 +28,6 @@ Matches saved 2024-06-06, status: c:4688/4688 m:37295/37295 f:17218/17218 ma:540
 		18800417	SHA256	fTNuK2Hd9uQZOlVie35ga/Qrfi9lLfL7g2/DQ91Ruko=	fastutil-8.2.1.jar
 		228859	SHA256	EgWrdksTJvfZbZm6pKThJhRZm/PXNXkJR3SO4RZRH6I=	log4j-api-2.8.1.jar
 		1402925	SHA256	gVpz4g6QpBNmLu/oWUQUaE3z1XI+3NdgcOGlruhkYW4=	log4j-core-2.8.1.jar
-		6364656	SHA256	AG5ZwHepEor8lZG50fErbzh5hdkqrRjd7Jn+qGK3PsY=	realms-1.14.15.jar
 		317748	SHA256	i2ioJKOrGPJrgI668Sq730k5FPy1VHwQDOpB5GZPksI=	lwjgl-3.2.1.jar
 		38616	SHA256	lI9s/v2ME4eKilsNeN1YKceBM5t8jLwaF9uP+4C8bF4=	lwjgl-jemalloc-3.2.1.jar
 		80103	SHA256	2qr0B5g35F3dZN1TNx9CrwUOdgSjMzjIfLf74Lx74tY=	lwjgl-openal-3.2.1.jar
@@ -39,7 +37,9 @@ Matches saved 2024-06-06, status: c:4688/4688 m:37295/37295 f:17218/17218 ma:540
 		13164	SHA256	fbPPoMqHfdCOozNhOPkfR+uTUovwRwPrj6R44tqX72Y=	text2speech-1.11.3.jar
 		40502	SHA256	/sg2AdLaEnI0coqP/7Qp0MSllYdFKDTaIDFj5qP5Qds=	java-objc-bridge-1.0.0.jar
 	cp a:
+		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 	cp b:
+		15817	SHA256	x8fyVbdv8gjKxP6/WN2vrc1juslw2+DCbdYslA6A9bc=	patchy-1.1.jar
 c	La;	La;
 	m	<init>()V	<init>()V
 	m	<init>(FFFF)V	<init>(FFFF)V
