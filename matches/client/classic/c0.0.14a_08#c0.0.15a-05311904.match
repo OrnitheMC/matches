@@ -1,4 +1,4 @@
-Matches saved 2025-10-06, status: c:51/51 m:296/296 f:284/285 ma:570/573, input files:
+Matches saved 2025-10-20, status: c:51/51 m:296/296 f:284/285 ma:570/573, input files:
 	a:
 		92351	SHA256	qf3sDMCqzYpUVD/bSGX4LhNtzG6lceH7vKEa3v5YtS4=	minecraft-client-c0.0.14a_08.jar
 	b:
@@ -833,7 +833,7 @@ c	Lcom/mojang/minecraft/level/a/a;	Lcom/mojang/minecraft/level/a/a;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	d()I	e()I
+	m	d()I	d()Lcom/mojang/minecraft/level/c/a;
 	m	b(Lcom/mojang/minecraft/level/Level;IIII)V	b(Lcom/mojang/minecraft/level/Level;IIII)V
 		ma	0	0
 		ma	1	1
@@ -998,7 +998,7 @@ c	Lcom/mojang/minecraft/level/a/i;	Lcom/mojang/minecraft/level/a/i;
 		ma	2	2
 	m	a()Z	a()Z
 	m	b()Z	b()Z
-	m	d()I	e()I
+	m	d()I	d()Lcom/mojang/minecraft/level/c/a;
 	m	b(Lcom/mojang/minecraft/level/Level;IIII)V	b(Lcom/mojang/minecraft/level/Level;IIII)V
 		ma	0	0
 		ma	1	1
