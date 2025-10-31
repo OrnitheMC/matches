@@ -1,8 +1,8 @@
 Matches saved 2025-10-06, status: c:33/33 m:162/162 f:206/206 ma:332/332, input files:
 	a:
-		46554	SHA256	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03.jar
-	b:
 		46554	SHA256	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03-200018.jar
+	b:
+		46554	SHA256	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03.jar
 	cp:
 		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
