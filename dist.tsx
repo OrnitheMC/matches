@@ -151,13 +151,13 @@ async function dumpGraph(data: Data) {
             if (!v) continue
             const {id, type, version} = v
             const typePrefix = type === 'merged' ? '' : type[0].toUpperCase() + type.slice(1) + ' '
-            if (type === 'client' && versions['server' + '-' + version]) {
+            if ((type === 'merged' && (versions['client-' + version] || versions['server-' + version])) || (type === 'client' && !versions['merged-' + version] && versions['server-' + version])) {
                 lines.push('    {')
                 lines.push('      rank=same;')
                 spacer = '  '
             }
             lines.push(`    ${spacer}${id}[label="${typePrefix}${version}",href="https://ornithemc.net/mc-versions/version/${version}.json"];`)
-            if (type === 'server' && versions['client' + '-' + version]) {
+            if ((type === 'client' && versions['merged-' + version] && !versions['server-' + version]) || (type === 'server' && (versions['merged-' + version] || versions['client-' + version]))) {
                 lines.push('    }')
                 spacer = ''
             }
