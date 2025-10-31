@@ -166,6 +166,11 @@
       "file": "matches/client/1.3/12w17a#12w18a.match"
     },
     {
+      "a": "client-12w17a-1424",
+      "b": "client-12w17a",
+      "file": "matches/client/1.3/12w17a-1424#12w17a.match"
+    },
+    {
       "a": "client-12w18a",
       "b": "client-12w19a",
       "file": "matches/client/1.3/12w18a#12w19a.match"
@@ -401,9 +406,9 @@
       "file": "matches/client/alpha/a1.0.14-1659#a1.0.14.match"
     },
     {
-      "a": "client-a1.0.14-launcher",
+      "a": "client-a1.0.14-1659-launcher",
       "b": "client-a1.0.14",
-      "file": "matches/client/alpha/a1.0.14-launcher#a1.0.14.match"
+      "file": "matches/client/alpha/a1.0.14-1659-launcher#a1.0.14.match"
     },
     {
       "a": "client-a1.0.15",
@@ -987,11 +992,6 @@
     },
     {
       "a": "client-c0.0.12a_03",
-      "b": "client-c0.0.12a_03-200018",
-      "file": "matches/client/classic/c0.0.12a_03#c0.0.12a_03-200018.match"
-    },
-    {
-      "a": "client-c0.0.12a_03",
       "b": "client-c0.0.13a-launcher",
       "file": "matches/client/classic/c0.0.12a_03#c0.0.13a-launcher.match"
     },
@@ -999,6 +999,11 @@
       "a": "client-c0.0.12a_03",
       "b": "client-c0.0.13a_03",
       "file": "matches/client/classic/c0.0.12a_03#c0.0.13a_03.match"
+    },
+    {
+      "a": "client-c0.0.12a_03-200018",
+      "b": "client-c0.0.12a_03",
+      "file": "matches/client/classic/c0.0.12a_03-200018#c0.0.12a_03.match"
     },
     {
       "a": "client-c0.0.13a-launcher",
@@ -4916,6 +4921,11 @@
       "file": "matches/server/1.3/12w17a#12w18a.match"
     },
     {
+      "a": "server-12w17a-1424",
+      "b": "server-12w17a",
+      "file": "matches/server/1.3/12w17a-1424#12w17a.match"
+    },
+    {
       "a": "server-12w18a",
       "b": "server-12w19a",
       "file": "matches/server/1.3/12w18a#12w19a.match"
@@ -6075,12 +6085,6 @@
       "id": "client_a1_0_14_1659_launcher",
       "type": "client",
       "version": "a1.0.14-1659-launcher",
-      "era": "alpha"
-    },
-    "client-a1.0.14-launcher": {
-      "id": "client_a1_0_14_launcher",
-      "type": "client",
-      "version": "a1.0.14-launcher",
       "era": "alpha"
     },
     "client-a1.0.16": {
