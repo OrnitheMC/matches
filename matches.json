@@ -1486,6 +1486,11 @@
       "file": "matches/cross/1.0/server-1.0.0-rc2-1656#client-1.0.0-rc2-1656.match"
     },
     {
+      "a": "server-1.0.0-tominecon",
+      "b": "client-1.0.0-tominecon",
+      "file": "matches/cross/1.0/server-1.0.0-tominecon#client-1.0.0-tominecon.match"
+    },
+    {
       "a": "server-1.1",
       "b": "client-1.1",
       "file": "matches/cross/1.1/server-1.1#client-1.1.match"
@@ -7261,6 +7266,12 @@
       "version": "1.0.0-rc2-1656",
       "era": "1.0"
     },
+    "server-1.0.0-tominecon": {
+      "id": "server_1_0_0_tominecon",
+      "type": "server",
+      "version": "1.0.0-tominecon",
+      "era": "1.0"
+    },
     "server-1.1": {
       "id": "server_1_1",
       "type": "server",
@@ -10854,12 +10865,6 @@
       "id": "server_1_0_1",
       "type": "server",
       "version": "1.0.1",
-      "era": "1.0"
-    },
-    "server-1.0.0-tominecon": {
-      "id": "server_1_0_0_tominecon",
-      "type": "server",
-      "version": "1.0.0-tominecon",
       "era": "1.0"
     },
     "server-17w18a-1450": {
