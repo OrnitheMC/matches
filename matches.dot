@@ -1346,7 +1346,6 @@ digraph {
   subgraph cluster_1_15 {
     label="1.15";
   }
-  client_1_0_0 -> client_1_0_0_tominecon[label="99.54%",href="client/1.0/1.0.0%231.0.0-tominecon.match"];
   client_1_0_0_rc1 -> client_1_0_0_rc2_1633[label="99.93%",href="client/1.0/1.0.0-rc1%231.0.0-rc2-1633.match"];
   client_1_0_0_rc2 -> client_1_0_0_tominecon[label="99.34%",href="client/1.0/1.0.0-rc2%231.0.0-tominecon.match"];
   client_1_0_0_rc2 -> client_1_0_0[label="98.88%",href="client/1.0/1.0.0-rc2%231.0.0.match"];
@@ -2301,7 +2300,6 @@ digraph {
   merged_2_0_blue -> merged_2_0_purple[label="100%",href="merged/april-fools/2.0-blue%232.0-purple.match"];
   merged_2_0_blue -> merged_2_0_red[label="99.02%",href="merged/april-fools/2.0-blue%232.0-red.match"];
   merged_2_0_red -> merged_2_0_purple[label="99.69%",href="merged/april-fools/2.0-red%232.0-purple.match"];
-  server_1_0_0 -> server_1_0_0_tominecon[label="100%",color="#0000aa",href="server/1.0/1.0.0%231.0.0-tominecon.match"];
   server_1_0_0 -> server_1_0_1[label="100%",color="#0000aa",href="server/1.0/1.0.0%231.0.1.match"];
   server_1_0_0_rc2 -> server_1_0_0_tominecon[label="100%",color="#0000aa",href="server/1.0/1.0.0-rc2%231.0.0-tominecon.match"];
   server_1_0_0_rc2 -> server_1_0_0[label="100%",color="#0000aa",href="server/1.0/1.0.0-rc2%231.0.0.match"];

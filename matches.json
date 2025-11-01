@@ -1,11 +1,6 @@
 {
   "matches": [
     {
-      "a": "client-1.0.0",
-      "b": "client-1.0.0-tominecon",
-      "file": "matches/client/1.0/1.0.0#1.0.0-tominecon.match"
-    },
-    {
       "a": "client-1.0.0-rc1",
       "b": "client-1.0.0-rc2-1633",
       "file": "matches/client/1.0/1.0.0-rc1#1.0.0-rc2-1633.match"
@@ -4777,11 +4772,6 @@
     },
     {
       "a": "server-1.0.0",
-      "b": "server-1.0.0-tominecon",
-      "file": "matches/server/1.0/1.0.0#1.0.0-tominecon.match"
-    },
-    {
-      "a": "server-1.0.0",
       "b": "server-1.0.1",
       "file": "matches/server/1.0/1.0.0#1.0.1.match"
     },
@@ -5537,18 +5527,6 @@
     }
   ],
   "versions": {
-    "client-1.0.0-tominecon": {
-      "id": "client_1_0_0_tominecon",
-      "type": "client",
-      "version": "1.0.0-tominecon",
-      "era": "1.0"
-    },
-    "client-1.0.0": {
-      "id": "client_1_0_0",
-      "type": "client",
-      "version": "1.0.0",
-      "era": "1.0"
-    },
     "client-1.0.0-rc2-1633": {
       "id": "client_1_0_0_rc2_1633",
       "type": "client",
@@ -5561,10 +5539,22 @@
       "version": "1.0.0-rc1",
       "era": "1.0"
     },
+    "client-1.0.0-tominecon": {
+      "id": "client_1_0_0_tominecon",
+      "type": "client",
+      "version": "1.0.0-tominecon",
+      "era": "1.0"
+    },
     "client-1.0.0-rc2": {
       "id": "client_1_0_0_rc2",
       "type": "client",
       "version": "1.0.0-rc2",
+      "era": "1.0"
+    },
+    "client-1.0.0": {
+      "id": "client_1_0_0",
+      "type": "client",
+      "version": "1.0.0",
       "era": "1.0"
     },
     "client-1.0.0-rc2-1649": {
@@ -10860,16 +10850,16 @@
       "type": "merged",
       "version": "1.RV-Pre1"
     },
-    "server-1.0.0-tominecon": {
-      "id": "server_1_0_0_tominecon",
-      "type": "server",
-      "version": "1.0.0-tominecon",
-      "era": "1.0"
-    },
     "server-1.0.1": {
       "id": "server_1_0_1",
       "type": "server",
       "version": "1.0.1",
+      "era": "1.0"
+    },
+    "server-1.0.0-tominecon": {
+      "id": "server_1_0_0_tominecon",
+      "type": "server",
+      "version": "1.0.0-tominecon",
       "era": "1.0"
     },
     "server-17w18a-1450": {
