@@ -1980,7 +1980,7 @@ digraph {
   merged_1_3 -> merged_1_3_1[label="93.96%",href="merged/1.3/1.3%231.3.1.match"];
   merged_1_3_1 -> merged_1_3_2[label="99.69%",href="merged/1.3/1.3.1%231.3.2.match"];
   merged_1_3_1 -> merged_12w32a_1532[label="99.94%",href="merged/1.4/1.3.1%2312w32a-1532.match"];
-  merged_1_3_2 -> merged_12w32a[label="99.58%",href="merged/1.4/1.3.2%2312w32a.match"];
+  merged_1_3_2 -> merged_12w32a_1532[label="99.58%",href="merged/1.4/1.3.2%2312w32a-1532.match"];
   merged_1_3_2 -> merged_12w34a[label="99.5%",href="merged/1.4/1.3.2%2312w34a.match"];
   merged_1_4 -> merged_1_4_1_1338[label="100%",href="merged/1.4/1.4%231.4.1-1338.match"];
   merged_1_4_1 -> merged_1_4_2[label="100%",href="merged/1.4/1.4.1%231.4.2.match"];
