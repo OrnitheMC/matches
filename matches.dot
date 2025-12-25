@@ -2128,8 +2128,8 @@ digraph {
   merged_1_7_5 -> merged_14w02a[label="0%",href="merged/1.8/1.7.5%2314w02a.match"];
   merged_1_7_5 -> merged_14w05a[label="0.04%",href="merged/1.8/1.7.5%2314w05a.match"];
   merged_1_7_6 -> merged_1_8_1_pre1[label="0%",href="merged/1.8/1.7.6%231.8.1-pre1.match"];
-  merged_1_7_6 -> merged_14w04a_1526[label="0.29%",href="merged/1.8/1.7.6%2314w04a-1526.match"];
-  merged_1_7_6 -> merged_14w07a[label="0.09%",href="merged/1.8/1.7.6%2314w07a.match"];
+  merged_1_7_6 -> merged_14w04a_1526[label="0.28%",href="merged/1.8/1.7.6%2314w04a-1526.match"];
+  merged_1_7_6 -> merged_14w07a[label="0.1%",href="merged/1.8/1.7.6%2314w07a.match"];
   merged_1_7_6 -> merged_14w11a[label="0.07%",href="merged/1.8/1.7.6%2314w11a.match"];
   merged_1_7_8 -> merged_1_8_1_pre2[label="0%",href="merged/1.8/1.7.8%231.8.1-pre2.match"];
   merged_1_7_8 -> merged_14w10a[label="1.29%",href="merged/1.8/1.7.8%2314w10a.match"];
