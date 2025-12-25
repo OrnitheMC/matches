@@ -1,4 +1,4 @@
-Matches saved 2025-01-13, status: c:1840/1849 m:15624/15823 f:6911/7063 ma:18632/23214, input files:
+Matches saved 2025-12-25, status: c:1840/1849 m:15624/15823 f:6911/7063 ma:18632/23214, input files:
 	a:
 		5311284	SHA256	LAqpwcvLIjavfSpxWXbREpL0zI6AsO10A56T7UwbWqE=	minecraft-merged-1.7.4.jar
 	b:
@@ -59231,8 +59231,6 @@ c	Lr;	Lct;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	<init>(Lr;)V	b(Lct;)Lct;
-		ma	0	0
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 	m	hashCode()I	hashCode()I
