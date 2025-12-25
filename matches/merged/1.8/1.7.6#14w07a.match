@@ -1,4 +1,4 @@
-Matches saved 2025-07-13, status: c:4/1899 m:11/16161 f:2/7191 ma:4/23667, input files:
+Matches saved 2025-12-25, status: c:5/1899 m:12/16161 f:2/7191 ma:4/23667, input files:
 	a:
 		5507432	SHA256	4m9mN+FKVasZiWxtMQf0gTUTVjINgb06W4RHXpmNO7Q=	minecraft-merged-1.7.6.jar
 	b:
@@ -51,3 +51,5 @@ c	Lboh;	Lbrf;
 	m	a()V	a()V
 c	Lbom;	Lbrm;
 	m	a()V	a()V
+c	Lbty;	Lcan;
+	m	a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lbth;)V	a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lbzx;)V
