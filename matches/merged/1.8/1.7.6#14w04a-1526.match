@@ -1,4 +1,4 @@
-Matches saved 2025-10-12, status: c:10/1899 m:38/16161 f:10/7191 ma:27/23667, input files:
+Matches saved 2025-12-25, status: c:9/1899 m:38/16161 f:10/7191 ma:27/23667, input files:
 	a:
 		5507432	SHA256	4m9mN+FKVasZiWxtMQf0gTUTVjINgb06W4RHXpmNO7Q=	minecraft-merged-1.7.6.jar
 	b:
@@ -52,7 +52,6 @@ c	Lbtt;	Lbxb;
 	f	c;;Lbsp;	b;;Lbvx;
 	f	d;;Ljava/io/File;	c;;Ljava/io/File;
 	f	e;;Lcom/mojang/authlib/minecraft/MinecraftSessionService;	d;;Lcom/mojang/authlib/minecraft/MinecraftSessionService;
-c	Lbty;	Lbwr;
 c	Ldh;	Lea;
 	m	a(Ljava/io/DataInput;ILds;)V	a(Ljava/io/DataInput;ILek;)V
 		ma	0	0
