@@ -39544,8 +39544,6 @@ c	Lcqn;	Lcqp;
 		ma	0	0
 	f	a;;Lcqd;	a;;Lcqf;
 c	Lcqo;	Lcrn;
-	m	<init>(Lcpp;Lalo;ILcqd;)V	d(Lwv;)Lamh;
-		ma	0	0
 	m	<init>(Lcpp;Lalo;Lcqd;)V	<init>(Lcpr;Lalo;Lcqf;)V
 		ma	0	0
 		ma	1	1
