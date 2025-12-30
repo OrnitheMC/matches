@@ -1,4 +1,4 @@
-Matches saved 2025-01-15, status: c:2491/2541 m:19432/20022 f:8519/8913 ma:25609/26263, input files:
+Matches saved 2025-12-30, status: c:2491/2541 m:19432/20022 f:8519/8913 ma:25609/26263, input files:
 	a:
 		8528251	SHA256	J2Yw1rVyfczZkZOU+tzBsCoaSAlcIyPpRoWfVNlJu+Q=	minecraft-merged-1.8.8.jar
 	b:
@@ -6712,13 +6712,11 @@ c	Lagv;	Laib;
 	m	e()Lama;	e()Lanm;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lamn;	a;;Lanz;
-	fu	a	b;;Lamk;
-	f	N;;Lamk;	N;;Lanw;
 	f	O;;Lamk;	b;;Lanw;
-	f	P;;Lamk;	O;;Lanw;
-	f	Q;;Lamk;	P;;Lanw;
-	f	R;;Lamk;	Q;;Lanw;
-	fu	a	S;;Lamn;
+	f	P;;Lamk;	N;;Lanw;
+	f	Q;;Lamk;	O;;Lanw;
+	f	R;;Lamk;	P;;Lanw;
+	f	S;;Lamn;	Q;;Lanw;
 	f	T;;Ljava/util/Map;	R;;Ljava/util/Map;
 	f	U;;Ljava/util/Map;	S;;Ljava/util/Map;
 c	Lagw$1;	Laic$1;
