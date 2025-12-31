@@ -1597,8 +1597,8 @@
     },
     {
       "a": "client-12w30e",
-      "b": "merged-1.3",
-      "file": "matches/cross/1.3/client-12w30e#merged-1.3.match"
+      "b": "merged-1.3-1249",
+      "file": "matches/cross/1.3/client-12w30e#merged-1.3-1249.match"
     },
     {
       "a": "server-12w15a",
@@ -1702,8 +1702,8 @@
     },
     {
       "a": "server-12w30e",
-      "b": "merged-1.3",
-      "file": "matches/cross/1.3/server-12w30e#merged-1.3.match"
+      "b": "merged-1.3-1249",
+      "file": "matches/cross/1.3/server-12w30e#merged-1.3-1249.match"
     },
     {
       "a": "client-14w04a",
@@ -3161,6 +3161,11 @@
       "file": "matches/merged/1.3/1.3#1.3.1.match"
     },
     {
+      "a": "merged-1.3-1249",
+      "b": "merged-1.3",
+      "file": "matches/merged/1.3/1.3-1249#1.3.match"
+    },
+    {
       "a": "merged-1.3.1",
       "b": "merged-1.3.2",
       "file": "matches/merged/1.3/1.3.1#1.3.2.match"
@@ -4152,13 +4157,18 @@
     },
     {
       "a": "merged-14w10b",
-      "b": "merged-14w10c",
-      "file": "matches/merged/1.8/14w10b#14w10c.match"
+      "b": "merged-14w10c-1351",
+      "file": "matches/merged/1.8/14w10b#14w10c-1351.match"
     },
     {
       "a": "merged-14w10c",
       "b": "merged-14w11a",
       "file": "matches/merged/1.8/14w10c#14w11a.match"
+    },
+    {
+      "a": "merged-14w10c-1351",
+      "b": "merged-14w10c",
+      "file": "matches/merged/1.8/14w10c-1351#14w10c.match"
     },
     {
       "a": "merged-14w11a",
@@ -5101,9 +5111,9 @@
       "file": "matches/server/1.8/14w04a-1740#14w04a.match"
     },
     {
-      "a": "server-14w10c",
+      "a": "server-14w10c-1351",
       "b": "server-14w10c-1518",
-      "file": "matches/server/1.8/14w10c#14w10c-1518.match"
+      "file": "matches/server/1.8/14w10c-1351#14w10c-1518.match"
     },
     {
       "a": "server-14w11b-1640",
@@ -7398,10 +7408,10 @@
       "version": "12w08a",
       "era": "1.2"
     },
-    "merged-1.3": {
-      "id": "merged_1_3",
+    "merged-1.3-1249": {
+      "id": "merged_1_3_1249",
       "type": "merged",
-      "version": "1.3",
+      "version": "1.3-1249",
       "era": "1.3"
     },
     "server-12w15a": {
@@ -9102,6 +9112,12 @@
       "version": "1.3.1",
       "era": "1.3"
     },
+    "merged-1.3": {
+      "id": "merged_1_3",
+      "type": "merged",
+      "version": "1.3",
+      "era": "1.3"
+    },
     "merged-1.3.2": {
       "id": "merged_1_3_2",
       "type": "merged",
@@ -10188,6 +10204,12 @@
       "version": "14w10b",
       "era": "1.8"
     },
+    "merged-14w10c-1351": {
+      "id": "merged_14w10c_1351",
+      "type": "merged",
+      "version": "14w10c-1351",
+      "era": "1.8"
+    },
     "merged-14w10c": {
       "id": "merged_14w10c",
       "type": "merged",
@@ -11077,10 +11099,10 @@
       "version": "14w10c-1518",
       "era": "1.8"
     },
-    "server-14w10c": {
-      "id": "server_14w10c",
+    "server-14w10c-1351": {
+      "id": "server_14w10c_1351",
       "type": "server",
-      "version": "14w10c",
+      "version": "14w10c-1351",
       "era": "1.8"
     },
     "server-14w11b": {
