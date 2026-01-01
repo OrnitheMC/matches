@@ -1,4 +1,4 @@
-Matches saved 2025-01-08, status: c:1231/1233 m:9738/9773 f:5035/5108 ma:15571/15682, input files:
+Matches saved 2026-01-01, status: c:1231/1233 m:9737/9773 f:5035/5108 ma:15571/15682, input files:
 	a:
 		4317820	SHA256	Qx1fk336m0gsm5VowkPYGooGeGNQS9zQqphcREBm2B8=	minecraft-client-12w18a.jar
 	b:
@@ -20738,7 +20738,7 @@ c	Lnet/minecraft/client/Minecraft;	Lnet/minecraft/client/Minecraft;
 	m	a(II)V	a(II)V
 		ma	0	0
 		ma	1	1
-	m	E()V	A()V
+	mu	a	E()V
 	m	k()V	k()V
 	m	F()V	F()V
 	m	l()Z	l()Z
