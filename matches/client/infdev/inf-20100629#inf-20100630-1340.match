@@ -1,4 +1,4 @@
-Matches saved 2025-02-27, status: c:353/358 m:2500/2510 f:1789/1792 ma:4331/4338, input files:
+Matches saved 2026-01-02, status: c:357/358 m:2504/2510 f:1789/1792 ma:4331/4338, input files:
 	a:
 		699308	SHA256	sSYmSSSVJzz9NWyIg5zDXO3YxMfgr6JlNwE69PeiBXE=	minecraft-client-inf-20100629.jar
 	b:
@@ -249,7 +249,8 @@ c	Laj;	Lal;
 		ma	1	1
 		ma	2	2
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
-cu	a	Lak;
+c	Lak;	Lam;
+	m	<init>()V	<init>()V
 c	Lal;	Lan;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/util/Random;)V	<init>(Ljava/util/Random;)V
@@ -2573,7 +2574,8 @@ c	Lcq;	Lct;
 		ma	3	3
 		ma	4	4
 	f	at;;I	b;;I
-cu	a	Lcr;
+c	Lcr;	Lcu;
+	m	<init>()V	<init>()V
 c	Lcs;	Lcv;
 	m	<init>(Lcz;Ljava/lang/String;Ljava/lang/String;I)V	<init>(Ldc;Ljava/lang/String;Ljava/lang/String;I)V
 		ma	0	0
@@ -2676,7 +2678,8 @@ c	Lcw;	Lcz;
 	f	d;;I	d;;I
 	f	e;;J	e;;J
 	f	g;;J	g;;J
-cu	a	Lcx;
+c	Lcx;	Lda;
+	m	<init>()V	<init>()V
 c	Lcy;	Ldb;
 	m	<init>(Lez;)V	<init>(Lfe;)V
 		ma	0	0
@@ -6108,7 +6111,8 @@ c	Lie;	Lij;
 	m	b()Lez;	b()Lfe;
 	f	a;;I	a;;I
 	f	b;;I	b;;I
-cu	a	Lif;
+c	Lif;	Lik;
+	m	<init>()V	<init>()V
 c	Lig;	Lil;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
