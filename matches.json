@@ -2277,6 +2277,11 @@
     },
     {
       "a": "merged-1.11",
+      "b": "merged-1.11.1-pre",
+      "file": "matches/merged/1.11/1.11#1.11.1-pre.match"
+    },
+    {
+      "a": "merged-1.11",
       "b": "merged-16w50a",
       "file": "matches/merged/1.11/1.11#16w50a.match"
     },
@@ -2289,6 +2294,11 @@
       "a": "merged-1.11.1",
       "b": "merged-1.11.2",
       "file": "matches/merged/1.11/1.11.1#1.11.2.match"
+    },
+    {
+      "a": "merged-1.11.1-pre",
+      "b": "merged-16w50a",
+      "file": "matches/merged/1.11/1.11.1-pre#16w50a.match"
     },
     {
       "a": "merged-16w32a",
@@ -4752,6 +4762,11 @@
     },
     {
       "a": "merged-1.5",
+      "b": "merged-2.0-preview",
+      "file": "matches/merged/april-fools/1.5#2.0-preview.match"
+    },
+    {
+      "a": "merged-1.5",
       "b": "merged-2.0-purple",
       "file": "matches/merged/april-fools/1.5#2.0-purple.match"
     },
@@ -4784,6 +4799,11 @@
       "a": "merged-2.0-blue",
       "b": "merged-2.0-red",
       "file": "matches/merged/april-fools/2.0-blue#2.0-red.match"
+    },
+    {
+      "a": "merged-2.0-preview",
+      "b": "merged-2.0-blue",
+      "file": "matches/merged/april-fools/2.0-preview#2.0-blue.match"
     },
     {
       "a": "merged-2.0-red",
@@ -8061,16 +8081,22 @@
       "version": "16w32a",
       "era": "1.11"
     },
-    "merged-16w50a": {
-      "id": "merged_16w50a",
+    "merged-1.11.1-pre": {
+      "id": "merged_1_11_1_pre",
       "type": "merged",
-      "version": "16w50a",
+      "version": "1.11.1-pre",
       "era": "1.11"
     },
     "merged-1.11": {
       "id": "merged_1_11",
       "type": "merged",
       "version": "1.11",
+      "era": "1.11"
+    },
+    "merged-16w50a": {
+      "id": "merged_16w50a",
+      "type": "merged",
+      "version": "16w50a",
       "era": "1.11"
     },
     "merged-1.11-pre1": {
@@ -10867,6 +10893,11 @@
       "id": "merged_2_0_blue",
       "type": "merged",
       "version": "2.0-blue"
+    },
+    "merged-2.0-preview": {
+      "id": "merged_2_0_preview",
+      "type": "merged",
+      "version": "2.0-preview"
     },
     "merged-2.0-purple": {
       "id": "merged_2_0_purple",
