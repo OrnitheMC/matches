@@ -4777,6 +4777,11 @@
     },
     {
       "a": "merged-1.5.1",
+      "b": "merged-2.0-preview",
+      "file": "matches/merged/april-fools/1.5.1#2.0-preview.match"
+    },
+    {
+      "a": "merged-1.5.1",
       "b": "merged-2.0-red",
       "file": "matches/merged/april-fools/1.5.1#2.0-red.match"
     },
