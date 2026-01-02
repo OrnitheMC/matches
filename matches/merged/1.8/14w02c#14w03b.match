@@ -1,0 +1,42 @@
+Matches saved 2026-01-02, status: c:1/1897 m:4/16162 f:5/7096 ma:1/21168, input files:
+	a:
+		5393367	SHA256	3eytcFmHCJbYm2uXOrGgnxKRYA4iZwqVceNqvRtCZ8w=	minecraft-merged-14w02c.jar
+	b:
+		5425060	SHA256	DLdyXU921xplSTagyJAHKCO1HnmPdAI/CYEkVmKFz8U=	minecraft-merged-14w03b.jar
+	cp:
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		289881	SHA256	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1452995	SHA256	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
+		2172168	SHA256	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
+		315805	SHA256	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		34601	SHA256	3FrF1uHOIyfriYgecG16Teb3qR8y8cXiSctRt/GUwCs=	authlib-1.2.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1080569	SHA256	xTKqbqA/qItfoLqfaYVPM9NWmgaPnZ1sebDXhLiDDAw=	lwjgl-2.9.4+legacyfabric.15.jar
+		180575	SHA256	90Bs4X+zQnq6K4IsTBPfeOh174O3hIYbRbi+P1KcPhs=	lwjgl_util-2.9.4+legacyfabric.15.jar
+		52315	SHA256	fvCJml7bsEq4pLmvPcAXUyT6m9nEdjT1AMbNmcWQmxM=	twitch-5.12.jar
+	cp a:
+	cp b:
+c	Laxt;	Layi;
+	m	a(I)[I	a(I)[I
+		ma	0	0
+	m	a()V	a()V
+	m	b()Ljava/lang/String;	b()Ljava/lang/String;
+	m	<clinit>()V	<clinit>()V
+	f	a;;I	a;;I
+	f	b;;Ljava/util/List;	b;;Ljava/util/List;
+	f	c;;Ljava/util/List;	c;;Ljava/util/List;
+	f	d;;Ljava/util/List;	d;;Ljava/util/List;
+	f	e;;Ljava/util/List;	e;;Ljava/util/List;
