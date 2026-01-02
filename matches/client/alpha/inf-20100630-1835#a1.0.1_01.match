@@ -1,4 +1,4 @@
-Matches saved 2024-12-16, status: c:360/363 m:2791/2803 f:1852/1863 ma:4938/4958, input files:
+Matches saved 2026-01-02, status: c:361/363 m:2793/2803 f:1852/1863 ma:4946/4958, input files:
 	a:
 		723550	SHA256	kjb9/lMeuCam6RrI3Y5tZXkLusEmWWO7zKEd3N2u/w4=	minecraft-client-inf-20100630-1835.jar
 	b:
@@ -6113,7 +6113,17 @@ c	Lhf;	Lhk;
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
 		ma	0	0
 		ma	1	1
-cu	a	Lhg;
+c	Lhg;	Lhl;
+	m	<init>(I)V	<init>(ILkf;)V
+		ma	0	0
+	m	a(Lhw;Lgi;Lfe;IIII)Z	a(Lic;Lgn;Lfi;IIII)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
 c	Lhh;	Lhm;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
