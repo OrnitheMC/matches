@@ -2729,13 +2729,13 @@
 <!-- client_inf_20100629&#45;&gt;client_inf_20100630_1340 -->
 <g id="edge290" class="edge">
 <title>client_inf_20100629&#45;&gt;client_inf_20100630_1340</title>
-<g id="a_edge290"><a xlink:href="client/infdev/inf-20100629%23inf-20100630-1340.match" xlink:title="99.2%">
+<g id="a_edge290"><a xlink:href="client/infdev/inf-20100629%23inf-20100630-1340.match" xlink:title="99.76%">
 <path fill="none" stroke="black" d="M1388,-55833.8C1388,-55822.16 1388,-55806.55 1388,-55793.24"/>
 <polygon fill="black" stroke="black" points="1391.5,-55793.18 1388,-55783.18 1384.5,-55793.18 1391.5,-55793.18"/>
 </a>
 </g>
-<g id="a_edge290&#45;label"><a xlink:href="client/infdev/inf-20100629%23inf-20100630-1340.match" xlink:title="99.2%">
-<text text-anchor="middle" x="1411" y="-55804.8" font-family="sans-serif" font-size="14.00">99.2%</text>
+<g id="a_edge290&#45;label"><a xlink:href="client/infdev/inf-20100629%23inf-20100630-1340.match" xlink:title="99.76%">
+<text text-anchor="middle" x="1415.5" y="-55804.8" font-family="sans-serif" font-size="14.00">99.76%</text>
 </a>
 </g>
 </g>
@@ -2773,13 +2773,13 @@
 <!-- client_inf_20100630_1835&#45;&gt;client_a1_0_1_01 -->
 <g id="edge136" class="edge">
 <title>client_inf_20100630_1835&#45;&gt;client_a1_0_1_01</title>
-<g id="a_edge136"><a xlink:href="client/alpha/inf-20100630-1835%23a1.0.1_01.match" xlink:title="99.35%">
+<g id="a_edge136"><a xlink:href="client/alpha/inf-20100630-1835%23a1.0.1_01.match" xlink:title="99.5%">
 <path fill="none" stroke="black" d="M1388,-55659.87C1388,-55638.28 1388,-55600.91 1388,-55575.35"/>
 <polygon fill="black" stroke="black" points="1391.5,-55575.2 1388,-55565.2 1384.5,-55575.2 1391.5,-55575.2"/>
 </a>
 </g>
-<g id="a_edge136&#45;label"><a xlink:href="client/alpha/inf-20100630-1835%23a1.0.1_01.match" xlink:title="99.35%">
-<text text-anchor="middle" x="1415.5" y="-55630.8" font-family="sans-serif" font-size="14.00">99.35%</text>
+<g id="a_edge136&#45;label"><a xlink:href="client/alpha/inf-20100630-1835%23a1.0.1_01.match" xlink:title="99.5%">
+<text text-anchor="middle" x="1411" y="-55630.8" font-family="sans-serif" font-size="14.00">99.5%</text>
 </a>
 </g>
 </g>
