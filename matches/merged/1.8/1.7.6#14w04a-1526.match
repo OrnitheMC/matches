@@ -1,4 +1,4 @@
-Matches saved 2025-12-25, status: c:9/1899 m:38/16161 f:10/7191 ma:27/23667, input files:
+Matches saved 2026-01-02, status: c:10/1899 m:41/16161 f:13/7191 ma:31/23667, input files:
 	a:
 		5507432	SHA256	4m9mN+FKVasZiWxtMQf0gTUTVjINgb06W4RHXpmNO7Q=	minecraft-merged-1.7.6.jar
 	b:
@@ -31,6 +31,17 @@ Matches saved 2025-12-25, status: c:9/1899 m:38/16161 f:10/7191 ma:27/23667, inp
 		59548	SHA256	zQFpmzvRH8NfVB9V8XB9xKOQBSWo0YnoxN0+ShQfxv8=	authlib-1.5.6.jar
 	cp b:
 		44006	SHA256	zzW6SHbTDn4SsRNvScCZdgjte5Y1u/jX6m5xCPHEbwA=	authlib-1.4.2.jar
+c	Lags;	Ldu;
+	m	<init>(III)V	<init>(III)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	f	a;;I	c;;I
+	f	b;;I	d;;I
+	f	c;;I	e;;I
 c	Lban;	Lbby;
 	m	ac()Lcom/mojang/authlib/minecraft/MinecraftSessionService;	ab()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	m	ad()Lbtt;	ac()Lbxb;
