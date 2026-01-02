@@ -1,4 +1,4 @@
-Matches saved 2025-10-09, status: c:1522/1534 m:12635/12786 f:5771/5830 ma:19989/20206, input files:
+Matches saved 2026-01-02, status: c:1522/1534 m:12635/12786 f:5771/5830 ma:19989/20206, input files:
 	a:
 		6053082	SHA256	+J2URIJWVWV18wh+YLHMIrcQuX/PYHCvD9DErDB213c=	minecraft-merged-13w23b.jar
 	b:
@@ -24965,8 +24965,8 @@ c	Lbia;	Lbjl;
 c	Lbic;	Lbjk;
 	m	a(Lbic;)I	b()I
 	m	b(Lbic;)I	c()I
-	f	a;;I	b;;I
-	f	b;;I	a;;I
+	f	a;;I	a;;I
+	f	b;;I	b;;I
 c	Lbid;	Lbij;
 	m	<init>(Ljava/io/File;)V	<init>(Ljava/io/File;)V
 		ma	0	0
