@@ -1,8 +1,8 @@
-Matches saved 2025-10-09, status: c:1568/1568 m:13127/13127 f:6021/6021 ma:20474/20474, input files:
+Matches saved 2026-01-07, status: c:1558/1558 m:13092/13092 f:6001/6001 ma:20450/20450, input files:
 	a:
-		4786249	SHA256	uSaXw3F+ynDNje1kTtftk5XGo4/mpsMEHVgVdkJEnt8=	minecraft-merged-1.6.2-091847.jar
+		4731988	SHA256	CEBlSaR0EilJI3Bb8COxCArhTaIuwncNFtkgzkIMMJI=	minecraft-client-1.6.2-091847.jar
 	b:
-		4786249	SHA256	kU79ChBbdpJv3bNOaBURCYhO5tQcLjBORiNfOPLrrjc=	minecraft-merged-1.6.2.jar
+		4795524	SHA256	U/PlQYHhIgg4yAbi17zs5LSsg1UB+4TVuAUkMa7/Sow=	minecraft-client-1.6.2.jar
 	cp:
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
 		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
@@ -18,10 +18,8 @@ Matches saved 2025-10-09, status: c:1568/1568 m:13127/13127 f:6021/6021 ma:20474
 		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
 		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
 		189285	SHA256	DytfcVpVBswU7TUuX/QGtMSAoGNEpHlim4XnbCquf6o=	gson-2.2.2.jar
-		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		1080569	SHA256	xTKqbqA/qItfoLqfaYVPM9NWmgaPnZ1sebDXhLiDDAw=	lwjgl-2.9.4+legacyfabric.15.jar
+		180575	SHA256	90Bs4X+zQnq6K4IsTBPfeOh174O3hIYbRbi+P1KcPhs=	lwjgl_util-2.9.4+legacyfabric.15.jar
 	cp a:
 	cp b:
 c	La;	La;
@@ -29428,11 +29426,6 @@ c	Lhf;	Lhf;
 		ma	0	0
 	f	b;;J	b;;J
 	f	a;;Lnet/minecraft/server/MinecraftServer;	a;;Lnet/minecraft/server/MinecraftServer;
-c	Lhg;	Lhg;
-	m	<init>(Lir;)V	<init>(Lir;)V
-		ma	0	0
-	m	run()V	run()V
-	f	a;;Lir;	a;;Lir;
 c	Lhh;	Lhh;
 	m	<init>(Lnet/minecraft/server/MinecraftServer;Ljava/lang/String;)V	<init>(Lnet/minecraft/server/MinecraftServer;Ljava/lang/String;)V
 		ma	0	0
@@ -30166,7 +30159,6 @@ c	Lir;	Lir;
 		ma	1	1
 	m	a()V	a()V
 	m	b_()Ljava/lang/String;	b_()Ljava/lang/String;
-	m	at()V	at()V
 	m	ai()Z	ai()Z
 	m	a(Lacd;Z)Ljava/lang/String;	a(Lacd;Z)Ljava/lang/String;
 		ma	0	0
@@ -30245,89 +30237,12 @@ c	Lix;	Lix;
 	f	e;;Lkc;	e;;Lkc;
 	f	f;;Ljava/net/InetAddress;	f;;Ljava/net/InetAddress;
 	f	g;;I	g;;I
-c	Liy;	Liy;
-	m	a(Lir;)V	a(Lir;)V
-		ma	0	0
-	m	<init>(Lir;)V	<init>(Lir;)V
-		ma	0	0
-	m	b()Ljavax/swing/JComponent;	b()Ljavax/swing/JComponent;
-	m	c()Ljavax/swing/JComponent;	c()Ljavax/swing/JComponent;
-	m	d()Ljavax/swing/JComponent;	d()Ljavax/swing/JComponent;
-	m	a(Liy;)Lir;	a(Liy;)Lir;
-		ma	0	0
-	f	a;;Z	a;;Z
-	f	b;;Lir;	b;;Lir;
-c	Liz;	Liz;
-	m	<init>(Lir;)V	<init>(Lir;)V
-		ma	0	0
-	m	windowClosing(Ljava/awt/event/WindowEvent;)V	windowClosing(Ljava/awt/event/WindowEvent;)V
-		ma	0	0
-	f	a;;Lir;	a;;Lir;
 c	Lj;	Lj;
 	m	<init>(Lb;)V	<init>(Lb;)V
 		ma	0	0
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	call()Ljava/lang/Object;	call()Ljava/lang/Object;
 	f	a;;Lb;	a;;Lb;
-c	Lja;	Lja;
-	m	<init>(Liy;Ljavax/swing/JTextField;)V	<init>(Liy;Ljavax/swing/JTextField;)V
-		ma	0	0
-		ma	1	1
-	m	actionPerformed(Ljava/awt/event/ActionEvent;)V	actionPerformed(Ljava/awt/event/ActionEvent;)V
-		ma	0	0
-	f	a;;Ljavax/swing/JTextField;	a;;Ljavax/swing/JTextField;
-	f	b;;Liy;	b;;Liy;
-c	Ljb;	Ljb;
-	m	<init>(Liy;)V	<init>(Liy;)V
-		ma	0	0
-	m	focusGained(Ljava/awt/event/FocusEvent;)V	focusGained(Ljava/awt/event/FocusEvent;)V
-		ma	0	0
-	f	a;;Liy;	a;;Liy;
-c	Ljc;	Ljc;
-	m	<init>(Lnet/minecraft/server/MinecraftServer;)V	<init>(Lnet/minecraft/server/MinecraftServer;)V
-		ma	0	0
-	m	a()V	a()V
-	f	a;;Lnet/minecraft/server/MinecraftServer;	a;;Lnet/minecraft/server/MinecraftServer;
-	f	b;;I	b;;I
-c	Ljd;	Ljd;
-	m	<init>(Lnet/minecraft/server/MinecraftServer;)V	<init>(Lnet/minecraft/server/MinecraftServer;)V
-		ma	0	0
-	m	a()V	a()V
-	m	a([J)D	a([J)D
-		ma	0	0
-	m	paint(Ljava/awt/Graphics;)V	paint(Ljava/awt/Graphics;)V
-		ma	0	0
-	m	a(Ljd;)V	a(Ljd;)V
-		ma	0	0
-	m	<clinit>()V	<clinit>()V
-	f	a;;Ljava/text/DecimalFormat;	a;;Ljava/text/DecimalFormat;
-	f	b;;[I	b;;[I
-	f	c;;I	c;;I
-	f	d;;[Ljava/lang/String;	d;;[Ljava/lang/String;
-	f	e;;Lnet/minecraft/server/MinecraftServer;	e;;Lnet/minecraft/server/MinecraftServer;
-c	Lje;	Lje;
-	m	<init>(Ljd;)V	<init>(Ljd;)V
-		ma	0	0
-	m	actionPerformed(Ljava/awt/event/ActionEvent;)V	actionPerformed(Ljava/awt/event/ActionEvent;)V
-		ma	0	0
-	f	a;;Ljd;	a;;Ljd;
-c	Ljf;	Ljf;
-	m	<init>(Ljavax/swing/JTextArea;)V	<init>(Ljavax/swing/JTextArea;)V
-		ma	0	0
-	m	close()V	close()V
-	m	flush()V	flush()V
-	m	publish(Ljava/util/logging/LogRecord;)V	publish(Ljava/util/logging/LogRecord;)V
-		ma	0	0
-	f	b;;[I	b;;[I
-	f	c;;I	c;;I
-	f	a;;Ljava/util/logging/Formatter;	a;;Ljava/util/logging/Formatter;
-	f	d;;Ljavax/swing/JTextArea;	d;;Ljavax/swing/JTextArea;
-c	Ljg;	Ljg;
-	m	<init>(Ljf;)V	<init>(Ljf;)V
-		ma	0	0
-	m	format(Ljava/util/logging/LogRecord;)Ljava/lang/String;	format(Ljava/util/logging/LogRecord;)Ljava/lang/String;
-		ma	0	0
-	f	a;;Ljf;	a;;Ljf;
 c	Ljh;	Ljh;
 	m	<init>(IIII)V	<init>(IIII)V
 		ma	0	0
@@ -31668,7 +31583,6 @@ c	Llb;	Llb;
 		ma	1	1
 		ma	2	2
 	m	b()V	b()V
-	m	a()Ljava/util/logging/Logger;	a()Ljava/util/logging/Logger;
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 	m	b(Ljava/lang/String;)V	b(Ljava/lang/String;)V
@@ -31842,7 +31756,6 @@ c	Llm;	Llm;
 	f	c;;Llm;	c;;Llm;
 	f	d;;I	d;;I
 c	Llo;	Llo;
-	m	a()Ljava/util/logging/Logger;	a()Ljava/util/logging/Logger;
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 	m	b(Ljava/lang/String;)V	b(Ljava/lang/String;)V
@@ -32540,10 +32453,6 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	m	s()V	s()V
 	m	t()V	t()V
 	m	u()Z	u()Z
-	m	a(Lhq;)V	a(Lhq;)V
-		ma	0	0
-	m	main([Ljava/lang/String;)V	main([Ljava/lang/String;)V
-		ma	0	0
 	m	v()V	v()V
 	m	d(Ljava/lang/String;)Ljava/io/File;	d(Ljava/lang/String;)Ljava/io/File;
 		ma	0	0
