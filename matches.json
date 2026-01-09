@@ -261,11 +261,6 @@
       "file": "matches/client/1.5/1.5-pre-071309#1.5-pre-whitelinefix.match"
     },
     {
-      "a": "client-1.5.1-pre-191519",
-      "b": "client-1.5.1",
-      "file": "matches/client/1.5/1.5.1-pre-191519#1.5.1.match"
-    },
-    {
       "a": "client-13w02a",
       "b": "client-13w02a-whitetexturefix",
       "file": "matches/client/1.5/13w02a#13w02a-whitetexturefix.match"
@@ -294,6 +289,16 @@
       "a": "client-13w12~-1439",
       "b": "client-13w12~",
       "file": "matches/client/1.5/13w12~-1439#13w12~.match"
+    },
+    {
+      "a": "client-1.6.2-080933",
+      "b": "client-1.6.2-091847",
+      "file": "matches/client/1.6/1.6.2-080933#1.6.2-091847.match"
+    },
+    {
+      "a": "client-1.6.2-091847",
+      "b": "client-1.6.2",
+      "file": "matches/client/1.6/1.6.2-091847#1.6.2.match"
     },
     {
       "a": "client-1.6.3-171231",
@@ -3366,6 +3371,11 @@
       "file": "matches/merged/1.5/1.5.1#1.5.2-pre-250703.match"
     },
     {
+      "a": "merged-1.5.1-pre-191519",
+      "b": "merged-1.5.1",
+      "file": "matches/merged/1.5/1.5.1-pre-191519#1.5.1.match"
+    },
+    {
       "a": "merged-1.5.2-pre-250703",
       "b": "merged-1.5.2",
       "file": "matches/merged/1.5/1.5.2-pre-250703#1.5.2.match"
@@ -3477,8 +3487,8 @@
     },
     {
       "a": "merged-13w11a",
-      "b": "merged-1.5.1",
-      "file": "matches/merged/1.5/13w11a#1.5.1.match"
+      "b": "merged-1.5.1-pre-191519",
+      "file": "matches/merged/1.5/13w11a#1.5.1-pre-191519.match"
     },
     {
       "a": "merged-1.5.1",
@@ -3521,19 +3531,9 @@
       "file": "matches/merged/1.6/1.6.2#1.6.3-131100.match"
     },
     {
-      "a": "merged-1.6.2-080933",
-      "b": "merged-1.6.2-091847",
-      "file": "matches/merged/1.6/1.6.2-080933#1.6.2-091847.match"
-    },
-    {
-      "a": "merged-1.6.2-091847",
-      "b": "merged-1.6.2",
-      "file": "matches/merged/1.6/1.6.2-091847#1.6.2.match"
-    },
-    {
       "a": "merged-1.6.2-pre-1426",
-      "b": "merged-1.6.2-080933",
-      "file": "matches/merged/1.6/1.6.2-pre-1426#1.6.2-080933.match"
+      "b": "merged-1.6.2",
+      "file": "matches/merged/1.6/1.6.2-pre-1426#1.6.2.match"
     },
     {
       "a": "merged-1.6.3",
@@ -5896,18 +5896,6 @@
       "version": "1.5-pre-071309",
       "era": "1.5"
     },
-    "client-1.5.1": {
-      "id": "client_1_5_1",
-      "type": "client",
-      "version": "1.5.1",
-      "era": "1.5"
-    },
-    "client-1.5.1-pre-191519": {
-      "id": "client_1_5_1_pre_191519",
-      "type": "client",
-      "version": "1.5.1-pre-191519",
-      "era": "1.5"
-    },
     "client-13w02a-whitetexturefix": {
       "id": "client_13w02a_whitetexturefix",
       "type": "client",
@@ -5956,11 +5944,35 @@
       "version": "13w11a",
       "era": "1.5"
     },
+    "client-1.5.1-pre-191519": {
+      "id": "client_1_5_1_pre_191519",
+      "type": "client",
+      "version": "1.5.1-pre-191519",
+      "era": "1.5"
+    },
     "client-13w12~": {
       "id": "client_13w12_",
       "type": "client",
       "version": "13w12~",
       "era": "1.5"
+    },
+    "client-1.6.2-091847": {
+      "id": "client_1_6_2_091847",
+      "type": "client",
+      "version": "1.6.2-091847",
+      "era": "1.6"
+    },
+    "client-1.6.2-080933": {
+      "id": "client_1_6_2_080933",
+      "type": "client",
+      "version": "1.6.2-080933",
+      "era": "1.6"
+    },
+    "client-1.6.2": {
+      "id": "client_1_6_2",
+      "type": "client",
+      "version": "1.6.2",
+      "era": "1.6"
     },
     "client-1.6.3": {
       "id": "client_1_6_3",
@@ -9382,6 +9394,12 @@
       "version": "1.5.1",
       "era": "1.5"
     },
+    "merged-1.5.1-pre-191519": {
+      "id": "merged_1_5_1_pre_191519",
+      "type": "merged",
+      "version": "1.5.1-pre-191519",
+      "era": "1.5"
+    },
     "merged-1.5.2": {
       "id": "merged_1_5_2",
       "type": "merged",
@@ -9554,18 +9572,6 @@
       "id": "merged_1_6_2",
       "type": "merged",
       "version": "1.6.2",
-      "era": "1.6"
-    },
-    "merged-1.6.2-091847": {
-      "id": "merged_1_6_2_091847",
-      "type": "merged",
-      "version": "1.6.2-091847",
-      "era": "1.6"
-    },
-    "merged-1.6.2-080933": {
-      "id": "merged_1_6_2_080933",
-      "type": "merged",
-      "version": "1.6.2-080933",
       "era": "1.6"
     },
     "merged-1.6.4-201309191549": {
