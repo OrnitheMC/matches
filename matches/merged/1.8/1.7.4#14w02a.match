@@ -1,4 +1,4 @@
-Matches saved 2025-12-25, status: c:1840/1849 m:15624/15823 f:6911/7063 ma:18632/23214, input files:
+Matches saved 2026-01-12, status: c:1840/1849 m:15619/15823 f:6911/7063 ma:18626/23214, input files:
 	a:
 		5311284	SHA256	LAqpwcvLIjavfSpxWXbREpL0zI6AsO10A56T7UwbWqE=	minecraft-merged-1.7.4.jar
 	b:
@@ -2633,7 +2633,19 @@ c	Lafj;	Lagn;
 	f	d;;Lahz;	b;;Lajc;
 	f	e;;I	c;;I
 	f	f;;I	d;;I
-cu	a	Lafk;
+c	Lafk;	Lct;
+	m	<init>(III)V	<init>(III)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	<init>(Layp;)V	<init>(Lbad;)V
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	f	a;;I	b;;I
+	f	b;;I	c;;I
+	f	c;;I	d;;I
 c	Lafl;	Lago;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -59226,29 +59238,7 @@ c	Lqy;	Lrq;
 	f	c;;I	c;;I
 	f	d;;Lny;	d;;Lon;
 	f	e;;Lny;	e;;Lon;
-c	Lr;	Lct;
-	m	<init>(III)V	<init>(III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
-		ma	0	0
-	m	hashCode()I	hashCode()I
-	m	a(Lr;)I	a(Lct;)I
-		ma	0	0
-	mu	a	b(III)V
-	m	e(III)F	b(DDD)D
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	e(Lr;)F	d(Lct;)D
-		ma	0	0
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
-	m	compareTo(Ljava/lang/Object;)I	compareTo(Ljava/lang/Object;)I
-		ma	0	0
-	f	a;;I	b;;I
-	f	b;;I	c;;I
-	f	c;;I	d;;I
+cu	a	Lr;
 c	Lra;	Lrs;
 	m	a(Lqr;)Z	a(Lrj;)Z
 		ma	0	0
