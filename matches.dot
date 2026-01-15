@@ -1387,7 +1387,7 @@ digraph {
   client_1_2_5 -> client_12w15a[label="99.04%",href="client/1.3/1.2.5%2312w15a.match"];
   client_12w15a -> client_12w16a[label="99.58%",href="client/1.3/12w15a%2312w16a.match"];
   client_12w16a -> client_12w17a_1424[label="99.47%",href="client/1.3/12w16a%2312w17a-1424.match"];
-  client_12w17a -> client_12w18a[label="97.72%",href="client/1.3/12w17a%2312w18a.match"];
+  client_12w17a -> client_12w18a[label="97.67%",href="client/1.3/12w17a%2312w18a.match"];
   client_12w17a_1424 -> client_12w17a[label="100%",href="client/1.3/12w17a-1424%2312w17a.match"];
   client_12w18a -> client_12w19a[label="99.46%",href="client/1.3/12w18a%2312w19a.match"];
   client_12w19a -> client_12w21a[label="99.08%",href="client/1.3/12w19a%2312w21a.match"];
