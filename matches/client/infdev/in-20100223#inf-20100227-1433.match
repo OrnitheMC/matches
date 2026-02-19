@@ -1,4 +1,4 @@
-Matches saved 2026-02-16, status: c:287/309 m:1817/2223 f:1507/1644 ma:2899/3656, input files:
+Matches saved 2026-02-19, status: c:287/309 m:1817/2223 f:1508/1644 ma:2899/3656, input files:
 	a:
 		555633	SHA256	wUeyUneB/MJEQDu2rX9N6EbbXFIHlgPiIghwMD+aU8Q=	minecraft-client-in-20100223.jar
 	b:
@@ -3828,7 +3828,11 @@ c	Lnet/minecraft/client/a/h;	Lnet/minecraft/client/a/g;
 	f	d;;Z	d;;Z
 	f	e;;Z	e;;Z
 	f	f;;I	f;;I
-cu	a	Lnet/minecraft/client/a/i;
+c	Lnet/minecraft/client/a/i;	Lnet/minecraft/client/a/h;
+	fu	a	a;;Ljava/awt/image/BufferedImage;
+	fu	a	b;;I
+	f	c;;I	a;;I
+	f	d;;Z	b;;Z
 cu	a	Lnet/minecraft/client/a/j;
 c	Lnet/minecraft/client/a/k;	Lnet/minecraft/client/a/i;
 	m	<init>(Lnet/minecraft/client/q;)V	<init>(Lnet/minecraft/client/p;)V
@@ -5014,8 +5018,7 @@ c	Lnet/minecraft/client/j;	Lnet/minecraft/client/j;
 	f	a;;Ljava/io/File;	a;;Ljava/io/File;
 	f	b;;Lnet/minecraft/client/d;	b;;Lnet/minecraft/client/d;
 	f	c;;Z	c;;Z
-c	Lnet/minecraft/client/k;	Lnet/minecraft/client/a/h;
-	f	a;;I	c;;I
+cu	a	Lnet/minecraft/client/k;
 c	Lnet/minecraft/client/l;	Lnet/minecraft/client/k;
 	m	<init>(Ljava/lang/String;Ljava/lang/String;)V	<init>(Ljava/lang/String;Ljava/lang/String;)V
 		ma	0	0
