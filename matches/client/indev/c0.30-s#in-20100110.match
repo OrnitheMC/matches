@@ -1,0 +1,70 @@
+Matches saved 2026-02-21, status: c:6/181 m:19/881 f:17/910 ma:27/1467, input files:
+	a:
+		291582	SHA256	WNuEv3qpvLX0vdwRKnee64hcXk+nodAeVv2Fkh1Q3ss=	minecraft-client-c0.30-s.jar
+	b:
+		405878	SHA256	/7WuND1Lx9CBNIYfZPssBsnKGyTVEWpylFwds4GbgeE=	minecraft-client-in-20100110.jar
+	cp:
+		113676	SHA256	uI72ZGizyXitDJf9bpCXnlYVW0rGkIm6ekTpqn/+ms8=	asm-7.0.jar
+		50399	SHA256	z9egh0+d42qZnBJ/7q37/m4E1Kce6VTXrz2FPwvkimw=	asm-tree-7.0.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		1080569	SHA256	xTKqbqA/qItfoLqfaYVPM9NWmgaPnZ1sebDXhLiDDAw=	lwjgl-2.9.4+legacyfabric.15.jar
+		180575	SHA256	90Bs4X+zQnq6K4IsTBPfeOh174O3hIYbRbi+P1KcPhs=	lwjgl_util-2.9.4+legacyfabric.15.jar
+	cp a:
+	cp b:
+	non-obf cls a	^.*(?:jarnbjo).*$
+	non-obf cls b	^.*(?:jcraft|paulscode).*$
+	non-obf mem a	^.*(?:jarnbjo).*$
+	non-obf mem b	^.*(?:jcraft|paulscode).*$
+c	Lcom/mojang/minecraft/Entity;	Lnet/minecraft/a/a/c;
+	m	tick()V	b()V
+	m	isPickable()Z	a_()Z
+	f	noPhysics;;Z	K;;Z
+	f	pushthrough;;F	L;;F
+c	Lcom/mojang/minecraft/item/Item;	Lnet/minecraft/a/a/a/b;
+	m	tick()V	b()V
+	fu	a	serialVersionUID;;J
+	f	xd;;F	a;;F
+	f	yd;;F	I;;F
+	f	zd;;F	J;;F
+	f	resource;;I	K;;Lnet/minecraft/a/d/d;
+	f	tickCount;;I	M;;I
+	f	age;;I	N;;I
+c	Lcom/mojang/minecraft/item/PrimedTnt;	Lnet/minecraft/a/a/a/a;
+	m	isPickable()Z	a_()Z
+	m	tick()V	b()V
+	fu	a	serialVersionUID;;J
+	f	xd;;F	I;;F
+	f	yd;;F	J;;F
+	f	zd;;F	K;;F
+	f	life;;I	a;;I
+c	Lcom/mojang/minecraft/level/Level;	Lnet/minecraft/a/b/e;
+	m	playSound(Ljava/lang/String;Lcom/mojang/minecraft/Entity;FF)V	a(Lnet/minecraft/a/a/c;Ljava/lang/String;FF)V
+		ma	0	1
+		ma	1	0
+		ma	2	2
+		ma	3	3
+	m	playSound(Ljava/lang/String;FFFFF)V	a(FFFLjava/lang/String;FF)V
+		ma	0	3
+		ma	1	4
+		ma	2	0
+		ma	3	1
+		ma	4	2
+		ma	5	5
+	m	explode(Lcom/mojang/minecraft/Entity;FFFF)V	a(Lnet/minecraft/a/a/c;FFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+c	Lcom/mojang/minecraft/level/tile/Tile$SoundType;	Lnet/minecraft/a/b/a/g;
+	f	name;;Ljava/lang/String;	a;;Ljava/lang/String;
+	f	volume;;F	b;;F
+	f	pitch;;F	c;;F
+c	Lcom/mojang/minecraft/level/tile/a;	Lnet/minecraft/a/b/a/m;
+	m	g()I	a()I
+	m	i()Z	i()Z
+	f	ad;;Lcom/mojang/minecraft/level/tile/Tile$SoundType;	aq;;Lnet/minecraft/a/b/a/g;
+	f	ap;;Z	ax;;Z
