@@ -1602,10 +1602,13 @@ digraph {
   client_c0_30_s_1858 -> client_c0_30_s[label="100%",href="client/classic/c0.30-s-1858%23c0.30-s.match"];
   client_rd_161348_launcher -> client_c0_0_11a_launcher[label="99.56%",href="client/classic/rd-161348-launcher%23c0.0.11a-launcher.match"];
   client_c0_30_c_renew -> client_in_20091223_1459[label="48.18%",href="client/indev/c0.30-c-renew%23in-20091223-1459.match"];
+  client_c0_30_s -> client_in_20091223_1459[label="54.38%",href="client/indev/c0.30-s%23in-20091223-1459.match"];
+  client_c0_30_s -> client_in_20100110[label="2.53%",href="client/indev/c0.30-s%23in-20100110.match"];
+  client_c0_30_s -> client_in_20100212_1210[label="5.93%",href="client/indev/c0.30-s%23in-20100212-1210.match"];
   client_in_20091223_1459 -> client_in_20091231_2255[label="98.8%",href="client/indev/in-20091223-1459%23in-20091231-2255.match"];
   client_in_20091231_2255 -> client_in_20100104_2258[label="99.79%",href="client/indev/in-20091231-2255%23in-20100104-2258.match"];
   client_in_20100104_2258 -> client_in_20100110[label="99.58%",href="client/indev/in-20100104-2258%23in-20100110.match"];
-  client_in_20100110 -> client_in_20100124_2310[label="99.55%",href="client/indev/in-20100110%23in-20100124-2310.match"];
+  client_in_20100110 -> client_in_20100124_2310[label="99.53%",href="client/indev/in-20100110%23in-20100124-2310.match"];
   client_in_20100124_2310 -> client_in_20100125[label="99.87%",href="client/indev/in-20100124-2310%23in-20100125.match"];
   client_in_20100125 -> client_in_20100128_2304[label="99.88%",href="client/indev/in-20100125%23in-20100128-2304.match"];
   client_in_20100128_2304 -> client_in_20100129_1452[label="99.95%",href="client/indev/in-20100128-2304%23in-20100129-1452.match"];
