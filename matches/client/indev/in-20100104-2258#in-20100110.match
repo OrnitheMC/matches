@@ -1,24 +1,23 @@
-Matches saved 2021-06-30, status: c:195/195 m:1491/1503 f:1241/1247 ma:2437/2485, input files:
+Matches saved 2026-02-22, status: c:195/195 m:1492/1503 f:1244/1247 ma:2449/2485, input files:
 	a:
-		390818	4AMHL/xGrZtZn0z7Wq+VYGMqYzsUtQyd8wg5KSS6AIE=	minecraft-client-in-20100104-2258.jar
+		390818	SHA256	4AMHL/xGrZtZn0z7Wq+VYGMqYzsUtQyd8wg5KSS6AIE=	minecraft-client-in-20100104-2258.jar
 	b:
-		405878	/7WuND1Lx9CBNIYfZPssBsnKGyTVEWpylFwds4GbgeE=	minecraft-client-in-20100110.jar
+		405878	SHA256	/7WuND1Lx9CBNIYfZPssBsnKGyTVEWpylFwds4GbgeE=	minecraft-client-in-20100110.jar
 	cp:
-		27583	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		113676	SHA256	uI72ZGizyXitDJf9bpCXnlYVW0rGkIm6ekTpqn/+ms8=	asm-7.0.jar
+		50399	SHA256	z9egh0+d42qZnBJ/7q37/m4E1Kce6VTXrz2FPwvkimw=	asm-tree-7.0.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		1080569	SHA256	xTKqbqA/qItfoLqfaYVPM9NWmgaPnZ1sebDXhLiDDAw=	lwjgl-2.9.4+legacyfabric.15.jar
+		180575	SHA256	90Bs4X+zQnq6K4IsTBPfeOh174O3hIYbRbi+P1KcPhs=	lwjgl_util-2.9.4+legacyfabric.15.jar
 	cp a:
 	cp b:
-	non-obf cls a	paulscode|jcraft
-	non-obf cls b	paulscode|jcraft
-	non-obf mem a	paulscode|jcraft
-	non-obf mem b	paulscode|jcraft
+	non-obf cls a	^.*(?:jcraft|paulscode).*$
+	non-obf cls b	^.*(?:jcraft|paulscode).*$
+	non-obf mem a	^.*(?:jcraft|paulscode).*$
+	non-obf mem b	^.*(?:jcraft|paulscode).*$
 c	La/a;	La/a;
 	m	<init>()V	<init>()V
 	m	a(F)F	a(F)F
@@ -1231,7 +1230,6 @@ c	Lnet/minecraft/a/a/b/a;	Lnet/minecraft/a/d/d;
 		ma	1	1
 	mu	a	<init>(Lnet/minecraft/a/a/b/a;I)V
 	f	a;;I	a;;I
-	fu	a	b;;I
 	f	c;;I	c;;I
 	f	d;;I	b;;I
 c	Lnet/minecraft/a/a/b/b;	Lnet/minecraft/a/a/b/a;
@@ -1285,6 +1283,7 @@ c	Lnet/minecraft/a/a/b;	Lnet/minecraft/a/a/b;
 	f	k;;Lnet/minecraft/a/a/c;	k;;Lnet/minecraft/a/a/c;
 c	Lnet/minecraft/a/a/c;	Lnet/minecraft/a/a/c;
 	m	<init>(Lnet/minecraft/a/b/e;)V	<init>(Lnet/minecraft/a/b/e;)V
+		ma	0	0
 	m	d()V	d()V
 	m	e()V	e()V
 	m	a(FF)V	a(FF)V
@@ -1417,9 +1416,11 @@ c	Lnet/minecraft/a/b/a/a;	Lnet/minecraft/a/b/a/a;
 		ma	3	3
 		ma	4	4
 	m	a(Lnet/minecraft/a/b/e;IIII)V	a(Lnet/minecraft/a/b/e;IIII)V
+		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
+		ma	4	4
 c	Lnet/minecraft/a/b/a/b;	Lnet/minecraft/a/b/a/b;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -1490,7 +1491,6 @@ c	Lnet/minecraft/a/b/a/i;	Lnet/minecraft/a/b/a/i;
 	m	a(I)I	a(I)I
 		ma	0	0
 	m	c()Z	c()Z
-	mu	a	c(Lnet/minecraft/a/b/e;III)V
 	m	a(Lnet/minecraft/a/b/e;IIILjava/util/Random;)V	a(Lnet/minecraft/a/b/e;IIILjava/util/Random;)V
 		ma	0	0
 		ma	1	1
@@ -1503,7 +1503,6 @@ c	Lnet/minecraft/a/b/a/i;	Lnet/minecraft/a/b/a/i;
 		ma	2	2
 		ma	3	3
 	m	i(Lnet/minecraft/a/b/e;III)Z	i(Lnet/minecraft/a/b/e;III)Z
-		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
@@ -1567,7 +1566,6 @@ c	Lnet/minecraft/a/b/a/l;	Lnet/minecraft/a/b/a/l;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
-	mu	a	c(Lnet/minecraft/a/b/e;III)V
 	m	a(Lnet/minecraft/a/b/e;IIII)V	a(Lnet/minecraft/a/b/e;IIII)V
 		ma	0	0
 		ma	1	1
@@ -1583,7 +1581,6 @@ c	Lnet/minecraft/a/b/a/m;	Lnet/minecraft/a/b/a/m;
 		ma	0	0
 	m	c()Z	c()Z
 	m	g()I	h()I
-	mu	a	a(F)Lnet/minecraft/a/b/a/m;
 	m	a(Z)V	a(Z)V
 		ma	0	0
 	m	a(FFFFFF)V	a(FFFFFF)V
@@ -1636,7 +1633,6 @@ c	Lnet/minecraft/a/b/a/m;	Lnet/minecraft/a/b/a/m;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	c(Lnet/minecraft/a/b/e;III)V
 	m	e()I	f()I
 	m	f(Lnet/minecraft/a/b/e;III)V	f(Lnet/minecraft/a/b/e;III)V
 		ma	0	0
@@ -1651,7 +1647,7 @@ c	Lnet/minecraft/a/b/a/m;	Lnet/minecraft/a/b/a/m;
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
 	m	a()I	a()I
-	mu	a	h()I
+	m	h()I	a(Lnet/minecraft/a/a/b/a;)I
 	m	e(Lnet/minecraft/a/b/e;III)V	e(Lnet/minecraft/a/b/e;III)V
 		ma	0	0
 		ma	1	1
@@ -1932,8 +1928,10 @@ c	Lnet/minecraft/a/b/b/a;	Lnet/minecraft/a/b/b/a;
 	m	<init>(La/b;)V	<init>(La/b;)V
 		ma	0	0
 	m	a(Ljava/lang/String;III)Lnet/minecraft/a/b/e;	a(Ljava/lang/String;III)Lnet/minecraft/a/b/e;
+		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	a(IIII)V	a(IIII)V
 		ma	0	0
 		ma	1	1
@@ -2022,11 +2020,7 @@ c	Lnet/minecraft/a/b/e;	Lnet/minecraft/a/b/e;
 	m	<init>()V	<init>()V
 	m	a()V	a()V
 	m	a(III[B)V	a(III[B)V
-		ma	0	0
 		ma	1	1
-		ma	2	2
-		ma	3	3
-	mu	a	g()V
 	m	f(IIII)V	g(IIII)V
 		ma	0	0
 		ma	1	1
@@ -2079,8 +2073,6 @@ c	Lnet/minecraft/a/b/e;	Lnet/minecraft/a/b/e;
 		ma	2	2
 		ma	3	3
 	m	a(III)Z	a(III)Z
-		ma	0	0
-		ma	1	1
 		ma	2	2
 	m	b(III)I	c(III)I
 		ma	0	0
@@ -2099,7 +2091,6 @@ c	Lnet/minecraft/a/b/e;	Lnet/minecraft/a/b/e;
 	m	b(Lnet/minecraft/a/c/b;)Z	b(Lnet/minecraft/a/c/b;)Z
 		ma	0	0
 	m	a(Lnet/minecraft/a/c/b;Lnet/minecraft/a/b/c/a;)Z	a(Lnet/minecraft/a/c/b;Lnet/minecraft/a/b/c/a;)Z
-		ma	0	0
 		ma	1	1
 	m	e(IIII)V	e(IIII)V
 		ma	0	0
@@ -2193,9 +2184,7 @@ c	Lnet/minecraft/a/b/e;	Lnet/minecraft/a/b/e;
 	f	y;;I	B;;I
 	f	z;;I	C;;I
 	f	n;;Lnet/minecraft/a/a/c;	q;;Lnet/minecraft/a/a/c;
-	fu	a	o;;Z
 	f	p;;Z	r;;Z
-	fu	a	A;;[I
 c	Lnet/minecraft/a/b/f;	Lnet/minecraft/a/b/f;
 	m	<init>(III)V	<init>(III)V
 		ma	0	0
@@ -2223,6 +2212,7 @@ c	Lnet/minecraft/a/b/f;	Lnet/minecraft/a/b/f;
 		ma	6	6
 		ma	7	7
 	m	a(Lnet/minecraft/a/a/c;Lnet/minecraft/a/c/b;)Ljava/util/List;	a(Lnet/minecraft/a/a/c;Lnet/minecraft/a/c/b;)Ljava/util/List;
+		ma	0	0
 		ma	1	1
 	m	a()V	a()V
 	f	a;;I	a;;I
@@ -2356,11 +2346,14 @@ c	Lnet/minecraft/client/a/a/c;	Lnet/minecraft/client/a/a/c;
 	f	e;;[F	f;;[F
 	f	f;;[F	g;;[F
 	f	g;;[F	h;;[F
-c	Lnet/minecraft/client/a/a/d;	Lnet/minecraft/client/a/a/d;
-	m	<init>()V	<init>(I)V
+c	Lnet/minecraft/client/a/a/d;	Lnet/minecraft/client/a/a/e;
+	m	<init>()V	<init>()V
 	m	a()V	a()V
 	f	d;;[F	e;;[F
 	f	e;;[F	f;;[F
+	f	f;;[F	g;;[F
+	f	g;;[F	h;;[F
+	f	h;;I	i;;I
 c	Lnet/minecraft/client/a/a;	Lnet/minecraft/client/a/a;
 	m	<init>(Lnet/minecraft/a/a/b/b;)V	<init>(Lnet/minecraft/a/a/b/a;)V
 		ma	0	0
@@ -2494,6 +2487,9 @@ c	Lnet/minecraft/client/a/d;	Lnet/minecraft/client/a/d;
 	m	a(Lnet/minecraft/a/a/c;Lnet/minecraft/client/a/j;FFFFF)V	a(Lnet/minecraft/a/a/c;Lnet/minecraft/client/a/j;FFFFF)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 		ma	5	5
 		ma	6	6
 	m	a(Lnet/minecraft/a/b/e;)V	a(Lnet/minecraft/a/b/e;)V
@@ -2579,9 +2575,15 @@ c	Lnet/minecraft/client/a/f;	Lnet/minecraft/client/a/f;
 		ma	3	3
 	m	b(Lnet/minecraft/a/b/a/m;IIII)V	a(Lnet/minecraft/a/b/a/m;FFFI)V
 		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 		ma	4	4
 	m	c(Lnet/minecraft/a/b/a/m;IIII)V	b(Lnet/minecraft/a/b/a/m;FFFI)V
 		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 		ma	4	4
 	m	d(Lnet/minecraft/a/b/a/m;IIII)V	b(Lnet/minecraft/a/b/a/m;IIII)V
 		ma	0	0
@@ -2928,8 +2930,10 @@ c	Lnet/minecraft/client/b/l;	Lnet/minecraft/client/b/l;
 	f	k;;I	k;;I
 c	Lnet/minecraft/client/b/m;	Lnet/minecraft/client/b/m;
 	m	<init>(Lnet/minecraft/client/b/g;)V	<init>(Lnet/minecraft/client/b/g;)V
+		ma	0	0
 	m	a()V	a()V
 	m	a(Lnet/minecraft/client/b/p;)V	a(Lnet/minecraft/client/b/p;)V
+		ma	0	0
 	m	a(II)V	a(II)V
 		ma	0	0
 		ma	1	1
@@ -3054,6 +3058,7 @@ c	Lnet/minecraft/client/c/b;	Lnet/minecraft/client/c/b;
 	m	a(Lnet/minecraft/a/a/b/b;)V	a(Lnet/minecraft/a/a/b/a;)V
 		ma	0	0
 	m	b(III)V	b(III)Z
+		ma	0	0
 		ma	1	1
 		ma	2	2
 	m	a(III)V	a(III)V
@@ -3165,6 +3170,7 @@ c	Lnet/minecraft/client/d;	Lnet/minecraft/client/d;
 		ma	0	0
 	m	d()V	d()V
 	m	a(I)V	a(IIII)V
+		ma	0	0
 	m	a(Lnet/minecraft/a/b/e;)V	a(Lnet/minecraft/a/b/e;)V
 		ma	0	0
 	f	a;;Lnet/minecraft/client/c/a;	a;;Lnet/minecraft/client/c/a;
