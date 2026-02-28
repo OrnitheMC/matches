@@ -1,24 +1,23 @@
-Matches saved 2022-05-02, status: c:252/252 m:1830/1881 f:1389/1389 ma:3062/3075, input files:
+Matches saved 2026-02-28, status: c:252/252 m:1779/1881 f:1387/1389 ma:3062/3075, input files:
 	a:
 		755157	SHA256	85xSmaN6G1p/j12RYKlZO2m4JPGrNXQ2qcN0u4qunoI=	minecraft-client-in-20100129-1452.jar
 	b:
 		785518	SHA256	FaaB8gbzD50K/+qcaW/OPKXz7Fp1qQogZIwruiCNsao=	minecraft-client-in-20100130.jar
 	cp:
+		113676	SHA256	uI72ZGizyXitDJf9bpCXnlYVW0rGkIm6ekTpqn/+ms8=	asm-7.0.jar
+		50399	SHA256	z9egh0+d42qZnBJ/7q37/m4E1Kce6VTXrz2FPwvkimw=	asm-tree-7.0.jar
 		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
 		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
 		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
 		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		1080569	SHA256	xTKqbqA/qItfoLqfaYVPM9NWmgaPnZ1sebDXhLiDDAw=	lwjgl-2.9.4+legacyfabric.15.jar
+		180575	SHA256	90Bs4X+zQnq6K4IsTBPfeOh174O3hIYbRbi+P1KcPhs=	lwjgl_util-2.9.4+legacyfabric.15.jar
 	cp a:
 	cp b:
-	non-obf cls a	paulscode|jcraft
-	non-obf cls b	paulscode|jcraft
-	non-obf mem a	paulscode|jcraft
-	non-obf mem b	paulscode|jcraft
+	non-obf cls a	^.*(?:jcraft|paulscode).*$
+	non-obf cls b	^.*(?:jcraft|paulscode).*$
+	non-obf mem a	^.*(?:jcraft|paulscode).*$
+	non-obf mem b	^.*(?:jcraft|paulscode).*$
 c	La/a;	La/a;
 	mu	a	<init>()V
 	m	a(F)F	a(F)F
@@ -33,7 +32,7 @@ c	La/a;	La/a;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;[F	a;;[F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	La/b;	La/b;
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
@@ -52,7 +51,7 @@ c	Lcom/a/a/a;	Lcom/a/a/a;
 	m	a()B	a()B
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	a;;J	a;;J
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/a/a/b;	Lcom/a/a/b;
 	mu	a	<init>()V
 	m	<init>(F)V	<init>(F)V
@@ -64,7 +63,7 @@ c	Lcom/a/a/b;	Lcom/a/a/b;
 	m	a()B	a()B
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	a;;F	a;;F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/a/a/c;	Lcom/a/a/c;
 	mu	a	<init>()V
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -120,9 +119,9 @@ c	Lcom/a/a/c;	Lcom/a/a/c;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	b()Z	b()Z
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/a/a/d;	Lcom/a/a/d;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -134,7 +133,7 @@ c	Lcom/a/a/d;	Lcom/a/a/d;
 	f	a;;I	a;;I
 	mu	b	<init>()V
 c	Lcom/a/a/e;	Lcom/a/a/e;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	<init>(B)V	<init>(B)V
 		ma	0	0
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -160,9 +159,9 @@ c	Lcom/a/a/f;	Lcom/a/a/f;
 	m	b()I	b()I
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;B	b;;B
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/a/a/g;	Lcom/a/a/g;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -182,9 +181,9 @@ c	Lcom/a/a/h;	Lcom/a/a/h;
 	m	a()B	a()B
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	a;;S	a;;S
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/a/a/i;	Lcom/a/a/i;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	<init>([B)V	<init>([B)V
 		ma	0	0
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -213,7 +212,7 @@ c	Lcom/a/a/j;	Lcom/a/a/j;
 	m	a(B)Lcom/a/a/j;	a(B)Lcom/a/a/j;
 		ma	0	0
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/a/a/k;	Lcom/a/a/k;
 	mu	a	<init>()V
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
@@ -225,9 +224,9 @@ c	Lcom/a/a/k;	Lcom/a/a/k;
 	m	a()B	a()B
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/a/a/l;	Lcom/a/a/l;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -236,7 +235,7 @@ c	Lcom/a/a/l;	Lcom/a/a/l;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	mu	b	<init>()V
 c	Lcom/jcraft/jogg/Buffer;	Lcom/jcraft/jogg/Buffer;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	writeinit()V	writeinit()V
 	m	write([B)V	write([B)V
 		ma	0	0
@@ -291,7 +290,7 @@ c	Lcom/jcraft/jogg/Packet;	Lcom/jcraft/jogg/Packet;
 	f	e_o_s;;I	e_o_s;;I
 	f	granulepos;;J	granulepos;;J
 	f	packetno;;J	packetno;;J
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jogg/Page;	Lcom/jcraft/jogg/Page;
 	mu	a	<init>()V
 	m	crc_entry(I)I	crc_entry(I)I
@@ -315,9 +314,9 @@ c	Lcom/jcraft/jogg/Page;	Lcom/jcraft/jogg/Page;
 	f	body_base;;[B	body_base;;[B
 	f	body;;I	body;;I
 	f	body_len;;I	body_len;;I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jogg/StreamState;	Lcom/jcraft/jogg/StreamState;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
 	m	init()V	init()V
@@ -361,7 +360,7 @@ c	Lcom/jcraft/jogg/StreamState;	Lcom/jcraft/jogg/StreamState;
 	f	granulepos;;J	granulepos;;J
 	mu	b	<init>()V
 c	Lcom/jcraft/jogg/SyncState;	Lcom/jcraft/jogg/SyncState;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	clear()I	clear()I
 	m	buffer(I)I	buffer(I)I
 		ma	0	0
@@ -490,9 +489,9 @@ c	Lcom/jcraft/jorbis/CodeBook;	Lcom/jcraft/jorbis/CodeBook;
 	f	codelist;;[I	codelist;;[I
 	f	decode_tree;;Lcom/jcraft/jorbis/CodeBook$DecodeAux;	decode_tree;;Lcom/jcraft/jorbis/CodeBook$DecodeAux;
 	f	t;;[I	t;;[I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Comment;	Lcom/jcraft/jorbis/Comment;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	init()V	init()V
 	m	add(Ljava/lang/String;)V	add(Ljava/lang/String;)V
 		ma	0	0
@@ -641,7 +640,7 @@ c	Lcom/jcraft/jorbis/Drft;	Lcom/jcraft/jorbis/Drft;
 	f	taui;;F	taui;;F
 	f	taur;;F	taur;;F
 	f	sqrt2;;F	sqrt2;;F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/DspState;	Lcom/jcraft/jorbis/DspState;
 	mu	a	<init>()V
 	m	window(IIII)[F	window(IIII)[F
@@ -695,7 +694,7 @@ c	Lcom/jcraft/jorbis/DspState;	Lcom/jcraft/jorbis/DspState;
 	f	header;;[B	header;;[B
 	f	header1;;[B	header1;;[B
 	f	header2;;[B	header2;;[B
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Floor0$EchstateFloor0;	Lcom/jcraft/jorbis/Floor0$EchstateFloor0;
 	m	<init>(Lcom/jcraft/jorbis/Floor0;)V	<init>(Lcom/jcraft/jorbis/Floor0;)V
 		ma	0	0
@@ -726,7 +725,7 @@ c	Lcom/jcraft/jorbis/Floor0$LookFloor0;	Lcom/jcraft/jorbis/Floor0$LookFloor0;
 	f	lpclook;;Lcom/jcraft/jorbis/Lpc;	lpclook;;Lcom/jcraft/jorbis/Lpc;
 	f	this$0;;Lcom/jcraft/jorbis/Floor0;	this$0;;Lcom/jcraft/jorbis/Floor0;
 c	Lcom/jcraft/jorbis/Floor0;	Lcom/jcraft/jorbis/Floor0;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V	pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
 		ma	0	0
 		ma	1	1
@@ -899,9 +898,9 @@ c	Lcom/jcraft/jorbis/Floor1;	Lcom/jcraft/jorbis/Floor1;
 	f	floor1_rangedb;;I	floor1_rangedb;;I
 	f	VIF_POSIT;;I	VIF_POSIT;;I
 	f	FLOOR_fromdB_LOOKUP;;[F	FLOOR_fromdB_LOOKUP;;[F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/FuncFloor;	Lcom/jcraft/jorbis/FuncFloor;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V	pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
 		ma	0	0
 		ma	1	1
@@ -937,7 +936,7 @@ c	Lcom/jcraft/jorbis/FuncFloor;	Lcom/jcraft/jorbis/FuncFloor;
 	f	floor_P;;[Lcom/jcraft/jorbis/FuncFloor;	floor_P;;[Lcom/jcraft/jorbis/FuncFloor;
 	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/FuncMapping;	Lcom/jcraft/jorbis/FuncMapping;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	pack(Lcom/jcraft/jorbis/Info;Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V	pack(Lcom/jcraft/jorbis/Info;Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
 		ma	0	0
 		ma	1	1
@@ -983,9 +982,9 @@ c	Lcom/jcraft/jorbis/FuncResidue;	Lcom/jcraft/jorbis/FuncResidue;
 		ma	4	4
 	m	<clinit>()V	<clinit>()V
 	f	residue_P;;[Lcom/jcraft/jorbis/FuncResidue;	residue_P;;[Lcom/jcraft/jorbis/FuncResidue;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/FuncTime;	Lcom/jcraft/jorbis/FuncTime;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V	pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
 		ma	0	0
 		ma	1	1
@@ -1009,7 +1008,7 @@ c	Lcom/jcraft/jorbis/FuncTime;	Lcom/jcraft/jorbis/FuncTime;
 	f	time_P;;[Lcom/jcraft/jorbis/FuncTime;	time_P;;[Lcom/jcraft/jorbis/FuncTime;
 	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Info;	Lcom/jcraft/jorbis/Info;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	init()V	init()V
 	m	clear()V	clear()V
 	m	unpack_info(Lcom/jcraft/jogg/Buffer;)I	unpack_info(Lcom/jcraft/jogg/Buffer;)I
@@ -1070,7 +1069,7 @@ c	Lcom/jcraft/jorbis/InfoMode;	Lcom/jcraft/jorbis/InfoMode;
 	f	windowtype;;I	windowtype;;I
 	f	transformtype;;I	transformtype;;I
 	f	mapping;;I	mapping;;I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Lookup;	Lcom/jcraft/jorbis/Lookup;
 	mu	a	<init>()V
 	m	coslook(F)F	coslook(F)F
@@ -1096,9 +1095,9 @@ c	Lcom/jcraft/jorbis/Lookup;	Lcom/jcraft/jorbis/Lookup;
 	f	FROMdB2_MASK;;I	FROMdB2_MASK;;I
 	f	FROMdB_LOOKUP;;[F	FROMdB_LOOKUP;;[F
 	f	FROMdB2_LOOKUP;;[F	FROMdB2_LOOKUP;;[F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Lpc;	Lcom/jcraft/jorbis/Lpc;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	lpc_from_data([F[FII)F	lpc_from_data([F[FII)F
 		ma	0	0
 		ma	1	1
@@ -1123,7 +1122,7 @@ c	Lcom/jcraft/jorbis/Lpc;	Lcom/jcraft/jorbis/Lpc;
 	f	m;;I	m;;I
 	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Lsp;	Lcom/jcraft/jorbis/Lsp;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	lsp_to_curve([F[III[FIFF)V	lsp_to_curve([F[III[FIFF)V
 		ma	0	0
 		ma	1	1
@@ -1167,7 +1166,7 @@ c	Lcom/jcraft/jorbis/Mapping0$LookMapping0;	Lcom/jcraft/jorbis/Mapping0$LookMapp
 	f	lastframe;;I	lastframe;;I
 	f	this$0;;Lcom/jcraft/jorbis/Mapping0;	this$0;;Lcom/jcraft/jorbis/Mapping0;
 c	Lcom/jcraft/jorbis/Mapping0;	Lcom/jcraft/jorbis/Mapping0;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	free_info(Ljava/lang/Object;)V	free_info(Ljava/lang/Object;)V
 		ma	0	0
 	m	free_look(Ljava/lang/Object;)V	free_look(Ljava/lang/Object;)V
@@ -1218,7 +1217,7 @@ c	Lcom/jcraft/jorbis/Mdct;	Lcom/jcraft/jorbis/Mdct;
 	f	scale;;F	scale;;F
 	f	_x;;[F	_x;;[F
 	f	_w;;[F	_w;;[F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/PsyInfo;	Lcom/jcraft/jorbis/PsyInfo;
 	mu	a	<init>()V
 	m	free()V	free()V
@@ -1256,9 +1255,9 @@ c	Lcom/jcraft/jorbis/PsyInfo;	Lcom/jcraft/jorbis/PsyInfo;
 	f	max_curve_dB;;F	max_curve_dB;;F
 	f	attack_coeff;;F	attack_coeff;;F
 	f	decay_coeff;;F	decay_coeff;;F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/PsyLook;	Lcom/jcraft/jorbis/PsyLook;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	init(Lcom/jcraft/jorbis/PsyInfo;II)V	init(Lcom/jcraft/jorbis/PsyInfo;II)V
 		ma	0	0
 		ma	1	1
@@ -1338,9 +1337,9 @@ c	Lcom/jcraft/jorbis/Residue0;	Lcom/jcraft/jorbis/Residue0;
 	m	<clinit>()V	<clinit>()V
 	f	_01inverse_partword;;[[[I	_01inverse_partword;;[[[I
 	f	_2inverse_partword;;[[I	_2inverse_partword;;[[I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Residue1;	Lcom/jcraft/jorbis/Residue1;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I	inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I
 		ma	0	0
 		ma	1	1
@@ -1349,7 +1348,7 @@ c	Lcom/jcraft/jorbis/Residue1;	Lcom/jcraft/jorbis/Residue1;
 		ma	4	4
 	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Residue2;	Lcom/jcraft/jorbis/Residue2;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I	inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I
 		ma	0	0
 		ma	1	1
@@ -1385,7 +1384,7 @@ c	Lcom/jcraft/jorbis/StaticCodeBook;	Lcom/jcraft/jorbis/StaticCodeBook;
 	f	VQ_FEXP;;I	VQ_FEXP;;I
 	f	VQ_FMAN;;I	VQ_FMAN;;I
 	f	VQ_FEXP_BIAS;;I	VQ_FEXP_BIAS;;I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Time0;	Lcom/jcraft/jorbis/Time0;
 	mu	a	<init>()V
 	m	pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V	pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
@@ -1407,7 +1406,7 @@ c	Lcom/jcraft/jorbis/Time0;	Lcom/jcraft/jorbis/Time0;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lcom/jcraft/jorbis/Util;	Lcom/jcraft/jorbis/Util;
 	mu	a	<init>()V
 	m	ilog(I)I	ilog(I)I
@@ -1416,16 +1415,16 @@ c	Lcom/jcraft/jorbis/Util;	Lcom/jcraft/jorbis/Util;
 		ma	0	0
 	m	icount(I)I	icount(I)I
 		ma	0	0
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/a/a/a/a/a;	Lnet/minecraft/a/a/a/a/a;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Lcom/a/a/c;)V	a(Lcom/a/a/c;)V
 		ma	0	0
 	m	b(Lcom/a/a/c;)V	b(Lcom/a/a/c;)V
 		ma	0	0
 	mu	b	<init>()V
 c	Lnet/minecraft/a/a/a/a/b;	Lnet/minecraft/a/a/a/a/b;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a()I	a()I
 	m	a(I)Lnet/minecraft/a/c/h;	a(I)Lnet/minecraft/a/c/i;
 		ma	0	0
@@ -2245,9 +2244,9 @@ c	Lnet/minecraft/a/a/b/a/a;	Lnet/minecraft/a/a/b/a/a;
 		ma	0	0
 		ma	1	1
 	f	a;;[I	a;;[I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/a/a/b/a/b;	Lnet/minecraft/a/a/b/a/b;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(DD)D	a(DD)D
 		ma	0	0
 		ma	1	1
@@ -2387,7 +2386,7 @@ c	Lnet/minecraft/a/a/e;	Lnet/minecraft/a/a/e;
 	f	c;;I	c;;I
 	f	d;;Lnet/minecraft/a/a/g;	d;;Lnet/minecraft/a/a/g;
 c	Lnet/minecraft/a/a/f;	Lnet/minecraft/a/a/f;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a()V	a()V
 	m	a(III[B)V	a(III[B)V
 		ma	0	0
@@ -2741,7 +2740,7 @@ c	Lnet/minecraft/a/b/a;	Lnet/minecraft/a/b/a;
 		ma	0	0
 		ma	1	1
 	f	a;;I	a;;I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/a/b/b/a;	Lnet/minecraft/a/b/b/a;
 	m	<init>(Lnet/minecraft/a/a/f;Lnet/minecraft/a/b/d;)V	<init>(Lnet/minecraft/a/a/f;Lnet/minecraft/a/b/d;)V
 		ma	0	0
@@ -2763,7 +2762,7 @@ c	Lnet/minecraft/a/b/b/a;	Lnet/minecraft/a/b/b/a;
 	f	a;;I	a;;I
 	f	R;;Lnet/minecraft/a/b/d;	R;;Lnet/minecraft/a/b/d;
 c	Lnet/minecraft/a/b/b;	Lnet/minecraft/a/b/b;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Lnet/minecraft/a/a/f;Lnet/minecraft/a/b/d;)V	a(Lnet/minecraft/a/a/f;Lnet/minecraft/a/b/d;)V
 		ma	0	0
 		ma	1	1
@@ -2804,7 +2803,7 @@ c	Lnet/minecraft/a/b/c/a;	Lnet/minecraft/a/b/c/a;
 	f	P;;F	P;;F
 	f	Q;;I	Q;;I
 c	Lnet/minecraft/a/b/c/b;	Lnet/minecraft/a/b/c/b;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	d()Lnet/minecraft/a/c/h;	d()Lnet/minecraft/a/c/i;
 	m	d(I)I	d(I)I
 		ma	0	0
@@ -3248,7 +3247,7 @@ c	Lnet/minecraft/a/d/c;	Lnet/minecraft/a/d/c;
 	f	f;;Lnet/minecraft/a/d/a;	f;;Lnet/minecraft/a/d/a;
 	f	g;;Lnet/minecraft/a/b/c;	g;;Lnet/minecraft/a/b/c;
 c	Lnet/minecraft/client/MinecraftApplet;	Lnet/minecraft/client/MinecraftApplet;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	init()V	init()V
 	m	a()V	a()V
 	m	start()V	start()V
@@ -3260,7 +3259,7 @@ c	Lnet/minecraft/client/MinecraftApplet;	Lnet/minecraft/client/MinecraftApplet;
 	f	c;;Ljava/lang/Thread;	c;;Ljava/lang/Thread;
 	mu	b	<init>()V
 c	Lnet/minecraft/client/a/a/a;	Lnet/minecraft/client/a/a/a;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Lnet/minecraft/a/b/c;FFFFF)V	a(Lnet/minecraft/a/b/c;FFFFF)V
 		ma	0	0
 		ma	1	1
@@ -3270,7 +3269,7 @@ c	Lnet/minecraft/client/a/a/a;	Lnet/minecraft/client/a/a/a;
 		ma	5	5
 	mu	b	<init>()V
 c	Lnet/minecraft/client/a/a/b;	Lnet/minecraft/client/a/a/b;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Lnet/minecraft/a/b/c;FFFFF)V	a(Lnet/minecraft/a/b/c;FFFFF)V
 		ma	0	0
 		ma	1	1
@@ -3289,9 +3288,9 @@ c	Lnet/minecraft/client/a/a/c;	Lnet/minecraft/client/a/a/c;
 		ma	4	4
 		ma	5	5
 	f	c;;Lnet/minecraft/client/a/e;	c;;Lnet/minecraft/client/a/e;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/a/a/d;	Lnet/minecraft/client/a/a/d;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Lnet/minecraft/a/b/c;FFFFF)V	a(Lnet/minecraft/a/b/c;FFFFF)V
 		ma	0	0
 		ma	1	1
@@ -3303,7 +3302,7 @@ c	Lnet/minecraft/client/a/a/d;	Lnet/minecraft/client/a/a/d;
 	f	d;;Ljava/util/Random;	d;;Ljava/util/Random;
 	mu	b	<init>()V
 c	Lnet/minecraft/client/a/a/e;	Lnet/minecraft/client/a/a/e;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Lnet/minecraft/a/b/c;FFFFF)V	a(Lnet/minecraft/a/b/c;FFFFF)V
 		ma	0	0
 		ma	1	1
@@ -3325,7 +3324,7 @@ c	Lnet/minecraft/client/a/a/e;	Lnet/minecraft/client/a/a/e;
 	f	b;;F	b;;F
 	mu	b	<init>()V
 c	Lnet/minecraft/client/a/a/f;	Lnet/minecraft/client/a/a/f;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Lnet/minecraft/a/b/c;FFFFF)V	a(Lnet/minecraft/a/b/c;FFFFF)V
 		ma	0	0
 		ma	1	1
@@ -3348,7 +3347,7 @@ c	Lnet/minecraft/client/a/a/g;	Lnet/minecraft/client/a/a/g;
 		ma	4	4
 		ma	5	5
 	f	c;;[Lnet/minecraft/client/e/a/g;	c;;[Lnet/minecraft/client/e/a/g;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/a/a;	Lnet/minecraft/client/a/a;
 	m	<init>(Lnet/minecraft/a/b/c/a;)V	<init>(Lnet/minecraft/a/b/c/a;)V
 		ma	0	0
@@ -3357,7 +3356,7 @@ c	Lnet/minecraft/client/a/a;	Lnet/minecraft/client/a/a;
 		ma	1	1
 	f	a;;Lnet/minecraft/a/b/c/a;	a;;Lnet/minecraft/a/b/c/a;
 c	Lnet/minecraft/client/a/b/a;	Lnet/minecraft/client/a/b/a;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a()V	a()V
 	f	e;;[F	e;;[F
 	f	f;;[F	f;;[F
@@ -3388,7 +3387,7 @@ c	Lnet/minecraft/client/a/b/d;	Lnet/minecraft/client/a/b/d;
 	f	f;;[F	f;;[F
 	f	g;;[F	g;;[F
 	f	h;;[F	h;;[F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/a/b/e;	Lnet/minecraft/client/a/b/e;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
@@ -3403,7 +3402,7 @@ c	Lnet/minecraft/client/a/b/f;	Lnet/minecraft/client/a/b/f;
 	f	g;;[F	g;;[F
 	f	h;;[F	h;;[F
 	f	i;;I	i;;I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/a/b;	Lnet/minecraft/client/a/b;
 	m	<init>(Lnet/minecraft/client/d;Lnet/minecraft/client/a/i;)V	<init>(Lnet/minecraft/client/d;Lnet/minecraft/client/a/i;)V
 		ma	0	0
@@ -3662,7 +3661,7 @@ c	Lnet/minecraft/client/a/f;	Lnet/minecraft/client/a/f;
 	f	g;;Ljava/nio/FloatBuffer;	g;;Ljava/nio/FloatBuffer;
 	f	h;;Ljava/nio/FloatBuffer;	h;;Ljava/nio/FloatBuffer;
 	f	i;;Ljava/nio/FloatBuffer;	i;;Ljava/nio/FloatBuffer;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/a/g;	Lnet/minecraft/client/a/g;
 	m	<init>(Lnet/minecraft/client/d;)V	<init>(Lnet/minecraft/client/d;)V
 		ma	0	0
@@ -3744,7 +3743,7 @@ c	Lnet/minecraft/client/a/j;	Lnet/minecraft/client/a/j;
 		ma	1	1
 	f	a;;Lnet/minecraft/a/b/c/a;	a;;Lnet/minecraft/a/b/c/a;
 c	Lnet/minecraft/client/a/k;	Lnet/minecraft/client/a/k;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(FFFFFF)Z	a(FFFFFF)Z
 		ma	0	0
 		ma	1	1
@@ -3784,7 +3783,7 @@ c	Lnet/minecraft/client/a;	Lnet/minecraft/client/a;
 	f	b;;Lnet/minecraft/client/d;	b;;Lnet/minecraft/client/d;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;J	d;;J
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/b/a;	Lnet/minecraft/client/b/a/g;
 	m	<init>(Lnet/minecraft/a/b;Lnet/minecraft/a/b;)V	<init>(Lnet/minecraft/a/b;Lnet/minecraft/a/b;)V
 		ma	0	0
@@ -3819,7 +3818,7 @@ c	Lnet/minecraft/client/b/d;	Lnet/minecraft/client/b/c;
 	m	a(II)V	a(II)V
 		ma	0	0
 		ma	1	1
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/b/e;	Lnet/minecraft/client/b/d;
 	m	<init>(Ljava/lang/String;Ljava/lang/String;)V	<init>(Ljava/lang/String;Ljava/lang/String;)V
 		ma	0	0
@@ -3852,7 +3851,7 @@ c	Lnet/minecraft/client/b/f;	Lnet/minecraft/client/b/a/a;
 	f	a;;[Lnet/minecraft/a/c/h;	a;;[Lnet/minecraft/a/c/i;
 	f	b;;Lnet/minecraft/client/b/o;	c;;Lnet/minecraft/client/b/a/h;
 c	Lnet/minecraft/client/b/g;	Lnet/minecraft/client/b/e;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a()V	b()V
 	m	a(Lnet/minecraft/client/b/w;)V	a(Lnet/minecraft/client/b/s;)V
 		ma	0	0
@@ -3946,7 +3945,7 @@ c	Lnet/minecraft/client/b/l;	Lnet/minecraft/client/b/j;
 	f	e;;Ljava/util/List;	e;;Ljava/util/List;
 	f	f;;Z	f;;Z
 	f	g;;Lnet/minecraft/client/b/n;	g;;Lnet/minecraft/client/b/l;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/b/m;	Lnet/minecraft/client/b/a/e;
 	m	<init>(Lnet/minecraft/client/b/x;Lnet/minecraft/a/b;III)V	<init>(Lnet/minecraft/client/b/a/h;Lnet/minecraft/a/b;III)V
 		ma	0	0
@@ -4030,7 +4029,7 @@ c	Lnet/minecraft/client/b/p;	Lnet/minecraft/client/b/m;
 		ma	4	4
 		ma	5	5
 	f	h;;F	h;;F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/b/q;	Lnet/minecraft/client/b/n;
 	m	<init>(Lnet/minecraft/client/d;)V	<init>(Lnet/minecraft/client/d;)V
 		ma	0	0
@@ -4041,7 +4040,7 @@ c	Lnet/minecraft/client/b/q;	Lnet/minecraft/client/b/n;
 	f	b;;Ljava/util/Random;	c;;Ljava/util/Random;
 	f	c;;Lnet/minecraft/client/d;	d;;Lnet/minecraft/client/d;
 	f	d;;I	e;;I
-	f	e;;Lnet/minecraft/client/a/e;	a;;Lnet/minecraft/client/a/a/d;
+	fu	a	e;;Lnet/minecraft/client/a/e;
 c	Lnet/minecraft/client/b/r;	Lnet/minecraft/client/b/o;
 	m	<init>(Lnet/minecraft/client/b/l;Lnet/minecraft/client/p;)V	<init>(Lnet/minecraft/client/b/j;Lnet/minecraft/client/q;)V
 		ma	0	0
@@ -4148,7 +4147,7 @@ c	Lnet/minecraft/client/b/w;	Lnet/minecraft/client/b/s;
 	f	c;;Z	c;;Z
 	f	d;;Z	d;;Z
 c	Lnet/minecraft/client/b/x;	Lnet/minecraft/client/b/a/h;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(II)V	a(II)V
 		ma	0	0
 		ma	1	1
@@ -4163,7 +4162,7 @@ c	Lnet/minecraft/client/b/x;	Lnet/minecraft/client/b/a/h;
 		ma	0	0
 		ma	1	1
 	m	e()V	a()V
-	f	k;;Lnet/minecraft/client/a/e;	k;;Lnet/minecraft/client/a/a/d;
+	fu	a	k;;Lnet/minecraft/client/a/e;
 	f	l;;Lnet/minecraft/a/c/h;	l;;Lnet/minecraft/a/c/i;
 	f	a;;I	a;;I
 	f	i;;I	i;;I
@@ -4246,7 +4245,7 @@ c	Lnet/minecraft/client/c/c;	Lnet/minecraft/client/c/c;
 	m	c()V	c()V
 	f	c;;Lnet/minecraft/a/a/b;	c;;Lnet/minecraft/a/a/b;
 c	Lnet/minecraft/client/c;	Lnet/minecraft/client/c;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a()V	a()V
 	m	b()V	b()V
 	m	a(FFFF)Ljava/nio/FloatBuffer;	a(FFFF)Ljava/nio/FloatBuffer;
@@ -4273,9 +4272,9 @@ c	Lnet/minecraft/client/d/b;	Lnet/minecraft/client/d/b;
 	f	b;;Ljava/util/Random;	b;;Ljava/util/Random;
 	f	c;;Ljava/util/Map;	c;;Ljava/util/Map;
 	f	a;;I	a;;I
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/d/c;	Lnet/minecraft/client/d/c;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Lnet/minecraft/client/p;)V	a(Lnet/minecraft/client/q;)V
 		ma	0	0
 	m	a()V	a()V
@@ -4378,7 +4377,7 @@ c	Lnet/minecraft/client/d;	Lnet/minecraft/client/d;
 	f	N;;I	O;;I
 	f	B;;Z	B;;Z
 c	Lnet/minecraft/client/e/a/a;	Lnet/minecraft/client/e/a/a;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	a(Ljava/lang/String;)Lnet/minecraft/client/e/a/b;	a(Ljava/lang/String;)Lnet/minecraft/client/e/a/b;
 		ma	0	0
 	m	a(Ljava/nio/ByteBuffer;)Lnet/minecraft/client/e/a/b;	a(Ljava/nio/ByteBuffer;)Lnet/minecraft/client/e/a/b;
@@ -4392,14 +4391,14 @@ c	Lnet/minecraft/client/e/a/a;	Lnet/minecraft/client/e/a/a;
 		ma	1	1
 	mu	b	<init>()V
 c	Lnet/minecraft/client/e/a/b;	Lnet/minecraft/client/e/a/b;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	f	a;;I	a;;I
 	f	b;;[Lnet/minecraft/client/e/a/f;	b;;[Lnet/minecraft/client/e/a/f;
 	f	c;;Ljava/util/HashMap;	c;;Ljava/util/HashMap;
 	f	d;;[Lnet/minecraft/client/e/a/e;	d;;[Lnet/minecraft/client/e/a/e;
 	mu	b	<init>()V
 c	Lnet/minecraft/client/e/a/c;	Lnet/minecraft/client/e/a/c;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	mu	b	<init>()V
 c	Lnet/minecraft/client/e/a/d;	Lnet/minecraft/client/e/a/d;
 	m	<init>(I)V	<init>(I)V
@@ -4433,7 +4432,7 @@ c	Lnet/minecraft/client/e/a/e;	Lnet/minecraft/client/e/a/e;
 	f	h;;[F	h;;[F
 	f	i;;[F	i;;[F
 c	Lnet/minecraft/client/e/a/f;	Lnet/minecraft/client/e/a/f;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	mu	b	<init>()V
 c	Lnet/minecraft/client/e/a/g;	Lnet/minecraft/client/e/a/g;
 	m	<init>(Lnet/minecraft/client/e/a/b;)V	<init>(Lnet/minecraft/client/e/a/b;)V
@@ -4464,7 +4463,7 @@ c	Lnet/minecraft/client/e/a;	Lnet/minecraft/client/e/a;
 	f	e;;I	e;;I
 	f	a;;Z	a;;Z
 c	Lnet/minecraft/client/e/b;	Lnet/minecraft/client/e/b;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	<init>(F)V	<init>(F)V
 		ma	0	0
 	f	a;;Lnet/minecraft/client/e/a;	a;;Lnet/minecraft/client/e/a;
@@ -4505,7 +4504,7 @@ c	Lnet/minecraft/client/e/d;	Lnet/minecraft/client/e/d;
 		ma	2	2
 	f	a;;Lnet/minecraft/a/d/a;	a;;Lnet/minecraft/a/d/a;
 c	Lnet/minecraft/client/e/e;	Lnet/minecraft/client/e/e;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	mu	b	<init>()V
 c	Lnet/minecraft/client/e;	Lnet/minecraft/client/e;
 	m	values()[Lnet/minecraft/client/e;	values()[Lnet/minecraft/client/e;
@@ -4732,7 +4731,7 @@ c	Lnet/minecraft/client/g/b;	Lnet/minecraft/client/g/b;
 	f	a;;F	a;;F
 	f	b;;F	b;;F
 	f	c;;Z	c;;Z
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lnet/minecraft/client/g/c;	Lnet/minecraft/client/g/c;
 	m	<init>(Lnet/minecraft/client/g/a;)V	<init>(Lnet/minecraft/client/g/a;)V
 		ma	0	0
@@ -4802,7 +4801,7 @@ c	Lnet/minecraft/client/n;	Lnet/minecraft/client/o;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
 c	Lnet/minecraft/client/o;	Lnet/minecraft/client/p;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	mu	b	<init>()V
 c	Lnet/minecraft/client/p;	Lnet/minecraft/client/q;
 	m	<init>(Lnet/minecraft/client/d;Ljava/io/File;)V	<init>(Lnet/minecraft/client/d;Ljava/io/File;)V
@@ -5262,7 +5261,7 @@ c	Lpaulscode/sound/Library;	Lpaulscode/sound/Library;
 	f	nextStreamingChannel;;I	nextStreamingChannel;;I
 	f	nextNormalChannel;;I	nextNormalChannel;;I
 	f	streamThread;;Lpaulscode/sound/StreamThread;	streamThread;;Lpaulscode/sound/StreamThread;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lpaulscode/sound/ListenerData;	Lpaulscode/sound/ListenerData;
 	mu	a	<init>()V
 	m	<init>(FFFFFFFFFF)V	<init>(FFFFFFFFFF)V
@@ -5321,7 +5320,7 @@ c	Lpaulscode/sound/ListenerData;	Lpaulscode/sound/ListenerData;
 	f	lookAt;;Lpaulscode/sound/Vector3D;	lookAt;;Lpaulscode/sound/Vector3D;
 	f	up;;Lpaulscode/sound/Vector3D;	up;;Lpaulscode/sound/Vector3D;
 	f	angle;;F	angle;;F
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lpaulscode/sound/MidiChannel$1;	Lpaulscode/sound/MidiChannel$1;
 c	Lpaulscode/sound/MidiChannel$FadeThread;	Lpaulscode/sound/MidiChannel$FadeThread;
 	m	<init>(Lpaulscode/sound/MidiChannel;)V	<init>(Lpaulscode/sound/MidiChannel;)V
@@ -5457,7 +5456,7 @@ c	Lpaulscode/sound/SimpleThread$1;	Lpaulscode/sound/SimpleThread$1;
 	m	run()V	run()V
 	f	this$0;;Lpaulscode/sound/SimpleThread;	this$0;;Lpaulscode/sound/SimpleThread;
 c	Lpaulscode/sound/SimpleThread;	Lpaulscode/sound/SimpleThread;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	cleanup()V	cleanup()V
 	m	run()V	run()V
 	m	restart()V	restart()V
@@ -5491,7 +5490,7 @@ c	Lpaulscode/sound/SoundBuffer;	Lpaulscode/sound/SoundBuffer;
 	f	audioData;;[B	audioData;;[B
 	f	audioFormat;;Ljavax/sound/sampled/AudioFormat;	audioFormat;;Ljavax/sound/sampled/AudioFormat;
 c	Lpaulscode/sound/SoundSystem;	Lpaulscode/sound/SoundSystem;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	<init>(Ljava/lang/Class;)V	<init>(Ljava/lang/Class;)V
 		ma	0	0
 	m	linkDefaultLibrariesAndCodecs()V	linkDefaultLibrariesAndCodecs()V
@@ -5983,7 +5982,7 @@ c	Lpaulscode/sound/SoundSystemConfig;	Lpaulscode/sound/SoundSystemConfig;
 	f	maxFileSize;;I	maxFileSize;;I
 	f	fileChunkSize;;I	fileChunkSize;;I
 	f	midiCodec;;Z	midiCodec;;Z
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lpaulscode/sound/SoundSystemException;	Lpaulscode/sound/SoundSystemException;
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
 		ma	0	0
@@ -6034,7 +6033,7 @@ c	Lpaulscode/sound/SoundSystemLogger;	Lpaulscode/sound/SoundSystemLogger;
 	m	printExceptionMessage(Ljava/lang/Exception;I)V	printExceptionMessage(Ljava/lang/Exception;I)V
 		ma	0	0
 		ma	1	1
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lpaulscode/sound/Source;	Lpaulscode/sound/Source;
 	m	<init>(ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;Lpaulscode/sound/SoundBuffer;FFFIFZ)V	<init>(ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;Lpaulscode/sound/SoundBuffer;FFFIFZ)V
 		ma	0	0
@@ -6184,7 +6183,7 @@ c	Lpaulscode/sound/Source;	Lpaulscode/sound/Source;
 	f	fadeInMilis;;J	fadeInMilis;;J
 	f	lastFadeCheck;;J	lastFadeCheck;;J
 c	Lpaulscode/sound/StreamThread;	Lpaulscode/sound/StreamThread;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	cleanup()V	cleanup()V
 	m	run()V	run()V
 	m	watch(Lpaulscode/sound/Source;)V	watch(Lpaulscode/sound/Source;)V
@@ -6203,7 +6202,7 @@ c	Lpaulscode/sound/StreamThread;	Lpaulscode/sound/StreamThread;
 	f	listLock;;Ljava/lang/Object;	listLock;;Ljava/lang/Object;
 	mu	b	<init>()V
 c	Lpaulscode/sound/Vector3D;	Lpaulscode/sound/Vector3D;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	<init>(FFF)V	<init>(FFF)V
 		ma	0	0
 		ma	1	1
@@ -6236,7 +6235,7 @@ c	Lpaulscode/sound/Vector3D;	Lpaulscode/sound/Vector3D;
 	f	z;;F	z;;F
 	mu	b	<init>()V
 c	Lpaulscode/sound/codecs/CodecJOrbis;	Lpaulscode/sound/codecs/CodecJOrbis;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	reverseByteOrder(Z)V	reverseByteOrder(Z)V
 		ma	0	0
 	m	initialize(Ljava/net/URL;)Z	initialize(Ljava/net/URL;)Z
@@ -6331,7 +6330,7 @@ c	Lpaulscode/sound/codecs/CodecWav;	Lpaulscode/sound/codecs/CodecWav;
 	f	initialized;;Z	initialized;;Z
 	f	myAudioInputStream;;Ljavax/sound/sampled/AudioInputStream;	myAudioInputStream;;Ljavax/sound/sampled/AudioInputStream;
 	f	logger;;Lpaulscode/sound/SoundSystemLogger;	logger;;Lpaulscode/sound/SoundSystemLogger;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lpaulscode/sound/libraries/ChannelJavaSound;	Lpaulscode/sound/libraries/ChannelJavaSound;
 	m	<init>(ILjavax/sound/sampled/Mixer;)V	<init>(ILjavax/sound/sampled/Mixer;)V
 		ma	0	0
@@ -6472,9 +6471,9 @@ c	Lpaulscode/sound/libraries/LibraryJavaSound;	Lpaulscode/sound/libraries/Librar
 	f	maxClipSize;;I	maxClipSize;;I
 	f	myMixer;;Ljavax/sound/sampled/Mixer;	myMixer;;Ljavax/sound/sampled/Mixer;
 	f	instance;;Lpaulscode/sound/libraries/LibraryJavaSound;	instance;;Lpaulscode/sound/libraries/LibraryJavaSound;
-	m	<init>()V	<init>()V
+	mu	b	<init>()V
 c	Lpaulscode/sound/libraries/LibraryLWJGLOpenAL;	Lpaulscode/sound/libraries/LibraryLWJGLOpenAL;
-	m	<init>()V	<init>()V
+	mu	a	<init>()V
 	m	init()V	init()V
 	m	libraryCompatible()Z	libraryCompatible()Z
 	m	createChannel(I)Lpaulscode/sound/Channel;	createChannel(I)Lpaulscode/sound/Channel;
