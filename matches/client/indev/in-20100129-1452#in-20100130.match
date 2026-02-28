@@ -3080,7 +3080,7 @@ c	Lnet/minecraft/a/c/g;	Lnet/minecraft/a/c/h;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Random;	a;;Ljava/util/Random;
 	f	b;;[Lnet/minecraft/a/c/g;	b;;[Lnet/minecraft/a/c/h;
-	f	c;;Lnet/minecraft/a/c/g;	g;;Lnet/minecraft/a/c/h;
+	f	c;;Lnet/minecraft/a/c/g;	c;;Lnet/minecraft/a/c/h;
 	f	d;;Lnet/minecraft/a/c/g;	d;;Lnet/minecraft/a/c/h;
 	f	e;;Lnet/minecraft/a/c/g;	e;;Lnet/minecraft/a/c/h;
 	f	f;;Lnet/minecraft/a/c/g;	f;;Lnet/minecraft/a/c/h;
