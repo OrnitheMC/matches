@@ -1,0 +1,48 @@
+Matches saved 2026-03-05, status: c:3/299 m:7/2146 f:3/1581 ma:15/3554, input files:
+	a:
+		485564	SHA256	wx7XyoLVcVkJ+JlozEwopF7hDjjF2DBb100h5NCkPRg=	minecraft-client-in-20100212-1210.jar
+	b:
+		492366	SHA256	rdT4En/4wtsQLt1gcoxC+bT5+70HISgHqupBqjN1zXs=	minecraft-client-in-20100218-0016.jar
+	cp:
+		113676	SHA256	uI72ZGizyXitDJf9bpCXnlYVW0rGkIm6ekTpqn/+ms8=	asm-7.0.jar
+		50399	SHA256	z9egh0+d42qZnBJ/7q37/m4E1Kce6VTXrz2FPwvkimw=	asm-tree-7.0.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		1080569	SHA256	xTKqbqA/qItfoLqfaYVPM9NWmgaPnZ1sebDXhLiDDAw=	lwjgl-2.9.4+legacyfabric.15.jar
+		180575	SHA256	90Bs4X+zQnq6K4IsTBPfeOh174O3hIYbRbi+P1KcPhs=	lwjgl_util-2.9.4+legacyfabric.15.jar
+	cp a:
+	cp b:
+	non-obf cls a	^.*(?:jcraft|paulscode).*$
+	non-obf cls b	^.*(?:jcraft|paulscode).*$
+	non-obf mem a	^.*(?:jcraft|paulscode).*$
+	non-obf mem b	^.*(?:jcraft|paulscode).*$
+c	Lnet/minecraft/client/a/a/g;	Lnet/minecraft/client/a/a/g;
+	f	d;;Lnet/minecraft/client/b/h;	f;;Lnet/minecraft/client/b/h;
+	f	e;;Lnet/minecraft/client/b/h;	g;;Lnet/minecraft/client/b/h;
+c	Lnet/minecraft/client/e/b;	Lnet/minecraft/client/e/b;
+	m	a(Ljava/lang/String;)Lnet/minecraft/client/e/a;	a(Ljava/lang/String;)Lnet/minecraft/client/e/a;
+		ma	0	0
+c	Lnet/minecraft/client/e/c;	Lnet/minecraft/client/e/c;
+	m	c()V	c()V
+	m	b()V	b()V
+	m	a(FFF)V	a(FFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Lnet/minecraft/a/c/c;F)V	a(Lnet/minecraft/a/c/c;F)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;FFFFF)V	a(Ljava/lang/String;FFFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	m	a(Ljava/lang/String;FF)V	a(Ljava/lang/String;FF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	f	a;;Lpaulscode/sound/SoundSystem;	a;;Lpaulscode/sound/SoundSystem;
