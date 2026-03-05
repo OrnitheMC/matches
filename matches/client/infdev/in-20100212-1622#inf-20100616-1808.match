@@ -1,0 +1,23 @@
+Matches saved 2026-03-05, status: c:1/299 m:1/2139 f:0/1580 ma:1/3540, input files:
+	a:
+		484884	SHA256	d25e7PaIZq/5J6DrvrI1dh1HsQAO9eDa5la2HWiK46M=	minecraft-client-in-20100212-1622.jar
+	b:
+		577423	SHA256	Xw8MfUQuRcdGflkFc/c3MGhTRChU2ucSTpimQ9ymiDU=	minecraft-client-inf-20100616-1808.jar
+	cp:
+		113676	SHA256	uI72ZGizyXitDJf9bpCXnlYVW0rGkIm6ekTpqn/+ms8=	asm-7.0.jar
+		50399	SHA256	z9egh0+d42qZnBJ/7q37/m4E1Kce6VTXrz2FPwvkimw=	asm-tree-7.0.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		1080569	SHA256	xTKqbqA/qItfoLqfaYVPM9NWmgaPnZ1sebDXhLiDDAw=	lwjgl-2.9.4+legacyfabric.15.jar
+		180575	SHA256	90Bs4X+zQnq6K4IsTBPfeOh174O3hIYbRbi+P1KcPhs=	lwjgl_util-2.9.4+legacyfabric.15.jar
+	cp a:
+	cp b:
+	non-obf cls a	^.*(?:jcraft|paulscode).*$
+	non-obf cls b	^.*(?:jcraft|paulscode).*$
+	non-obf mem a	^.*(?:jcraft|paulscode).*$
+	non-obf mem b	^.*(?:jcraft|paulscode).*$
+c	Lnet/minecraft/client/d/a;	Lnet/minecraft/client/d/a;
+	m	a(Lnet/minecraft/a/c/e/a;)V	a(Lnet/minecraft/a/c/e/a;)V
+		ma	0	0
