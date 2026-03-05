@@ -1,4 +1,4 @@
-Matches saved 2026-02-22, status: c:71/195 m:818/1503 f:630/1247 ma:11/2485, input files:
+Matches saved 2026-03-05, status: c:72/195 m:777/1503 f:630/1247 ma:12/2485, input files:
 	a:
 		390818	SHA256	4AMHL/xGrZtZn0z7Wq+VYGMqYzsUtQyd8wg5KSS6AIE=	minecraft-client-in-20100104-2258.jar
 	b:
@@ -18,6 +18,9 @@ Matches saved 2026-02-22, status: c:71/195 m:818/1503 f:630/1247 ma:11/2485, inp
 	non-obf cls b	^.*(?:jcraft|paulscode).*$
 	non-obf mem a	^.*(?:jcraft|paulscode).*$
 	non-obf mem b	^.*(?:jcraft|paulscode).*$
+c	Lnet/minecraft/a/a/b/c;	Lnet/minecraft/a/b/e/b;
+	m	b(I)Z	c(I)Z
+		ma	0	0
 c	Lnet/minecraft/a/b/a/l;	Lnet/minecraft/a/a/b/r;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -34,7 +37,6 @@ c	Lnet/minecraft/a/b/a/l;	Lnet/minecraft/a/a/b/r;
 		ma	2	2
 		ma	3	3
 c	Lnet/minecraft/a/b/e;	Lnet/minecraft/a/a/f;
-	m	<init>()V	<init>()V
 	m	g()V	h()V
 	m	finalize()V	finalize()V
 	m	<clinit>()V	<clinit>()V
