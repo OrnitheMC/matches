@@ -1,4 +1,4 @@
-Matches saved 2026-03-05, status: c:357/358 m:2504/2510 f:1789/1792 ma:4331/4338, input files:
+Matches saved 2026-03-06, status: c:357/358 m:2504/2510 f:1789/1792 ma:4331/4338, input files:
 	a:
 		699308	SHA256	sSYmSSSVJzz9NWyIg5zDXO3YxMfgr6JlNwE69PeiBXE=	minecraft-client-inf-20100629.jar
 	b:
@@ -1309,7 +1309,7 @@ c	Lco;	Lcr;
 	m	<init>(Lip;)V	<init>(Liv;)V
 		ma	0	0
 	m	<init>()V	<init>()V
-	m	a(Lgk;III)Z	i(Lgs;III)Z
+	m	a(Lgk;III)Z	a(Lgs;III)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
@@ -1338,7 +1338,7 @@ c	Lco;	Lcr;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	b(Lgk;III)Z	a(Lgs;IIIFFF)Z
+	m	b(Lgk;III)Z	j(Lgs;III)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
