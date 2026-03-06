@@ -686,6 +686,21 @@
       "file": "matches/client/alpha/a1.2.5#a1.2.6.match"
     },
     {
+      "a": "client-inf-20100325-1640",
+      "b": "client-a1.0.10",
+      "file": "matches/client/alpha/inf-20100325-1640#a1.0.10.match"
+    },
+    {
+      "a": "client-inf-20100420",
+      "b": "client-a1.0.6",
+      "file": "matches/client/alpha/inf-20100420#a1.0.6.match"
+    },
+    {
+      "a": "client-inf-20100617-1531",
+      "b": "client-a1.0.5",
+      "file": "matches/client/alpha/inf-20100617-1531#a1.0.5.match"
+    },
+    {
       "a": "client-inf-20100630-1835",
       "b": "client-a1.0.1_01",
       "file": "matches/client/alpha/inf-20100630-1835#a1.0.1_01.match"
@@ -1441,6 +1456,11 @@
       "file": "matches/client/infdev/inf-20100313#inf-20100316.match"
     },
     {
+      "a": "client-inf-20100313",
+      "b": "client-inf-20100607",
+      "file": "matches/client/infdev/inf-20100313#inf-20100607.match"
+    },
+    {
       "a": "client-inf-20100316",
       "b": "client-inf-20100320",
       "file": "matches/client/infdev/inf-20100316#inf-20100320.match"
@@ -1451,14 +1471,34 @@
       "file": "matches/client/infdev/inf-20100320#inf-20100321-1817.match"
     },
     {
+      "a": "client-inf-20100320",
+      "b": "client-inf-20100630-1340",
+      "file": "matches/client/infdev/inf-20100320#inf-20100630-1340.match"
+    },
+    {
       "a": "client-inf-20100321-1817",
       "b": "client-inf-20100325-1640",
       "file": "matches/client/infdev/inf-20100321-1817#inf-20100325-1640.match"
     },
     {
+      "a": "client-inf-20100321-1817",
+      "b": "client-inf-20100630-1340",
+      "file": "matches/client/infdev/inf-20100321-1817#inf-20100630-1340.match"
+    },
+    {
       "a": "client-inf-20100325-1640",
       "b": "client-inf-20100327",
       "file": "matches/client/infdev/inf-20100325-1640#inf-20100327.match"
+    },
+    {
+      "a": "client-inf-20100325-1640",
+      "b": "client-inf-20100413-1953",
+      "file": "matches/client/infdev/inf-20100325-1640#inf-20100413-1953.match"
+    },
+    {
+      "a": "client-inf-20100325-1640",
+      "b": "client-inf-20100617-1205",
+      "file": "matches/client/infdev/inf-20100325-1640#inf-20100617-1205.match"
     },
     {
       "a": "client-inf-20100327",
@@ -1469,6 +1509,11 @@
       "a": "client-inf-20100330-1511",
       "b": "client-inf-20100413-1953",
       "file": "matches/client/infdev/inf-20100330-1511#inf-20100413-1953.match"
+    },
+    {
+      "a": "client-inf-20100330-1511",
+      "b": "client-inf-20100624",
+      "file": "matches/client/infdev/inf-20100330-1511#inf-20100624.match"
     },
     {
       "a": "client-inf-20100413-1953",
@@ -1484,6 +1529,11 @@
       "a": "client-inf-20100415",
       "b": "client-inf-20100420",
       "file": "matches/client/infdev/inf-20100415#inf-20100420.match"
+    },
+    {
+      "a": "client-inf-20100415",
+      "b": "client-inf-20100607",
+      "file": "matches/client/infdev/inf-20100415#inf-20100607.match"
     },
     {
       "a": "client-inf-20100420",
@@ -1526,9 +1576,19 @@
       "file": "matches/client/infdev/inf-20100617-1531#inf-20100618.match"
     },
     {
+      "a": "client-inf-20100617-1531",
+      "b": "client-inf-20100630-1340",
+      "file": "matches/client/infdev/inf-20100617-1531#inf-20100630-1340.match"
+    },
+    {
       "a": "client-inf-20100618",
       "b": "client-inf-20100624",
       "file": "matches/client/infdev/inf-20100618#inf-20100624.match"
+    },
+    {
+      "a": "client-inf-20100618",
+      "b": "client-inf-20100630-1340",
+      "file": "matches/client/infdev/inf-20100618#inf-20100630-1340.match"
     },
     {
       "a": "client-inf-20100624",
@@ -1539,6 +1599,11 @@
       "a": "client-inf-20100625-0922",
       "b": "client-inf-20100625-1917",
       "file": "matches/client/infdev/inf-20100625-0922#inf-20100625-1917.match"
+    },
+    {
+      "a": "client-inf-20100625-0922",
+      "b": "client-inf-20100630-1340",
+      "file": "matches/client/infdev/inf-20100625-0922#inf-20100630-1340.match"
     },
     {
       "a": "client-inf-20100625-1917",
@@ -6558,6 +6623,24 @@
       "version": "a1.2.6",
       "era": "alpha"
     },
+    "client-inf-20100325-1640": {
+      "id": "client_inf_20100325_1640",
+      "type": "client",
+      "version": "inf-20100325-1640",
+      "era": "infdev"
+    },
+    "client-inf-20100420": {
+      "id": "client_inf_20100420",
+      "type": "client",
+      "version": "inf-20100420",
+      "era": "infdev"
+    },
+    "client-inf-20100617-1531": {
+      "id": "client_inf_20100617_1531",
+      "type": "client",
+      "version": "inf-20100617-1531",
+      "era": "infdev"
+    },
     "client-inf-20100630-1835": {
       "id": "client_inf_20100630_1835",
       "type": "client",
@@ -7284,6 +7367,12 @@
       "version": "inf-20100316",
       "era": "infdev"
     },
+    "client-inf-20100607": {
+      "id": "client_inf_20100607",
+      "type": "client",
+      "version": "inf-20100607",
+      "era": "infdev"
+    },
     "client-inf-20100320": {
       "id": "client_inf_20100320",
       "type": "client",
@@ -7296,16 +7385,22 @@
       "version": "inf-20100321-1817",
       "era": "infdev"
     },
-    "client-inf-20100325-1640": {
-      "id": "client_inf_20100325_1640",
+    "client-inf-20100617-1205": {
+      "id": "client_inf_20100617_1205",
       "type": "client",
-      "version": "inf-20100325-1640",
+      "version": "inf-20100617-1205",
       "era": "infdev"
     },
     "client-inf-20100330-1511": {
       "id": "client_inf_20100330_1511",
       "type": "client",
       "version": "inf-20100330-1511",
+      "era": "infdev"
+    },
+    "client-inf-20100624": {
+      "id": "client_inf_20100624",
+      "type": "client",
+      "version": "inf-20100624",
       "era": "infdev"
     },
     "client-inf-20100414": {
@@ -7318,18 +7413,6 @@
       "id": "client_inf_20100415",
       "type": "client",
       "version": "inf-20100415",
-      "era": "infdev"
-    },
-    "client-inf-20100420": {
-      "id": "client_inf_20100420",
-      "type": "client",
-      "version": "inf-20100420",
-      "era": "infdev"
-    },
-    "client-inf-20100607": {
-      "id": "client_inf_20100607",
-      "type": "client",
-      "version": "inf-20100607",
       "era": "infdev"
     },
     "client-inf-20100608": {
@@ -7350,28 +7433,10 @@
       "version": "inf-20100615",
       "era": "infdev"
     },
-    "client-inf-20100617-1205": {
-      "id": "client_inf_20100617_1205",
-      "type": "client",
-      "version": "inf-20100617-1205",
-      "era": "infdev"
-    },
-    "client-inf-20100617-1531": {
-      "id": "client_inf_20100617_1531",
-      "type": "client",
-      "version": "inf-20100617-1531",
-      "era": "infdev"
-    },
     "client-inf-20100618": {
       "id": "client_inf_20100618",
       "type": "client",
       "version": "inf-20100618",
-      "era": "infdev"
-    },
-    "client-inf-20100624": {
-      "id": "client_inf_20100624",
-      "type": "client",
-      "version": "inf-20100624",
       "era": "infdev"
     },
     "client-inf-20100625-0922": {
