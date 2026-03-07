@@ -1,4 +1,4 @@
-Matches saved 2024-09-15, status: c:38/38 m:208/213 f:210/211 ma:375/378, input files:
+Matches saved 2026-03-07, status: c:38/38 m:208/213 f:210/211 ma:375/378, input files:
 	a:
 		45873	SHA256	cjLlNYp2reU2s8TCXSJHu2LX9jLKziVukuOTA7YP1ZM=	minecraft-server-c1.8.2.jar
 	b:
@@ -103,7 +103,7 @@ c	Lcom/mojang/minecraft/Entity;	Lcom/mojang/minecraft/Entity;
 	f	xRotO;;F	xRotO;;F
 	f	bb;;Lcom/mojang/minecraft/phys/AABB;	bb;;Lcom/mojang/minecraft/phys/AABB;
 	f	onGround;;Z	onGround;;Z
-	f	horizontalCollision;;Z	collision;;Z
+	f	horizontalCollision;;Z	horizontalCollision;;Z
 	f	removed;;Z	removed;;Z
 	f	heightOffset;;F	heightOffset;;F
 	f	bbWidth;;F	bbWidth;;F
