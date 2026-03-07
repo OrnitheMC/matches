@@ -1,4 +1,4 @@
-Matches saved 2026-03-07, status: c:38/38 m:208/213 f:210/211 ma:375/378, input files:
+Matches saved 2026-03-07, status: c:38/38 m:210/213 f:210/211 ma:376/378, input files:
 	a:
 		45873	SHA256	cjLlNYp2reU2s8TCXSJHu2LX9jLKziVukuOTA7YP1ZM=	minecraft-server-c1.8.2.jar
 	b:
@@ -399,10 +399,13 @@ c	Lcom/mojang/minecraft/level/a/b;	Lcom/mojang/minecraft/level/tile/a;
 	f	P;;Lcom/mojang/minecraft/level/a/b;	R;;Lcom/mojang/minecraft/level/tile/a;
 	f	Q;;Lcom/mojang/minecraft/level/a/b;	S;;Lcom/mojang/minecraft/level/tile/a;
 	f	R;;I	ab;;I
-c	Lcom/mojang/minecraft/level/a/c;	Lcom/mojang/minecraft/level/tile/p;
-	m	<init>(IIZ)V	<init>(II)V
+c	Lcom/mojang/minecraft/level/a/c;	Lcom/mojang/minecraft/level/tile/b;
+	m	<init>(IIZ)V	<init>(IIZ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
+	m	b()Z	c()Z
+	m	a()Z	b()Z
 c	Lcom/mojang/minecraft/level/a/d;	Lcom/mojang/minecraft/level/tile/c;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
