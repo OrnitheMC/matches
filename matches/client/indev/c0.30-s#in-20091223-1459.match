@@ -1,4 +1,4 @@
-Matches saved 2026-02-20, status: c:101/181 m:476/881 f:484/910 ma:727/1467, input files:
+Matches saved 2026-03-07, status: c:101/181 m:477/881 f:484/910 ma:728/1467, input files:
 	a:
 		291582	SHA256	WNuEv3qpvLX0vdwRKnee64hcXk+nodAeVv2Fkh1Q3ss=	minecraft-client-c0.30-s.jar
 	b:
@@ -156,15 +156,6 @@ c	Lcom/mojang/minecraft/a/c;	Lnet/minecraft/a/c/b;
 	f	a;;F	a;;F
 	f	b;;F	b;;F
 	f	c;;F	c;;F
-c	Lcom/mojang/minecraft/a/e;	Lnet/minecraft/client/c/a;
-	m	<init>()V	<init>()V
-	f	b;;Lcom/mojang/minecraft/a/n;	a;;Lnet/minecraft/client/c/d;
-	f	c;;Lcom/mojang/minecraft/a/n;	b;;Lnet/minecraft/client/c/d;
-	f	d;;Lcom/mojang/minecraft/a/n;	c;;Lnet/minecraft/client/c/d;
-	f	e;;Lcom/mojang/minecraft/a/n;	d;;Lnet/minecraft/client/c/d;
-	f	f;;Lcom/mojang/minecraft/a/n;	e;;Lnet/minecraft/client/c/d;
-	f	g;;Lcom/mojang/minecraft/a/n;	f;;Lnet/minecraft/client/c/d;
-	f	h;;Lcom/mojang/minecraft/a/n;	g;;Lnet/minecraft/client/c/d;
 c	Lcom/mojang/minecraft/a/i;	Lnet/minecraft/client/c/b;
 	m	<init>([Lcom/mojang/minecraft/a/l;)V	<init>([Lnet/minecraft/client/c/c;)V
 		ma	0	0
@@ -175,6 +166,17 @@ c	Lcom/mojang/minecraft/a/i;	Lnet/minecraft/client/c/b;
 		ma	3	3
 		ma	4	4
 	f	a;;[Lcom/mojang/minecraft/a/l;	a;;[Lnet/minecraft/client/c/c;
+c	Lcom/mojang/minecraft/a/k;	Lnet/minecraft/client/c/a;
+	m	<init>()V	<init>()V
+	m	<init>(F)V	<init>(F)V
+		ma	0	0
+	f	b;;Lcom/mojang/minecraft/a/n;	a;;Lnet/minecraft/client/c/d;
+	f	c;;Lcom/mojang/minecraft/a/n;	b;;Lnet/minecraft/client/c/d;
+	f	d;;Lcom/mojang/minecraft/a/n;	c;;Lnet/minecraft/client/c/d;
+	f	e;;Lcom/mojang/minecraft/a/n;	d;;Lnet/minecraft/client/c/d;
+	f	f;;Lcom/mojang/minecraft/a/n;	e;;Lnet/minecraft/client/c/d;
+	f	g;;Lcom/mojang/minecraft/a/n;	f;;Lnet/minecraft/client/c/d;
+	f	h;;Lcom/mojang/minecraft/a/n;	g;;Lnet/minecraft/client/c/d;
 c	Lcom/mojang/minecraft/a/l;	Lnet/minecraft/client/c/c;
 	m	<init>(FFFFF)V	<init>(FFFFF)V
 		ma	0	0
