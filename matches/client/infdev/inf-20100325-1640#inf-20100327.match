@@ -1,4 +1,4 @@
-Matches saved 2026-03-05, status: c:289/301 m:1981/2028 f:1571/1599 ma:3454/3502, input files:
+Matches saved 2026-03-07, status: c:290/301 m:1982/2028 f:1571/1599 ma:3454/3502, input files:
 	a:
 		531352	SHA256	GULEnIUWc3UYK00YHnHyoZnyI66PRCMyxNv6pVlsIKA=	minecraft-client-inf-20100325-1640.jar
 	b:
@@ -42,7 +42,8 @@ c	Lcom/a/a/a;	Lcom/a/a/c;
 	m	<init>()V	<init>()V
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
-cu	a	Lcom/a/a/b;
+c	Lcom/a/a/b;	Lcom/a/a/j;
+	m	<init>()V	<init>()V
 c	Lcom/jcraft/jogg/Buffer;	Lcom/jcraft/jogg/Buffer;
 	m	<init>()V	<init>()V
 	m	writeinit()V	writeinit()V
