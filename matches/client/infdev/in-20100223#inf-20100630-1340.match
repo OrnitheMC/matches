@@ -1,4 +1,4 @@
-Matches saved 2026-02-20, status: c:112/309 m:1127/2223 f:763/1644 ma:1535/3656, input files:
+Matches saved 2026-03-07, status: c:43/309 m:313/2223 f:131/1644 ma:382/3656, input files:
 	a:
 		555633	SHA256	wUeyUneB/MJEQDu2rX9N6EbbXFIHlgPiIghwMD+aU8Q=	minecraft-client-in-20100223.jar
 	b:
@@ -533,7 +533,6 @@ c	Lnet/minecraft/a/a/b/x;	Lgs;
 	f	d;;[Z	o;;[Z
 	f	e;;[Z	p;;[Z
 	f	f;;[I	q;;[I
-	f	aK;;[Z	r;;[Z
 	f	h;;[I	s;;[I
 	f	q;;Lnet/minecraft/a/a/b/x;	B;;Lgs;
 	f	B;;Lnet/minecraft/a/a/b/x;	M;;Lgs;
