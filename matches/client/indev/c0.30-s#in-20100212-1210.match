@@ -1,4 +1,4 @@
-Matches saved 2026-02-21, status: c:19/181 m:35/881 f:29/910 ma:53/1467, input files:
+Matches saved 2026-03-07, status: c:21/181 m:38/881 f:40/910 ma:59/1467, input files:
 	a:
 		291582	SHA256	WNuEv3qpvLX0vdwRKnee64hcXk+nodAeVv2Fkh1Q3ss=	minecraft-client-c0.30-s.jar
 	b:
@@ -19,6 +19,8 @@ Matches saved 2026-02-21, status: c:19/181 m:35/881 f:29/910 ma:53/1467, input f
 	non-obf mem a	^.*(?:jarnbjo).*$
 	non-obf mem b	^.*(?:jcraft|paulscode).*$
 c	Lcom/mojang/minecraft/a/a;	Lnet/minecraft/client/b/a;
+	m	<init>()V	<init>()V
+c	Lcom/mojang/minecraft/a/d;	Lnet/minecraft/client/b/d;
 	m	<init>()V	<init>()V
 c	Lcom/mojang/minecraft/a/e;	Lnet/minecraft/client/b/k;
 	m	<init>()V	<init>()V
@@ -74,6 +76,26 @@ c	Lcom/mojang/minecraft/a/k;	Lnet/minecraft/client/b/h;
 	f	f;;Lcom/mojang/minecraft/a/n;	e;;Lnet/minecraft/client/b/c;
 	f	g;;Lcom/mojang/minecraft/a/n;	f;;Lnet/minecraft/client/b/c;
 	f	h;;Lcom/mojang/minecraft/a/n;	g;;Lnet/minecraft/client/b/c;
+c	Lcom/mojang/minecraft/a/m;	Lnet/minecraft/client/b/e;
+	m	<init>()V	<init>()V
+	m	a(FFFFFF)V	a(FFFFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	f	b;;Lcom/mojang/minecraft/a/n;	a;;Lnet/minecraft/client/b/c;
+	f	c;;Lcom/mojang/minecraft/a/n;	b;;Lnet/minecraft/client/b/c;
+	f	d;;Lcom/mojang/minecraft/a/n;	c;;Lnet/minecraft/client/b/c;
+	f	e;;Lcom/mojang/minecraft/a/n;	d;;Lnet/minecraft/client/b/c;
+	f	f;;Lcom/mojang/minecraft/a/n;	e;;Lnet/minecraft/client/b/c;
+	f	g;;Lcom/mojang/minecraft/a/n;	f;;Lnet/minecraft/client/b/c;
+	f	h;;Lcom/mojang/minecraft/a/n;	g;;Lnet/minecraft/client/b/c;
+	f	i;;Lcom/mojang/minecraft/a/n;	h;;Lnet/minecraft/client/b/c;
+	f	j;;Lcom/mojang/minecraft/a/n;	i;;Lnet/minecraft/client/b/c;
+	f	k;;Lcom/mojang/minecraft/a/n;	j;;Lnet/minecraft/client/b/c;
+	f	l;;Lcom/mojang/minecraft/a/n;	k;;Lnet/minecraft/client/b/c;
 c	Lcom/mojang/minecraft/a/o;	Lnet/minecraft/client/b/b;
 	m	<init>(IF)V	<init>(IF)V
 		ma	0	0
