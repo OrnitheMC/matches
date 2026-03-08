@@ -1901,6 +1901,11 @@
       "file": "matches/cross/1.8/merged-14w03b#server-14w04a-1740.match"
     },
     {
+      "a": "server-14w04a",
+      "b": "client-14w04a",
+      "file": "matches/cross/1.8/server-14w04a#client-14w04a.match"
+    },
+    {
       "a": "server-14w04a-1740",
       "b": "merged-14w04b-1554",
       "file": "matches/cross/1.8/server-14w04a-1740#merged-14w04b-1554.match"
@@ -7775,6 +7780,12 @@
       "version": "14w04a-1740",
       "era": "1.8"
     },
+    "server-14w04a": {
+      "id": "server_14w04a",
+      "type": "server",
+      "version": "14w04a",
+      "era": "1.8"
+    },
     "server-a0.1.0": {
       "id": "server_a0_1_0",
       "type": "server",
@@ -11313,12 +11324,6 @@
       "id": "server_14w04a_1526",
       "type": "server",
       "version": "14w04a-1526",
-      "era": "1.8"
-    },
-    "server-14w04a": {
-      "id": "server_14w04a",
-      "type": "server",
-      "version": "14w04a",
       "era": "1.8"
     },
     "server-14w10c-1518": {
