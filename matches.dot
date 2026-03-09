@@ -151,7 +151,9 @@ digraph {
     server_a0_1_1_1707[label="Server a0.1.1-1707",href="https://ornithemc.net/mc-versions/version/a0.1.1-1707.json"];
     server_a0_1_1[label="Server a0.1.1",href="https://ornithemc.net/mc-versions/version/a0.1.1.json"];
     client_a1_0_16_01[label="Client a1.0.16_01",href="https://ornithemc.net/mc-versions/version/a1.0.16_01.json"];
+    server_a0_1_2[label="Server a0.1.2",href="https://ornithemc.net/mc-versions/version/a0.1.2.json"];
     server_a0_1_2_01[label="Server a0.1.2_01",href="https://ornithemc.net/mc-versions/version/a0.1.2_01.json"];
+    server_a0_1_2_1817[label="Server a0.1.2-1817",href="https://ornithemc.net/mc-versions/version/a0.1.2-1817.json"];
     client_a1_0_16_02[label="Client a1.0.16_02",href="https://ornithemc.net/mc-versions/version/a1.0.16_02.json"];
     server_a0_1_3[label="Server a0.1.3",href="https://ornithemc.net/mc-versions/version/a0.1.3.json"];
     server_a0_1_4[label="Server a0.1.4",href="https://ornithemc.net/mc-versions/version/a0.1.4.json"];
@@ -782,6 +784,7 @@ digraph {
     merged_2_0_purple[label="2.0-purple",href="https://ornithemc.net/mc-versions/version/2.0-purple.json"];
     merged_15w14a[label="15w14a",href="https://ornithemc.net/mc-versions/version/15w14a.json"];
     merged_1_RV_Pre1[label="1.RV-Pre1",href="https://ornithemc.net/mc-versions/version/1.RV-Pre1.json"];
+    merged_3D Shareware v1_34[label="3D Shareware v1.34",href="https://ornithemc.net/mc-versions/version/3D Shareware v1.34.json"];
   }
   subgraph cluster_1_6 {
     label="1.6";
@@ -1659,7 +1662,7 @@ digraph {
   client_inf_20100325_1640 -> client_inf_20100413_1953[label="0%",href="client/infdev/inf-20100325-1640%23inf-20100413-1953.match"];
   client_inf_20100325_1640 -> client_inf_20100617_1205[label="0%",href="client/infdev/inf-20100325-1640%23inf-20100617-1205.match"];
   client_inf_20100327 -> client_inf_20100330_1511[label="100%",href="client/infdev/inf-20100327%23inf-20100330-1511.match"];
-  client_inf_20100330_1511 -> client_inf_20100413_1953[label="99.7%",href="client/infdev/inf-20100330-1511%23inf-20100413-1953.match"];
+  client_inf_20100330_1511 -> client_inf_20100413_1953[label="99.69%",href="client/infdev/inf-20100330-1511%23inf-20100413-1953.match"];
   client_inf_20100330_1511 -> client_inf_20100624[label="0%",href="client/infdev/inf-20100330-1511%23inf-20100624.match"];
   client_inf_20100413_1953 -> client_inf_20100414[label="100%",href="client/infdev/inf-20100413-1953%23inf-20100414.match"];
   client_inf_20100414 -> client_inf_20100415[label="99.99%",href="client/infdev/inf-20100414%23inf-20100415.match"];
@@ -1743,6 +1746,8 @@ digraph {
   server_a0_1_0 -> client_a1_0_15[label="86.29%",color="#8888ff",href="cross/alpha/server-a0.1.0%23client-a1.0.15.match"];
   server_a0_1_1 -> client_a1_0_16[label="85.65%",color="#8888ff",href="cross/alpha/server-a0.1.1%23client-a1.0.16.match"];
   server_a0_1_1_1707 -> client_a1_0_16[label="85.66%",color="#8888ff",href="cross/alpha/server-a0.1.1-1707%23client-a1.0.16.match"];
+  server_a0_1_2 -> client_a1_0_16_01[label="85.61%",color="#8888ff",href="cross/alpha/server-a0.1.2%23client-a1.0.16_01.match"];
+  server_a0_1_2_1817 -> client_a1_0_16_01[label="85.68%",color="#8888ff",href="cross/alpha/server-a0.1.2-1817%23client-a1.0.16_01.match"];
   server_a0_1_2_01 -> client_a1_0_16_01[label="85.65%",color="#8888ff",href="cross/alpha/server-a0.1.2_01%23client-a1.0.16_01.match"];
   server_a0_1_3 -> client_a1_0_16_02[label="84.39%",color="#8888ff",href="cross/alpha/server-a0.1.3%23client-a1.0.16_02.match"];
   server_a0_1_4 -> client_a1_0_17_02[label="85.04%",color="#8888ff",href="cross/alpha/server-a0.1.4%23client-a1.0.17_02.match"];
@@ -2353,6 +2358,7 @@ digraph {
   merged_1_5_1 -> merged_2_0_red[label="100%",href="merged/april-fools/1.5.1%232.0-red.match"];
   merged_1_8_3 -> merged_15w14a[label="99.53%",href="merged/april-fools/1.8.3%2315w14a.match"];
   merged_1_9_2 -> merged_1_RV_Pre1[label="99.99%",href="merged/april-fools/1.9.2%231.RV-Pre1.match"];
+  merged_19w13b -> merged_3D Shareware v1_34[label="99.98%",href="merged/april-fools/19w13b%233D Shareware v1.34.match"];
   merged_2_0_blue -> merged_2_0_purple[label="100%",href="merged/april-fools/2.0-blue%232.0-purple.match"];
   merged_2_0_blue -> merged_2_0_red[label="99.02%",href="merged/april-fools/2.0-blue%232.0-red.match"];
   merged_2_0_preview -> merged_2_0_blue[label="100%",href="merged/april-fools/2.0-preview%232.0-blue.match"];
@@ -2426,8 +2432,11 @@ digraph {
   server_14w11b_1640 -> server_14w11b[label="99.96%",color="#0000aa",href="server/1.8/14w11b-1640%2314w11b.match"];
   server_a0_1_0 -> server_a0_1_1_1707[label="100%",color="#0000aa",href="server/alpha/a0.1.0%23a0.1.1-1707.match"];
   server_a0_1_0 -> server_a0_1_2_01[label="99.98%",color="#0000aa",href="server/alpha/a0.1.0%23a0.1.2_01.match"];
+  server_a0_1_1 -> server_a0_1_2_1817[label="99.98%",color="#0000aa",href="server/alpha/a0.1.1%23a0.1.2-1817.match"];
   server_a0_1_1 -> server_a0_1_2_01[label="99.95%",color="#0000aa",href="server/alpha/a0.1.1%23a0.1.2_01.match"];
   server_a0_1_1_1707 -> server_a0_1_1[label="100%",color="#0000aa",href="server/alpha/a0.1.1-1707%23a0.1.1.match"];
+  server_a0_1_2 -> server_a0_1_2_01[label="99.96%",color="#0000aa",href="server/alpha/a0.1.2%23a0.1.2_01.match"];
+  server_a0_1_2_1817 -> server_a0_1_2[label="100%",color="#0000aa",href="server/alpha/a0.1.2-1817%23a0.1.2.match"];
   server_a0_1_2_01 -> server_a0_1_3[label="99.92%",color="#0000aa",href="server/alpha/a0.1.2_01%23a0.1.3.match"];
   server_a0_1_3 -> server_a0_1_4[label="100%",color="#0000aa",href="server/alpha/a0.1.3%23a0.1.4.match"];
   server_a0_1_4 -> server_a0_2_0[label="99.72%",color="#0000aa",href="server/alpha/a0.1.4%23a0.2.0.match"];
