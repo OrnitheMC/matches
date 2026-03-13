@@ -1,4 +1,4 @@
-Matches saved 2024-12-16, status: c:356/358 m:2443/2516 f:1771/1771 ma:4165/4285, input files:
+Matches saved 2026-03-13, status: c:356/358 m:2443/2516 f:1771/1771 ma:4165/4285, input files:
 	a:
 		637364	SHA256	aK2LcsAAWvyMCpl7qdHNsoN7kuKIQEo6SSddxzoZQ58=	minecraft-client-inf-20100625-1917.jar
 	b:
@@ -2778,6 +2778,10 @@ c	Lnet/minecraft/a/a/c/a/a;	Lal;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/util/Random;)V	<init>(Ljava/util/Random;)V
 		ma	0	0
+	m	b(DDD)D	a(DDD)D
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	c(DDD)D	b(DDD)D
 		ma	0	0
 		ma	1	1
@@ -2787,10 +2791,6 @@ c	Lnet/minecraft/a/a/c/a/a;	Lal;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(DDD)D	a(DDD)D
-		ma	0	0
-		ma	1	1
-		ma	2	2
 	f	a;;[I	a;;[I
 	f	b;;D	b;;D
 	f	c;;D	c;;D
