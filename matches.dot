@@ -1683,7 +1683,7 @@ digraph {
   client_inf_20100625_0922 -> client_inf_20100625_1917[label="98.54%",href="client/infdev/inf-20100625-0922%23inf-20100625-1917.match"];
   client_inf_20100625_0922 -> client_inf_20100630_1340[label="0%",href="client/infdev/inf-20100625-0922%23inf-20100630-1340.match"];
   client_inf_20100625_1917 -> client_inf_20100627[label="98.88%",href="client/infdev/inf-20100625-1917%23inf-20100627.match"];
-  client_inf_20100625_1917 -> client_inf_20100630_1340[label="3.91%",href="client/infdev/inf-20100625-1917%23inf-20100630-1340.match"];
+  client_inf_20100625_1917 -> client_inf_20100630_1340[label="4.09%",href="client/infdev/inf-20100625-1917%23inf-20100630-1340.match"];
   client_inf_20100627 -> client_inf_20100629[label="99.91%",href="client/infdev/inf-20100627%23inf-20100629.match"];
   client_inf_20100627 -> client_inf_20100630_1340[label="0%",href="client/infdev/inf-20100627%23inf-20100630-1340.match"];
   client_inf_20100629 -> client_inf_20100630_1340[label="99.76%",href="client/infdev/inf-20100629%23inf-20100630-1340.match"];
