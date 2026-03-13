@@ -1,4 +1,4 @@
-Matches saved 2026-03-06, status: c:28/358 m:83/2516 f:22/1771 ma:125/4285, input files:
+Matches saved 2026-03-13, status: c:28/358 m:99/2516 f:22/1771 ma:135/4285, input files:
 	a:
 		637364	SHA256	aK2LcsAAWvyMCpl7qdHNsoN7kuKIQEo6SSddxzoZQ58=	minecraft-client-inf-20100625-1917.jar
 	b:
@@ -107,9 +107,22 @@ c	Lnet/minecraft/a/a/c/a/a;	Lan;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	c(DDD)D	b(DDD)D
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(IDDD)D	a(IDDD)D
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(DD)D	a(DD)D
 		ma	0	0
 		ma	1	1
+	m	a(DDD)D	c(DDD)D
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	a([DIIIIIIDDDD)V	a([DIIIIIIDDDD)V
 		ma	0	0
 		ma	1	1
