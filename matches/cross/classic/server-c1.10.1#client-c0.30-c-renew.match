@@ -1,4 +1,4 @@
-Matches saved 2024-09-25, status: c:47/58 m:272/335 f:230/294 ma:526/588, input files:
+Matches saved 2026-03-16, status: c:43/58 m:271/335 f:228/294 ma:521/588, input files:
 	a:
 		63748	SHA256	5z8lQ8F2TGG18Gre/Jw6SYdQHDguy3tm4ZwtVAjEiT8=	minecraft-server-c1.10.1.jar
 	b:
@@ -244,13 +244,7 @@ c	Lcom/mojang/minecraft/b/a;	Lcom/mojang/minecraft/a/c;
 	f	a;;F	a;;F
 	f	b;;F	b;;F
 	f	c;;F	c;;F
-c	Lcom/mojang/minecraft/b;	Lcom/mojang/minecraft/g;
-	m	<init>(IIIILcom/mojang/minecraft/b/a;)V	<init>(IIIILcom/mojang/minecraft/a/c;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+cu	a	Lcom/mojang/minecraft/b;
 c	Lcom/mojang/minecraft/c/a;	Lcom/mojang/minecraft/b/i;
 	m	<init>()V	<init>()V
 	m	a(FFFFFF)Z	a(FFFFFF)Z
@@ -261,8 +255,8 @@ c	Lcom/mojang/minecraft/c/a;	Lcom/mojang/minecraft/b/i;
 		ma	4	4
 		ma	5	5
 	f	a;;[[F	a;;[[F
-c	Lcom/mojang/minecraft/c/b;	Lcom/mojang/minecraft/b/a;
-c	Lcom/mojang/minecraft/d/a;	Lcom/mojang/minecraft/particle/a;
+cu	a	Lcom/mojang/minecraft/c/b;
+cu	a	Lcom/mojang/minecraft/d/a;
 c	Lcom/mojang/minecraft/level/BlockMap$Slot;	Lcom/mojang/minecraft/level/BlockMap$Slot;
 	m	<init>(Lcom/mojang/minecraft/level/BlockMap;)V	<init>(Lcom/mojang/minecraft/level/BlockMap;)V
 		ma	0	0
@@ -614,7 +608,7 @@ c	Lcom/mojang/minecraft/level/a/a;	Lcom/mojang/minecraft/level/a/a;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	f	a;;Lcom/mojang/minecraft/server/MinecraftServer;	a;;Lcom/mojang/minecraft/i;
+	fu	a	a;;Lcom/mojang/minecraft/server/MinecraftServer;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;I	d;;I
@@ -630,7 +624,7 @@ c	Lcom/mojang/minecraft/level/a;	Lcom/mojang/minecraft/level/a;
 	m	a(Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V	a(Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
 		ma	0	0
 		ma	1	1
-	f	a;;Lcom/mojang/minecraft/server/MinecraftServer;	a;;Lcom/mojang/minecraft/i;
+	fu	a	a;;Lcom/mojang/minecraft/server/MinecraftServer;
 c	Lcom/mojang/minecraft/level/b/a;	Lcom/mojang/minecraft/level/b/a;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
@@ -650,7 +644,7 @@ c	Lcom/mojang/minecraft/level/b;	Lcom/mojang/minecraft/level/d;
 	f	c;;I	c;;I
 	f	d;;I	d;;I
 	f	e;;I	e;;I
-c	Lcom/mojang/minecraft/level/c;	Lcom/mojang/minecraft/l;
+cu	a	Lcom/mojang/minecraft/level/c;
 c	Lcom/mojang/minecraft/level/d;	Lcom/mojang/minecraft/level/e;
 c	Lcom/mojang/minecraft/level/e;	Lcom/mojang/minecraft/level/c;
 	m	<init>(Ljava/io/InputStream;)V	<init>(Ljava/io/InputStream;)V

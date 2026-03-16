@@ -1,4 +1,4 @@
-Matches saved 2024-09-25, status: c:27/38 m:151/213 f:149/211 ma:316/378, input files:
+Matches saved 2026-03-16, status: c:26/38 m:151/213 f:147/211 ma:316/378, input files:
 	a:
 		45873	SHA256	cjLlNYp2reU2s8TCXSJHu2LX9jLKziVukuOTA7YP1ZM=	minecraft-server-c1.8.2.jar
 	b:
@@ -136,7 +136,7 @@ c	Lcom/mojang/minecraft/a/b;	Lcom/mojang/minecraft/net/b;
 c	Lcom/mojang/minecraft/a;	Lcom/mojang/minecraft/a;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
-c	Lcom/mojang/minecraft/b/a;	Lcom/mojang/minecraft/a/a;
+cu	a	Lcom/mojang/minecraft/b/a;
 c	Lcom/mojang/minecraft/level/Level;	Lcom/mojang/minecraft/level/Level;
 	m	<init>()V	<init>()V
 	m	initTransient()V	initTransient()V
@@ -528,7 +528,7 @@ c	Lcom/mojang/minecraft/level/a;	Lcom/mojang/minecraft/level/a;
 	m	a(Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V	a(Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
 		ma	0	0
 		ma	1	1
-	f	a;;Lcom/mojang/minecraft/server/MinecraftServer;	a;;Lcom/mojang/minecraft/g;
+	fu	a	a;;Lcom/mojang/minecraft/server/MinecraftServer;
 c	Lcom/mojang/minecraft/level/b/a/a;	Lcom/mojang/minecraft/level/a/a/c;
 	m	<init>(Lcom/mojang/minecraft/level/b/a/b;Lcom/mojang/minecraft/level/b/a/b;)V	<init>(Lcom/mojang/minecraft/level/a/a/a;Lcom/mojang/minecraft/level/a/a/a;)V
 		ma	0	0
@@ -595,7 +595,7 @@ c	Lcom/mojang/minecraft/level/b/a;	Lcom/mojang/minecraft/level/a/a;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	f	a;;Lcom/mojang/minecraft/server/MinecraftServer;	a;;Lcom/mojang/minecraft/g;
+	fu	a	a;;Lcom/mojang/minecraft/server/MinecraftServer;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;I	d;;I
