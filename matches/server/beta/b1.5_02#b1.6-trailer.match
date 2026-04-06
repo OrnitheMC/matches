@@ -1,4 +1,4 @@
-Matches saved 2025-10-07, status: c:413/413 m:3105/3122 f:1613/1618 ma:4943/5002, input files:
+Matches saved 2026-04-06, status: c:412/413 m:3094/3122 f:1608/1618 ma:4925/5002, input files:
 	a:
 		458602	SHA256	HseOPpda66M/S7iLJfnqSCnvaZ4rOm7a7npjmw5oi6s=	minecraft-server-b1.5_02.jar
 	b:
@@ -4199,46 +4199,7 @@ c	Lge;	Lgp;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-c	Lgf;	Liu;
-	m	<init>(Lda;Lai;Lbf;)V	<init>(Ldg;Lam;Lbj;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(II)Z	a(II)Z
-		ma	0	1
-		ma	1	0
-	m	c(II)Lgr;	c(II)Lhb;
-		ma	0	0
-		ma	1	1
-	m	b(II)Lgr;	b(II)Lhb;
-		ma	0	0
-		ma	1	1
-	m	e(II)Lgr;	d(II)Lhb;
-		ma	0	0
-		ma	1	1
-	m	a(Lgr;)V	a(Lhb;)V
-		ma	0	0
-	m	b(Lgr;)V	b(Lhb;)V
-		ma	0	0
-	m	a(Lbf;II)V	a(Lbj;II)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(ZLoe;)Z	a(ZLox;)Z
-		ma	0	0
-		ma	1	1
-	m	a()Z	a()Z
-	m	b()Z	b()Z
-	f	c;;Lgr;	b;;Lhb;
-	f	d;;Lbf;	c;;Lbj;
-	f	e;;Lai;	d;;Lam;
-	f	f;;[Lgr;	f;;Ljava/util/List;
-	f	g;;Lda;	g;;Ldg;
-	fu	a	a;;I
-	fu	a	b;;I
-	fu	a	h;;Lgr;
-	fu	a	i;;I
-	fu	a	j;;I
+cu	a	Lgf;
 c	Lgg;	Lgq;
 	m	<init>(Lem;)V	<init>(Leu;)V
 		ma	0	0
