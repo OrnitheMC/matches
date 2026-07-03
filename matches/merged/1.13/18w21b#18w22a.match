@@ -1,4 +1,4 @@
-Matches saved 2024-06-06, status: c:4277/4277 m:31729/31789 f:14572/14594 ma:45386/45600, input files:
+Matches saved 2026-07-03, status: c:4277/4277 m:31730/31789 f:14572/14594 ma:45387/45600, input files:
 	a:
 		12089575	SHA256	kwMHO3Nh7scRrXauy2LWVTPA/wSs8TNKY1hwqRoG62I=	minecraft-merged-18w21b.jar
 	b:
@@ -58379,7 +58379,8 @@ c	Lcnu;	Lcnv;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	b(C)Z
+	m	b(C)Z	b(Ljava/lang/String;CI)Z
+		ma	0	1
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
